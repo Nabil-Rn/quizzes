@@ -1,0 +1,77 @@
+[
+  {
+    "question": "What is the most essential concept in Unity?",
+    "options": ["GameObject", "C# Scripting", "MonoBehaviour", "Transform"],
+    "answer": "GameObject"
+  },
+  {
+    "question": "What class do all scripts and behaviors inherit from in Unity?",
+    "options": ["Object", "Transform", "MonoBehaviour", "ScriptableObject"],
+    "answer": "MonoBehaviour"
+  },
+  {
+    "question": "What must be the same for a script component to be attached to a GameObject?",
+    "options": ["Class name and file name", "Script name and GameObject name", "Method name and property name", "Component name and asset name"],
+    "answer": "Class name and file name"
+  },
+  {
+    "question": "What component defines a GameObject's position, rotation, and scale?",
+    "options": ["Object", "MonoBehaviour", "Transform", "Vector"],
+    "answer": "Transform"
+  },
+  {
+    "question": "What are used to control the three transform properties?",
+    "options": ["MonoBehaviour", "Gizmos", "Vectors", "Quaternions"],
+    "answer": "Gizmos"
+  },
+  {
+    "question": "How can objects be moved with Transform?",
+    "options": ["Manually", "Programmatically", "Both manually and programmatically", "Neither"],
+    "answer": "Both manually and programmatically"
+  },
+  {
+    "question": "Which method is used to move objects programmatically?",
+    "options": ["Translate", "Rotate", "Scale", "Transform"],
+    "answer": "Translate"
+  },
+  {
+    "question": "What is used to represent characters, cameras, lights, and special effects in Unity?",
+    "options": ["Scripts", "Components", "GameObjects", "Assets"],
+    "answer": "GameObjects"
+  },
+  {
+    "question": "What can a GameObject have attached to it?",
+    "options": ["One component", "Many components", "No components", "Both one and many components"],
+    "answer": "Both one and many components"
+  },
+  {
+    "question": "What is a GameObject without any components called?",
+    "options": ["Void", "Empty", "Null", "Inactive"],
+    "answer": "Void"
+  },
+  {
+    "question": "What is a script in Unity?",
+    "options": ["An asset", "A GameObject", "A component", "A behavior"],
+    "answer": "An asset"
+  },
+  {
+    "question": "What is the Transform component attached to?",
+    "options": ["Almost every GameObject", "Only visible GameObjects", "Only scripts", "Only custom components"],
+    "answer": "Almost every GameObject"
+  },
+  {
+    "question": "What does the Transform component define?",
+    "options": ["Color", "Texture", "Position", "Script"],
+    "answer": "Position"
+  },
+  {
+    "question": "What is used to input keyboard commands?",
+    "options": ["Transform", "MonoBehaviour", "Vectors", "Direction Vectors"],
+    "answer": "Direction Vectors"
+  },
+  {
+    "question": "What class provides debugging tools?",
+    "options": ["MonoBehaviour", "Object", "Debug", "Gizmos"],
+    "answer": "Debug"
+  }
+]

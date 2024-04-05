@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#startQuiz {
+    padding: 20px;
+    font-size: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#jsonSelect {
+    padding: 20px; 
+    font-size: 18px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    appearance: none;
+    background-color: white; 
+    cursor: pointer; 
+}
+/* Style the arrow */
+#jsonSelect::after {
+    content: '\25BC'; 
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none; 
+}
+/* Style when select is opened */
+#jsonSelect:focus {
+    outline: none; /* Remove outline */
+    border-color: blue; /* Change border color on focus */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.question {
+    margin-bottom: 10px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.option {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.option input[type="radio"] {
+    display: none;
+}
+
+.option.selected {
+    background-color: #9fe59f;
+}
+
+.option.correct {
+    background-color: #358a35; /* Green background for correct options */
+}
+
+.option.incorrect {
+    background-color: #f29292; /* Red background for incorrect options */
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+}
+
+#submitBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submitBtn:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+

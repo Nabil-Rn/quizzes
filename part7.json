@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the purpose of scenes in Unity?",
+    "options": ["To contain game assets", "To store data", "To manage user interface", "To handle networking"],
+    "answer": "To contain game assets"
+  },
+  {
+    "question": "What are the benefits of using multiple scenes?",
+    "options": ["Organization", "Performance", "Less memory waste", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Can new scenes have templates?",
+    "options": ["Yes", "No", "Only in certain cases", "Templates are not used in Unity"],
+    "answer": "Yes"
+  },
+  {
+    "question": "How can loading of scenes be performed?",
+    "options": ["Static only", "Dynamic only", "Both static and dynamic", "Neither static nor dynamic"],
+    "answer": "Both static and dynamic"
+  },
+  {
+    "question": "What can C# scripts in Unity do with scenes?",
+    "options": ["Create and load scenes", "Modify properties of gameobjects", "Attach components", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "What is an important class for managing scenes in Unity?",
+    "options": ["GameObjectManager", "SceneManager", "AssetLoader", "ComponentManager"],
+    "answer": "SceneManager"
+  },
+  {
+    "question": "What does animation in Unity automate?",
+    "options": ["Physics calculations", "Movement of objects", "Script execution", "Scene transitions"],
+    "answer": "Movement of objects"
+  },
+  {
+    "question": "What are keyframes in Unity animation?",
+    "options": ["Physics constraints", "Points in time controlling animation", "Scripts triggers", "Audio markers"],
+    "answer": "Points in time controlling animation"
+  },
+  {
+    "question": "How many frames per second can animations be divided into?",
+    "options": ["30", "24", "60", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "How can keyframes be captured in Unity?",
+    "options": ["By recording them", "Automatically by the engine", "By writing scripts", "By importing from external files"],
+    "answer": "By recording them"
+  },
+  {
+    "question": "What is the purpose of curves in animation clips?",
+    "options": ["To control speed", "To control smoothness of animation", "To define object paths", "To synchronize audio"],
+    "answer": "To control smoothness of animation"
+  },
+  {
+    "question": "What can be attached to animations as events?",
+    "options": ["Scripts", "Audio clips", "Physics effects", "Other animations"],
+    "answer": "Scripts"
+  },
+  {
+    "question": "What is an example of an animation event in Unity?",
+    "options": ["Changing scenes", "Firing a bullet", "Starting a game", "Pausing the game"],
+    "answer": "Firing a bullet"
+  },
+  {
+    "question": "What is controlled by animation state machines?",
+    "options": ["Physics states", "Game states", "Animation workflows", "Script execution order"],
+    "answer": "Animation workflows"
+  },
+  {
+    "question": "What can be controlled using frames in animation clips?",
+    "options": ["Any property from any component", "Only transform properties", "Only material properties", "Only lighting properties"],
+    "answer": "Any property from any component"
+  },
+  {
+    "question": "What is the role of tangent lines in curves view?",
+    "options": ["To define the trajectory", "To control the curve and smoothness", "To set keyframes", "To link animations"],
+    "answer": "To control the curve and smoothness"
+  },
+  {
+    "question": "What is the main function of the SceneManager class?",
+    "options": ["To manage sound", "To control lighting", "To handle scene transitions", "To script game logic"],
+    "answer": "To handle scene transitions"
+  },
+  {
+    "question": "What is the benefit of organizing scenes?",
+    "options": ["Improves game design", "Enhances collaboration", "Facilitates debugging", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Why is performance a benefit of multiple scenes?",
+    "options": ["Allows for higher resolution textures", "Reduces load times", "Increases frame rate", "Optimizes memory usage"],
+    "answer": "Optimizes memory usage"
+  },
+  {
+    "question": "What is the result of less memory waste when using multiple scenes?",
+    "options": ["Longer battery life", "Faster game startup", "More complex scenes", "Better overall performance"],
+    "answer": "Better overall performance"
+  }
+]

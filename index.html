@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="dolphinlogo.ico" type="image/x-icon">
+    <title>Multiple Choice Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Multiple Choice Quiz</h1>
+        <img src="dolphin.gif"  style="display: block; margin: 0 auto;">
+        <select id="jsonSelect">
+            <option value="intro.json">Getting started with Unity</option>
+            <option value="part1.json">Transforms</option>
+            <option value="part2.json">Event-driven Programming</option>
+            <option value="part3.json">Rigidbodies and Colliders</option>
+            <option value="part4.json">Game Design</option>
+            <option value="part6.json"> Inputs, Prefabs and more Physics</option>
+            <option value="part7.json">Animation and Multiple Scenes</option>
+            <option value="part8.json">Sounds</option>
+        </select>
+        <button id="startQuiz">Start Quiz</button>
+
+        <div id="result"></div>
+        <div id="quiz"></div>
+        <button id="submitBtn">Submit</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

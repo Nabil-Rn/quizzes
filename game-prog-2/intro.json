@@ -1,0 +1,52 @@
+  [
+    {
+      "question": "What is a game engine primarily used for?",
+      "options": [
+        "Developing video games",
+        "Creating music",
+        "Editing videos",
+        "Designing websites"
+      ],
+      "answer": "Developing video games"
+    },
+    {
+      "question": "Which of the following is NOT a function of a game engine?",
+      "options": [
+        "Compiling the game",
+        "Packaging the game",
+        "Providing libraries and tools",
+        "Writing game narratives"
+      ],
+      "answer": "Writing game narratives"
+    },
+    {
+      "question": "What is the GUI of a game engine called?",
+      "options": [
+        "Game editor",
+        "Game compiler",
+        "Game object",
+        "Game scene"
+      ],
+      "answer": "Game editor"
+    },
+    {
+      "question": "Which game engine supports 3D, 2D, and VR?",
+      "options": [
+        "Unity",
+        "Unreal",
+        "Both Unity and Unreal",
+        "Neither Unity nor Unreal"
+      ],
+      "answer": "Both Unity and Unreal"
+    },
+    {
+      "question": "What are the building blocks of all Unity components?",
+      "options": [
+        "Scenes",
+        "GameObjects",
+        "Mesh Filters",
+        "Transform Components"
+      ],
+      "answer": "GameObjects"
+    }
+  ]

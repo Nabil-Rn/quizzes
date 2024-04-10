@@ -17,22 +17,20 @@ body {
 }
 
 #jsonSelect {
-    padding: 20px; 
+    padding: 20px;
+    margin-bottom: 20px;
     font-size: 18px;
     border: 3px solid #ccc;
     border-radius: 5px;
-    appearance: none;
     background-color: white; 
     cursor: pointer; 
 }
 /* Style the arrow */
 #jsonSelect::after {
-    content: '\25BC'; 
     position: absolute;
     top: 50%;
     right: 10px;
     transform: translateY(-50%);
-    pointer-events: none; 
 }
 /* Style when select is opened */
 #jsonSelect:focus {
@@ -41,14 +39,37 @@ body {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.section-1{
+    padding-top: 2vh;
+    padding-bottom: 4vh;
+    width: 70%;
     text-align: center;
 }
 
+.section-2{
+    padding-top: 10vh;
+    padding-right: 20vh;
+    width: 70%;
+}
+
+.section-3{
+    padding-top: 10vh;
+    padding-right: 20vh;
+    width: 70%;
+}
+
 h1 {
-    margin-bottom: 20px;
+    padding: 20px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
 }
 
 .question {
@@ -87,6 +108,18 @@ h1 {
 
 .option:hover {
     background-color: #f0f0f0;
+}
+
+.option.selected:hover {
+    background-color: #6edc6e;
+}
+
+.option.incorrect:hover {
+    background-color: #e36868;
+}
+
+.option.correct:hover {
+    background-color: #1f7c1f;
 }
 
 #submitBtn {

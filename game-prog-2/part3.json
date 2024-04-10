@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What component gives a GameObject physical properties?",
+    "options": ["Rigidbody", "Collider", "Mesh", "Transform"],
+    "answer": "Rigidbody"
+  },
+  {
+    "question": "What does the Rigidbody component allow the object to interact with?",
+    "options": ["User input", "Physics engine", "Scripts", "Animations"],
+    "answer": "Physics engine"
+  },
+  {
+    "question": "What is 'Drag' in the context of a Rigidbody?",
+    "options": ["Weight", "Air resistance", "Gravity", "Friction"],
+    "answer": "Air resistance"
+  },
+  {
+    "question": "What does 'Is Kinematic' enable for Rigidbodies?",
+    "options": ["Gravity", "Collisions", "Animation", "Scripts"],
+    "answer": "Animation"
+  },
+  {
+    "question": "What component allows a GameObject to have collisions?",
+    "options": ["Rigidbody", "Collider", "Animator", "Script"],
+    "answer": "Collider"
+  },
+  {
+    "question": "What happens if there are no colliders on two Rigidbodies?",
+    "options": ["They will pass through each other", "They will still collide", "They will explode", "They will freeze"],
+    "answer": "They will pass through each other"
+  },
+  {
+    "question": "Which Collider has the primitive shape of a cube?",
+    "options": ["Sphere Collider", "Capsule Collider", "Box Collider", "Mesh Collider"],
+    "answer": "Box Collider"
+  },
+  {
+    "question": "Which Collider cannot collide with another Mesh Collider?",
+    "options": ["Box Collider", "Sphere Collider", "Capsule Collider", "Mesh Collider"],
+    "answer": "Mesh Collider"
+  },
+  {
+    "question": "What is the purpose of a Wheel Collider?",
+    "options": ["Detecting collisions", "Creating vehicles", "Animating characters", "Simulating terrain"],
+    "answer": "Creating vehicles"
+  },
+  {
+    "question": "What type of Collider is used with Unity's terrain system?",
+    "options": ["Terrain Collider", "Mesh Collider", "Box Collider", "Sphere Collider"],
+    "answer": "Terrain Collider"
+  },
+  {
+    "question": "What function is called when a collision occurs?",
+    "options": ["OnCollisionEnter()", "OnTriggerEnter()", "OnCollisionStay()", "OnCollisionExit()"],
+    "answer": "OnCollisionEnter()"
+  },
+  {
+    "question": "What is invoked rather than OnCollisionEnter() when a collider is enabled as a trigger?",
+    "options": ["OnTriggerStay()", "OnTriggerExit()", "OnTriggerEnter()", "OnCollisionStay()"],
+    "answer": "OnTriggerEnter()"
+  },
+  {
+    "question": "What are Static Colliders?",
+    "options": ["Colliders with a rigidbody", "Colliders without a rigidbody", "Colliders that move", "Colliders that animate"],
+    "answer": "Colliders without a rigidbody"
+  },
+  {
+    "question": "What is the regular use case for Rigidbody Colliders?",
+    "options": ["Static objects", "Animated objects", "Objects that move and require collisions", "Kinematic objects"],
+    "answer": "Objects that move and require collisions"
+  },
+  {
+    "question": "What type of Rigidbody Collider is meant to be controlled by animation?",
+    "options": ["Static Rigidbody Colliders", "Kinematic Rigidbody Colliders", "Regular Rigidbody Colliders", "Dynamic Rigidbody Colliders"],
+    "answer": "Kinematic Rigidbody Colliders"
+  },
+  {
+    "question": "What allows you to apply physics easily by reverting the boolean value?",
+    "options": ["Static Colliders", "Rigidbody Colliders", "Kinematic Rigidbody Colliders", "Mesh Colliders"],
+    "answer": "Kinematic Rigidbody Colliders"
+  },
+  {
+    "question": "What type of Collider has no movements?",
+    "options": ["Static Colliders", "Rigidbody Colliders", "Kinematic Rigidbody Colliders", "Mesh Colliders"],
+    "answer": "Static Colliders"
+  },
+  {
+    "question": "What is used for performance optimization in Collider interactions?",
+    "options": ["Rigidbody Colliders", "Kinematic Rigidbody Colliders", "Static Colliders", "Mesh Colliders"],
+    "answer": "Static Colliders"
+  },
+  {
+    "question": "will it collide or trigger or none: Collider and Collider",
+    "options": ["Collision", "Trigger", "None"],
+    "answer": "None"
+  },
+  {
+    "question": "will it collide or trigger or none: Collider and Rigidbody Collider",
+    "options": ["Collision", "Trigger", "None"],
+    "answer": "Collision"
+  }
+]

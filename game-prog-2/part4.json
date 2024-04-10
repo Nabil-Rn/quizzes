@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the main focus of game design?",
+    "options": ["Character development", "Soundtrack creation", "Gameplay and environment", "Marketing strategies"],
+    "answer": "Gameplay and environment"
+  },
+  {
+    "question": "Which of the following is NOT a discipline of game design?",
+    "options": ["Level design", "World design", "UI design", "Sound engineering"],
+    "answer": "Sound engineering"
+  },
+  {
+    "question": "What is the core game mechanic in Hearthstone?",
+    "options": ["Building a deck", "Drawing and using cards to defeat the opponent", "Collecting rare items", "Exploring new worlds"],
+    "answer": "Drawing and using cards to defeat the opponent"
+  },
+  {
+    "question": "What should game rewards include?",
+    "options": ["KDA, scores, leaderboards", "Trophies, new abilities, hidden levels", "Rare items/loot", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "What is essential when getting to know your game audience?",
+    "options": ["Choosing a game mechanic", "Setting a clear game vision", "Picking a genre", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "What does ESRB 'T' rating stand for?",
+    "options": ["Early Childhood", "Everyone", "Teens", "Mature"],
+    "answer": "Teens"
+  },
+  {
+    "question": "Which genre involves players taking on roles?",
+    "options": ["FPS", "RPG", "MOBA", "RTS"],
+    "answer": "RPG"
+  },
+  {
+    "question": "What is unique about MMORPGs?",
+    "options": ["Single-player experience", "Massively multiplayer online", "First-person perspective", "Real-time strategy"],
+    "answer": "Massively multiplayer online"
+  },
+  {
+    "question": "What is the main perspective in FPS games?",
+    "options": ["Third-person", "First-person", "Top-down", "Isometric"],
+    "answer": "First-person"
+  },
+  {
+    "question": "Which game is known for its open-world design?",
+    "options": ["League of Legends", "Fortnite", "Grand Theft Auto", "StarCraft"],
+    "answer": "Grand Theft Auto"
+  },
+  {
+    "question": "What is the main activity in RTS games?",
+    "options": ["Role-playing", "Shooting", "Strategy", "Racing"],
+    "answer": "Strategy"
+  },
+  {
+    "question": "Which game mechanic involves players taking turns?",
+    "options": ["Action Points", "Auction", "Catch-up", "Turns"],
+    "answer": "Turns"
+  },
+  {
+    "question": "What is a key element of the game Super Smash Bros?",
+    "options": ["Driving vehicles", "Knocking players off a platform", "Collecting resources", "Crafting items"],
+    "answer": "Knocking players off a platform"
+  },
+  {
+    "question": "What is the main goal in Minecraft?",
+    "options": ["Defeating opponents", "Building shelters", "Winning races", "Scoring goals"],
+    "answer": "Building shelters"
+  },
+  {
+    "question": "What should game mechanics do in relation to each other?",
+    "options": ["Contradict each other", "Be unrelated", "Relate to each other", "None of the above"],
+    "answer": "Relate to each other"
+  },
+  {
+    "question": "What is an example of a game with a driving mechanic?",
+    "options": ["Mario Kart", "The Witcher 3", "Dota", "Halo"],
+    "answer": "Mario Kart"
+  },
+  {
+    "question": "What type of game is Fortnite classified as?",
+    "options": ["TPS", "RPG", "MOBA", "RTS"],
+    "answer": "TPS"
+  },
+  {
+    "question": "What is a common game mechanic in puzzle games?",
+    "options": ["Movement", "Role-playing", "Crafting", "Auction"],
+    "answer": "Movement"
+  },
+  {
+    "question": "What should you avoid when teaching players about game mechanics?",
+    "options": ["Visual aids", "Interactive tutorials", "Writing", "Demonstrations"],
+    "answer": "Writing"
+  },
+  {
+    "question": "What is the purpose of game mechanics?",
+    "options": ["To create obstacles", "To maintain gameplay", "To design characters", "To compose music"],
+    "answer": "To maintain gameplay"
+  }
+]

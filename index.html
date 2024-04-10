@@ -4,29 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="dolphinlogo.ico" type="image/x-icon">
-    <title>Multiple Choice Quiz</title>
+    <title>Multiple Choice Quizzes</title>
     <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
-    <div class="container">
-        <h1>Multiple Choice Quiz</h1>
-        <img src="dolphin.gif"  style="display: block; margin: 0 auto;">
-        <select id="jsonSelect">
-            <option value="intro.json">Getting started with Unity</option>
-            <option value="part1.json">Transforms</option>
-            <option value="part2.json">Event-driven Programming</option>
-            <option value="part3.json">Rigidbodies and Colliders</option>
-            <option value="part4.json">Game Design</option>
-            <option value="part6.json"> Inputs, Prefabs and more Physics</option>
-            <option value="part7.json">Animation and Multiple Scenes</option>
-            <option value="part8.json">Sounds</option>
-        </select>
-        <button id="startQuiz">Start Quiz</button>
 
-        <div id="result"></div>
-        <div id="quiz"></div>
-        <button id="submitBtn">Submit</button>
+    <div class="container">
+        <div class="section-1">
+            <h1 >Multiple Choice Quizzes</h1 >
+                <img src="dolphin.gif"  style="display: block; margin: 0 auto;">
+            <h3>Game programming Quizzes: select a topic!</h3>
+            <select id="jsonSelect">
+                <option value="game-prog-2\intro.json">Getting started with Unity</option>
+                <option value="game-prog-2\part1.json">Transforms</option>
+                <option value="game-prog-2\part2.json">Event-driven Programming</option>
+                <option value="game-prog-2\part3.json">Rigidbodies and Colliders</option>
+                <option value="game-prog-2\part4.json">Game Design</option>
+                <option value="game-prog-2\part6.json"> Inputs, Prefabs and more Physics</option>
+                <option value="game-prog-2\part7.json">Animation and Multiple Scenes</option>
+                <option value="game-prog-2\part8.json">Sounds</option>
+            </select>
+
+            <h3>Web services Quizzes: select a topic!</h3>
+            <select id="jsonSelect">
+                <option value="game-prog-2\intro.json">Getting started with Unity</option>
+                <option value="game-prog-2\part1.json">Transforms</option>
+                <option value="game-prog-2\part2.json">Event-driven Programming</option>
+                <option value="game-prog-2\part3.json">Rigidbodies and Colliders</option>
+                <option value="game-prog-2\part4.json">Game Design</option>
+                <option value="game-prog-2\part6.json"> Inputs, Prefabs and more Physics</option>
+                <option value="game-prog-2\part7.json">Animation and Multiple Scenes</option>
+                <option value="game-prog-2\part8.json">Sounds</option>
+            </select>
+
+            <button id="startQuiz">Start Quiz</button>
+            <div id="result"></div>
+            <button id="submitBtn">Submit</button>
+
+            <script src="script.js"></script>
+
+        </div>
+
+        <div class="section-2">
+
+            <div id="quiz"></div>
+
+        </div>
+
+        <div class="section-3">
+            <div id="checksBox"></div>
+            <div id="result"></div>
+            <button id="submitBtn">Submit</button>
+
+        </div>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>

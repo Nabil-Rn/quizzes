@@ -1,0 +1,97 @@
+[
+  {
+    "question": "Which of the following is NOT a discipline of game design?",
+    "options": ["Level design", "World design", "UI design", "Music composition"],
+    "answer": "Music composition"
+  },
+  {
+    "question": "What should a game be built around according to game design principles?",
+    "options": ["Multiple core mechanics", "One core game mechanic", "Complex storylines", "High-end graphics"],
+    "answer": "One core game mechanic"
+  },
+  {
+    "question": "Which game is used as an example of a core game mechanic in the document?",
+    "options": ["Hearthstone", "Super Smash Bros", "Chess", "Candy Crush"],
+    "answer": "Hearthstone"
+  },
+  {
+    "question": "What is essential for a game to not be boring in the long term?",
+    "options": ["Complicated concepts", "Easy concepts", "Frequent updates", "Celebrity endorsements"],
+    "answer": "Easy concepts"
+  },
+  {
+    "question": "What type of rewards are mentioned in the game design principles?",
+    "options": ["KDA and scores", "Leaderboards and trophies", "New abilities and rare items", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "What should game designers know about their audience?",
+    "options": ["Their demographics and interests", "Their income level", "Their political views", "Their favorite color"],
+    "answer": "Their demographics and interests"
+  },
+  {
+    "question": "What rating is suitable for early childhood according to the ESRB?",
+    "options": ["E", "T", "M", "EC"],
+    "answer": "EC"
+  },
+  {
+    "question": "Which genre involves players taking a 'role'?",
+    "options": ["RPG", "FPS", "MOBA", "RTS"],
+    "answer": "RPG"
+  },
+  {
+    "question": "What does MMORPG stand for?",
+    "options": ["Massively Multiplayer Online Racing Game", "Massive Multiplayer Online Role-Playing Game", "Mobile Multiplayer Online Battle Arena", "Massive Multiplayer Online Real-Time Strategy"],
+    "answer": "Massive Multiplayer Online Role-Playing Game"
+  },
+  {
+    "question": "Which genre is known for first-person perspective shooting games?",
+    "options": ["TPS", "FPS", "RTS", "MOBA"],
+    "answer": "FPS"
+  },
+  {
+    "question": "What is the main characteristic of open-world games?",
+    "options": ["Linear gameplay", "Turn-based mechanics", "Sandbox environments", "Multiplayer focus"],
+    "answer": "Sandbox environments"
+  },
+  {
+    "question": "Which game mechanic involves players taking turns?",
+    "options": ["Action Points", "Auction", "Turns", "Risk and Rewards"],
+    "answer": "Turns"
+  },
+  {
+    "question": "What should game mechanics do in relation to each other?",
+    "options": ["Contradict each other", "Be unrelated", "Relate to each other", "Be overly complex"],
+    "answer": "Relate to each other"
+  },
+  {
+    "question": "Which game is mentioned as an example of using abilities to hinder other racers?",
+    "options": ["Super Smash Bros", "Mario Kart", "Minecraft", "Fortnite"],
+    "answer": "Mario Kart"
+  },
+  {
+    "question": "In 'Super Smash Bros', what is the main objective?",
+    "options": ["Collect resources", "Build shelters", "Knock players off a platform", "Complete quests"],
+    "answer": "Knock players off a platform"
+  },
+  {
+    "question": "What is a key activity in 'Minecraft'?",
+    "options": ["Driving vehicles", "Using magic", "Collecting resources", "Fighting in arenas"],
+    "answer": "Collecting resources"
+  },
+  {
+    "question": "What is an important aspect of teaching game mechanics to players?",
+    "options": ["Using complex tutorials", "Avoiding writing", "Offering in-game purchases", "Creating long manuals"],
+    "answer": "Avoiding writing"
+  },
+  {
+    "question": "Which of the following is a game mechanic?",
+    "options": ["Sound effects", "Graphics quality", "Achievements", "Character names"],
+    "answer": "Achievements"
+  },
+  {
+    "question": "What should game designers look for inspiration?",
+    "options": ["Successful games and their mechanics", "Latest technology trends", "Popular movies", "Classical literature"],
+    "answer": "Successful games and their mechanics"
+  }
+]

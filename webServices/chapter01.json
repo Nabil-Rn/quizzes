@@ -1,0 +1,182 @@
+[
+  {
+    "question": "What cannot affect or be affected by the execution of another process?",
+    "options": [
+      "Dependent process",
+      "Independent process",
+      "Cooperating process"
+    ],
+    "answer": "Independent process"
+  },
+  {
+    "question": "What type of process shares data with other processes?",
+    "options": [
+      "Independent process",
+      "Isolated process",
+      "Cooperating process"
+    ],
+    "answer": "Cooperating process"
+  },
+  {
+    "question": "What is the collective term for methods that allow effective sharing of information among cooperating processes?",
+    "options": [
+      "Inter-process communication",
+      "Internal process communication",
+      "Integrated process communication"
+    ],
+    "answer": "Inter-process communication"
+  },
+  {
+    "question": "What is the purpose of IPC?",
+    "options": [
+      "To compete between processes",
+      "To cooperate, communicate, and synchronize actions between processes",
+      "To control process execution"
+    ],
+    "answer": "To cooperate, communicate, and synchronize actions between processes"
+  },
+  {
+    "question": "IPC is part of what kind of API?",
+    "options": [
+      "System Call API",
+      "Application Programming Interface",
+      "Inter-process Communication API"
+    ],
+    "answer": "System Call API"
+  },
+  {
+    "question": "What is an advantage of process cooperation?",
+    "options": [
+      "Information hiding",
+      "Information sharing",
+      "Information blocking"
+    ],
+    "answer": "Information sharing"
+  },
+  {
+    "question": "Which model uses shared memory or files for IPC?",
+    "options": [
+      "Message passing",
+      "Shared storage",
+      "Distributed storage"
+    ],
+    "answer": "Shared storage"
+  },
+  {
+    "question": "In message passing, what are the two basic operations on IPC messages?",
+    "options": [
+      "send() and block()",
+      "send() and receive()",
+      "receive() and transmit()"
+    ],
+    "answer": "send() and receive()"
+  },
+  {
+    "question": "What type of communication requires processes to synchronize at every message?",
+    "options": [
+      "Asynchronous",
+      "Synchronous",
+      "Simultaneous"
+    ],
+    "answer": "Synchronous"
+  },
+  {
+    "question": "What is the most used communication paradigm in networked systems?",
+    "options": [
+      "Peer-to-peer",
+      "Client-server",
+      "Serverless"
+    ],
+    "answer": "Client-server"
+  },
+  {
+    "question": "In the client-server model, what does the server do?",
+    "options": [
+      "Initiates communication",
+      "Passively waits for and responds to clients",
+      "Actively seeks out clients"
+    ],
+    "answer": "Passively waits for and responds to clients"
+  },
+  {
+    "question": "What must a client know in advance to communicate with a server?",
+    "options": [
+      "The server's color and shape",
+      "The server's IP address and port number",
+      "The server's operating system"
+    ],
+    "answer": "The server's IP address and port number"
+  },
+  {
+    "question": "What does TCP provide in the Client-Server Communication Model?",
+    "options": [
+      "Unreliable connection",
+      "Reliable point-to-point communication",
+      "Multicast broadcasting"
+    ],
+    "answer": "Reliable point-to-point communication"
+  },
+  {
+    "question": "What is a socket in the context of IPC?",
+    "options": [
+      "A hardware component",
+      "An endpoint for communication between two processes",
+      "A storage device"
+    ],
+    "answer": "An endpoint for communication between two processes"
+  },
+  {
+    "question": "What does a protocol define in distributed networking?",
+    "options": [
+      "The physical connections",
+      "The format for valid messages and rules for data exchange",
+      "The hardware requirements"
+    ],
+    "answer": "The format for valid messages and rules for data exchange"
+  },
+  {
+    "question": "What is the role of a server in the client-server model?",
+    "options": [
+      "To provide access to a service",
+      "To request services",
+      "To disconnect services"
+    ],
+    "answer": "To provide access to a service"
+  },
+  {
+    "question": "What type of socket does a server use?",
+    "options": [
+      "Active socket",
+      "Passive socket",
+      "Dynamic socket"
+    ],
+    "answer": "Passive socket"
+  },
+  {
+    "question": "What is the difference between an IP address and a port number?",
+    "options": [
+      "An IP address identifies a host, while a port number identifies a service within the host",
+      "An IP address is dynamic, while a port number is static",
+      "An IP address is used for internal communication, while a port number is used for external communication"
+    ],
+    "answer": "An IP address identifies a host, while a port number identifies a service within the host"
+  },
+  {
+    "question": "What is the purpose of a socket API?",
+    "options": [
+      "To provide a user interface",
+      "To enable the exchange of information between processes",
+      "To store data permanently"
+    ],
+    "answer": "To enable the exchange of information between processes"
+  },
+  {
+    "question": "What is the role of a client in the client-server model?",
+    "options": [
+      "To passively wait for services",
+      "To provide services",
+      "To request a service from a server"
+    ],
+    "answer": "To request a service from a server"
+  }
+]

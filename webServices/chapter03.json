@@ -1,0 +1,202 @@
+[
+    {
+        "question": "What is the simplest Web service system composed of?",
+        "options": [
+            "Provider and Requester",
+            "Client and Server",
+            "SOAP and REST",
+            "URI and HTTP"
+        ],
+        "answer": "Provider and Requester"
+    },
+    {
+        "question": "What does a Provider in a Web service system represent?",
+        "options": [
+            "The client application",
+            "The interface and implementation of the service",
+            "The network protocol",
+            "The service consumer"
+        ],
+        "answer": "The interface and implementation of the service"
+    },
+    {
+        "question": "What is the role of a Requester in a Web service system?",
+        "options": [
+            "To provide the service",
+            "To consume the provided service",
+            "To network the service",
+            "To implement the service"
+        ],
+        "answer": "To consume the provided service"
+    },
+    {
+        "question": "What architectural style does SOA represent?",
+        "options": [
+            "Service-Oriented Architecture",
+            "Simple Object Access Protocol",
+            "Stateful Operational Architecture",
+            "Server-Oriented Application"
+        ],
+        "answer": "Service-Oriented Architecture"
+    },
+    {
+        "question": "Which of the following is a benefit of Web Services?",
+        "options": [
+            "Tightly coupled",
+            "Difficult integration",
+            "Code reuse",
+            "Complex communication"
+        ],
+        "answer": "Code reuse"
+    },
+    {
+        "question": "What does REST stand for?",
+        "options": [
+            "Real-time Efficient Service Transfer",
+            "REpresentational State Transfer",
+            "Reliable Service Technology",
+            "Remote Server Transfer"
+        ],
+        "answer": "REpresentational State Transfer"
+    },
+    {
+        "question": "Who formalized REST?",
+        "options": [
+            "Tim Berners-Lee",
+            "Roy Fielding",
+            "Mark Zuckerberg",
+            "Jeff Bezos"
+        ],
+        "answer": "Roy Fielding"
+    },
+    {
+        "question": "What is a key constraint of RESTful architecture?",
+        "options": [
+            "Stateful",
+            "Uniform interface",
+            "Protocol dependent",
+            "Complex"
+        ],
+        "answer": "Uniform interface"
+    },
+    {
+        "question": "What makes a Web service RESTful?",
+        "options": [
+            "Following SOAP protocol",
+            "Using XML exclusively",
+            "Satisfying REST constraints",
+            "Being stateful"
+        ],
+        "answer": "Satisfying REST constraints"
+    },
+    {
+        "question": "What is a problem associated with SOAP Web Services?",
+        "options": [
+            "Too simple",
+            "Easy to implement",
+            "Complex to implement and consume",
+            "Unified interface"
+        ],
+        "answer": "Complex to implement and consume"
+    },
+    {
+        "question": "What does WSDL stand for?",
+        "options": [
+            "Web Services Description Language",
+            "Web Services Data Layer",
+            "Web Server Description Language",
+            "Web Secure Data Language"
+        ],
+        "answer": "Web Services Description Language"
+    },
+    {
+        "question": "What is the main communication protocol used by traditional Web services?",
+        "options": [
+            "HTTP",
+            "FTP",
+            "SMTP",
+            "SOAP"
+        ],
+        "answer": "SOAP"
+    },
+    {
+        "question": "Which HTTP method is typically used to send SOAP messages?",
+        "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+        ],
+        "answer": "POST"
+    },
+    {
+        "question": "What is the main advantage of REST over SOAP Web Services?",
+        "options": [
+            "Requires third-party tools",
+            "Uses only XML",
+            "Simple and lightweight",
+            "Tightly coupled with the server"
+        ],
+        "answer": "Simple and lightweight"
+    },
+    {
+        "question": "What is the main design principle behind the Web that REST builds on?",
+        "options": [
+            "Everything is a service",
+            "Everything is a resource",
+            "Everything is an object",
+            "Everything is a protocol"
+        ],
+        "answer": "Everything is a resource"
+    },
+    {
+        "question": "What does UDDI stand for?",
+        "options": [
+            "Universal Data Description Interface",
+            "Unified Description, Discovery, and Integration",
+            "Universal Description, Discovery, and Integration",
+            "Unified Data Discovery Interface"
+        ],
+        "answer": "Universal Description, Discovery, and Integration"
+    },
+    {
+        "question": "What is the purpose of UDDI in Web services?",
+        "options": [
+            "For communication",
+            "For service description",
+            "For publishing and locating services",
+            "For implementing services"
+        ],
+        "answer": "For publishing and locating services"
+    },
+    {
+        "question": "Which of the following is a REST constraint?",
+        "options": [
+            "Stateful",
+            "Cacheable",
+            "Protocol dependent",
+            "Complex"
+        ],
+        "answer": "Cacheable"
+    },
+    {
+        "question": "What is the role of HTTP in RESTful Web services?",
+        "options": [
+            "It is optional",
+            "It is the main protocol used",
+            "It is not used",
+            "It is only used for security"
+        ],
+        "answer": "It is the main protocol used"
+    },
+    {
+        "question": "What is the main method of interaction in REST?",
+        "options": [
+            "Remote Procedure Call",
+            "SOAP messages",
+            "HTTP’s uniform interface",
+            "XML data transfer"
+        ],
+        "answer": "HTTP’s uniform interface"
+    }
+]

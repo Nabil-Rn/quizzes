@@ -1,8 +1,41 @@
+// displaying the select for the selected course! 💻
+
+document.getElementById('gameBtn').addEventListener('click', function() {
+    showSelect('game');
+});
+
+document.getElementById('webBtn').addEventListener('click', function() {
+    showSelect('web');
+});
+
+// better to have one function that does one thing, maybe i will add more!
+function showSelect(type) {
+    const gameSelect = document.getElementById('gameSelect');
+    const webSelect = document.getElementById('webSelect');
+
+    if (type === 'game') {
+        gameSelect.style.display = 'block';
+        webSelect.style.display = 'none';
+    } else if (type === 'web') {
+        gameSelect.style.display = 'none';
+        webSelect.style.display = 'block';
+    }
+}
+
 //auto start the quiz? nah!
 //document.addEventListener("DOMContentLoaded", function() {
 document.getElementById('startQuiz').addEventListener('click', function() {
     //fetch the selected quiz!
-    const selectedFile = document.getElementById('jsonSelect').value;
+    const gameSelect = document.getElementById('gameSelect');
+    const webSelect = document.getElementById('webSelect');
+
+    let selectedFile;
+    if (gameSelect.style.display !== 'none') {
+        selectedFile = document.getElementById('gameJsonSelect').value;
+    } else {
+        selectedFile = document.getElementById('webJsonSelect').value;
+    }
+
     const quizContainer = document.getElementById('quiz');
     const checksBox = document.getElementById('checksBox');
     const submitButton = document.getElementById('submitBtn');
@@ -27,16 +60,13 @@ document.getElementById('startQuiz').addEventListener('click', function() {
         let checksHTML = '';
         quizData.forEach((question, index) => {
             quizHTML += `<div class="question" id="${index + 1}">${index + 1}. ${question.question}</div>`;
-            checksHTML += `
-               <input type="checkbox" id="${index+1}" name="scales" /> <a>${index+1}<a\>
-                `;
+            checksHTML += `<a>Question ${index + 1}<a\>  <input type="checkbox" id="checkbox${index + 1}" name="scales" disabled /> `;
             question.options.forEach(option => {
                 quizHTML += `
                 <div class="option" data-question="${index}">
                     <input type="radio" id="q${index}option${option}" name="question${index}" value="${option}" required>
                     <label for="q${index}option${option}">${option}</label>
                 </div>`;
-
             });
             quizHTML += '<br>';
         });
@@ -63,6 +93,19 @@ document.getElementById('startQuiz').addEventListener('click', function() {
         });
     }
 
+    document.getElementById('showAnswers').addEventListener('click', function() {
+        const options = document.querySelectorAll('.option');
+        options.forEach(option => {
+            const questionNumber = option.getAttribute('data-question');
+            const correctAnswer = quizData[questionNumber].answer;
+            const radioButton = option.querySelector('input[type="radio"]');
+            if (radioButton.value === correctAnswer) {
+                option.classList.add('correct');
+            } else {
+                option.classList.add('incorrect');
+            }
+        });
+    });
 
     // submit the quiz: Calculate and display quiz results
 submitButton.addEventListener('click', function() {
@@ -76,9 +119,11 @@ submitButton.addEventListener('click', function() {
         if (answer.value === correctAnswer) {
             score++;
             optionDiv.classList.add('correct');
+            document.getElementById(`checkbox${parseInt(questionNumber) + 1}`).checked = true;
 
         } else {
             optionDiv.classList.add('incorrect');
+            document.getElementById(`checkbox${parseInt(questionNumber) + 1}`).checked = false;
         }
     });
     trys++;
@@ -88,3 +133,4 @@ submitButton.addEventListener('click', function() {
 });
 
 });
+

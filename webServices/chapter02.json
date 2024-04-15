@@ -1,0 +1,203 @@
+[
+    {
+      "question": "Who invented the World Wide Web?",
+      "options": [
+        "Tim Berners-Lee",
+        "Bill Gates",
+        "Steve Jobs",
+        "Mark Zuckerberg"
+      ],
+      "answer": "Tim Berners-Lee"
+    },
+    {
+      "question": "What is the World Wide Web?",
+      "options": [
+        "A single website",
+        "A distributed information system",
+        "An email service",
+        "A type of computer"
+      ],
+      "answer": "A distributed information system"
+    },
+    {
+      "question": "What is the home of the first website?",
+      "options": [
+        "http://www.google.com",
+        "http://www.facebook.com",
+        "http://info.cern.ch",
+        "http://www.amazon.com"
+      ],
+      "answer": "http://info.cern.ch"
+    },
+    {
+      "question": "What is a Web resource?",
+      "options": [
+        "A computer program",
+        "A type of Web server",
+        "The source of Web content",
+        "An internet cable"
+      ],
+      "answer": "The source of Web content"
+    },
+    {
+      "question": "What are static resources?",
+      "options": [
+        "Data content generated on demand",
+        "Files stored on the Web server's filesystem",
+        "Outdated Web pages",
+        "Broken links"
+      ],
+      "answer": "Files stored on the Web server's filesystem"
+    },
+    {
+      "question": "What are dynamic resources?",
+      "options": [
+        "Files that cannot be changed",
+        "Data content generated on demand",
+        "Static HTML pages",
+        "Images and videos"
+      ],
+      "answer": "Data content generated on demand"
+    },
+    {
+      "question": "How are resources identified on the Web?",
+      "options": [
+        "By their file names",
+        "By Uniform Resource Identifiers (URIs)",
+        "By their IP addresses",
+        "By hashtags"
+      ],
+      "answer": "By Uniform Resource Identifiers (URIs)"
+    },
+    {
+      "question": "What is the purpose of Media Types?",
+      "options": [
+        "To specify the type of data",
+        "To encrypt data",
+        "To increase download speed",
+        "To store data"
+      ],
+      "answer": "To specify the type of data"
+    },
+    {
+      "question": "What does a media type consist of?",
+      "options": [
+        "A type and a subtype",
+        "A file extension",
+        "A URL and a domain name",
+        "A username and password"
+      ],
+      "answer": "A type and a subtype"
+    },
+    {
+      "question": "What is the general syntax of a URI?",
+      "options": [
+        "username:password@domain",
+        "protocol://host:port/path?query#fragment",
+        "www.domain.com/folder/file",
+        "file:///C:/path/to/file"
+      ],
+      "answer": "protocol://host:port/path?query#fragment"
+    },
+    {
+      "question": "What are HTTP messages?",
+      "options": [
+        "Emails sent over the internet",
+        "Text messages between smartphones",
+        "Line-oriented sequences of characters",
+        "Encrypted codes"
+      ],
+      "answer": "Line-oriented sequences of characters"
+    },
+    {
+      "question": "What are the two types of HTTP messages?",
+      "options": [
+        "Request and Response",
+        "Send and Receive",
+        "Input and Output",
+        "Upload and Download"
+      ],
+      "answer": "Request and Response"
+    },
+    {
+      "question": "What does the start line of an HTTP message indicate?",
+      "options": [
+        "The end of the message",
+        "What to do for a request or what happened for a response",
+        "The sender's email address",
+        "The message's file size"
+      ],
+      "answer": "What to do for a request or what happened for a response"
+    },
+    {
+      "question": "What is contained in the body of an HTTP message?",
+      "options": [
+        "Any kind of data",
+        "Only text",
+        "Only images",
+        "Only videos"
+      ],
+      "answer": "Any kind of data"
+    },
+    {
+      "question": "What is the role of header fields in HTTP messages?",
+      "options": [
+        "To display the message content",
+        "To separate the start line from the body",
+        "To provide metadata about the message",
+        "To encrypt the message"
+      ],
+      "answer": "To provide metadata about the message"
+    },
+    {
+      "question": "What is the difference between the structure of a request and a response message?",
+      "options": [
+        "They are identical",
+        "Request messages have a request line, response messages have a status line",
+        "Response messages are encrypted",
+        "Request messages are longer"
+      ],
+      "answer": "Request messages have a request line, response messages have a status line"
+    },
+    {
+      "question": "What is the purpose of the 'Content-Type' metadata in a representation?",
+      "options": [
+        "To specify the file size",
+        "To indicate the nature and format of a document",
+        "To provide the author's name",
+        "To set the language of the document"
+      ],
+      "answer": "To indicate the nature and format of a document"
+    },
+    {
+      "question": "What does 'text/html' represent in media types?",
+      "options": [
+        "A plain text file",
+        "An HTML document",
+        "A CSS stylesheet",
+        "A JavaScript file"
+      ],
+      "answer": "An HTML document"
+    },
+    {
+      "question": "Who is responsible for all official Media Types?",
+      "options": [
+        "Google",
+        "IANA",
+        "Microsoft",
+        "Apple"
+      ],
+      "answer": "IANA"
+    },
+    {
+      "question": "What is the main protocol used for interaction with Web resources?",
+      "options": [
+        "FTP",
+        "SMTP",
+        "HTTP",
+        "TCP"
+      ],
+      "answer": "HTTP"
+    }
+  ]
+  

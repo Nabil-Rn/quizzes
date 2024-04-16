@@ -1,0 +1,202 @@
+[
+  {
+    "question": "What does VLSM stand for?",
+    "options": [
+      "Variable Length Subnet Masking",
+      "Variable Linear System Module",
+      "Virtual Local System Management",
+      "Vivid Length Subnet Model"
+    ],
+    "answer": "Variable Length Subnet Masking"
+  },
+  {
+    "question": "What is the main advantage of VLSM over basic subnetting?",
+    "options": [
+      "It allows for a fixed subnet mask size",
+      "It allows different masks on the subnets",
+      "It requires less IP address space",
+      "It is easier to configure"
+    ],
+    "answer": "It allows different masks on the subnets"
+  },
+  {
+    "question": "Which routing protocols do not support VLSM?",
+    "options": [
+      "RIP version 2 and OSPF",
+      "RIP version 1 and IGRP",
+      "EIGRP and OSPF",
+      "BGP and EIGRP"
+    ],
+    "answer": "RIP version 1 and IGRP"
+  },
+  {
+    "question": "What is the primary reason for using VLSM?",
+    "options": [
+      "To increase network security",
+      "To reduce the number of routers needed",
+      "To optimize IP address utilization",
+      "To simplify network topology"
+    ],
+    "answer": "To optimize IP address utilization"
+  },
+  {
+    "question": "How many bits are needed to cover 60 hosts?",
+    "options": [
+      "5 bits",
+      "6 bits",
+      "7 bits",
+      "8 bits"
+    ],
+    "answer": "6 bits"
+  },
+  {
+    "question": "What is the subnet mask for a network needing 60 hosts?",
+    "options": [
+      "255.255.255.192",
+      "255.255.255.224",
+      "255.255.255.240",
+      "255.255.255.248"
+    ],
+    "answer": "255.255.255.192"
+  },
+  {
+    "question": "What is the new subnet after subnetting 192.168.59.0/26?",
+    "options": [
+      "192.168.59.64/27",
+      "192.168.59.128/26",
+      "192.168.59.192/26",
+      "192.168.59.0/25"
+    ],
+    "answer": "192.168.59.64/27"
+  },
+  {
+    "question": "How many new subnets are created when subnetting with a /30 mask?",
+    "options": [
+      "4 subnets",
+      "8 subnets",
+      "16 subnets",
+      "32 subnets"
+    ],
+    "answer": "16 subnets"
+  },
+  {
+    "question": "What is the network ID for the subnet accommodating 254 hosts?",
+    "options": [
+      "192.168.59.0/24",
+      "192.168.59.0/25",
+      "192.168.59.0/26",
+      "192.168.59.0/27"
+    ],
+    "answer": "192.168.59.0/24"
+  },
+  {
+    "question": "What is the main disadvantage of basic subnetting?",
+    "options": [
+      "It allows for different subnet masks",
+      "It requires a 'one-size-fits-all' design",
+      "It supports classless routing protocols",
+      "It is more secure"
+    ],
+    "answer": "It requires a 'one-size-fits-all' design"
+  },
+  {
+    "question": "Which classless routing protocol supports VLSM?",
+    "options": [
+      "RIP version 1",
+      "IGRP",
+      "OSPF",
+      "BGP"
+    ],
+    "answer": "OSPF"
+  },
+  {
+    "question": "What is the result of subnetting the subnets?",
+    "options": [
+      "Decreased network performance",
+      "Increased number of available IP addresses",
+      "More efficient IP address space utilization",
+      "Simplified network management"
+    ],
+    "answer": "More efficient IP address space utilization"
+  },
+  {
+    "question": "What is the subnet mask for a point-to-point WAN link needing only 2 IPs?",
+    "options": [
+      "255.255.255.252",
+      "255.255.255.254",
+      "255.255.255.255",
+      "255.255.255.248"
+    ],
+    "answer": "255.255.255.252"
+  },
+  {
+    "question": "What is the starting network ID for the first subnet in VLSM?",
+    "options": [
+      "192.168.59.0/26",
+      "192.168.59.64/27",
+      "192.168.59.128/30",
+      "192.168.59.192/30"
+    ],
+    "answer": "192.168.59.0/26"
+  },
+  {
+    "question": "How many hosts can be accommodated in a subnet with a /27 mask?",
+    "options": [
+      "30 hosts",
+      "62 hosts",
+      "126 hosts",
+      "254 hosts"
+    ],
+    "answer": "30 hosts"
+  },
+  {
+    "question": "What is the main benefit of classless routing protocols?",
+    "options": [
+      "They support VLSM",
+      "They are easier to configure",
+      "They require less memory",
+      "They are faster"
+    ],
+    "answer": "They support VLSM"
+  },
+  {
+    "question": "What is the subnet mask notation for 255.255.248.0?",
+    "options": [
+      "/19",
+      "/20",
+      "/21",
+      "/22"
+    ],
+    "answer": "/21"
+  },
+  {
+    "question": "What is the maximum number of hosts in a subnet with a /26 mask?",
+    "options": [
+      "30 hosts",
+      "62 hosts",
+      "126 hosts",
+      "254 hosts"
+    ],
+    "answer": "62 hosts"
+  },
+  {
+    "question": "Which subnet would you assign to a network needing 28 hosts?",
+    "options": [
+      "192.168.59.64/27",
+      "192.168.59.96/27",
+      "192.168.59.128/30",
+      "192.168.59.192/30"
+    ],
+    "answer": "192.168.59.64/27"
+  },
+  {
+    "question": "What is the purpose of subnetting a network?",
+    "options": [
+      "To increase the number of available networks",
+      "To decrease the size of the broadcast domain",
+      "To improve network security",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  }
+]

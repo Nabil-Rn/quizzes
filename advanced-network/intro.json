@@ -1,0 +1,202 @@
+[
+  {
+    "question": "What does OSI stand for in the OSI Model?",
+    "options": [
+      "Open System Interconnection",
+      "Operating System Interface",
+      "Optimal Signal Interface",
+      "Organized System Integration"
+    ],
+    "answer": "Open System Interconnection"
+  },
+  {
+    "question": "How many layers are there in the OSI Model?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7"
+  },
+  {
+    "question": "What is the primary function of the Physical Layer?",
+    "options": [
+      "Routing",
+      "Data Formatting",
+      "Data Transmission",
+      "Session Management"
+    ],
+    "answer": "Data Transmission"
+  },
+  {
+    "question": "Which layer is responsible for logical addressing?",
+    "options": [
+      "Transport",
+      "Data Link",
+      "Network",
+      "Presentation"
+    ],
+    "answer": "Network"
+  },
+  {
+    "question": "What type of network spans multiple geographic areas?",
+    "options": [
+      "LAN",
+      "WAN",
+      "MAN",
+      "SAN"
+    ],
+    "answer": "WAN"
+  },
+  {
+    "question": "What does MAC address stand for?",
+    "options": [
+      "Media Access Control",
+      "Machine Address Code",
+      "Main Application Component",
+      "Memory Allocation Configuration"
+    ],
+    "answer": "Media Access Control"
+  },
+  {
+    "question": "Which layer handles data encryption?",
+    "options": [
+      "Application",
+      "Presentation",
+      "Session",
+      "Transport"
+    ],
+    "answer": "Presentation"
+  },
+  {
+    "question": "What is a peer-to-peer network also known as?",
+    "options": [
+      "Workgroups",
+      "Client/server",
+      "Virtual Network",
+      "Distributed Network"
+    ],
+    "answer": "Workgroups"
+  },
+  {
+    "question": "What does SAN stand for in networking?",
+    "options": [
+      "System Area Network",
+      "Server Area Network",
+      "Storage Area Network",
+      "Secure Area Network"
+    ],
+    "answer": "Storage Area Network"
+  },
+  {
+    "question": "Which layer is responsible for data segmentation?",
+    "options": [
+      "Physical",
+      "Data Link",
+      "Network",
+      "Transport"
+    ],
+    "answer": "Transport"
+  },
+  {
+    "question": "What is the function of a Network Interface Card (NIC)?",
+    "options": [
+      "Data Encryption",
+      "Network Connection",
+      "Protocol Analysis",
+      "Data Compression"
+    ],
+    "answer": "Network Connection"
+  },
+  {
+    "question": "What does NOS stand for?",
+    "options": [
+      "Network Operating System",
+      "New Object Syntax",
+      "Non-Operational Software",
+      "Network Optimization Service"
+    ],
+    "answer": "Network Operating System"
+  },
+  {
+    "question": "Which layer provides flow control?",
+    "options": [
+      "Session",
+      "Transport",
+      "Data Link",
+      "Application"
+    ],
+    "answer": "Transport"
+  },
+  {
+    "question": "What is the main purpose of a router?",
+    "options": [
+      "Data Encryption",
+      "Data Routing",
+      "Data Compression",
+      "Data Translation"
+    ],
+    "answer": "Data Routing"
+  },
+  {
+    "question": "Which layer establishes and maintains connections between computers?",
+    "options": [
+      "Session",
+      "Presentation",
+      "Application",
+      "Transport"
+    ],
+    "answer": "Session"
+  },
+  {
+    "question": "What does VPN stand for?",
+    "options": [
+      "Virtual Public Network",
+      "Virtual Private Network",
+      "Variable Path Network",
+      "Vital Packet Network"
+    ],
+    "answer": "Virtual Private Network"
+  },
+  {
+    "question": "Which layer interacts with the user?",
+    "options": [
+      "Physical",
+      "Network",
+      "Session",
+      "Application"
+    ],
+    "answer": "Application"
+  },
+  {
+    "question": "What is the process of adding a header and/or trailer to data called?",
+    "options": [
+      "Segmentation",
+      "Encapsulation",
+      "Translation",
+      "Compression"
+    ],
+    "answer": "Encapsulation"
+  },
+  {
+    "question": "Which layer is responsible for data translation and syntax restructuring?",
+    "options": [
+      "Data Link",
+      "Network",
+      "Presentation",
+      "Application"
+    ],
+    "answer": "Presentation"
+  },
+  {
+    "question": "What is the intermediate stage between a LAN and a WAN called?",
+    "options": [
+      "CAN",
+      "MAN",
+      "PAN",
+      "SAN"
+    ],
+    "answer": "MAN"
+  }
+]

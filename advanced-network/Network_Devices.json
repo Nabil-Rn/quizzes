@@ -1,0 +1,202 @@
+[
+  {
+    "question": "What device is used to combat signal attenuation?",
+    "options": [
+      "Repeater",
+      "Hub",
+      "Bridge",
+      "Router"
+    ],
+    "answer": "Repeater"
+  },
+  {
+    "question": "At which OSI model layer do repeaters operate?",
+    "options": [
+      "Physical",
+      "Data Link",
+      "Network",
+      "Transport"
+    ],
+    "answer": "Physical"
+  },
+  {
+    "question": "What is the main function of a hub in a network?",
+    "options": [
+      "Filter traffic",
+      "Connect different network architectures",
+      "Create a link between different stations",
+      "Choose the best path across an internetwork"
+    ],
+    "answer": "Create a link between different stations"
+  },
+  {
+    "question": "Which device operates at the Data Link layer and filters traffic by examining MAC addresses?",
+    "options": [
+      "Switch",
+      "Router",
+      "Repeater",
+      "Bridge"
+    ],
+    "answer": "Bridge"
+  },
+  {
+    "question": "What type of bridge builds a table of MAC addresses as it receives frames?",
+    "options": [
+      "Translation Bridge",
+      "Transparent Bridge",
+      "Source-Routing Bridge",
+      "Remote Bridge"
+    ],
+    "answer": "Transparent Bridge"
+  },
+  {
+    "question": "Which device can connect networks with different architectures like Ethernet and Token Ring?",
+    "options": [
+      "Hub",
+      "Repeater",
+      "Translation Bridge",
+      "Switch"
+    ],
+    "answer": "Translation Bridge"
+  },
+  {
+    "question": "What is the term for the physical area where a frame collision might occur?",
+    "options": [
+      "Collision domain",
+      "Broadcast domain",
+      "Virtual circuit",
+      "Segment"
+    ],
+    "answer": "Collision domain"
+  },
+  {
+    "question": "What method is used by Ethernet to prevent data packets from colliding on the network?",
+    "options": [
+      "Token Ring",
+      "CSMA/CD",
+      "CSMA/CA",
+      "ARP"
+    ],
+    "answer": "CSMA/CD"
+  },
+  {
+    "question": "What type of communications allows devices to send and receive signals simultaneously?",
+    "options": [
+      "Simplex",
+      "Half-duplex",
+      "Full-duplex",
+      "Multiplex"
+    ],
+    "answer": "Full-duplex"
+  },
+  {
+    "question": "What is the main advantage of using full-duplex communications?",
+    "options": [
+      "No collisions",
+      "Shared bandwidth",
+      "Single wire for send and receive",
+      "Less expensive"
+    ],
+    "answer": "No collisions"
+  },
+  {
+    "question": "Which device increases network performance by reducing the number of frames transmitted to the rest of the network?",
+    "options": [
+      "Hub",
+      "Repeater",
+      "Switch",
+      "Bridge"
+    ],
+    "answer": "Switch"
+  },
+  {
+    "question": "What is the main disadvantage of routers compared to other devices?",
+    "options": [
+      "They are less expensive",
+      "They are faster",
+      "They must analyze data transmission from the Physical through the Network layer",
+      "They do not create collision domains"
+    ],
+    "answer": "They must analyze data transmission from the Physical through the Network layer"
+  },
+  {
+    "question": "What is a brouter?",
+    "options": [
+      "A device that functions as both a bridge and a router",
+      "A type of gateway",
+      "A faster version of a router",
+      "A device that only operates at the Network layer"
+    ],
+    "answer": "A device that functions as both a bridge and a router"
+  },
+  {
+    "question": "What is the most negative effect of gateways on network performance?",
+    "options": [
+      "They are expensive",
+      "They create latency",
+      "They require additional bandwidth",
+      "They cannot connect different network architectures"
+    ],
+    "answer": "They create latency"
+  },
+  {
+    "question": "What is the most commonly implemented media access method in new LANs?",
+    "options": [
+      "Token Ring",
+      "Ethernet",
+      "FDDI",
+      "ATM"
+    ],
+    "answer": "Ethernet"
+  },
+  {
+    "question": "What is the process of breaking down a heavily populated network segment into smaller segments called?",
+    "options": [
+      "Routing",
+      "Segmentation",
+      "Partitioning",
+      "Subnetting"
+    ],
+    "answer": "Segmentation"
+  },
+  {
+    "question": "Which device operates at the Network layer of the OSI model?",
+    "options": [
+      "Hub",
+      "Switch",
+      "Router",
+      "Repeater"
+    ],
+    "answer": "Router"
+  },
+  {
+    "question": "What is the main advantage of network segmentation?",
+    "options": [
+      "It extends the network's total distance",
+      "It reduces the possibility of collisions",
+      "It increases the number of collision domains",
+      "It allows for different network architectures to connect"
+    ],
+    "answer": "It reduces the possibility of collisions"
+  },
+  {
+    "question": "What is the term for the method originated by the University of Hawaii and later standardized as IEEE 802.3?",
+    "options": [
+      "Wi-Fi",
+      "Bluetooth",
+      "Ethernet",
+      "NFC"
+    ],
+    "answer": "Ethernet"
+  },
+  {
+    "question": "What is the main function of a router in a network?",
+    "options": [
+      "To amplify signals",
+      "To filter and control network traffic",
+      "To connect cables",
+      "To regenerate signals"
+    ],
+    "answer": "To filter and control network traffic"
+  }
+]

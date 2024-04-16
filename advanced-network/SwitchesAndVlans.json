@@ -1,0 +1,202 @@
+[
+  {
+    "question": "What is the primary function of switches in a network?",
+    "options": [
+      "To connect multiple stations individually",
+      "To provide wireless connectivity",
+      "To filter web content",
+      "To assign IP addresses"
+    ],
+    "answer": "To connect multiple stations individually"
+  },
+  {
+    "question": "What is the result of segmenting a LAN with switches?",
+    "options": [
+      "Creation of multiple collision domains",
+      "Decrease in network security",
+      "Increase in the number of routers needed",
+      "Reduction in bandwidth"
+    ],
+    "answer": "Creation of multiple collision domains"
+  },
+  {
+    "question": "What is the typical latency comparison between a switch and a repeater?",
+    "options": [
+      "Switch latency is typically higher",
+      "Repeater latency is typically higher",
+      "Both have the same latency",
+      "Latency is not applicable to switches and repeaters"
+    ],
+    "answer": "Switch latency is typically higher"
+  },
+  {
+    "question": "Which of the following is a benefit provided by switches?",
+    "options": [
+      "Increase in available bandwidth per station",
+      "Decrease in network speed",
+      "Increase in collision domains",
+      "Decrease in network security"
+    ],
+    "answer": "Increase in available bandwidth per station"
+  },
+  {
+    "question": "How does a switch learn the hardware address of devices attached to it?",
+    "options": [
+      "By reading the source address of frames transmitted across the switch",
+      "By requesting the MAC address from each device",
+      "Through manual configuration by a network administrator",
+      "By using a DHCP server"
+    ],
+    "answer": "By reading the source address of frames transmitted across the switch"
+  },
+  {
+    "question": "What is stored in a switch's content-addressable memory (CAM)?",
+    "options": [
+      "MAC-to-switch-port mapping",
+      "IP address configuration",
+      "User login credentials",
+      "Network security protocols"
+    ],
+    "answer": "MAC-to-switch-port mapping"
+  },
+  {
+    "question": "What is asymmetric switching?",
+    "options": [
+      "Interconnecting network interfaces of different speeds",
+      "Using the same transmit/receive speed for all devices",
+      "Switching data asymmetrically to reduce traffic",
+      "A type of encryption used in switches"
+    ],
+    "answer": "Interconnecting network interfaces of different speeds"
+  },
+  {
+    "question": "Which switching method reads the entire frame into its buffer before forwarding?",
+    "options": [
+      "Store-and-forward",
+      "Cut-through",
+      "Fragment-free",
+      "Adaptive cut-through"
+    ],
+    "answer": "Store-and-forward"
+  },
+  {
+    "question": "What is the main benefit of cut-through forwarding?",
+    "options": [
+      "Reduction in latency",
+      "Error detection",
+      "Traffic prioritization",
+      "Bandwidth optimization"
+    ],
+    "answer": "Reduction in latency"
+  },
+  {
+    "question": "What does a fragment-free switch do?",
+    "options": [
+      "Reads the first 64 bytes of an Ethernet frame before forwarding",
+      "Fragments the frame into smaller pieces for transmission",
+      "Only forwards frames that are free of fragments",
+      "Requires fragmentation of all frames"
+    ],
+    "answer": "Reads the first 64 bytes of an Ethernet frame before forwarding"
+  },
+  {
+    "question": "What is the default VLAN on a switch?",
+    "options": [
+      "VLAN 1",
+      "VLAN 0",
+      "VLAN 100",
+      "VLAN 255"
+    ],
+    "answer": "VLAN 1"
+  },
+  {
+    "question": "What is the purpose of VLANs?",
+    "options": [
+      "To restructure broadcast domains",
+      "To assign static IP addresses",
+      "To increase the number of physical segments",
+      "To reduce network speed"
+    ],
+    "answer": "To restructure broadcast domains"
+  },
+  {
+    "question": "What is a broadcast domain?",
+    "options": [
+      "Group of network devices that will receive LAN broadcast traffic from each other",
+      "A single device that broadcasts to the entire network",
+      "A domain used exclusively for broadcasting video content",
+      "The range of IP addresses used for network broadcasts"
+    ],
+    "answer": "Group of network devices that will receive LAN broadcast traffic from each other"
+  },
+  {
+    "question": "What is the difference between static and dynamic VLANs?",
+    "options": [
+      "Static VLANs are configured port-by-port, dynamic VLANs determine configuration automatically",
+      "Static VLANs require manual configuration, dynamic VLANs are configured by AI",
+      "Static VLANs are for permanent connections, dynamic VLANs are temporary",
+      "Static VLANs use IP addresses, dynamic VLANs use MAC addresses"
+    ],
+    "answer": "Static VLANs are configured port-by-port, dynamic VLANs determine configuration automatically"
+  },
+  {
+    "question": "What does the IEEE 802.1q specification recommend for VLANs?",
+    "options": [
+      "Frame tagging",
+      "Frame filtering",
+      "Use of a master table",
+      "Encryption of frames"
+    ],
+    "answer": "Frame tagging"
+  },
+  {
+    "question": "What is frame tagging in VLANs?",
+    "options": [
+      "Adding a four-byte field to the Ethernet frame to identify the VLAN",
+      "Tagging frames with priority labels",
+      "Marking frames for deletion",
+      "Attaching user information to frames"
+    ],
+    "answer": "Adding a four-byte field to the Ethernet frame to identify the VLAN"
+  },
+  {
+    "question": "How can you create VLANs on a Cisco switch?",
+    "options": [
+      "By entering the config-vlan mode and using the VLAN command",
+      "By using the switch's web interface",
+      "Through automatic detection of connected devices",
+      "By contacting Cisco support"
+    ],
+    "answer": "By entering the config-vlan mode and using the VLAN command"
+  },
+  {
+    "question": "What are trunk links on Cisco switches?",
+    "options": [
+      "Links that can carry traffic from multiple VLANs",
+      "Links dedicated to a single VLAN",
+      "Physical cables that connect switches to power sources",
+      "Security features that prevent unauthorized access"
+    ],
+    "answer": "Links that can carry traffic from multiple VLANs"
+  },
+  {
+    "question": "What is the VLAN trunking protocol (VTP)?",
+    "options": [
+      "A protocol that manages changes to VLANs across networks",
+      "A security protocol for VLANs",
+      "A routing protocol used by VLANs",
+      "A protocol for configuring VLANs on routers"
+    ],
+    "answer": "A protocol that manages changes to VLANs across networks"
+  },
+  {
+    "question": "What is required for inter-VLAN routing?",
+    "options": [
+      "Trunking",
+      "A dedicated router for each VLAN",
+      "Static IP address assignment",
+      "Use of a single switch"
+    ],
+    "answer": "Trunking"
+  }
+]

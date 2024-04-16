@@ -8,17 +8,30 @@ document.getElementById('webBtn').addEventListener('click', function() {
     showSelect('web');
 });
 
+document.getElementById('netBtn').addEventListener('click', function() {
+    showSelect('network');
+});
+
+
 // better to have one function that does one thing, maybe i will add more!
 function showSelect(type) {
     const gameSelect = document.getElementById('gameSelect');
     const webSelect = document.getElementById('webSelect');
+    const networkSelect = document.getElementById('networkSelect');
 
     if (type === 'game') {
         gameSelect.style.display = 'block';
         webSelect.style.display = 'none';
+        networkSelect.style.display = 'none';
     } else if (type === 'web') {
-        gameSelect.style.display = 'none';
         webSelect.style.display = 'block';
+        gameSelect.style.display = 'none';
+        networkSelect.style.display = 'none';
+    }
+    else if (type === 'network') {
+        networkSelect.style.display = 'block';
+        webSelect.style.display = 'none';
+        gameSelect.style.display = 'none';
     }
 }
 
@@ -28,12 +41,15 @@ document.getElementById('startQuiz').addEventListener('click', function() {
     //fetch the selected quiz!
     const gameSelect = document.getElementById('gameSelect');
     const webSelect = document.getElementById('webSelect');
+    const networkSelect = document.getElementById('networkSelect');
 
     let selectedFile;
     if (gameSelect.style.display !== 'none') {
         selectedFile = document.getElementById('gameJsonSelect').value;
-    } else {
+    } else if (webSelect.style.display !== 'none') {
         selectedFile = document.getElementById('webJsonSelect').value;
+    }else if (networkSelect.style.display !== 'none') {
+        selectedFile = document.getElementById('networkJsonSelect').value;
     }
 
     const quizContainer = document.getElementById('quiz');

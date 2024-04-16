@@ -1,0 +1,202 @@
+[
+  {
+    "question": "What does IOS stand for in Cisco routers?",
+    "options": [
+      "Internet Operating System",
+      "Internetwork Operating System",
+      "Internal Operating Software",
+      "Integrated Operations System"
+    ],
+    "answer": "Internetwork Operating System"
+  },
+  {
+    "question": "Which command-line interface allows network operators to manage and configure a Cisco router?",
+    "options": [
+      "CLI",
+      "GUI",
+      "API",
+      "AUX"
+    ],
+    "answer": "CLI"
+  },
+  {
+    "question": "What is the default prompt for user EXEC mode on a Cisco router?",
+    "options": [
+      "router#",
+      "router>",
+      "router$",
+      "router%"
+    ],
+    "answer": "router>"
+  },
+  {
+    "question": "Which memory type stores the startup configuration file for a Cisco router?",
+    "options": [
+      "ROM",
+      "Flash memory",
+      "NVRAM",
+      "RAM/DRAM"
+    ],
+    "answer": "NVRAM"
+  },
+  {
+    "question": "What command is used to enter global configuration mode?",
+    "options": [
+      "configure terminal",
+      "config t",
+      "enable config",
+      "start config"
+    ],
+    "answer": "configure terminal"
+  },
+  {
+    "question": "Which interface is commonly found on Cisco routers?",
+    "options": [
+      "Ethernet0",
+      "Token Ring",
+      "ATM",
+      "FDDI"
+    ],
+    "answer": "Ethernet0"
+  },
+  {
+    "question": "What symbol indicates privileged EXEC mode?",
+    "options": [
+      "!",
+      ">",
+      "#",
+      "$"
+    ],
+    "answer": "#"
+  },
+  {
+    "question": "Which command retrieves previously typed commands?",
+    "options": [
+      "show history",
+      "retrieve commands",
+      "history log",
+      "get commands"
+    ],
+    "answer": "show history"
+  },
+  {
+    "question": "What is the default host name for a Cisco router?",
+    "options": [
+      "default",
+      "base",
+      "router",
+      "cisco"
+    ],
+    "answer": "router"
+  },
+  {
+    "question": "Which command sets the router host name?",
+    "options": [
+      "set hostname",
+      "hostname",
+      "router name",
+      "name router"
+    ],
+    "answer": "hostname"
+  },
+  {
+    "question": "What type of memory is Flash memory?",
+    "options": [
+      "RAM",
+      "EPROM",
+      "NVRAM",
+      "ROM"
+    ],
+    "answer": "EPROM"
+  },
+  {
+    "question": "Which command is used to configure the time on a Cisco router?",
+    "options": [
+      "set clock",
+      "clock set",
+      "time set",
+      "set time"
+    ],
+    "answer": "clock set"
+  },
+  {
+    "question": "What does the 'copy run start' command do?",
+    "options": [
+      "Copies the running configuration to the startup configuration",
+      "Starts copying the system files",
+      "Runs the startup configuration",
+      "Starts the router"
+    ],
+    "answer": "Copies the running configuration to the startup configuration"
+  },
+  {
+    "question": "Which command activates context-sensitive Help on a Cisco router?",
+    "options": [
+      "help",
+      "context help",
+      "assist",
+      "?"
+    ],
+    "answer": "?"
+  },
+  {
+    "question": "What is the purpose of setting line passwords on a Cisco router?",
+    "options": [
+      "To secure the router's interfaces",
+      "To prevent unauthorized access",
+      "To encrypt data packets",
+      "To enable remote access"
+    ],
+    "answer": "To prevent unauthorized access"
+  },
+  {
+    "question": "Which command is used to enter interface configuration mode?",
+    "options": [
+      "interface config",
+      "config interface",
+      "configure terminal",
+      "interface terminal"
+    ],
+    "answer": "configure terminal"
+  },
+  {
+    "question": "What does the 'terminal history size n' command do?",
+    "options": [
+      "Sets the size of the terminal window",
+      "Determines the number of commands stored in history",
+      "Changes the font size of the terminal",
+      "Configures the terminal's buffer size"
+    ],
+    "answer": "Determines the number of commands stored in history"
+  },
+  {
+    "question": "Which command is used to erase the router's configuration?",
+    "options": [
+      "erase config",
+      "delete config",
+      "remove config",
+      "erase startup-config"
+    ],
+    "answer": "erase startup-config"
+  },
+  {
+    "question": "What is the first line of defense against unauthorized intrusion into the router?",
+    "options": [
+      "Firewall",
+      "Line passwords",
+      "Encryption",
+      "Access control lists"
+    ],
+    "answer": "Line passwords"
+  },
+  {
+    "question": "Which command is used to display the router's running configuration?",
+    "options": [
+      "show running-config",
+      "display config",
+      "view running-config",
+      "running-config show"
+    ],
+    "answer": "show running-config"
+  }
+]

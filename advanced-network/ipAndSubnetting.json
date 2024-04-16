@@ -1,0 +1,202 @@
+[
+  {
+    "question": "What is the subnet mask for a Class A IP address?",
+    "options": [
+      "255.0.0.0",
+      "255.255.0.0",
+      "255.255.255.0",
+      "255.255.255.224"
+    ],
+    "answer": "255.0.0.0"
+  },
+  {
+    "question": "How many hosts does a Class B address support?",
+    "options": [
+      "254",
+      "65,534",
+      "16,777,214",
+      "30"
+    ],
+    "answer": "65,534"
+  },
+  {
+    "question": "What are Class D IP addresses also known as?",
+    "options": [
+      "Private addresses",
+      "Multicast addresses",
+      "Research addresses",
+      "Subnet addresses"
+    ],
+    "answer": "Multicast addresses"
+  },
+  {
+    "question": "What is the purpose of subnetting?",
+    "options": [
+      "To increase the number of available hosts",
+      "To reduce network traffic",
+      "To assign IP addresses based on octet boundaries",
+      "To reserve IP addresses for research"
+    ],
+    "answer": "To reduce network traffic"
+  },
+  {
+    "question": "Which class of IP addresses is reserved for multicasting?",
+    "options": [
+      "Class A",
+      "Class B",
+      "Class C",
+      "Class D"
+    ],
+    "answer": "Class D"
+  },
+  {
+    "question": "What is the broadcast address if the host portion of an IP address is all binary ones?",
+    "options": [
+      "The subnet address",
+      "The network address",
+      "The default gateway",
+      "The directed broadcast address"
+    ],
+    "answer": "The directed broadcast address"
+  },
+  {
+    "question": "What is the CIDR notation for a subnet mask of 255.255.255.224?",
+    "options": [
+      "/25",
+      "/26",
+      "/27",
+      "/30"
+    ],
+    "answer": "/27"
+  },
+  {
+    "question": "What does CIDR stand for?",
+    "options": [
+      "Classful Inter-Domain Routing",
+      "Classless Inter-Domain Routing",
+      "Classful Intra-Domain Routing",
+      "Classless Intra-Domain Routing"
+    ],
+    "answer": "Classless Inter-Domain Routing"
+  },
+  {
+    "question": "Which of the following is a valid Class C subnet mask?",
+    "options": [
+      "255.0.0.0",
+      "255.255.0.0",
+      "255.255.255.0",
+      "255.255.255.255"
+    ],
+    "answer": "255.255.255.0"
+  },
+  {
+    "question": "What is the main benefit of route summarization?",
+    "options": [
+      "It increases the number of available IP addresses",
+      "It reduces the size of the routing table",
+      "It eliminates the need for subnetting",
+      "It allows for easier IP address assignment"
+    ],
+    "answer": "It reduces the size of the routing table"
+  },
+  {
+    "question": "What is the maximum number of hosts per subnet with a subnet mask of 255.255.255.224?",
+    "options": [
+      "30",
+      "254",
+      "65,534",
+      "16,777,214"
+    ],
+    "answer": "30"
+  },
+  {
+    "question": "Which IP class is reserved for research, testing, and experimentation?",
+    "options": [
+      "Class A",
+      "Class B",
+      "Class C",
+      "Class E"
+    ],
+    "answer": "Class E"
+  },
+  {
+    "question": "What is the standard subnet mask for a Class B network?",
+    "options": [
+      "255.0.0.0",
+      "255.255.0.0",
+      "255.255.255.0",
+      "255.255.255.224"
+    ],
+    "answer": "255.255.0.0"
+  },
+  {
+    "question": "Which IP class supports 254 hosts?",
+    "options": [
+      "Class A",
+      "Class B",
+      "Class C",
+      "Class D"
+    ],
+    "answer": "Class C"
+  },
+  {
+    "question": "What is the CIDR notation for a subnet mask of 255.255.0.0?",
+    "options": [
+      "/16",
+      "/18",
+      "/22",
+      "/24"
+    ],
+    "answer": "/16"
+  },
+  {
+    "question": "What is the purpose of a subnet mask?",
+    "options": [
+      "To identify the network portion of an IP address",
+      "To reserve IP addresses for multicasting",
+      "To provide security to the network",
+      "To assign IP addresses to hosts"
+    ],
+    "answer": "To identify the network portion of an IP address"
+  },
+  {
+    "question": "Which IP class is reserved for governments and large corporations?",
+    "options": [
+      "Class A",
+      "Class B",
+      "Class C",
+      "Class D"
+    ],
+    "answer": "Class A"
+  },
+  {
+    "question": "What is the binary AND operation used for in IP addressing?",
+    "options": [
+      "To determine if other addresses are local or remote",
+      "To calculate the number of subnets",
+      "To assign IP addresses",
+      "To perform route summarization"
+    ],
+    "answer": "To determine if other addresses are local or remote"
+  },
+  {
+    "question": "What is the directed broadcast address for the network 129.30.0.0?",
+    "options": [
+      "129.30.255.255",
+      "129.30.0.255",
+      "129.30.0.0",
+      "129.30.255.0"
+    ],
+    "answer": "129.30.255.255"
+  },
+  {
+    "question": "What is the result of subnetting a Class C address?",
+    "options": [
+      "More network numbers and fewer hosts per subnet",
+      "Fewer network numbers and more hosts per subnet",
+      "The same number of network numbers and hosts per subnet",
+      "Fewer network numbers and hosts per subnet"
+    ],
+    "answer": "More network numbers and fewer hosts per subnet"
+  }
+]

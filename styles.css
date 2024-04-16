@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     body {
         font-size: 14px; 
     }
@@ -11,6 +11,16 @@ body {
         padding-top: 10vh;
         padding-left: 5vh;
         width: 0%;
+    }
+    #submitBtnMobile
+    #resultMobile
+    #showAnswersMobile{
+        display: block;
+    }
+    #submitBtn
+    #result
+    #showAnswers{
+        display: none;
     }
 }
 
@@ -54,7 +64,8 @@ body {
 }
 
 #gameJsonSelect,
-#webJsonSelect {
+#webJsonSelect
+#networkSelect {
     padding: 20px;
     margin-bottom: 20px;
     font-size: 18px;
@@ -67,7 +78,8 @@ body {
 
 /* Style the arrow */
 #gameJsonSelect::after,
-#webJsonSelect::after {
+#webJsonSelect::after
+#networkSelect::after {
     content: '\25BC'; /* Unicode for down arrow */
     position: absolute;
     top: 50%;
@@ -78,7 +90,8 @@ body {
 
 /* Style when select is opened */
 #gameJsonSelect:focus,
-#webJsonSelect:focus {
+#webJsonSelect:focus
+#networkSelect:focus {
     outline: none; /* Remove outline */
     border-color: blue; /* Change border color on focus */
 }

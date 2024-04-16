@@ -4,7 +4,7 @@ body {
 
 @media (max-width: 600px) {
     body {
-        font-size: 14px; 
+        font-size: 14px;
     }
     .section-2{
         position: fixed;
@@ -64,8 +64,8 @@ body {
 }
 
 #gameJsonSelect,
-#webJsonSelect
-#networkSelect {
+#webJsonSelect,
+#networkJsonSelect {
     padding: 20px;
     margin-bottom: 20px;
     font-size: 18px;
@@ -78,8 +78,8 @@ body {
 
 /* Style the arrow */
 #gameJsonSelect::after,
-#webJsonSelect::after
-#networkSelect::after {
+#webJsonSelect::after,
+#networkJsonSelect::after {
     content: '\25BC'; /* Unicode for down arrow */
     position: absolute;
     top: 50%;
@@ -90,8 +90,8 @@ body {
 
 /* Style when select is opened */
 #gameJsonSelect:focus,
-#webJsonSelect:focus
-#networkSelect:focus {
+#webJsonSelect:focus,
+#networkJsonSelect:focus {
     outline: none; /* Remove outline */
     border-color: blue; /* Change border color on focus */
 }

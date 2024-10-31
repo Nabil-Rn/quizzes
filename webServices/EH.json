@@ -1,0 +1,252 @@
+[
+    {
+      "question": "What is the primary purpose of service enumeration in cybersecurity?",
+      "options": [
+        "Identifying users on the system",
+        "Identifying open ports and services",
+        "Scanning for malware",
+        "Creating user accounts"
+      ],
+      "answer": "Identifying open ports and services"
+    },
+    {
+      "question": "Which tool can be used for banner grabbing to identify service information?",
+      "options": [
+        "Telnet",
+        "Ping",
+        "Traceroute",
+        "SSH"
+      ],
+      "answer": "Telnet"
+    },
+    {
+      "question": "What port does SMB use when running over TCP?",
+      "options": [
+        "80",
+        "445",
+        "22",
+        "21"
+      ],
+      "answer": "445"
+    },
+    {
+      "question": "Which command in Nmap is used for a TCP connect scan?",
+      "options": [
+        "-sT",
+        "-sU",
+        "-sF",
+        "-sn"
+      ],
+      "answer": "-sT"
+    },
+    {
+      "question": "What protocol does SNMP primarily use for network management?",
+      "options": [
+        "UDP",
+        "TCP",
+        "HTTP",
+        "FTP"
+      ],
+      "answer": "UDP"
+    },
+    {
+      "question": "What is the purpose of the Metasploit Framework?",
+      "options": [
+        "Creating new user accounts",
+        "Exploiting vulnerabilities in systems",
+        "Running operating system updates",
+        "Creating a firewall rule set"
+      ],
+      "answer": "Exploiting vulnerabilities in systems"
+    },
+    {
+      "question": "Which tool is commonly used to enumerate SMB information on a Windows system?",
+      "options": [
+        "Enum4linux",
+        "Ping",
+        "Nikto",
+        "Traceroute"
+      ],
+      "answer": "Enum4linux"
+    },
+    {
+      "question": "What is the function of a payload in system exploitation?",
+      "options": [
+        "It initiates a scan",
+        "It provides the exploit’s executable code",
+        "It creates firewall exceptions",
+        "It generates user logs"
+      ],
+      "answer": "It provides the exploit’s executable code"
+    },
+    {
+      "question": "Which Linux command lists scheduled cron jobs?",
+      "options": [
+        "crontab -l",
+        "ls -a",
+        "ps aux",
+        "netstat -tuln"
+      ],
+      "answer": "crontab -l"
+    },
+    {
+      "question": "Which of the following is a technique used to elevate privileges by exploiting the PATH environment variable?",
+      "options": [
+        "Modifying user permissions",
+        "Adding malicious commands to the PATH",
+        "Using the sudo command",
+        "Scanning for open ports"
+      ],
+      "answer": "Adding malicious commands to the PATH"
+    },
+    {
+      "question": "Which of these tools is used for web application enumeration?",
+      "options": [
+        "Nikto",
+        "Telnet",
+        "Ping",
+        "Traceroute"
+      ],
+      "answer": "Nikto"
+    },
+    {
+      "question": "What is the main function of SNMP in a network?",
+      "options": [
+        "Data encryption",
+        "Sending management information",
+        "User authentication",
+        "Running web applications"
+      ],
+      "answer": "Sending management information"
+    },
+    {
+      "question": "Which privilege escalation technique is used to exploit writable SUID files on Linux?",
+      "options": [
+        "Adding a new user with sudo privileges",
+        "Running a cron job",
+        "Replacing the content of SUID files with malicious code",
+        "Running the su command"
+      ],
+      "answer": "Replacing the content of SUID files with malicious code"
+    },
+    {
+      "question": "What type of malware disguises itself as legitimate software?",
+      "options": [
+        "Trojan",
+        "Virus",
+        "Worm",
+        "RAT"
+      ],
+      "answer": "Trojan"
+    },
+    {
+      "question": "What tool is commonly used to capture password hashes on Windows?",
+      "options": [
+        "Mimikatz",
+        "Nmap",
+        "Ping",
+        "Nikto"
+      ],
+      "answer": "Mimikatz"
+    },
+    {
+      "question": "What Nmap option sets the scan speed to 'Aggressive'?",
+      "options": [
+        "-T4",
+        "-T1",
+        "-T5",
+        "-T0"
+      ],
+      "answer": "-T4"
+    },
+    {
+      "question": "Which tool is commonly used for directory fuzzing in web enumeration?",
+      "options": [
+        "Gobuster",
+        "Telnet",
+        "Ping",
+        "Traceroute"
+      ],
+      "answer": "Gobuster"
+    },
+    {
+      "question": "Which of these is an example of a phishing attack targeting high-profile individuals?",
+      "options": [
+        "Spear phishing",
+        "USB key drop",
+        "Whaling",
+        "Vishing"
+      ],
+      "answer": "Whaling"
+    },
+    {
+      "question": "What is a Remote Access Trojan (RAT)?",
+      "options": [
+        "A virus that hides in email attachments",
+        "A Trojan that provides remote control over the infected machine",
+        "A worm that spreads through network shares",
+        "A keylogger that records keystrokes"
+      ],
+      "answer": "A Trojan that provides remote control over the infected machine"
+    },
+    {
+      "question": "Which protocol is used to send emails between systems?",
+      "options": [
+        "SMTP",
+        "HTTP",
+        "FTP",
+        "SNMP"
+      ],
+      "answer": "SMTP"
+    },
+    {
+      "question": "What is the main purpose of the Social Engineering Toolkit (SET)?",
+      "options": [
+        "To scan for vulnerabilities",
+        "To create social engineering attacks",
+        "To exploit remote services",
+        "To enumerate network shares"
+      ],
+      "answer": "To create social engineering attacks"
+    },
+    {
+      "question": "Which of these is a tool used for privilege escalation on Linux systems?",
+      "options": [
+        "LinEnum",
+        "Enum4linux",
+        "Telnet",
+        "BeEF"
+      ],
+      "answer": "LinEnum"
+    },
+    {
+      "question": "Which of the following describes a polymorphic malware?",
+      "options": [
+        "Malware that changes its appearance to evade detection",
+        "Malware that activates on a specific date",
+        "Malware that spreads via email attachments",
+        "Malware that can only run on Linux systems"
+      ],
+      "answer": "Malware that changes its appearance to evade detection"
+    },
+    {
+      "question": "What is the primary purpose of a 'logic bomb'?",
+      "options": [
+        "To activate under specific conditions",
+        "To spread across networks",
+        "To steal user credentials",
+        "To encrypt files for ransom"
+      ],
+      "answer": "To activate under specific conditions"
+    },
+    {
+      "question": "What port is commonly used by HTTP?",
+      "options": [
+        "80",
+        "21",
+        "443",
+        "110"
+      ],
+      "answer": "80"
+    }
+]

@@ -1,0 +1,208 @@
+[
+    {
+        "question": "What does HRM stand for?",
+        "options": [
+            "Human Resource Management",
+            "Human Resource Module",
+            "Human Relations Management",
+            "Human Resource Methodology"
+        ],
+        "answer": "Human Resource Management"
+    },
+    {
+        "question": "Which of the following is NOT a responsibility of HR professionals?",
+        "options": [
+            "Aligning HR strategies with business strategies",
+            "Conducting performance reviews",
+            "Managing financial investments",
+            "Delivering HR services"
+        ],
+        "answer": "Managing financial investments"
+    },
+    {
+        "question": "What is the main purpose of job analysis?",
+        "options": [
+            "To create a job description",
+            "To assess employee performance",
+            "To study job duties and qualifications",
+            "To conduct employee orientation"
+        ],
+        "answer": "To study job duties and qualifications"
+    },
+    {
+        "question": "What is the first step in the recruitment process?",
+        "options": [
+            "Screening candidates",
+            "Job posting",
+            "Job analysis",
+            "Conducting interviews"
+        ],
+        "answer": "Job analysis"
+    },
+    {
+        "question": "Which of the following best describes human capital?",
+        "options": [
+            "The physical assets of a company",
+            "The knowledge and skills of employees",
+            "The financial resources available to a business",
+            "The technology used in production"
+        ],
+        "answer": "The knowledge and skills of employees"
+    },
+    {
+        "question": "What is the main goal of orientation for new employees?",
+        "options": [
+            "To train them for their job",
+            "To familiarize them with the organization",
+            "To assess their performance",
+            "To promote company culture"
+        ],
+        "answer": "To familiarize them with the organization"
+    },
+    {
+        "question": "Which type of recruitment involves filling positions from within the organization?",
+        "options": [
+            "External recruitment",
+            "Internal recruitment",
+            "Job posting",
+            "Candidate sourcing"
+        ],
+        "answer": "Internal recruitment"
+    },
+    {
+        "question": "What is a job specification?",
+        "options": [
+            "A summary of job duties",
+            "A detailed analysis of job requirements",
+            "An outline of employee benefits",
+            "A list of company policies"
+        ],
+        "answer": "A detailed analysis of job requirements"
+    },
+    {
+        "question": "What is the purpose of employment assessments?",
+        "options": [
+            "To determine salary levels",
+            "To gauge candidate fit and competencies",
+            "To evaluate employee satisfaction",
+            "To measure productivity"
+        ],
+        "answer": "To gauge candidate fit and competencies"
+    },
+    {
+        "question": "What does the term 'competitive advantage' refer to in HRM?",
+        "options": [
+            "Cost leadership",
+            "Unique skills and abilities of employees",
+            "Market share",
+            "Operational efficiency"
+        ],
+        "answer": "Unique skills and abilities of employees"
+    },
+    {
+        "question": "What is a common method used in the selection process?",
+        "options": [
+            "Job rotation",
+            "Psychometric testing",
+            "Team building",
+            "Performance appraisal"
+        ],
+        "answer": "Psychometric testing"
+    },
+    {
+        "question": "Which of the following is a key factor in the selection decision?",
+        "options": [
+            "Employee tenure",
+            "Organizational culture",
+            "Personal friendships",
+            "Company profits"
+        ],
+        "answer": "Organizational culture"
+    },
+    {
+        "question": "Which of the following best defines 'Human Resource Planning'?",
+        "options": [
+            "The process of forecasting HR needs",
+            "The evaluation of employee performance",
+            "The development of training programs",
+            "The design of job descriptions"
+        ],
+        "answer": "The process of forecasting HR needs"
+    },
+    {
+        "question": "What is the purpose of reference checks during the selection process?",
+        "options": [
+            "To verify employment history",
+            "To check educational qualifications",
+            "To predict future performance",
+            "To ensure candidate diversity"
+        ],
+        "answer": "To predict future performance"
+    },
+    {
+        "question": "What is one benefit of effective orientation programs?",
+        "options": [
+            "Higher salaries for new employees",
+            "Increased turnover rates",
+            "Lower recruitment costs",
+            "Reduced employee anxiety"
+        ],
+        "answer": "Reduced employee anxiety"
+    },
+    {
+        "question": "True or False: HRM focuses solely on recruitment and hiring.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "True or False: Internal recruitment can enhance employee motivation.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "question": "True or False: Job analysis is an ongoing process.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "question": "True or False: Performance appraisals are only conducted annually.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "True or False: Employee engagement has no impact on productivity.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "True or False: A job description should remain unchanged once created.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "True or False: The primary goal of HRM is to maximize employee satisfaction.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    }
+]

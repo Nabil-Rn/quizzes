@@ -1,252 +1,102 @@
 [
     {
-      "question": "What is the primary purpose of service enumeration in cybersecurity?",
+      "question": "What is the purpose of banner grabbing?",
       "options": [
-        "Identifying users on the system",
-        "Identifying open ports and services",
-        "Scanning for malware",
-        "Creating user accounts"
+        "To gather information about software versions",
+        "To initiate a denial of service attack",
+        "To encrypt data transmissions",
+        "To create network protocols"
       ],
-      "answer": "Identifying open ports and services"
+      "answer": "To gather information about software versions"
     },
     {
-      "question": "Which tool can be used for banner grabbing to identify service information?",
+      "question": "Which tool is commonly used for web enumeration?",
       "options": [
-        "Telnet",
-        "Ping",
-        "Traceroute",
-        "SSH"
-      ],
-      "answer": "Telnet"
-    },
-    {
-      "question": "What port does SMB use when running over TCP?",
-      "options": [
-        "80",
-        "445",
-        "22",
-        "21"
-      ],
-      "answer": "445"
-    },
-    {
-      "question": "Which command in Nmap is used for a TCP connect scan?",
-      "options": [
-        "-sT",
-        "-sU",
-        "-sF",
-        "-sn"
-      ],
-      "answer": "-sT"
-    },
-    {
-      "question": "What protocol does SNMP primarily use for network management?",
-      "options": [
-        "UDP",
-        "TCP",
-        "HTTP",
-        "FTP"
-      ],
-      "answer": "UDP"
-    },
-    {
-      "question": "What is the purpose of the Metasploit Framework?",
-      "options": [
-        "Creating new user accounts",
-        "Exploiting vulnerabilities in systems",
-        "Running operating system updates",
-        "Creating a firewall rule set"
-      ],
-      "answer": "Exploiting vulnerabilities in systems"
-    },
-    {
-      "question": "Which tool is commonly used to enumerate SMB information on a Windows system?",
-      "options": [
-        "Enum4linux",
-        "Ping",
-        "Nikto",
-        "Traceroute"
-      ],
-      "answer": "Enum4linux"
-    },
-    {
-      "question": "What is the function of a payload in system exploitation?",
-      "options": [
-        "It initiates a scan",
-        "It provides the exploit’s executable code",
-        "It creates firewall exceptions",
-        "It generates user logs"
-      ],
-      "answer": "It provides the exploit’s executable code"
-    },
-    {
-      "question": "Which Linux command lists scheduled cron jobs?",
-      "options": [
-        "crontab -l",
-        "ls -a",
-        "ps aux",
-        "netstat -tuln"
-      ],
-      "answer": "crontab -l"
-    },
-    {
-      "question": "Which of the following is a technique used to elevate privileges by exploiting the PATH environment variable?",
-      "options": [
-        "Modifying user permissions",
-        "Adding malicious commands to the PATH",
-        "Using the sudo command",
-        "Scanning for open ports"
-      ],
-      "answer": "Adding malicious commands to the PATH"
-    },
-    {
-      "question": "Which of these tools is used for web application enumeration?",
-      "options": [
-        "Nikto",
-        "Telnet",
-        "Ping",
-        "Traceroute"
-      ],
-      "answer": "Nikto"
-    },
-    {
-      "question": "What is the main function of SNMP in a network?",
-      "options": [
-        "Data encryption",
-        "Sending management information",
-        "User authentication",
-        "Running web applications"
-      ],
-      "answer": "Sending management information"
-    },
-    {
-      "question": "Which privilege escalation technique is used to exploit writable SUID files on Linux?",
-      "options": [
-        "Adding a new user with sudo privileges",
-        "Running a cron job",
-        "Replacing the content of SUID files with malicious code",
-        "Running the su command"
-      ],
-      "answer": "Replacing the content of SUID files with malicious code"
-    },
-    {
-      "question": "What type of malware disguises itself as legitimate software?",
-      "options": [
-        "Trojan",
-        "Virus",
-        "Worm",
-        "RAT"
-      ],
-      "answer": "Trojan"
-    },
-    {
-      "question": "What tool is commonly used to capture password hashes on Windows?",
-      "options": [
-        "Mimikatz",
         "Nmap",
-        "Ping",
-        "Nikto"
-      ],
-      "answer": "Mimikatz"
-    },
-    {
-      "question": "What Nmap option sets the scan speed to 'Aggressive'?",
-      "options": [
-        "-T4",
-        "-T1",
-        "-T5",
-        "-T0"
-      ],
-      "answer": "-T4"
-    },
-    {
-      "question": "Which tool is commonly used for directory fuzzing in web enumeration?",
-      "options": [
+        "Netcat",
         "Gobuster",
-        "Telnet",
-        "Ping",
-        "Traceroute"
+        "Wireshark"
       ],
       "answer": "Gobuster"
     },
     {
-      "question": "Which of these is an example of a phishing attack targeting high-profile individuals?",
+      "question": "What does the term 'malvertising' refer to?",
       "options": [
+        "Malicious ads on trusted websites",
+        "Malware that spreads through email",
+        "A type of spyware",
+        "Software that protects against malware"
+      ],
+      "answer": "Malicious ads on trusted websites"
+    },
+    {
+      "question": "Which of the following is a common method of distributing Trojans?",
+      "options": [
+        "Email attachments",
+        "USB drives",
+        "Peer-to-peer networks",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the main function of the Simple Mail Transfer Protocol (SMTP)?",
+      "options": [
+        "Transferring files between computers",
+        "Sending emails",
+        "Managing network devices",
+        "Encrypting data"
+      ],
+      "answer": "Sending emails"
+    },
+    {
+      "question": "Which type of attack involves redirecting a user from a legitimate site to a malicious one?",
+      "options": [
+        "Phishing",
         "Spear phishing",
-        "USB key drop",
-        "Whaling",
+        "Pharming",
         "Vishing"
       ],
-      "answer": "Whaling"
+      "answer": "Pharming"
     },
     {
-      "question": "What is a Remote Access Trojan (RAT)?",
+      "question": "What is a common characteristic of worms?",
       "options": [
-        "A virus that hides in email attachments",
-        "A Trojan that provides remote control over the infected machine",
-        "A worm that spreads through network shares",
-        "A keylogger that records keystrokes"
+        "They require user interaction to spread",
+        "They can self-replicate and spread independently",
+        "They are disguised as legitimate software",
+        "They only target Windows systems"
       ],
-      "answer": "A Trojan that provides remote control over the infected machine"
+      "answer": "They can self-replicate and spread independently"
     },
     {
-      "question": "Which protocol is used to send emails between systems?",
+      "question": "What does the acronym RAT stand for in cybersecurity?",
       "options": [
-        "SMTP",
+        "Remote Access Tool",
+        "Rapid Access Trojan",
+        "Reinforced Attack Technique",
+        "Remote Authentication Token"
+      ],
+      "answer": "Remote Access Tool"
+    },
+    {
+      "question": "Which protocol is used for file sharing in UNIX environments?",
+      "options": [
         "HTTP",
-        "FTP",
-        "SNMP"
+        "NFS",
+        "SMTP",
+        "FTP"
       ],
-      "answer": "SMTP"
+      "answer": "NFS"
     },
     {
-      "question": "What is the main purpose of the Social Engineering Toolkit (SET)?",
+      "question": "What is the primary goal of privilege escalation?",
       "options": [
-        "To scan for vulnerabilities",
-        "To create social engineering attacks",
-        "To exploit remote services",
-        "To enumerate network shares"
+        "To gather user information",
+        "To gain higher access rights",
+        "To remove malware from a system",
+        "To encrypt data"
       ],
-      "answer": "To create social engineering attacks"
-    },
-    {
-      "question": "Which of these is a tool used for privilege escalation on Linux systems?",
-      "options": [
-        "LinEnum",
-        "Enum4linux",
-        "Telnet",
-        "BeEF"
-      ],
-      "answer": "LinEnum"
-    },
-    {
-      "question": "Which of the following describes a polymorphic malware?",
-      "options": [
-        "Malware that changes its appearance to evade detection",
-        "Malware that activates on a specific date",
-        "Malware that spreads via email attachments",
-        "Malware that can only run on Linux systems"
-      ],
-      "answer": "Malware that changes its appearance to evade detection"
-    },
-    {
-      "question": "What is the primary purpose of a 'logic bomb'?",
-      "options": [
-        "To activate under specific conditions",
-        "To spread across networks",
-        "To steal user credentials",
-        "To encrypt files for ransom"
-      ],
-      "answer": "To activate under specific conditions"
-    },
-    {
-      "question": "What port is commonly used by HTTP?",
-      "options": [
-        "80",
-        "21",
-        "443",
-        "110"
-      ],
-      "answer": "80"
+      "answer": "To gain higher access rights"
     }
 ]

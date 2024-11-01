@@ -10,93 +10,332 @@
       "answer": "To gather information about software versions"
     },
     {
-      "question": "Which tool is commonly used for web enumeration?",
+      "question": "Which tool is commonly used for web directory enumeration?",
       "options": [
         "Nmap",
-        "Netcat",
         "Gobuster",
+        "Netcat",
         "Wireshark"
       ],
       "answer": "Gobuster"
     },
     {
-      "question": "What does the term 'malvertising' refer to?",
+      "question": "Which port is used by SMB when running over TCP?",
       "options": [
-        "Malicious ads on trusted websites",
-        "Malware that spreads through email",
-        "A type of spyware",
-        "Software that protects against malware"
+        "80",
+        "443",
+        "21",
+        "445"
       ],
-      "answer": "Malicious ads on trusted websites"
+      "answer": "445"
     },
     {
-      "question": "Which of the following is a common method of distributing Trojans?",
+      "question": "What is the purpose of SNMP in network management?",
       "options": [
-        "Email attachments",
-        "USB drives",
-        "Peer-to-peer networks",
-        "All of the above"
+        "To provide file sharing",
+        "To gather management information from hosts",
+        "To monitor website traffic",
+        "To create virtual private networks"
       ],
-      "answer": "All of the above"
+      "answer": "To gather management information from hosts"
     },
     {
-      "question": "What is the main function of the Simple Mail Transfer Protocol (SMTP)?",
+      "question": "Which protocol is commonly used in Kerberoasting attacks?",
       "options": [
-        "Transferring files between computers",
-        "Sending emails",
-        "Managing network devices",
-        "Encrypting data"
+        "FTP",
+        "HTTP",
+        "Kerberos",
+        "SMTP"
       ],
-      "answer": "Sending emails"
+      "answer": "Kerberos"
     },
     {
-      "question": "Which type of attack involves redirecting a user from a legitimate site to a malicious one?",
+      "question": "Which Nmap scan is used to bypass firewalls by scanning slowly?",
+      "options": [
+        "TCP connect scan (-sT)",
+        "UDP scan (-sU)",
+        "Ping scan (-sn)",
+        "Sneaky scan (-T1)"
+      ],
+      "answer": "Sneaky scan (-T1)"
+    },
+    {
+      "question": "Which program is commonly used to crack passwords after gaining system access?",
+      "options": [
+        "Metasploit",
+        "Nmap",
+        "Wireshark",
+        "John the Ripper"
+      ],
+      "answer": "John the Ripper"
+    },
+    {
+      "question": "What is the function of the 'msfconsole' in Metasploit?",
+      "options": [
+        "To perform port scanning",
+        "To interact with Metasploit modules",
+        "To intercept network traffic",
+        "To enumerate users on a network"
+      ],
+      "answer": "To interact with Metasploit modules"
+    },
+    {
+      "question": "Which technique in privilege escalation allows a user to run root-level commands?",
+      "options": [
+        "Using TCP connect scan",
+        "Using the sudo command",
+        "Performing web fuzzing",
+        "Using netcat"
+      ],
+      "answer": "Using the sudo command"
+    },
+    {
+      "question": "What is a honeypot used for?",
+      "options": [
+        "To exploit network vulnerabilities",
+        "To deceive attackers and monitor hacking behavior",
+        "To store sensitive data",
+        "To improve firewall security"
+      ],
+      "answer": "To deceive attackers and monitor hacking behavior"
+    },
+    {
+      "question": "Which attack is characterized by using fake websites to steal user credentials?",
       "options": [
         "Phishing",
-        "Spear phishing",
-        "Pharming",
-        "Vishing"
+        "Kerberoasting",
+        "SQL Injection",
+        "Cross-Site Scripting"
       ],
-      "answer": "Pharming"
+      "answer": "Phishing"
     },
     {
-      "question": "What is a common characteristic of worms?",
+      "question": "What tool can be used to examine active connections and open ports on a host?",
       "options": [
-        "They require user interaction to spread",
-        "They can self-replicate and spread independently",
-        "They are disguised as legitimate software",
-        "They only target Windows systems"
+        "Nmap",
+        "Netstat",
+        "Wireshark",
+        "Gobuster"
       ],
-      "answer": "They can self-replicate and spread independently"
+      "answer": "Netstat"
+    },   {
+      "question": "What command in Nmap is used to perform a TCP connect scan?",
+      "options": [
+        "-sT",
+        "-sS",
+        "-sU",
+        "-sX"
+      ],
+      "answer": "-sT"
     },
     {
-      "question": "What does the acronym RAT stand for in cybersecurity?",
+      "question": "Which tool is typically used for enumerating Windows and Samba (SMB) systems?",
       "options": [
-        "Remote Access Tool",
-        "Rapid Access Trojan",
-        "Reinforced Attack Technique",
-        "Remote Authentication Token"
+        "Enum4linux",
+        "Netcat",
+        "Nikto",
+        "Wireshark"
       ],
-      "answer": "Remote Access Tool"
+      "answer": "Enum4linux"
     },
     {
-      "question": "Which protocol is used for file sharing in UNIX environments?",
+      "question": "Which scan type in Nmap can help evade intrusion detection systems (IDS) by being extremely slow?",
       "options": [
-        "HTTP",
-        "NFS",
-        "SMTP",
-        "FTP"
+        "Paranoid (-T0)",
+        "Normal (-T3)",
+        "Aggressive (-T4)",
+        "Insane (-T5)"
       ],
-      "answer": "NFS"
+      "answer": "Paranoid (-T0)"
     },
     {
-      "question": "What is the primary goal of privilege escalation?",
+      "question": "Which file on a Linux system typically contains hashed user passwords?",
       "options": [
-        "To gather user information",
-        "To gain higher access rights",
-        "To remove malware from a system",
-        "To encrypt data"
+        "/etc/passwd",
+        "/etc/shadow",
+        "/etc/hosts",
+        "/etc/secure"
       ],
-      "answer": "To gain higher access rights"
+      "answer": "/etc/shadow"
+    },
+    {
+      "question": "What is the purpose of using a tool like LinEnum on a compromised Linux system?",
+      "options": [
+        "To capture network traffic",
+        "To escalate privileges",
+        "To scan for malware",
+        "To enumerate open ports"
+      ],
+      "answer": "To escalate privileges"
+    },
+    {
+      "question": "Which of the following is an example of a time-dependent malware?",
+      "options": [
+        "Keylogger",
+        "Trojan horse",
+        "Logic bomb",
+        "Bot"
+      ],
+      "answer": "Logic bomb"
+    },
+    {
+      "question": "In Kerberoasting, what does an attacker primarily target?",
+      "options": [
+        "Email credentials",
+        "Server vulnerabilities",
+        "Kerberos tickets",
+        "Firewall misconfigurations"
+      ],
+      "answer": "Kerberos tickets"
+    },
+    {
+      "question": "What is Mimikatz commonly used for in post-exploitation?",
+      "options": [
+        "Network scanning",
+        "Password extraction",
+        "Service enumeration",
+        "Privilege escalation"
+      ],
+      "answer": "Password extraction"
+    },
+    {
+      "question": "Which tool is most commonly used to intercept and analyze network packets?",
+      "options": [
+        "Wireshark",
+        "Nmap",
+        "Metasploit",
+        "Nikto"
+      ],
+      "answer": "Wireshark"
+    },
+    {
+      "question": "What does the tool 'Hydra' help an attacker to achieve?",
+      "options": [
+        "Brute-forcing passwords",
+        "Intercepting network packets",
+        "Enumerating open ports",
+        "Scanning for malware"
+      ],
+      "answer": "Brute-forcing passwords"
+    },
+    {
+      "question": "Which type of scan in Nmap sends packets without completing a TCP handshake, making it stealthier?",
+      "options": [
+        "TCP connect scan",
+        "SYN scan",
+        "XMAS scan",
+        "FIN scan"
+      ],
+      "answer": "SYN scan"
+    },
+    {
+      "question": "Which Metasploit payload is used for injecting OS-level command capabilities into a target?",
+      "options": [
+        "Meterpreter",
+        "Exploit",
+        "Nikto",
+        "Payload script"
+      ],
+      "answer": "Meterpreter"
+    },
+    {
+      "question": "What is a key characteristic of polymorphic malware?",
+      "options": [
+        "It replicates automatically.",
+        "It changes its code with each infection.",
+        "It uses a single infection method.",
+        "It targets only Windows systems."
+      ],
+      "answer": "It changes its code with each infection."
+    },
+    {
+      "question": "Which tool allows for manual interaction with an open port by establishing a raw TCP connection?",
+      "options": [
+        "Netcat",
+        "Nikto",
+        "Metasploit",
+        "WPScan"
+      ],
+      "answer": "Netcat"
+    },
+    {
+      "question": "What is the purpose of using 'msfvenom' in Metasploit?",
+      "options": [
+        "To create custom payloads",
+        "To scan open ports",
+        "To analyze network packets",
+        "To brute-force passwords"
+      ],
+      "answer": "To create custom payloads"
+    },
+    {
+      "question": "What technique involves leaving USB drives with malware in public spaces to trick users into plugging them into their computers?",
+      "options": [
+        "Trojan attack",
+        "Phishing",
+        "Shoulder surfing",
+        "USB key drop"
+      ],
+      "answer": "USB key drop"
+    },
+    {
+      "question": "Which type of malware disguises itself as a legitimate program but performs malicious actions when executed?",
+      "options": [
+        "Virus",
+        "Worm",
+        "Trojan horse",
+        "Spyware"
+      ],
+      "answer": "Trojan horse"
+    },
+    {
+      "question": "What does the '-sn' option in Nmap do?",
+      "options": [
+        "Conducts a full port scan",
+        "Performs a ping scan without port scan",
+        "Conducts a TCP connect scan",
+        "Enumerates user accounts"
+      ],
+      "answer": "Performs a ping scan without port scan"
+    },
+    {
+      "question": "Which of the following is used to enumerate hidden directories on a website?",
+      "options": [
+        "WPScan",
+        "Nikto",
+        "Gobuster",
+        "Enum4linux"
+      ],
+      "answer": "Gobuster"
+    },
+    {
+      "question": "Which port does HTTP typically use?",
+      "options": [
+        "21",
+        "80",
+        "443",
+        "8080"
+      ],
+      "answer": "80"
+    },
+    {
+      "question": "Which of these is a common countermeasure against Trojans?",
+      "options": [
+        "Enabling port forwarding",
+        "Installing a firewall",
+        "Using a port scanner",
+        "Disabling TCP/IP"
+      ],
+      "answer": "Installing a firewall"
+    },
+    {
+      "question": "What is a 'backdoor' in the context of malware?",
+      "options": [
+        "An authorized software update",
+        "A tool for brute-forcing passwords",
+        "A hidden method of gaining access to a system",
+        "A command used to scan networks"
+      ],
+      "answer": "A hidden method of gaining access to a system"
     }
 ]

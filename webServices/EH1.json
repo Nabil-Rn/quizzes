@@ -1,0 +1,227 @@
+[
+    {
+      "question": "Which of these techniques gathers information about a service by interacting with it?",
+      "options": [
+        "Port Scanning",
+        "Banner Grabbing",
+        "Nmap Scripting",
+        "Remote Procedure Calls"
+      ],
+      "answer": "Banner Grabbing"
+    },
+    {
+      "question": "What protocol uses ports 137, 138, and 139 when running over NetBios?",
+      "options": [
+        "NFS",
+        "SMB",
+        "SMTP",
+        "ASN.1"
+      ],
+      "answer": "SMB"
+    },
+    {
+      "question": "Which of the following is NOT an Nmap scan type?",
+      "options": [
+        "TCP connect scan",
+        "UDP scan",
+        "TCP FIN scan",
+        "SYN scan"
+      ],
+      "answer": "SYN scan"
+    },
+    {
+      "question": "What scripting language does Nmap use for extending functionality?",
+      "options": [
+        "Python",
+        "Lua",
+        "Ruby",
+        "JavaScript"
+      ],
+      "answer": "Lua"
+    },
+    {
+      "question": "Which tool is pre-installed on Kali and can be used to enumerate directories?",
+      "options": [
+        "Nikto",
+        "Gobuster",
+        "Dirb",
+        "Ffuf"
+      ],
+      "answer": "Gobuster"
+    },
+    {
+      "question": "What exploitation framework is written in Ruby?",
+      "options": [
+        "Nmap",
+        "Metasploit",
+        "Enum4linux",
+        "WPScan"
+      ],
+      "answer": "Metasploit"
+    },
+    {
+      "question": "What protocol is commonly used to gather management information from hosts?",
+      "options": [
+        "HTTP",
+        "RPC",
+        "SNMP",
+        "SMTP"
+      ],
+      "answer": "SNMP"
+    },
+    {
+      "question": "Which email protocol is used to send emails from one system to another?",
+      "options": [
+        "SMTP",
+        "POP3",
+        "IMAP",
+        "HTTPS"
+      ],
+      "answer": "SMTP"
+    },
+    {
+      "question": "Which tool automatically searches for passwords, SUID files, and Sudo right abuse to gain root privileges?",
+      "options": [
+        "PowerUp",
+        "LinEnum",
+        "Linpeas",
+        "Metasploit"
+      ],
+      "answer": "Linpeas"
+    },
+    {
+      "question": "What does a prepending virus do?",
+      "options": [
+        "Places code at the end of an infected file",
+        "Places code at the beginning of an infected file",
+        "Encrypts the infected file",
+        "Hides itself in the boot sector"
+      ],
+      "answer": "Places code at the beginning of an infected file"
+    },
+    {
+      "question": "Which of the following is NOT a characteristic of malware?",
+      "options": [
+        "Encryption",
+        "Stealth",
+        "Polymorphism",
+        "User Awareness"
+      ],
+      "answer": "User Awareness"
+    },
+    {
+      "question": "Which type of Trojan provides full access to an infected device by cybercriminals?",
+      "options": [
+        "DoS",
+        "Proxy",
+        "FTP",
+        "RAT"
+      ],
+      "answer": "Proxy"
+    },
+    {
+      "question": "Which communication method used by Trojans hides data transmission?",
+      "options": [
+        "Overt communication",
+        "Covert communication",
+        "Direct communication",
+        "Cleartext communication"
+      ],
+      "answer": "Covert communication"
+    },
+    {
+      "question": "What type of keylogger is Keyghost?",
+      "options": [
+        "Hardware",
+        "Software",
+        "Network",
+        "Hybrid"
+      ],
+      "answer": "Hardware"
+    },
+    {
+      "question": "What type of malware is similar to a Trojan and is installed without user knowledge?",
+      "options": [
+        "Virus",
+        "Worm",
+        "Spyware",
+        "Ransomware"
+      ],
+      "answer": "Spyware"
+    },
+    {
+      "question": "Which tool is NOT used to investigate an infected system?",
+      "options": [
+        "Process Monitor",
+        "Netstat",
+        "Wireshark",
+        "TCPView"
+      ],
+      "answer": "Wireshark"
+    },
+    {
+      "question": "What type of malware analysis involves decompiling and reverse engineering?",
+      "options": [
+        "Static analysis",
+        "Dynamic analysis",
+        "Behavioral analysis",
+        "Code analysis"
+      ],
+      "answer": "Static analysis"
+    },
+    {
+      "question": "What social engineering attack redirects a victim to a malicious website that looks legitimate?",
+      "options": [
+        "Phishing",
+        "Pharming",
+        "Malvertising",
+        "Whaling"
+      ],
+      "answer": "Pharming"
+    },
+    {
+      "question": "What social engineering attack uses malicious ads to redirect users to sites hosting malware?",
+      "options": [
+        "Phishing",
+        "Pharming",
+        "Malvertising",
+        "Spear Phishing"
+      ],
+      "answer": "Malvertising"
+    },
+    {
+      "question": "What social engineering attack is carried out over a phone call?",
+      "options": [
+        "SMS Phishing",
+        "Voice Phishing",
+        "Whaling",
+        "Pretexting"
+      ],
+      "answer": "Voice Phishing"
+    },
+    {
+      "question": "A honeypot is a decoy system designed to lure attackers and gather information about their behavior.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Remote access Trojans (RATs) require physical access to a victim's machine to be installed.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "Kerberoasting is a technique used for encrypting sensitive data on Windows networks.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "Privilege escalation can involve obtaining administrator privileges from a non-privileged account.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Persistence techniques are used by attackers to maintain access to a compromised system over time.",
+      "options": ["True", "False"],
+      "answer": "True"
+    }
+]

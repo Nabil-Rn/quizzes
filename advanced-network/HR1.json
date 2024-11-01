@@ -1,0 +1,227 @@
+[
+    {
+      "question": "According to the sources, which of the following is the best definition of Human Resource Management?",
+      "options": [
+        "Attracting the best employees to an organization.",
+        "Managing an organization's finances to ensure profitability.",
+        "The process of managing human talent to achieve an organization’s objectives.",
+        "Developing products and services that meet customer needs."
+      ],
+      "answer": "The process of managing human talent to achieve an organization’s objectives."
+    },
+    {
+      "question": "The sources describe a partnership between HR Professionals and Line Managers. What is one responsibility of a Line Manager?",
+      "options": [
+        "Aligning HR strategies with business strategies.",
+        "Delivering HR services, such as recruitment.",
+        "Promoting a culture of well-being.",
+        "Managing organizational change."
+      ],
+      "answer": "Promoting a culture of well-being."
+    },
+    {
+      "question": "Which of the following is NOT an advantage of internal recruitment, according to the sources?",
+      "options": [
+        "It rewards employees for past performance.",
+        "It makes use of people who already know the organization.",
+        "It motivates other employees.",
+        "It always guarantees the best candidate for the job."
+      ],
+      "answer": "It always guarantees the best candidate for the job."
+    },
+    {
+      "question": "When might an organization prioritize external recruitment over internal recruitment?",
+      "options": [
+        "When they want to reward an existing employee.",
+        "When they want to promote someone who already understands the company culture.",
+        "When they need someone with specialized training or expertise that current employees lack.",
+        "When they are trying to cut costs on recruitment."
+      ],
+      "answer": "When they need someone with specialized training or expertise that current employees lack."
+    },
+    {
+      "question": "What is the purpose of a job analysis?",
+      "options": [
+        "To determine the salary for a specific job.",
+        "To create a marketing plan for a new product.",
+        "To evaluate an employee's performance.",
+        "To gather objective information about the actual requirements of a job."
+      ],
+      "answer": "To gather objective information about the actual requirements of a job."
+    },
+    {
+      "question": "The sources list several methods for conducting interviews. Which of the following is NOT mentioned?",
+      "options": [
+        "One-on-one",
+        "Panel or group",
+        "Virtual Reality Simulation",
+        "Telephone"
+      ],
+      "answer": "Virtual Reality Simulation"
+    },
+    {
+      "question": "What type of interview question asks candidates to describe how they handled a specific situation in the past?",
+      "options": [
+        "Structured question",
+        "Unstructured question",
+        "Behavioral Description Interview question",
+        "Situational interview question"
+      ],
+      "answer": "Behavioral Description Interview question"
+    },
+    {
+      "question": "Which of the following is NOT a characteristic of a successful orientation process, as identified by the sources?",
+      "options": [
+        "It is a continuous process.",
+        "It is a cooperative endeavor.",
+        "It focuses solely on providing information about the job.",
+        "It involves careful planning."
+      ],
+      "answer": "It focuses solely on providing information about the job."
+    },
+    {
+      "question": "What is Human Resource Planning primarily concerned with?",
+      "options": [
+        "Developing marketing campaigns to attract customers.",
+        "Managing the organization's financial resources.",
+        "Ensuring the organization has the right people with the right skills in the right jobs at the right time.",
+        "Creating training programs to improve employee skills."
+      ],
+      "answer": "Ensuring the organization has the right people with the right skills in the right jobs at the right time."
+    },
+    {
+      "question": "Which of the following is a potential limitation of internal recruitment?",
+      "options": [
+        "It can be more expensive than external recruitment.",
+        "It may not provide the organization with new ideas and perspectives.",
+        "It can lead to decreased employee morale.",
+        "It can make it more difficult to achieve diversity initiatives."
+      ],
+      "answer": "It may not provide the organization with new ideas and perspectives."
+    },
+    {
+      "question": "What is the primary focus of the relationship marketing orientation?",
+      "options": [
+        "Maximizing short-term profits through aggressive sales tactics.",
+        "Convincing customers to buy products they don't need.",
+        "Building and maintaining long-term relationships with customers.",
+        "Producing goods and services as efficiently as possible."
+      ],
+      "answer": "Building and maintaining long-term relationships with customers."
+    },
+    {
+      "question": "Which marketing orientation prioritizes social responsibility over profits?",
+      "options": [
+        "Production Orientation",
+        "Sales Orientation",
+        "Societal Marketing Orientation",
+        "Relationship Marketing Orientation"
+      ],
+      "answer": "Societal Marketing Orientation"
+    },
+    {
+      "question": "What is the purpose of market segmentation?",
+      "options": [
+        "To develop new products that meet customer needs.",
+        "To create a marketing plan for a specific product.",
+        "To divide a market into groups of potential customers with similar wants and needs.",
+        "To determine the price of a product."
+      ],
+      "answer": "To divide a market into groups of potential customers with similar wants and needs."
+    },
+    {
+      "question": "Which of the following is NOT a category of market segmentation variables mentioned in the sources?",
+      "options": [
+        "Geographic Variables",
+        "Demographic Variables",
+        "Psychographic Variables",
+        "Technological Variables"
+      ],
+      "answer": "Technological Variables"
+    },
+    {
+      "question": "What is the definition of a product line?",
+      "options": [
+        "All the products a company has for sale.",
+        "A group of similar products intended for a similar group of buyers.",
+        "A new product that is introduced to the market.",
+        "The different stages a product goes through from introduction to decline."
+      ],
+      "answer": "A group of similar products intended for a similar group of buyers."
+    },
+    {
+      "question": "What is the first step in the new product development process?",
+      "options": [
+        "Screening",
+        "Concept Testing",
+        "Business Analysis",
+        "Product Ideas"
+      ],
+      "answer": "Product Ideas"
+    },
+    {
+      "question": "Which of the following is NOT a stage in the product life cycle?",
+      "options": [
+        "Introduction",
+        "Growth",
+        "Innovation",
+        "Decline"
+      ],
+      "answer": "Innovation"
+    },
+    {
+      "question": "What is the purpose of a SWOT analysis?",
+      "options": [
+        "To develop a marketing plan for a new product.",
+        "To forecast future sales for a company.",
+        "To identify a company’s strengths, weaknesses, opportunities, and threats.",
+        "To analyze the competitive landscape of an industry."
+      ],
+      "answer": "To identify a company’s strengths, weaknesses, opportunities, and threats."
+    },
+    {
+      "question": "What are the 4 Ps of the Marketing Mix?",
+      "options": [
+        "Price, Proof, Payment, Publicity",
+        "Person in charge, Pencil pusher, Production, Programmer",
+        "The 4 proofs of purchase",
+        "Product, Price, Place, Promotion"
+      ],
+      "answer": "Product, Price, Place, Promotion"
+    },
+    {
+      "question": "What is the focus of the Sales Orientation in marketing?",
+      "options": [
+        "Building long-term relationships with customers.",
+        "Convincing customers to buy, with a focus on the hard sell.",
+        "Producing goods and services efficiently.",
+        "Considering the ethical and social impact of products and marketing."
+      ],
+      "answer": "Convincing customers to buy, with a focus on the hard sell."
+    },
+    {
+      "question": "Great personnel are a key competitive advantage that is difficult to copy.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Reference checks are always a reliable predictor of good job performance.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "A company can differentiate its product through tangible features, perceived differences, or both.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Organizational markets only include businesses that produce goods.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "Marketing plays a key role in understanding and meeting the needs of customers.",
+      "options": ["True", "False"],
+      "answer": "True"
+    }
+]

@@ -1,341 +1,542 @@
 [
-    {
-      "question": "What is the purpose of banner grabbing?",
-      "options": [
-        "To gather information about software versions",
-        "To initiate a denial of service attack",
-        "To encrypt data transmissions",
-        "To create network protocols"
-      ],
-      "answer": "To gather information about software versions"
-    },
-    {
-      "question": "Which tool is commonly used for web directory enumeration?",
-      "options": [
-        "Nmap",
-        "Gobuster",
-        "Netcat",
-        "Wireshark"
-      ],
-      "answer": "Gobuster"
-    },
-    {
-      "question": "Which port is used by SMB when running over TCP?",
-      "options": [
-        "80",
-        "443",
-        "21",
-        "445"
-      ],
-      "answer": "445"
-    },
-    {
-      "question": "What is the purpose of SNMP in network management?",
-      "options": [
-        "To provide file sharing",
-        "To gather management information from hosts",
-        "To monitor website traffic",
-        "To create virtual private networks"
-      ],
-      "answer": "To gather management information from hosts"
-    },
-    {
-      "question": "Which protocol is commonly used in Kerberoasting attacks?",
-      "options": [
-        "FTP",
-        "HTTP",
-        "Kerberos",
-        "SMTP"
-      ],
-      "answer": "Kerberos"
-    },
-    {
-      "question": "Which Nmap scan is used to bypass firewalls by scanning slowly?",
-      "options": [
-        "TCP connect scan (-sT)",
-        "UDP scan (-sU)",
-        "Ping scan (-sn)",
-        "Sneaky scan (-T1)"
-      ],
-      "answer": "Sneaky scan (-T1)"
-    },
-    {
-      "question": "Which program is commonly used to crack passwords after gaining system access?",
-      "options": [
-        "Metasploit",
-        "Nmap",
-        "Wireshark",
-        "John the Ripper"
-      ],
-      "answer": "John the Ripper"
-    },
-    {
-      "question": "What is the function of the 'msfconsole' in Metasploit?",
-      "options": [
-        "To perform port scanning",
-        "To interact with Metasploit modules",
-        "To intercept network traffic",
-        "To enumerate users on a network"
-      ],
-      "answer": "To interact with Metasploit modules"
-    },
-    {
-      "question": "Which technique in privilege escalation allows a user to run root-level commands?",
-      "options": [
-        "Using TCP connect scan",
-        "Using the sudo command",
-        "Performing web fuzzing",
-        "Using netcat"
-      ],
-      "answer": "Using the sudo command"
-    },
-    {
-      "question": "What is a honeypot used for?",
-      "options": [
-        "To exploit network vulnerabilities",
-        "To deceive attackers and monitor hacking behavior",
-        "To store sensitive data",
-        "To improve firewall security"
-      ],
-      "answer": "To deceive attackers and monitor hacking behavior"
-    },
-    {
-      "question": "Which attack is characterized by using fake websites to steal user credentials?",
-      "options": [
-        "Phishing",
-        "Kerberoasting",
-        "SQL Injection",
-        "Cross-Site Scripting"
-      ],
-      "answer": "Phishing"
-    },
-    {
-      "question": "What tool can be used to examine active connections and open ports on a host?",
-      "options": [
-        "Nmap",
-        "Netstat",
-        "Wireshark",
-        "Gobuster"
-      ],
-      "answer": "Netstat"
-    },   {
-      "question": "What command in Nmap is used to perform a TCP connect scan?",
-      "options": [
-        "-sT",
-        "-sS",
-        "-sU",
-        "-sX"
-      ],
-      "answer": "-sT"
-    },
-    {
-      "question": "Which tool is typically used for enumerating Windows and Samba (SMB) systems?",
-      "options": [
-        "Enum4linux",
-        "Netcat",
-        "Nikto",
-        "Wireshark"
-      ],
-      "answer": "Enum4linux"
-    },
-    {
-      "question": "Which scan type in Nmap can help evade intrusion detection systems (IDS) by being extremely slow?",
-      "options": [
-        "Paranoid (-T0)",
-        "Normal (-T3)",
-        "Aggressive (-T4)",
-        "Insane (-T5)"
-      ],
-      "answer": "Paranoid (-T0)"
-    },
-    {
-      "question": "Which file on a Linux system typically contains hashed user passwords?",
-      "options": [
-        "/etc/passwd",
-        "/etc/shadow",
-        "/etc/hosts",
-        "/etc/secure"
-      ],
-      "answer": "/etc/shadow"
-    },
-    {
-      "question": "What is the purpose of using a tool like LinEnum on a compromised Linux system?",
-      "options": [
-        "To capture network traffic",
-        "To escalate privileges",
-        "To scan for malware",
-        "To enumerate open ports"
-      ],
-      "answer": "To escalate privileges"
-    },
-    {
-      "question": "Which of the following is an example of a time-dependent malware?",
-      "options": [
-        "Keylogger",
-        "Trojan horse",
-        "Logic bomb",
-        "Bot"
-      ],
-      "answer": "Logic bomb"
-    },
-    {
-      "question": "In Kerberoasting, what does an attacker primarily target?",
-      "options": [
-        "Email credentials",
-        "Server vulnerabilities",
-        "Kerberos tickets",
-        "Firewall misconfigurations"
-      ],
-      "answer": "Kerberos tickets"
-    },
-    {
-      "question": "What is Mimikatz commonly used for in post-exploitation?",
-      "options": [
-        "Network scanning",
-        "Password extraction",
-        "Service enumeration",
-        "Privilege escalation"
-      ],
-      "answer": "Password extraction"
-    },
-    {
-      "question": "Which tool is most commonly used to intercept and analyze network packets?",
-      "options": [
-        "Wireshark",
-        "Nmap",
-        "Metasploit",
-        "Nikto"
-      ],
-      "answer": "Wireshark"
-    },
-    {
-      "question": "What does the tool 'Hydra' help an attacker to achieve?",
-      "options": [
-        "Brute-forcing passwords",
-        "Intercepting network packets",
-        "Enumerating open ports",
-        "Scanning for malware"
-      ],
-      "answer": "Brute-forcing passwords"
-    },
-    {
-      "question": "Which type of scan in Nmap sends packets without completing a TCP handshake, making it stealthier?",
-      "options": [
-        "TCP connect scan",
-        "SYN scan",
-        "XMAS scan",
-        "FIN scan"
-      ],
-      "answer": "SYN scan"
-    },
-    {
-      "question": "Which Metasploit payload is used for injecting OS-level command capabilities into a target?",
-      "options": [
-        "Meterpreter",
-        "Exploit",
-        "Nikto",
-        "Payload script"
-      ],
-      "answer": "Meterpreter"
-    },
-    {
-      "question": "What is a key characteristic of polymorphic malware?",
-      "options": [
-        "It replicates automatically.",
-        "It changes its code with each infection.",
-        "It uses a single infection method.",
-        "It targets only Windows systems."
-      ],
-      "answer": "It changes its code with each infection."
-    },
-    {
-      "question": "Which tool allows for manual interaction with an open port by establishing a raw TCP connection?",
-      "options": [
-        "Netcat",
-        "Nikto",
-        "Metasploit",
-        "WPScan"
-      ],
-      "answer": "Netcat"
-    },
-    {
-      "question": "What is the purpose of using 'msfvenom' in Metasploit?",
-      "options": [
-        "To create custom payloads",
-        "To scan open ports",
-        "To analyze network packets",
-        "To brute-force passwords"
-      ],
-      "answer": "To create custom payloads"
-    },
-    {
-      "question": "What technique involves leaving USB drives with malware in public spaces to trick users into plugging them into their computers?",
-      "options": [
-        "Trojan attack",
-        "Phishing",
-        "Shoulder surfing",
-        "USB key drop"
-      ],
-      "answer": "USB key drop"
-    },
-    {
-      "question": "Which type of malware disguises itself as a legitimate program but performs malicious actions when executed?",
-      "options": [
-        "Virus",
-        "Worm",
-        "Trojan horse",
-        "Spyware"
-      ],
-      "answer": "Trojan horse"
-    },
-    {
-      "question": "What does the '-sn' option in Nmap do?",
-      "options": [
-        "Conducts a full port scan",
-        "Performs a ping scan without port scan",
-        "Conducts a TCP connect scan",
-        "Enumerates user accounts"
-      ],
-      "answer": "Performs a ping scan without port scan"
-    },
-    {
-      "question": "Which of the following is used to enumerate hidden directories on a website?",
-      "options": [
-        "WPScan",
-        "Nikto",
-        "Gobuster",
-        "Enum4linux"
-      ],
-      "answer": "Gobuster"
-    },
-    {
-      "question": "Which port does HTTP typically use?",
-      "options": [
-        "21",
-        "80",
-        "443",
-        "8080"
-      ],
-      "answer": "80"
-    },
-    {
-      "question": "Which of these is a common countermeasure against Trojans?",
-      "options": [
-        "Enabling port forwarding",
-        "Installing a firewall",
-        "Using a port scanner",
-        "Disabling TCP/IP"
-      ],
-      "answer": "Installing a firewall"
-    },
-    {
-      "question": "What is a 'backdoor' in the context of malware?",
-      "options": [
-        "An authorized software update",
-        "A tool for brute-forcing passwords",
-        "A hidden method of gaining access to a system",
-        "A command used to scan networks"
-      ],
-      "answer": "A hidden method of gaining access to a system"
-    }
+  {
+    "question": "What is the primary function of a sniffer?",
+    "options": [
+      "To modify network traffic",
+      "To encrypt data",
+      "To collect network traffic information",
+      "To launch DoS attacks"
+    ],
+    "answer": "To collect network traffic information"
+  },
+  {
+    "question": "Which tool can be used for packet analysis in active sniffing?",
+    "options": [
+      "Metasploit",
+      "Wireshark",
+      "Gobuster",
+      "Arpwatch"
+    ],
+    "answer": "Wireshark"
+  },
+  {
+    "question": "What does ARP spoofing enable attackers to do?",
+    "options": [
+      "Flood a network with traffic",
+      "Intercept and modify network traffic",
+      "Encrypt data transmissions",
+      "Redirect DNS queries"
+    ],
+    "answer": "Intercept and modify network traffic"
+  },
+  {
+    "question": "What is the main goal of a Man-in-the-Middle (MiTM) attack?",
+    "options": [
+      "To block network traffic",
+      "To capture or modify network traffic",
+      "To encrypt network communication",
+      "To increase bandwidth"
+    ],
+    "answer": "To capture or modify network traffic"
+  },
+  {
+    "question": "Which attack manipulates STP to become the root switch in a network?",
+    "options": [
+      "ARP spoofing",
+      "Rogue DHCP",
+      "STP manipulation",
+      "DNS poisoning"
+    ],
+    "answer": "STP manipulation"
+  },
+  {
+    "question": "What type of attack is conducted by re-sending previously captured information?",
+    "options": [
+      "Replay attack",
+      "Relay attack",
+      "DoS attack",
+      "MiTM attack"
+    ],
+    "answer": "Replay attack"
+  },
+  {
+    "question": "What is the purpose of SSL/TLS stripping?",
+    "options": [
+      "To encrypt web traffic",
+      "To downgrade secure connections to plaintext",
+      "To block HTTPS traffic",
+      "To intercept DNS requests"
+    ],
+    "answer": "To downgrade secure connections to plaintext"
+  },
+  {
+    "question": "Which tool is used to analyze unusual ARP traffic?",
+    "options": [
+      "Arpwatch",
+      "Bettercap",
+      "Wireshark",
+      "Netcat"
+    ],
+    "answer": "Arpwatch"
+  },
+  {
+    "question": "What is a common tool for DNS cache poisoning?",
+    "options": [
+      "Tcpdump",
+      "Metasploit",
+      "Arpspoof",
+      "Wireshark"
+    ],
+    "answer": "Metasploit"
+  },
+  {
+    "question": "Which attack targets the availability of a system or network?",
+    "options": [
+      "MiTM attack",
+      "Denial-of-Service attack",
+      "Replay attack",
+      "DNS poisoning"
+    ],
+    "answer": "Denial-of-Service attack"
+  },
+  {
+    "question": "What does a SYN flood attack do?",
+    "options": [
+      "Sends malformed DNS packets",
+      "Floods a service with SYN packets",
+      "Overloads a DHCP server",
+      "Intercepts ARP responses"
+    ],
+    "answer": "Floods a service with SYN packets"
+  },
+  {
+    "question": "What distinguishes a DDoS attack from a DoS attack?",
+    "options": [
+      "It uses multiple machines to attack the target",
+      "It encrypts network traffic",
+      "It targets DNS servers exclusively",
+      "It only works on a local network"
+    ],
+    "answer": "It uses multiple machines to attack the target"
+  },
+  {
+    "question": "Which type of DDoS attack involves spoofed packets?",
+    "options": [
+      "Reflected DDoS attack",
+      "SYN flood",
+      "MiTM attack",
+      "ARP spoofing"
+    ],
+    "answer": "Reflected DDoS attack"
+  },
+  {
+    "question": "What countermeasure helps prevent ARP spoofing?",
+    "options": [
+      "Using a rogue DHCP server",
+      "Disabling port mirroring",
+      "Implementing port security",
+      "Allowing all ARP traffic"
+    ],
+    "answer": "Implementing port security"
+  },
+  {
+    "question": "What is the goal of a DHCP starvation attack?",
+    "options": [
+      "To flood a network with traffic",
+      "To deplete available IP addresses",
+      "To poison DNS cache",
+      "To redirect ARP requests"
+    ],
+    "answer": "To deplete available IP addresses"
+  },
+  {
+    "question": "Which tool can simulate MiTM attacks?",
+    "options": [
+      "Bettercap",
+      "Gobuster",
+      "Arpwatch",
+      "Nmap"
+    ],
+    "answer": "Bettercap"
+  },
+  {
+    "question": "What is the primary defense against DNS cache poisoning?",
+    "options": [
+      "Using HTTPS",
+      "Configuring static ARP entries",
+      "Deploying secure DNS practices",
+      "Monitoring DHCP leases"
+    ],
+    "answer": "Deploying secure DNS practices"
+  },
+  {
+    "question": "Which attack uses ICMP packets to consume bandwidth?",
+    "options": [
+      "SYN flood",
+      "Smurf attack",
+      "DNS cache poisoning",
+      "ARP spoofing"
+    ],
+    "answer": "Smurf attack"
+  },
+  {
+    "question": "What is Dynamic ARP Inspection (DAI) used for?",
+    "options": [
+      "To prevent rogue DHCP servers",
+      "To block SYN flood attacks",
+      "To mitigate ARP spoofing",
+      "To analyze DNS traffic"
+    ],
+    "answer": "To mitigate ARP spoofing"
+  },
+  {
+    "question": "Which protocol is often targeted in reflected DDoS attacks?",
+    "options": [
+      "TCP",
+      "UDP",
+      "ICMP",
+      "DNS"
+    ],
+    "answer": "UDP"
+  },
+  {
+    "question": "What is the purpose of MAC flooding in active sniffing?",
+    "options": [
+      "To exhaust the switch's MAC table",
+      "To encrypt ARP responses",
+      "To simulate a DoS attack",
+      "To prevent unauthorized access"
+    ],
+    "answer": "To exhaust the switch's MAC table"
+  },
+  {
+    "question": "Which attack relies on terminating TLS and proxying the connection?",
+    "options": [
+      "DNS poisoning",
+      "TLS stripping",
+      "ARP spoofing",
+      "SYN flood"
+    ],
+    "answer": "TLS stripping"
+  },
+  {
+    "question": "Which tool is used to replay captured packets in a network?",
+    "options": [
+      "Tcpdump",
+      "Arpspoof",
+      "Metasploit",
+      "Hping"
+    ],
+    "answer": "Hping"
+  },
+  {
+    "question": "What is a common mitigation for MiTM attacks?",
+    "options": [
+      "Using HTTPS with HSTS",
+      "Flooding the switch with packets",
+      "Disabling DHCP",
+      "Configuring default routes"
+    ],
+    "answer": "Using HTTPS with HSTS"
+  },
+  {
+    "question": "What happens in a rogue DHCP attack?",
+    "options": [
+      "An attacker sets up a fake DHCP server",
+      "A switch's MAC table is flooded",
+      "DNS queries are rerouted",
+      "A DoS attack targets the DHCP server"
+    ],
+    "answer": "An attacker sets up a fake DHCP server"
+  },
+  {
+    "question": "Which of these is a passive sniffing method?",
+    "options": [
+      "Using port mirroring",
+      "Sniffing on a hub",
+      "MAC flooding",
+      "ARP poisoning"
+    ],
+    "answer": "Sniffing on a hub"
+  },
+  {
+    "question": "What is the primary goal of DNS cache poisoning?",
+    "options": [
+      "To flood the network",
+      "To redirect users to malicious sites",
+      "To encrypt DNS traffic",
+      "To deny IP address allocation"
+    ],
+    "answer": "To redirect users to malicious sites"
+  },
+  {
+    "question": "Which attack involves sending DHCP requests with spoofed MAC addresses?",
+    "options": [
+      "ARP spoofing",
+      "TLS stripping",
+      "DHCP starvation",
+      "DNS poisoning"
+    ],
+    "answer": "DHCP starvation"
+  },
+  {
+    "question": "What is the purpose of static ARP entries?",
+    "options": [
+      "To prevent DNS poisoning",
+      "To mitigate ARP spoofing",
+      "To detect rogue DHCP servers",
+      "To encrypt ARP traffic"
+    ],
+    "answer": "To mitigate ARP spoofing"
+  },
+  {
+    "question": "What type of attack uses UDP packets to spoof responses?",
+    "options": [
+      "SYN flood",
+      "Smurf attack",
+      "Reflected DDoS attack",
+      "Replay attack"
+    ],
+    "answer": "Reflected DDoS attack"
+  },
+  {
+    "question": "Which countermeasure can limit DHCP starvation attacks?",
+    "options": [
+      "Using MAC filtering",
+      "Enabling HSTS",
+      "Configuring DNS cache",
+      "Installing an IDS system"
+    ],
+    "answer": "Using MAC filtering"
+  },
+  {
+    "question": "What is the role of 'zombies' in a DDoS attack?",
+    "options": [
+      "To perform ARP poisoning",
+      "To send traffic to the victim",
+      "To manage rogue DHCP requests",
+      "To sniff network packets"
+    ],
+    "answer": "To send traffic to the victim"
+  },
+  {
+    "question": "What makes UDP a common target in DDoS attacks?",
+    "options": [
+      "Its large packet size",
+      "Its lack of a three-way handshake",
+      "Its strong encryption",
+      "Its low latency"
+    ],
+    "answer": "Its lack of a three-way handshake"
+  },
+  {
+    "question": "Which of these is a countermeasure against DoS attacks?",
+    "options": [
+      "Using port mirroring",
+      "Implementing bandwidth limitation",
+      "Flooding ARP tables",
+      "Disabling firewall rules"
+    ],
+    "answer": "Implementing bandwidth limitation"
+  },
+  {
+    "question": "What type of attack involves spoofed ICMP packets?",
+    "options": [
+      "Smurf attack",
+      "TLS stripping",
+      "DNS poisoning",
+      "MiTM attack"
+    ],
+    "answer": "Smurf attack"
+  },
+  {
+    "question": "Which of these tools is used for ARP poisoning?",
+    "options": [
+      "Gobuster",
+      "Arpspoof",
+      "Nmap",
+      "Wireshark"
+    ],
+    "answer": "Arpspoof"
+  },
+  {
+    "question": "What is the main goal of STP manipulation in a MiTM attack?",
+    "options": [
+      "To become the network's root switch",
+      "To flood the MAC table",
+      "To spoof ARP responses",
+      "To disable encryption"
+    ],
+    "answer": "To become the network's root switch"
+  },
+  {
+    "question": "What can be used to validate how networks respond to DoS conditions?",
+    "options": [
+      "Metasploit",
+      "Wireshark",
+      "Gobuster",
+      "Tcpdump"
+    ],
+    "answer": "Metasploit"
+  },
+  {
+    "question": "Which attack tricks routers into believing a rogue router has a better path?",
+    "options": [
+      "MiTM attack",
+      "STP manipulation",
+      "Replay attack",
+      "TLS stripping"
+    ],
+    "answer": "MiTM attack"
+  },
+  {
+    "question": "Which countermeasure helps reduce risks of DHCP starvation?",
+    "options": [
+      "Using dynamic ARP inspection",
+      "Implementing DHCP snooping",
+      "Encrypting DNS traffic",
+      "Disabling ICMP packets"
+    ],
+    "answer": "Implementing DHCP snooping"
+  },
+  {
+    "question": "In which scenario would passive sniffing be more effective than active sniffing?",
+    "options": [
+      "When targeting a switched network",
+      "When monitoring traffic on a hub",
+      "When performing ARP poisoning",
+      "When using port mirroring"
+    ],
+    "answer": "When monitoring traffic on a hub"
+  },
+  {
+    "question": "What is a key limitation of ARP spoofing in a switched network?",
+    "options": [
+      "It only works on wired networks",
+      "Switches can prevent it using dynamic ARP inspection",
+      "It cannot intercept encrypted traffic",
+      "It is detectable by firewalls"
+    ],
+    "answer": "Switches can prevent it using dynamic ARP inspection"
+  },
+  {
+    "question": "Why are UDP packets often used in reflected DDoS attacks?",
+    "options": [
+      "They require a handshake before transmission",
+      "They lack a three-way handshake, making them easier to spoof",
+      "They consume more bandwidth than TCP packets",
+      "They are encrypted by default"
+    ],
+    "answer": "They lack a three-way handshake, making them easier to spoof"
+  },
+  {
+    "question": "Which of the following is a potential risk of implementing static ARP entries as a defense mechanism?",
+    "options": [
+      "It may expose the network to DNS poisoning",
+      "It is time-consuming and inefficient to manage",
+      "It requires disabling DHCP services",
+      "It reduces the effectiveness of encryption protocols"
+    ],
+    "answer": "It is time-consuming and inefficient to manage"
+  },
+  {
+    "question": "How can a rogue DHCP server facilitate a Man-in-the-Middle attack?",
+    "options": [
+      "By spoofing ARP requests",
+      "By providing fake IP configurations to clients",
+      "By intercepting SYN-ACK packets",
+      "By initiating a DoS attack on legitimate servers"
+    ],
+    "answer": "By providing fake IP configurations to clients"
+  },
+  {
+    "question": "What is a potential downside of using MAC flooding for active sniffing?",
+    "options": [
+      "It only works on legacy switches",
+      "It can trigger security alerts in modern switches",
+      "It requires a static ARP table",
+      "It is ineffective on networks using VLANs"
+    ],
+    "answer": "It can trigger security alerts in modern switches"
+  },
+  {
+    "question": "How does an attacker benefit from manipulating the Spanning Tree Protocol (STP)?",
+    "options": [
+      "They can prevent the switch from forwarding packets",
+      "They can become the root switch to redirect traffic",
+      "They can encrypt traffic flowing through the network",
+      "They can launch DDoS attacks directly from the switch"
+    ],
+    "answer": "They can become the root switch to redirect traffic"
+  },
+  {
+    "question": "What makes ARP poisoning a unique vector for MiTM attacks?",
+    "options": [
+      "It requires physical access to the network",
+      "It exploits the trust relationship of the ARP protocol",
+      "It only targets DNS servers",
+      "It cannot modify intercepted packets"
+    ],
+    "answer": "It exploits the trust relationship of the ARP protocol"
+  },
+  {
+    "question": "Why is encryption not always sufficient to protect against DNS cache poisoning?",
+    "options": [
+      "DNS traffic often bypasses encryption protocols",
+      "DNS poisoning targets the underlying routing protocols",
+      "Encryption only protects data in transit, not DNS query responses",
+      "DNS servers cannot handle encrypted traffic"
+    ],
+    "answer": "Encryption only protects data in transit, not DNS query responses"
+  },
+  {
+    "question": "What distinguishes a replay attack from a relay attack in a network context?",
+    "options": [
+      "A replay attack modifies data, while a relay attack retransmits without changes",
+      "A relay attack is used for DDoS, while a replay attack targets encryption",
+      "A replay attack retransmits captured packets, while a relay attack forwards them in real-time",
+      "A replay attack requires malware, while a relay attack does not"
+    ],
+    "answer": "A replay attack retransmits captured packets, while a relay attack forwards them in real-time"
+  },
+  {
+    "question": "Which countermeasure can specifically address DHCP starvation attacks?",
+    "options": [
+      "Using bandwidth throttling",
+      "Implementing DHCP snooping",
+      "Disabling ARP requests",
+      "Configuring MAC address filtering"
+    ],
+    "answer": "Implementing DHCP snooping"
+  },
+  {
+    "question": "What is a limitation of using IDS/IPS for preventing DoS attacks?",
+    "options": [
+      "They cannot detect volumetric attacks",
+      "They are vulnerable to ARP spoofing",
+      "They cannot block attacks in encrypted traffic",
+      "They often generate false positives for legitimate traffic"
+    ],
+    "answer": "They often generate false positives for legitimate traffic"
+  },
+  {
+    "question": "How does an attacker perform a SYN flood attack?",
+    "options": [
+      "By sending malformed ICMP packets",
+      "By initiating multiple half-open TCP connections",
+      "By flooding DNS servers with requests",
+      "By using spoofed ARP packets"
+    ],
+    "answer": "By initiating multiple half-open TCP connections"
+  },
+  {
+    "question": "Why is MAC flooding considered less effective on modern networks?",
+    "options": [
+      "Modern switches use VLANs to prevent it",
+      "Switches have built-in protections like port security",
+      "MAC flooding only works with ARP spoofing",
+      "It cannot be combined with DNS poisoning"
+    ],
+    "answer": "Switches have built-in protections like port security"
+  }
 ]

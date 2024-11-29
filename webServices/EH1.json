@@ -1,227 +1,202 @@
 [
-    {
-      "question": "Which of these techniques gathers information about a service by interacting with it?",
+  {
+      "question": "What does SSID stand for in Wi-Fi networks?",
       "options": [
-        "Port Scanning",
-        "Banner Grabbing",
-        "Nmap Scripting",
-        "Remote Procedure Calls"
+          "Service Set Identifier",
+          "Secure Set Identifier",
+          "Station Service Identifier",
+          "Signal Service Identifier"
       ],
-      "answer": "Banner Grabbing"
-    },
-    {
-      "question": "What protocol uses ports 137, 138, and 139 when running over NetBios?",
+      "answer": "Service Set Identifier"
+  },
+  {
+      "question": "What frequency bands are primarily used in Wi-Fi networks?",
       "options": [
-        "NFS",
-        "SMB",
-        "SMTP",
-        "ASN.1"
+          "1.8GHz and 3.6GHz",
+          "2.4GHz and 5GHz",
+          "3.5GHz and 4.9GHz",
+          "1.2GHz and 6GHz"
       ],
-      "answer": "SMB"
-    },
-    {
-      "question": "Which of the following is NOT an Nmap scan type?",
+      "answer": "2.4GHz and 5GHz"
+  },
+  {
+      "question": "What is the main difference between infrastructure and ad hoc Wi-Fi networks?",
       "options": [
-        "TCP connect scan",
-        "UDP scan",
-        "TCP FIN scan",
-        "SYN scan"
+          "Infrastructure uses a centralized access point, ad hoc does not",
+          "Ad hoc is more secure than infrastructure",
+          "Infrastructure requires NFC, ad hoc does not",
+          "Ad hoc supports WPA3, while infrastructure does not"
       ],
-      "answer": "SYN scan"
-    },
-    {
-      "question": "What scripting language does Nmap use for extending functionality?",
+      "answer": "Infrastructure uses a centralized access point, ad hoc does not"
+  },
+  {
+      "question": "What was the primary weakness of WEP encryption?",
       "options": [
-        "Python",
-        "Lua",
-        "Ruby",
-        "JavaScript"
+          "It lacked encryption entirely",
+          "The initialization vector (IV) was not truly random",
+          "It required complex hardware to decrypt",
+          "It only worked on 5GHz frequencies"
       ],
-      "answer": "Lua"
-    },
-    {
-      "question": "Which tool is pre-installed on Kali and can be used to enumerate directories?",
+      "answer": "The initialization vector (IV) was not truly random"
+  },
+  {
+      "question": "What encryption protocol does WPA2 use?",
       "options": [
-        "Nikto",
-        "Gobuster",
-        "Dirb",
-        "Ffuf"
+          "RC4",
+          "AES with CCMP",
+          "DES",
+          "3DES"
       ],
-      "answer": "Gobuster"
-    },
-    {
-      "question": "What exploitation framework is written in Ruby?",
+      "answer": "AES with CCMP"
+  },
+  {
+      "question": "What feature does WPA3 introduce compared to WPA2?",
       "options": [
-        "Nmap",
-        "Metasploit",
-        "Enum4linux",
-        "WPScan"
+          "Simultaneous Authentication of Equals",
+          "Longer SSID support",
+          "Support for older hardware",
+          "Use of RC4 encryption"
       ],
-      "answer": "Metasploit"
-    },
-    {
-      "question": "What protocol is commonly used to gather management information from hosts?",
+      "answer": "Simultaneous Authentication of Equals"
+  },
+  {
+      "question": "What is the purpose of Wi-Fi Protected Setup (WPS)?",
       "options": [
-        "HTTP",
-        "RPC",
-        "SNMP",
-        "SMTP"
+          "To encrypt all network traffic",
+          "To configure devices without sharing pre-shared keys",
+          "To block rogue access points",
+          "To monitor Wi-Fi interference"
       ],
-      "answer": "SNMP"
-    },
-    {
-      "question": "Which email protocol is used to send emails from one system to another?",
+      "answer": "To configure devices without sharing pre-shared keys"
+  },
+  {
+      "question": "Which type of attack forces clients to re-authenticate by spoofing messages?",
       "options": [
-        "SMTP",
-        "POP3",
-        "IMAP",
-        "HTTPS"
+          "De-authentication attack",
+          "Wardriving attack",
+          "Jamming attack",
+          "Key attack"
       ],
-      "answer": "SMTP"
-    },
-    {
-      "question": "Which tool automatically searches for passwords, SUID files, and Sudo right abuse to gain root privileges?",
+      "answer": "De-authentication attack"
+  },
+  {
+      "question": "What is an 'evil twin' attack in Wi-Fi networks?",
       "options": [
-        "PowerUp",
-        "LinEnum",
-        "Linpeas",
-        "Metasploit"
+          "A brute force attack on Wi-Fi passwords",
+          "A rogue access point mimicking a legitimate one",
+          "An attack that floods the network with fake SSIDs",
+          "A jamming attack on the 2.4GHz band"
       ],
-      "answer": "Linpeas"
-    },
-    {
-      "question": "What does a prepending virus do?",
+      "answer": "A rogue access point mimicking a legitimate one"
+  },
+  {
+      "question": "What is the primary purpose of WPA3 Enterprise mode?",
       "options": [
-        "Places code at the end of an infected file",
-        "Places code at the beginning of an infected file",
-        "Encrypts the infected file",
-        "Hides itself in the boot sector"
+          "To use a pre-shared key for authentication",
+          "To authenticate using username and password",
+          "To allow NFC pairing",
+          "To bypass encryption requirements"
       ],
-      "answer": "Places code at the beginning of an infected file"
-    },
-    {
-      "question": "Which of the following is NOT a characteristic of malware?",
+      "answer": "To authenticate using username and password"
+  },
+  {
+      "question": "What attack involves searching for vulnerable networks while in a moving vehicle?",
       "options": [
-        "Encryption",
-        "Stealth",
-        "Polymorphism",
-        "User Awareness"
+          "Wardriving",
+          "Jamming",
+          "Replay attack",
+          "De-authentication attack"
       ],
-      "answer": "User Awareness"
-    },
-    {
-      "question": "Which type of Trojan provides full access to an infected device by cybercriminals?",
+      "answer": "Wardriving"
+  },
+  {
+      "question": "Which mechanism helps prevent replay attacks in WPA?",
       "options": [
-        "DoS",
-        "Proxy",
-        "FTP",
-        "RAT"
+          "Message Integrity Check (MIC)",
+          "Initialization Vector (IV)",
+          "SSID cloaking",
+          "RC4 encryption"
       ],
-      "answer": "Proxy"
-    },
-    {
-      "question": "Which communication method used by Trojans hides data transmission?",
+      "answer": "Message Integrity Check (MIC)"
+  },
+  {
+      "question": "What is the recommended mitigation against the Karma attack?",
       "options": [
-        "Overt communication",
-        "Covert communication",
-        "Direct communication",
-        "Cleartext communication"
+          "Disabling WPS",
+          "Using auto-connect options",
+          "Enabling WPA3",
+          "Avoiding open networks"
       ],
-      "answer": "Covert communication"
-    },
-    {
-      "question": "What type of keylogger is Keyghost?",
+      "answer": "Avoiding open networks"
+  },
+  {
+      "question": "What is the main drawback of WPS PIN configuration?",
       "options": [
-        "Hardware",
-        "Software",
-        "Network",
-        "Hybrid"
+          "It requires manual SSID entry",
+          "It can be brute-forced easily",
+          "It is incompatible with WPA3",
+          "It does not support NFC"
       ],
-      "answer": "Hardware"
-    },
-    {
-      "question": "What type of malware is similar to a Trojan and is installed without user knowledge?",
+      "answer": "It can be brute-forced easily"
+  },
+  {
+      "question": "What attack involves intentional interference with wireless signals?",
       "options": [
-        "Virus",
-        "Worm",
-        "Spyware",
-        "Ransomware"
+          "Jamming attack",
+          "Key attack",
+          "Replay attack",
+          "Wardriving"
       ],
-      "answer": "Spyware"
-    },
-    {
-      "question": "Which tool is NOT used to investigate an infected system?",
+      "answer": "Jamming attack"
+  },
+  {
+      "question": "Which type of Wi-Fi network uses a mesh structure without a central access point?",
       "options": [
-        "Process Monitor",
-        "Netstat",
-        "Wireshark",
-        "TCPView"
+          "Infrastructure",
+          "Ad hoc",
+          "Enterprise",
+          "Personal"
       ],
-      "answer": "Wireshark"
-    },
-    {
-      "question": "What type of malware analysis involves decompiling and reverse engineering?",
+      "answer": "Ad hoc"
+  },
+  {
+      "question": "What is the role of a BSSID in a Wi-Fi network?",
       "options": [
-        "Static analysis",
-        "Dynamic analysis",
-        "Behavioral analysis",
-        "Code analysis"
+          "It identifies individual access points within an SSID",
+          "It broadcasts the network's name",
+          "It encrypts transmitted data",
+          "It monitors connected devices"
       ],
-      "answer": "Static analysis"
-    },
-    {
-      "question": "What social engineering attack redirects a victim to a malicious website that looks legitimate?",
+      "answer": "It identifies individual access points within an SSID"
+  },
+  {
+      "question": "What is the primary mitigation for Wi-Fi key attacks?",
       "options": [
-        "Phishing",
-        "Pharming",
-        "Malvertising",
-        "Whaling"
+          "Using WPA3",
+          "Hiding SSIDs",
+          "Increasing the IV length",
+          "Disabling auto-connect"
       ],
-      "answer": "Pharming"
-    },
-    {
-      "question": "What social engineering attack uses malicious ads to redirect users to sites hosting malware?",
+      "answer": "Using WPA3"
+  },
+  {
+      "question": "What is one reason to disable WPS on a router?",
       "options": [
-        "Phishing",
-        "Pharming",
-        "Malvertising",
-        "Spear Phishing"
+          "It reduces jamming attacks",
+          "It mitigates brute force attacks",
+          "It improves SSID broadcasting",
+          "It simplifies Wi-Fi pairing"
       ],
-      "answer": "Malvertising"
-    },
-    {
-      "question": "What social engineering attack is carried out over a phone call?",
+      "answer": "It mitigates brute force attacks"
+  },
+  {
+      "question": "Which protocol is no longer used in WPA3, replaced by Simultaneous Authentication of Equals?",
       "options": [
-        "SMS Phishing",
-        "Voice Phishing",
-        "Whaling",
-        "Pretexting"
+          "Pre-shared keys",
+          "NFC pairing",
+          "RC4 encryption",
+          "MIC checks"
       ],
-      "answer": "Voice Phishing"
-    },
-    {
-      "question": "A honeypot is a decoy system designed to lure attackers and gather information about their behavior.",
-      "options": ["True", "False"],
-      "answer": "True"
-    },
-    {
-      "question": "Remote access Trojans (RATs) require physical access to a victim's machine to be installed.",
-      "options": ["True", "False"],
-      "answer": "False"
-    },
-    {
-      "question": "Kerberoasting is a technique used for encrypting sensitive data on Windows networks.",
-      "options": ["True", "False"],
-      "answer": "False"
-    },
-    {
-      "question": "Privilege escalation can involve obtaining administrator privileges from a non-privileged account.",
-      "options": ["True", "False"],
-      "answer": "True"
-    },
-    {
-      "question": "Persistence techniques are used by attackers to maintain access to a compromised system over time.",
-      "options": ["True", "False"],
-      "answer": "True"
-    }
+      "answer": "Pre-shared keys"
+  }
 ]

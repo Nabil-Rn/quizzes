@@ -50,7 +50,8 @@
     "answer": "STP manipulation"
   },
   {
-    "question": "What type of attack is conducted by re-sending previously captured information?",
+    "question": "What type of attack is conducted by re-sending previously captured information, allowing attackers to present valid
+credentials or to replicate other legitimate traffic?",
     "options": [
       "Replay attack",
       "Relay attack",

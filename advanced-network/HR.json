@@ -1,502 +1,982 @@
 [
     {
-        "question": "What is accounting?",
+        "question": "What is the main focus of Operations Management?",
         "options": [
-            "A system for collecting, analyzing, and communicating financial information",
-            "A method for managing human resources",
+            "A set of methods and technologies used in the production of a good or a service",
+            "A system for managing human resources",
             "A technique for marketing products",
             "A strategy for business development"
         ],
-        "answer": "A system for collecting, analyzing, and communicating financial information"
+        "answer": "A set of methods and technologies used in the production of a good or a service"
     },
     {
-        "question": "What is bookkeeping?",
+        "question": "What is the difference between goods production and service operations?",
         "options": [
-            "Recording accounting transactions",
-            "Analyzing financial statements",
-            "Managing employee performance",
-            "Developing marketing strategies"
+            "Goods production yields tangible products, while service operations yield intangible services",
+            "Goods production involves human resources, while service operations involve marketing",
+            "Goods production is a technique for business development, while service operations are for financial management",
+            "Goods production is a strategy for marketing, while service operations are for human resources"
         ],
-        "answer": "Recording accounting transactions"
+        "answer": "Goods production yields tangible products, while service operations yield intangible services"
     },
     {
-        "question": "What is the role of the Accounting Information System (AIS)?",
+        "question": "What is time utility?",
         "options": [
-            "Identifying, measuring, recording, and retaining financial information",
+            "When the product is available",
+            "Where the product is available",
+            "Consumption or use of product",
+            "Product's form"
+        ],
+        "answer": "When the product is available"
+    },
+    {
+        "question": "What is place utility?",
+        "options": [
+            "Where the product is available",
+            "When the product is available",
+            "Consumption or use of product",
+            "Product's form"
+        ],
+        "answer": "Where the product is available"
+    },
+    {
+        "question": "What is ownership (possession) utility?",
+        "options": [
+            "Consumption or use of product",
+            "When the product is available",
+            "Where the product is available",
+            "Product's form"
+        ],
+        "answer": "Consumption or use of product"
+    },
+    {
+        "question": "What is form utility?",
+        "options": [
+            "Product's form (the transformation of raw materials into a finished product)",
+            "When the product is available",
+            "Where the product is available",
+            "Consumption or use of product"
+        ],
+        "answer": "Product's form (the transformation of raw materials into a finished product)"
+    },
+    {
+        "question": "What are the types of transformation technology?",
+        "options": [
+            "Chemical processes, fabrication processes, assembly processes, transport processes, clerical processes",
+            "Marketing processes, human resources processes, financial processes, management processes",
+            "Sales processes, customer service processes, product development processes, project management processes",
+            "Software development processes, data analysis processes, project management processes, sales processes"
+        ],
+        "answer": "Chemical processes, fabrication processes, assembly processes, transport processes, clerical processes"
+    },
+    {
+        "question": "What is an analytic process?",
+        "options": [
+            "Resources are broken down in the production process",
+            "Resources are combined in the production process",
+            "Customers are involved in the transformation process",
+            "Customers do not need to be physically present"
+        ],
+        "answer": "Resources are broken down in the production process"
+    },
+    {
+        "question": "What is a synthetic process?",
+        "options": [
+            "Resources are combined in the production process",
+            "Resources are broken down in the production process",
+            "Customers are involved in the transformation process",
+            "Customers do not need to be physically present"
+        ],
+        "answer": "Resources are combined in the production process"
+    },
+    {
+        "question": "What is a low-contact system in service-producing processes?",
+        "options": [
+            "Customers do not need to be physically present",
+            "Customers need to be physically present",
+            "Resources are combined in the production process",
+            "Resources are broken down in the production process"
+        ],
+        "answer": "Customers do not need to be physically present"
+    },
+    {
+        "question": "What is a high-contact system in service-producing processes?",
+        "options": [
+            "Customers need to be physically present",
+            "Customers do not need to be physically present",
+            "Resources are combined in the production process",
+            "Resources are broken down in the production process"
+        ],
+        "answer": "Customers need to be physically present"
+    },
+    {
+        "question": "What is capacity planning?",
+        "options": [
+            "The amount that a firm can produce under normal conditions",
+            "The choice of the location of a company or its production units",
+            "The layout of the facilities and equipment of a company",
+            "The transformation of raw materials into a finished product"
+        ],
+        "answer": "The amount that a firm can produce under normal conditions"
+    },
+    {
+        "question": "What is location planning?",
+        "options": [
+            "The choice of the location of a company or its production units",
+            "The amount that a firm can produce under normal conditions",
+            "The layout of the facilities and equipment of a company",
+            "The transformation of raw materials into a finished product"
+        ],
+        "answer": "The choice of the location of a company or its production units"
+    },
+    {
+        "question": "What is layout planning?",
+        "options": [
+            "The layout of the facilities and equipment of a company",
+            "The amount that a firm can produce under normal conditions",
+            "The choice of the location of a company or its production units",
+            "The transformation of raw materials into a finished product"
+        ],
+        "answer": "The layout of the facilities and equipment of a company"
+    },
+    {
+        "question": "What is a process layout?",
+        "options": [
+            "Equipment and people are grouped by function",
+            "Families of products can follow similar flow paths",
+            "Organizing equipment and people to produce one type of product",
+            "Product or customer remains at one location"
+        ],
+        "answer": "Equipment and people are grouped by function"
+    },
+    {
+        "question": "What is a cellular layout?",
+        "options": [
+            "Families of products can follow similar flow paths",
+            "Equipment and people are grouped by function",
+            "Organizing equipment and people to produce one type of product",
+            "Product or customer remains at one location"
+        ],
+        "answer": "Families of products can follow similar flow paths"
+    },
+    {
+        "question": "What is a product layout?",
+        "options": [
+            "Organizing equipment and people to produce one type of product",
+            "Equipment and people are grouped by function",
+            "Families of products can follow similar flow paths",
+            "Product or customer remains at one location"
+        ],
+        "answer": "Organizing equipment and people to produce one type of product"
+    },
+    {
+        "question": "What is a fixed position layout?",
+        "options": [
+            "Product or customer remains at one location",
+            "Equipment and people are grouped by function",
+            "Families of products can follow similar flow paths",
+            "Organizing equipment and people to produce one type of product"
+        ],
+        "answer": "Product or customer remains at one location"
+    },
+    {
+        "question": "What is a flexible manufacturing process (FMS)?",
+        "options": [
+            "A system that allows for flexibility in the production process",
+            "A system that combines resources in the production process",
+            "A system that breaks down resources in the production process",
+            "A system that requires customers to be physically present"
+        ],
+        "answer": "A system that allows for flexibility in the production process"
+    },
+    {
+        "question": "What is the purpose of a Gantt chart?",
+        "options": [
+            "A diagram of steps in the project and time required for each",
+            "A system that allows for flexibility in the production process",
+            "A system that combines resources in the production process",
+            "A system that breaks down resources in the production process"
+        ],
+        "answer": "A diagram of steps in the project and time required for each"
+    },
+    {
+        "question": "What is the purpose of a PERT chart?",
+        "options": [
+            "Specifies the sequence and critical path of steps in a project",
+            "A diagram of steps in the project and time required for each",
+            "A system that allows for flexibility in the production process",
+            "A system that combines resources in the production process"
+        ],
+        "answer": "Specifies the sequence and critical path of steps in a project"
+    },
+    {
+        "question": "What is operations control?",
+        "options": [
+            "Monitoring performance by comparing results to original plans and schedules",
+            "A system that allows for flexibility in the production process",
+            "A system that combines resources in the production process",
+            "A system that breaks down resources in the production process"
+        ],
+        "answer": "Monitoring performance by comparing results to original plans and schedules"
+    },
+    {
+        "question": "What is materials management?",
+        "options": [
+            "Planning, organizing, and controlling the flow of materials from purchase to distribution of finished goods",
+            "Monitoring performance by comparing results to original plans and schedules",
+            "A system that allows for flexibility in the production process",
+            "A system that combines resources in the production process"
+        ],
+        "answer": "Planning, organizing, and controlling the flow of materials from purchase to distribution of finished goods"
+    },
+    {
+        "question": "What is just-in-time (JIT) production?",
+        "options": [
+            "Parts are delivered when they are needed",
+            "Resources are combined in the production process",
+            "Resources are broken down in the production process",
+            "Customers need to be physically present"
+        ],
+        "answer": "Parts are delivered when they are needed"
+    },
+    {
+        "question": "What is materials requirements planning (MRP)?",
+        "options": [
+            "Uses computerized bill of materials to estimate production needs",
+            "A system that allows for flexibility in the production process",
+            "A system that combines resources in the production process",
+            "A system that breaks down resources in the production process"
+        ],
+        "answer": "Uses computerized bill of materials to estimate production needs"
+    },
+    {
+        "question": "What is the purpose of quality control?",
+        "options": [
+            "Ensuring products meet certain standards and specifications",
             "Managing human resources",
             "Developing marketing strategies",
             "Analyzing employee performance"
         ],
-        "answer": "Identifying, measuring, recording, and retaining financial information"
+        "answer": "Ensuring products meet certain standards and specifications"
     },
     {
-        "question": "Who are the users of accounting information?",
+        "question": "What is the role of statistical process control (SPC)?",
         "options": [
-            "Business managers, employees and unions, investors and creditors, taxing authorities, government regulatory agencies",
-            "Only business managers",
-            "Only employees and unions",
-            "Only investors and creditors"
-        ],
-        "answer": "Business managers, employees and unions, investors and creditors, taxing authorities, government regulatory agencies"
-    },
-    {
-        "question": "What is the role of a controller in accounting?",
-        "options": [
-            "Ensures that the accounting system provides the reports and statements needed for planning, controlling, and decision-making",
-            "Manages human resources",
-            "Develops marketing strategies",
-            "Analyzes employee performance"
-        ],
-        "answer": "Ensures that the accounting system provides the reports and statements needed for planning, controlling, and decision-making"
-    },
-    {
-        "question": "What is financial accounting?",
-        "options": [
-            "Keeps external parties informed about the firm's financial condition",
-            "Manages human resources",
-            "Develops marketing strategies",
-            "Analyzes employee performance"
-        ],
-        "answer": "Keeps external parties informed about the firm's financial condition"
-    },
-    {
-        "question": "What is managerial accounting?",
-        "options": [
-            "Provides information to internal parties (managers) to facilitate planning, forecasting, and decision-making",
-            "Manages human resources",
-            "Develops marketing strategies",
-            "Analyzes employee performance"
-        ],
-        "answer": "Provides information to internal parties (managers) to facilitate planning, forecasting, and decision-making"
-    },
-    {
-        "question": "What are the three main types of professional accountants?",
-        "options": [
-            "Chartered accountants (CPA, CA), certified general accountants (CPA, CGA), certified management accountants (CPA, CMA)",
-            "Marketing managers, HR managers, financial analysts",
-            "Software developers, data scientists, project managers",
-            "Sales representatives, customer service agents, product managers"
-        ],
-        "answer": "Chartered accountants (CPA, CA), certified general accountants (CPA, CGA), certified management accountants (CPA, CMA)"
-    },
-    {
-        "question": "What is the purpose of tax services in accounting?",
-        "options": [
-            "Tax return preparation and tax planning",
+            "Analyzing variations in production data to ensure quality",
             "Managing human resources",
             "Developing marketing strategies",
             "Analyzing employee performance"
         ],
-        "answer": "Tax return preparation and tax planning"
+        "answer": "Analyzing variations in production data to ensure quality"
     },
     {
-        "question": "What is the purpose of auditing in accounting?",
+        "question": "What is the purpose of a control chart?",
         "options": [
-            "Examination of financial records to ensure fair representation (GAAP)",
+            "A statistical process control method to plot results and identify variations",
+            "A system that allows for flexibility in the production process",
+            "A system that combines resources in the production process",
+            "A system that breaks down resources in the production process"
+        ],
+        "answer": "A statistical process control method to plot results and identify variations"
+    },
+    {
+        "question": "What is the goal of total quality management (TQM)?",
+        "options": [
+            "Continuous improvement and maintaining quality standards",
             "Managing human resources",
             "Developing marketing strategies",
             "Analyzing employee performance"
         ],
-        "answer": "Examination of financial records to ensure fair representation (GAAP)"
+        "answer": "Continuous improvement and maintaining quality standards"
     },
     {
-        "question": "What is the role of management consulting services in accounting?",
+        "question": "What is the concept of quality ownership?",
         "options": [
-            "Personal financial planning to business planning",
+            "Quality belongs to each person who creates or destroys it while performing a job",
             "Managing human resources",
             "Developing marketing strategies",
             "Analyzing employee performance"
         ],
-        "answer": "Personal financial planning to business planning"
+        "answer": "Quality belongs to each person who creates or destroys it while performing a job"
     },
     {
-        "question": "What is the goal of the International Accounting Standards Board (IASB)?",
+        "question": "What is the purpose of benchmarking?",
         "options": [
-            "Eliminate differences in financial reporting from country to country",
-            "Manage human resources",
-            "Develop marketing strategies",
-            "Analyze employee performance"
-        ],
-        "answer": "Eliminate differences in financial reporting from country to country"
-    },
-    {
-        "question": "What are the main duties of private accountants?",
-        "options": [
-            "Day-to-day accounting needs, budgeting, financial planning, internal auditing, payroll, taxation, accounts payable",
+            "Comparing the quality of a firm's output with the industry's leaders",
             "Managing human resources",
             "Developing marketing strategies",
             "Analyzing employee performance"
         ],
-        "answer": "Day-to-day accounting needs, budgeting, financial planning, internal auditing, payroll, taxation, accounts payable"
+        "answer": "Comparing the quality of a firm's output with the industry's leaders"
     },
     {
-        "question": "What is the accounting cycle?",
+        "question": "What is the role of ISO 9001 certification?",
         "options": [
-            "Chronological order of accounting activities showing increases and decreases in various asset, liability, and equity accounts",
+            "Ensuring a business has a Quality Management System",
             "Managing human resources",
             "Developing marketing strategies",
             "Analyzing employee performance"
         ],
-        "answer": "Chronological order of accounting activities showing increases and decreases in various asset, liability, and equity accounts"
+        "answer": "Ensuring a business has a Quality Management System"
     },
     {
-        "question": "What is the accounting equation?",
+        "question": "What is business process re-engineering?",
         "options": [
-            "Assets = Liabilities + Owners' Equity",
-            "Revenue = Expenses + Profit",
-            "Income = Expenditure + Savings",
-            "Sales = Cost of Goods Sold + Gross Profit"
-        ],
-        "answer": "Assets = Liabilities + Owners' Equity"
-    },
-    {
-        "question": "What is double-entry bookkeeping?",
-        "options": [
-            "A system where all transactions are entered in two ways, showing how they impact assets and liabilities",
+            "Redesigning business processes to improve performance, quality, and productivity",
             "Managing human resources",
             "Developing marketing strategies",
             "Analyzing employee performance"
         ],
-        "answer": "A system where all transactions are entered in two ways, showing how they impact assets and liabilities"
+        "answer": "Redesigning business processes to improve performance, quality, and productivity"
     },
     {
-        "question": "What is a profit-and-loss statement?",
+        "question": "What is the purpose of supply chain management?",
         "options": [
-            "A description of revenues and expenses that shows the firm's annual profit or loss",
+            "Improving the overall flow of goods from raw materials to the end consumer",
             "Managing human resources",
             "Developing marketing strategies",
             "Analyzing employee performance"
         ],
-        "answer": "A description of revenues and expenses that shows the firm's annual profit or loss"
+        "answer": "Improving the overall flow of goods from raw materials to the end consumer"
     },
     {
-        "question": "What is the matching principle in accounting?",
+        "question": "What is the role of value-added analysis?",
         "options": [
-            "Expenses are matched with revenues to show net income for an accounting period",
+            "Evaluating the value added by all work activities and material flows",
             "Managing human resources",
             "Developing marketing strategies",
             "Analyzing employee performance"
         ],
-        "answer": "Expenses are matched with revenues to show net income for an accounting period"
+        "answer": "Evaluating the value added by all work activities and material flows"
     },
     {
-        "question": "What is revenue recognition?",
+        "question": "What is the purpose of quality/cost studies?",
         "options": [
-            "Formal recording and reporting of revenues in financial statements once the earnings cycle is completed",
+            "Assessing quality-related costs and identifying areas with cost-saving potential",
             "Managing human resources",
             "Developing marketing strategies",
             "Analyzing employee performance"
         ],
-        "answer": "Formal recording and reporting of revenues in financial statements once the earnings cycle is completed"
+        "answer": "Assessing quality-related costs and identifying areas with cost-saving potential"
     },
     {
-        "question": "What is depreciation?",
+        "question": "What is the role of quality improvement teams?",
         "options": [
-            "Distributing the cost of a major asset over its lifetime, deducted yearly",
+            "Groups of employees from various areas meet to define, analyze, and solve quality problems",
             "Managing human resources",
             "Developing marketing strategies",
             "Analyzing employee performance"
         ],
-        "answer": "Distributing the cost of a major asset over its lifetime, deducted yearly"
+        "answer": "Groups of employees from various areas meet to define, analyze, and solve quality problems"
     },
     {
-        "question": "What is a budget in accounting?",
+        "question": "What is the purpose of competitive product analysis?",
         "options": [
-            "A detailed financial plan of estimated receipts and expenditures for a future period",
+            "Reverse engineering to compare a firm's products with competitors",
             "Managing human resources",
             "Developing marketing strategies",
             "Analyzing employee performance"
         ],
-        "answer": "A detailed financial plan of estimated receipts and expenditures for a future period"
+        "answer": "Reverse engineering to compare a firm's products with competitors"
     },
     {
-        "question": "What are solvency ratios?",
+        "question": "What is the role of ISO 14000 certification?",
         "options": [
-            "Ratios that measure a firm's ability to meet its long-term obligations",
+            "Ensuring a business meets environmental management standards",
             "Managing human resources",
             "Developing marketing strategies",
             "Analyzing employee performance"
         ],
-        "answer": "Ratios that measure a firm's ability to meet its long-term obligations"
+        "answer": "Ensuring a business meets environmental management standards"
     },
     {
-        "question": "What is the current ratio?",
+        "question": "What is the purpose of a supply chain?",
         "options": [
-            "Current assets divided by current liabilities",
-            "Revenue divided by expenses",
-            "Income divided by expenditure",
-            "Sales divided by cost of goods sold"
-        ],
-        "answer": "Current assets divided by current liabilities"
-    },
-    {
-        "question": "What is the debt-to-equity ratio?",
-        "options": [
-            "Debt divided by owner's equity",
-            "Revenue divided by expenses",
-            "Income divided by expenditure",
-            "Sales divided by cost of goods sold"
-        ],
-        "answer": "Debt divided by owner's equity"
-    },
-    {
-        "question": "What is return on equity?",
-        "options": [
-            "Net income divided by total owner's equity",
-            "Revenue divided by expenses",
-            "Income divided by expenditure",
-            "Sales divided by cost of goods sold"
-        ],
-        "answer": "Net income divided by total owner's equity"
-    },
-    {
-        "question": "What is return on sales?",
-        "options": [
-            "Net income divided by sales revenue",
-            "Sales revenue divided by net income",
-            "Net income divided by total owner's equity",
-            "Sales revenue divided by total owner's equity"
-        ],
-        "answer": "Net income divided by sales revenue"
-    },
-    {
-        "question": "What is earnings per share?",
-        "options": [
-            "Net income divided by number of common shares outstanding",
-            "Sales revenue divided by number of common shares outstanding",
-            "Net income divided by total owner's equity",
-            "Sales revenue divided by total owner's equity"
-        ],
-        "answer": "Net income divided by number of common shares outstanding"
-    },
-    {
-        "question": "What is inventory turnover ratio?",
-        "options": [
-            "Cost of goods sold divided by average inventory",
-            "Sales revenue divided by average inventory",
-            "Net income divided by average inventory",
-            "Total owner's equity divided by average inventory"
-        ],
-        "answer": "Cost of goods sold divided by average inventory"
-    },
-    {
-        "question": "What is the purpose of accounting ethics?",
-        "options": [
-            "To maintain public confidence in business institutions, financial markets, and the accounting profession",
-            "To manage human resources",
-            "To develop marketing strategies",
-            "To analyze employee performance"
-        ],
-        "answer": "To maintain public confidence in business institutions, financial markets, and the accounting profession"
-    },
-    {
-        "question": "What is the role of the modern accountant?",
-        "options": [
-            "Effective communicator, project manager, and adapting to fewer restrictions from physical and geographic boundaries",
+            "A group of companies and activities involved in getting the product from raw materials to the end consumer",
             "Managing human resources",
             "Developing marketing strategies",
             "Analyzing employee performance"
         ],
-        "answer": "Effective communicator, project manager, and adapting to fewer restrictions from physical and geographic boundaries"
+        "answer": "A group of companies and activities involved in getting the product from raw materials to the end consumer"
     },
     {
-        "question": "What is the accounting profession in Canada unifying under?",
+        "question": "What is the role of human relations skills in service operations?",
         "options": [
-            "Chartered Professional Accountant (CPA)",
-            "Chartered Accountant (CA)",
-            "Certified Management Accountant (CMA)",
-            "Certified Public Accountant (CPA)"
-        ],
-        "answer": "Chartered Professional Accountant (CPA)"
-    },
-    {
-        "question": "What does managerial accounting support?",
-        "options": [
-            "The decisions of internal clients",
-            "The decisions of external clients",
-            "The management of human resources",
-            "The development of marketing strategies"
-        ],
-        "answer": "The decisions of internal clients"
-    },
-    {
-        "question": "What does financial accounting provide?",
-        "options": [
-            "Information to external users such as shareholders, banks, and the government",
-            "Information to internal users such as managers",
-            "Management of human resources",
-            "Development of marketing strategies"
-        ],
-        "answer": "Information to external users such as shareholders, banks, and the government"
-    },
-    {
-        "question": "What is a current asset?",
-        "options": [
-            "Accounts receivable",
-            "Goodwill",
-            "Land",
-            "Equipment"
-        ],
-        "answer": "Accounts receivable"
-    },
-    {
-        "question": "What does a statement of cash flows provide?",
-        "options": [
-            "Details about the generation of cash and the use of cash in a given time period",
-            "Details about the firm's annual profit or loss",
-            "Details about the firm's income",
-            "Details about the firm's balance sheet"
-        ],
-        "answer": "Details about the generation of cash and the use of cash in a given time period"
-    },
-    {
-        "question": "What does the return on equity ratio indicate?",
-        "options": [
-            "How efficiently the firm's managers utilized investor resources",
-            "How efficiently the firm's managers managed human resources",
-            "How efficiently the firm's managers developed marketing strategies",
-            "How efficiently the firm's managers analyzed employee performance"
-        ],
-        "answer": "How efficiently the firm's managers utilized investor resources"
-    },
-    {
-        "question": "What is the purpose of the International Accounting Standards Board (IASB)?",
-        "options": [
-            "To eliminate differences in financial reporting from country to country",
-            "To manage human resources",
-            "To develop marketing strategies",
-            "To analyze employee performance"
-        ],
-        "answer": "To eliminate differences in financial reporting from country to country"
-    },
-    {
-        "question": "What is the role of private accountants?",
-        "options": [
-            "Day-to-day accounting needs, budgeting, financial planning, internal auditing, payroll, taxation, accounts payable",
+            "Service workers need human relations skills to interact with customers",
             "Managing human resources",
             "Developing marketing strategies",
             "Analyzing employee performance"
         ],
-        "answer": "Day-to-day accounting needs, budgeting, financial planning, internal auditing, payroll, taxation, accounts payable"
+        "answer": "Service workers need human relations skills to interact with customers"
     },
     {
-        "question": "What is the accounting cycle?",
+        "question": "What is the purpose of a master production schedule?",
         "options": [
-            "Chronological order of accounting activities showing increases and decreases in various asset, liability, and equity accounts",
+            "Specifies which products, when, what resources, and what time period",
             "Managing human resources",
             "Developing marketing strategies",
             "Analyzing employee performance"
         ],
-        "answer": "Chronological order of accounting activities showing increases and decreases in various asset, liability, and equity accounts"
+        "answer": "Specifies which products, when, what resources, and what time period"
     },
     {
-        "question": "What is the accounting equation?",
+        "question": "What is the role of worker training in operations control?",
         "options": [
-            "Assets = Liabilities + Owners' Equity",
-            "Revenue = Expenses + Profit",
-            "Income = Expenditure + Savings",
-            "Sales = Cost of Goods Sold + Gross Profit"
-        ],
-        "answer": "Assets = Liabilities + Owners' Equity"
-    },
-    {
-        "question": "What is double-entry bookkeeping?",
-        "options": [
-            "A system where all transactions are entered in two ways, showing how they impact assets and liabilities",
+            "Ensuring employees can be both producers and salespeople",
             "Managing human resources",
             "Developing marketing strategies",
             "Analyzing employee performance"
         ],
-        "answer": "A system where all transactions are entered in two ways, showing how they impact assets and liabilities"
+        "answer": "Ensuring employees can be both producers and salespeople"
     },
     {
-        "question": "What is a profit-and-loss statement?",
+        "question": "What is the purpose of material requirements planning (MRP II)?",
         "options": [
-            "A description of revenues and expenses that shows the firm's annual profit or loss",
+            "An advanced version of MRP that ties all parts of the organization into production activities",
             "Managing human resources",
             "Developing marketing strategies",
             "Analyzing employee performance"
         ],
-        "answer": "A description of revenues and expenses that shows the firm's annual profit or loss"
+        "answer": "An advanced version of MRP that ties all parts of the organization into production activities"
     },
     {
-        "question": "What is the matching principle in accounting?",
+        "question": "What is the role of quality assurance tools?",
         "options": [
-            "Expenses are matched with revenues to show net income for an accounting period",
+            "Ensuring products meet certain standards and specifications",
             "Managing human resources",
             "Developing marketing strategies",
             "Analyzing employee performance"
         ],
-        "answer": "Expenses are matched with revenues to show net income for an accounting period"
+        "answer": "Ensuring products meet certain standards and specifications"
     },
     {
-        "question": "What is revenue recognition?",
+        "question": "What is the purpose of process variation analysis?",
         "options": [
-            "Formal recording and reporting of revenues in financial statements once the earnings cycle is completed",
+            "Detecting changes in employees, materials, work methods, or equipment that affect output quality",
             "Managing human resources",
             "Developing marketing strategies",
             "Analyzing employee performance"
         ],
-        "answer": "Formal recording and reporting of revenues in financial statements once the earnings cycle is completed"
+        "answer": "Detecting changes in employees, materials, work methods, or equipment that affect output quality"
     },
     {
-        "question": "What is depreciation?",
+        "question": "What is the role of a control chart in quality assurance?",
         "options": [
-            "Distributing the cost of a major asset over its lifetime, deducted yearly",
+            "A statistical process control method to plot results and identify variations",
             "Managing human resources",
             "Developing marketing strategies",
             "Analyzing employee performance"
         ],
-        "answer": "Distributing the cost of a major asset over its lifetime, deducted yearly"
+        "answer": "A statistical process control method to plot results and identify variations"
     },
     {
-        "question": "What is a budget in accounting?",
+        "question": "What is the purpose of quality/cost studies?",
         "options": [
-            "A detailed financial plan of estimated receipts and expenditures for a future period",
+            "Assessing quality-related costs and identifying areas with cost-saving potential",
             "Managing human resources",
             "Developing marketing strategies",
             "Analyzing employee performance"
         ],
-        "answer": "A detailed financial plan of estimated receipts and expenditures for a future period"
+        "answer": "Assessing quality-related costs and identifying areas with cost-saving potential"
     },
     {
-        "question": "What are solvency ratios?",
+        "question": "What is the role of quality improvement teams?",
         "options": [
-            "Ratios that measure a firm's ability to meet its long-term obligations",
+            "Groups of employees from various areas meet to define, analyze, and solve quality problems",
             "Managing human resources",
             "Developing marketing strategies",
             "Analyzing employee performance"
         ],
-        "answer": "Ratios that measure a firm's ability to meet its long-term obligations"
+        "answer": "Groups of employees from various areas meet to define, analyze, and solve quality problems"
     },
     {
-        "question": "What is the current ratio?",
+        "question": "What is the purpose of competitive product analysis?",
         "options": [
-            "Current assets divided by current liabilities",
-            "Revenue divided by expenses",
-            "Income divided by expenditure",
-            "Sales divided by cost of goods sold"
+            "Reverse engineering to compare a firm's products with competitors",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
         ],
-        "answer": "Current assets divided by current liabilities"
+        "answer": "Reverse engineering to compare a firm's products with competitors"
     },
     {
-        "question": "What is the debt-to-equity ratio?",
+        "question": "What is the role of ISO 14000 certification?",
         "options": [
-            "Debt divided by owner's equity",
-            "Revenue divided by expenses",
-            "Income divided by expenditure",
-            "Sales divided by cost of goods sold"
+            "Ensuring a business meets environmental management standards",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
         ],
-        "answer": "Debt divided by owner's equity"
+        "answer": "Ensuring a business meets environmental management standards"
     },
     {
-        "question": "What is return on equity?",
+        "question": "What is the purpose of a supply chain?",
         "options": [
-            "Net income divided by total owner's equity",
-            "Revenue divided by expenses",
-            "Income divided by expenditure",
-            "Sales divided by cost of goods sold"
+            "A group of companies and activities involved in getting the product from raw materials to the end consumer",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
         ],
-        "answer": "Net income divided by total owner's equity"
+        "answer": "A group of companies and activities involved in getting the product from raw materials to the end consumer"
+    },
+    {
+        "question": "What is the role of human relations skills in service operations?",
+        "options": [
+            "Service workers need human relations skills to interact with customers",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Service workers need human relations skills to interact with customers"
+    },
+    {
+        "question": "What is the purpose of a master production schedule?",
+        "options": [
+            "Specifies which products, when, what resources, and what time period",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Specifies which products, when, what resources, and what time period"
+    },
+    {
+        "question": "What is the role of worker training in operations control?",
+        "options": [
+            "Ensuring employees can be both producers and salespeople",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Ensuring employees can be both producers and salespeople"
+    },
+    {
+        "question": "What is the purpose of material requirements planning (MRP II)?",
+        "options": [
+            "An advanced version of MRP that ties all parts of the organization into production activities",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "An advanced version of MRP that ties all parts of the organization into production activities"
+    },
+    {
+        "question": "What is the role of quality assurance tools?",
+        "options": [
+            "Ensuring products meet certain standards and specifications",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Ensuring products meet certain standards and specifications"
+    },
+    {
+        "question": "What is the purpose of process variation analysis?",
+        "options": [
+            "Detecting changes in employees, materials, work methods, or equipment that affect output quality",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Detecting changes in employees, materials, work methods, or equipment that affect output quality"
+    },
+    {
+        "question": "What is the role of a control chart in quality assurance?",
+        "options": [
+            "A statistical process control method to plot results and identify variations",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "A statistical process control method to plot results and identify variations"
+    },
+    {
+        "question": "What is the purpose of quality/cost studies?",
+        "options": [
+            "Assessing quality-related costs and identifying areas with cost-saving potential",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Assessing quality-related costs and identifying areas with cost-saving potential"
+    },
+    {
+        "question": "What is the role of quality improvement teams?",
+        "options": [
+            "Groups of employees from various areas meet to define, analyze, and solve quality problems",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Groups of employees from various areas meet to define, analyze, and solve quality problems"
+    },
+    {
+        "question": "What is the purpose of competitive product analysis?",
+        "options": [
+            "Reverse engineering to compare a firm's products with competitors",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Reverse engineering to compare a firm's products with competitors"
+    },
+    {
+        "question": "What is the role of ISO 14000 certification?",
+        "options": [
+            "Ensuring a business meets environmental management standards",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Ensuring a business meets environmental management standards"
+    },
+    {
+        "question": "What is the purpose of a supply chain?",
+        "options": [
+            "A group of companies and activities involved in getting the product from raw materials to the end consumer",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "A group of companies and activities involved in getting the product from raw materials to the end consumer"
+    },
+    {
+        "question": "What is the role of human relations skills in service operations?",
+        "options": [
+            "Service workers need human relations skills to interact with customers",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Service workers need human relations skills to interact with customers"
+    },
+    {
+        "question": "What is the purpose of a master production schedule?",
+        "options": [
+            "Specifies which products, when, what resources, and what time period",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Specifies which products, when, what resources, and what time period"
+    },
+    {
+        "question": "What is the role of worker training in operations control?",
+        "options": [
+            "Ensuring employees can be both producers and salespeople",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Ensuring employees can be both producers and salespeople"
+    },
+    {
+        "question": "What is the purpose of material requirements planning (MRP II)?",
+        "options": [
+            "An advanced version of MRP that ties all parts of the organization into production activities",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "An advanced version of MRP that ties all parts of the organization into production activities"
+    },
+    {
+        "question": "What is the role of quality assurance tools?",
+        "options": [
+            "Ensuring products meet certain standards and specifications",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Ensuring products meet certain standards and specifications"
+    },
+    {
+        "question": "What is the purpose of process variation analysis?",
+        "options": [
+            "Detecting changes in employees, materials, work methods, or equipment that affect output quality",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Detecting changes in employees, materials, work methods, or equipment that affect output quality"
+    },
+    {
+        "question": "What is the role of a control chart in quality assurance?",
+        "options": [
+            "A statistical process control method to plot results and identify variations",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "A statistical process control method to plot results and identify variations"
+    },
+    {
+        "question": "What is the purpose of quality/cost studies?",
+        "options": [
+            "Assessing quality-related costs and identifying areas with cost-saving potential",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Assessing quality-related costs and identifying areas with cost-saving potential"
+    },
+    {
+        "question": "What is the role of quality improvement teams?",
+        "options": [
+            "Groups of employees from various areas meet to define, analyze, and solve quality problems",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Groups of employees from various areas meet to define, analyze, and solve quality problems"
+    },
+    {
+        "question": "What is the purpose of competitive product analysis?",
+        "options": [
+            "Reverse engineering to compare a firm's products with competitors",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Reverse engineering to compare a firm's products with competitors"
+    },
+    {
+        "question": "What is the role of ISO 14000 certification?",
+        "options": [
+            "Ensuring a business meets environmental management standards",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Ensuring a business meets environmental management standards"
+    },
+    {
+        "question": "What is the purpose of a supply chain?",
+        "options": [
+            "A group of companies and activities involved in getting the product from raw materials to the end consumer",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "A group of companies and activities involved in getting the product from raw materials to the end consumer"
+    },
+    {
+        "question": "What is the role of human relations skills in service operations?",
+        "options": [
+            "Service workers need human relations skills to interact with customers",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Service workers need human relations skills to interact with customers"
+    },
+    {
+        "question": "What is the purpose of a master production schedule?",
+        "options": [
+            "Specifies which products, when, what resources, and what time period",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Specifies which products, when, what resources, and what time period"
+    },
+    {
+        "question": "What is the role of worker training in operations control?",
+        "options": [
+            "Ensuring employees can be both producers and salespeople",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Ensuring employees can be both producers and salespeople"
+    },
+    {
+        "question": "What is the purpose of material requirements planning (MRP II)?",
+        "options": [
+            "An advanced version of MRP that ties all parts of the organization into production activities",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "An advanced version of MRP that ties all parts of the organization into production activities"
+    },
+    {
+        "question": "What is the role of quality assurance tools?",
+        "options": [
+            "Ensuring products meet certain standards and specifications",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Ensuring products meet certain standards and specifications"
+    },
+    {
+        "question": "What is the purpose of process variation analysis?",
+        "options": [
+            "Detecting changes in employees, materials, work methods, or equipment that affect output quality",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Detecting changes in employees, materials, work methods, or equipment that affect output quality"
+    },
+    {
+        "question": "What is the role of a control chart in quality assurance?",
+        "options": [
+            "A statistical process control method to plot results and identify variations",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "A statistical process control method to plot results and identify variations"
+    },
+    {
+        "question": "What is the purpose of quality/cost studies?",
+        "options": [
+            "Assessing quality-related costs and identifying areas with cost-saving potential",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Assessing quality-related costs and identifying areas with cost-saving potential"
+    },
+    {
+        "question": "What is the role of quality improvement teams?",
+        "options": [
+            "Groups of employees from various areas meet to define, analyze, and solve quality problems",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Groups of employees from various areas meet to define, analyze, and solve quality problems"
+    },
+    {
+        "question": "What is the purpose of competitive product analysis?",
+        "options": [
+            "Reverse engineering to compare a firm's products with competitors",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Reverse engineering to compare a firm's products with competitors"
+    },
+    {
+        "question": "What is the role of ISO 14000 certification?",
+        "options": [
+            "Ensuring a business meets environmental management standards",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Ensuring a business meets environmental management standards"
+    },
+    {
+        "question": "What is the purpose of a supply chain?",
+        "options": [
+            "A group of companies and activities involved in getting the product from raw materials to the end consumer",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "A group of companies and activities involved in getting the product from raw materials to the end consumer"
+    },
+    {
+        "question": "What is the role of human relations skills in service operations?",
+        "options": [
+            "Service workers need human relations skills to interact with customers",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Service workers need human relations skills to interact with customers"
+    },
+    {
+        "question": "What is the purpose of a master production schedule?",
+        "options": [
+            "Specifies which products, when, what resources, and what time period",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Specifies which products, when, what resources, and what time period"
+    },
+    {
+        "question": "What is the role of worker training in operations control?",
+        "options": [
+            "Ensuring employees can be both producers and salespeople",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Ensuring employees can be both producers and salespeople"
+    },
+    {
+        "question": "What is the purpose of material requirements planning (MRP II)?",
+        "options": [
+            "An advanced version of MRP that ties all parts of the organization into production activities",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "An advanced version of MRP that ties all parts of the organization into production activities"
+    },
+    {
+        "question": "What is the role of quality assurance tools?",
+        "options": [
+            "Ensuring products meet certain standards and specifications",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Ensuring products meet certain standards and specifications"
+    },
+    {
+        "question": "What is the purpose of process variation analysis?",
+        "options": [
+            "Detecting changes in employees, materials, work methods, or equipment that affect output quality",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Detecting changes in employees, materials, work methods, or equipment that affect output quality"
+    },
+    {
+        "question": "What is the role of a control chart in quality assurance?",
+        "options": [
+            "A statistical process control method to plot results and identify variations",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "A statistical process control method to plot results and identify variations"
+    },
+    {
+        "question": "What is the purpose of quality/cost studies?",
+        "options": [
+            "Assessing quality-related costs and identifying areas with cost-saving potential",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Assessing quality-related costs and identifying areas with cost-saving potential"
+    },
+    {
+        "question": "What is the role of quality improvement teams?",
+        "options": [
+            "Groups of employees from various areas meet to define, analyze, and solve quality problems",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Groups of employees from various areas meet to define, analyze, and solve quality problems"
+    },
+    {
+        "question": "What is the purpose of competitive product analysis?",
+        "options": [
+            "Reverse engineering to compare a firm's products with competitors",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Reverse engineering to compare a firm's products with competitors"
     }
 ]

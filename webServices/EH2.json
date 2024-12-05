@@ -1,0 +1,302 @@
+[
+    {
+        "question": "What is the primary function of a sniffer?",
+        "options": [
+            "To modify network traffic",
+            "To encrypt data",
+            "To collect network traffic information",
+            "To launch DoS attacks"
+        ],
+        "answer": "To collect network traffic information"
+    },
+    {
+        "question": "Which tool can be used for packet analysis in active sniffing?",
+        "options": [
+            "Metasploit",
+            "Wireshark",
+            "Gobuster",
+            "Arpwatch"
+        ],
+        "answer": "Wireshark"
+    },
+    {
+        "question": "What does ARP spoofing enable attackers to do?",
+        "options": [
+            "Flood a network with traffic",
+            "Intercept and modify network traffic",
+            "Encrypt data transmissions",
+            "Redirect DNS queries"
+        ],
+        "answer": "Intercept and modify network traffic"
+    },
+    {
+        "question": "Brandon is trying to gather information about network traffic. Which tool should he use?",
+        "options": [
+            "Metasploit",
+            "Wireshark",
+            "Gobuster",
+            "Arpwatch"
+        ],
+        "answer": "Wireshark"
+    },
+    {
+        "question": "Yaman wants to analyze packets during an active sniffing session. Which tool should he use?",
+        "options": [
+            "Metasploit",
+            "Wireshark",
+            "Gobuster",
+            "Arpwatch"
+        ],
+        "answer": "Wireshark"
+    },
+    {
+        "question": "Simon is attempting to intercept and modify network traffic. What technique is he using?",
+        "options": [
+            "Flood a network with traffic",
+            "Intercept and modify network traffic",
+            "Encrypt data transmissions",
+            "Redirect DNS queries"
+        ],
+        "answer": "Intercept and modify network traffic"
+    },
+    {
+        "question": "Syed needs to scan a web server for common ports. Which tool can he use?",
+        "options": [
+            "ID Serve",
+            "ScanLine",
+            "Super Scan",
+            "Nmap"
+        ],
+        "answer": "Nmap"
+    },
+    {
+        "question": "Yassine is trying to identify vulnerabilities in a web server after determining its vendor and version. Which websites can he check for known vulnerabilities?",
+        "options": [
+            "www.securityfocus.com",
+            "www.packetstormsecurity.org",
+            "http://nvd.nist.gov",
+            "Exploit-db.com"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "question": "What is the purpose of input validation in web applications?",
+        "options": [
+            "To ensure data integrity",
+            "To prevent unauthorized access",
+            "To validate user credentials",
+            "To prevent injection attacks"
+        ],
+        "answer": "To prevent injection attacks"
+    },
+    {
+        "question": "Which type of attack involves tricking users into clicking unintended links?",
+        "options": [
+            "SQL injection",
+            "Cross-site scripting",
+            "Clickjacking",
+            "Directory traversal"
+        ],
+        "answer": "Clickjacking"
+    },
+    {
+        "question": "What is the main goal of SQL injection attacks?",
+        "options": [
+            "To modify network traffic",
+            "To encrypt data",
+            "To manipulate databases",
+            "To launch DoS attacks"
+        ],
+        "answer": "To manipulate databases"
+    },
+    {
+        "question": "Which tool can be used to intercept and modify web traffic?",
+        "options": [
+            "Burp Suite",
+            "Wireshark",
+            "Nmap",
+            "Metasploit"
+        ],
+        "answer": "Burp Suite"
+    },
+    {
+        "question": "What is the purpose of a web application firewall (WAF)?",
+        "options": [
+            "To encrypt data",
+            "To block or log malicious traffic",
+            "To scan for vulnerabilities",
+            "To manage patches"
+        ],
+        "answer": "To block or log malicious traffic"
+    },
+    {
+        "question": "Which type of XSS attack involves injecting malicious code that is stored on a server?",
+        "options": [
+            "Reflected XSS",
+            "Stored (persistent) XSS",
+            "DOM-based XSS",
+            "Blind XSS"
+        ],
+        "answer": "Stored (persistent) XSS"
+    },
+    {
+        "question": "What is the primary defense against SQL injection attacks?",
+        "options": [
+            "Using static queries",
+            "Using parameterized queries",
+            "Using dynamic queries",
+            "Using stored procedures"
+        ],
+        "answer": "Using parameterized queries"
+    },
+    {
+        "question": "Which tool can be used for scanning web servers for vulnerabilities?",
+        "options": [
+            "Nexpose",
+            "Wireshark",
+            "Metasploit",
+            "Arpwatch"
+        ],
+        "answer": "Nexpose"
+    },
+    {
+        "question": "What is the purpose of session hijacking?",
+        "options": [
+            "To modify network traffic",
+            "To encrypt data",
+            "To take over a user's session",
+            "To launch DoS attacks"
+        ],
+        "answer": "To take over a user's session"
+    },
+    {
+        "question": "Which type of attack involves manipulating parameters passed between the client and web application?",
+        "options": [
+            "SQL injection",
+            "Cross-site scripting",
+            "Parameter tampering",
+            "Directory traversal"
+        ],
+        "answer": "Parameter tampering"
+    },
+    {
+        "question": "What is the main goal of cross-site request forgery (CSRF) attacks?",
+        "options": [
+            "To modify network traffic",
+            "To encrypt data",
+            "To perform unauthorized actions on behalf of a user",
+            "To launch DoS attacks"
+        ],
+        "answer": "To perform unauthorized actions on behalf of a user"
+    },
+    {
+        "question": "Which tool can be used to perform banner grabbing?",
+        "options": [
+            "Netcraft",
+            "Wireshark",
+            "Nmap",
+            "Metasploit"
+        ],
+        "answer": "Netcraft"
+    },
+    {
+        "question": "What is the purpose of directory traversal attacks?",
+        "options": [
+            "To modify network traffic",
+            "To encrypt data",
+            "To access restricted directories",
+            "To launch DoS attacks"
+        ],
+        "answer": "To access restricted directories"
+    },
+    {
+        "question": "Which type of attack involves injecting code into system calls?",
+        "options": [
+            "SQL injection",
+            "Command injection",
+            "File injection",
+            "XML injection"
+        ],
+        "answer": "Command injection"
+    },
+    {
+        "question": "What is the primary defense against cross-site scripting (XSS) attacks?",
+        "options": [
+            "Input validation",
+            "Output encoding",
+            "Using static queries",
+            "Using dynamic queries"
+        ],
+        "answer": "Input validation"
+    },
+    {
+        "question": "Which tool can be used to crack passwords?",
+        "options": [
+            "WebCracker",
+            "Wireshark",
+            "Nmap",
+            "Metasploit"
+        ],
+        "answer": "WebCracker"
+    },
+    {
+        "question": "What is the purpose of using a web proxy in web attacks?",
+        "options": [
+            "To modify network traffic",
+            "To encrypt data",
+            "To intercept and debug web applications",
+            "To launch DoS attacks"
+        ],
+        "answer": "To intercept and debug web applications"
+    },
+    {
+        "question": "Which tool can be used to scan for directory traversal vulnerabilities?",
+        "options": [
+            "Nikto",
+            "Wireshark",
+            "Nmap",
+            "Metasploit"
+        ],
+        "answer": "Nikto"
+    },
+    {
+        "question": "What is the purpose of using automated patch management tools?",
+        "options": [
+            "To encrypt data",
+            "To block or log malicious traffic",
+            "To scan for vulnerabilities",
+            "To manage patches"
+        ],
+        "answer": "To manage patches"
+    },
+    {
+        "question": "Which type of attack involves injecting malicious code into a web application?",
+        "options": [
+            "SQL injection",
+            "Cross-site scripting",
+            "Command injection",
+            "File injection"
+        ],
+        "answer": "Cross-site scripting"
+    },
+    {
+        "question": "What is the primary defense against command injection attacks?",
+        "options": [
+            "Input validation",
+            "Output encoding",
+            "Using static queries",
+            "Using dynamic queries"
+        ],
+        "answer": "Input validation"
+    },
+    {
+        "question": "Which tool can be used to identify web server vulnerabilities?",
+        "options": [
+            "Nessus",
+            "Wireshark",
+            "Nmap",
+            "Metasploit"
+        ],
+        "answer": "Nessus"
+    }
+]

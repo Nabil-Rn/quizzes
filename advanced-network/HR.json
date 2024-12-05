@@ -1,208 +1,502 @@
 [
     {
-        "question": "What does HRM stand for?",
+        "question": "What is accounting?",
         "options": [
-            "Human Resource Management",
-            "Human Resource Module",
-            "Human Relations Management",
-            "Human Resource Methodology"
+            "A system for collecting, analyzing, and communicating financial information",
+            "A method for managing human resources",
+            "A technique for marketing products",
+            "A strategy for business development"
         ],
-        "answer": "Human Resource Management"
+        "answer": "A system for collecting, analyzing, and communicating financial information"
     },
     {
-        "question": "Which of the following is NOT a responsibility of HR professionals?",
+        "question": "What is bookkeeping?",
         "options": [
-            "Aligning HR strategies with business strategies",
-            "Conducting performance reviews",
-            "Managing financial investments",
-            "Delivering HR services"
+            "Recording accounting transactions",
+            "Analyzing financial statements",
+            "Managing employee performance",
+            "Developing marketing strategies"
         ],
-        "answer": "Managing financial investments"
+        "answer": "Recording accounting transactions"
     },
     {
-        "question": "What is the main purpose of job analysis?",
+        "question": "What is the role of the Accounting Information System (AIS)?",
         "options": [
-            "To create a job description",
-            "To assess employee performance",
-            "To study job duties and qualifications",
-            "To conduct employee orientation"
+            "Identifying, measuring, recording, and retaining financial information",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
         ],
-        "answer": "To study job duties and qualifications"
+        "answer": "Identifying, measuring, recording, and retaining financial information"
     },
     {
-        "question": "What is the first step in the recruitment process?",
+        "question": "Who are the users of accounting information?",
         "options": [
-            "Screening candidates",
-            "Job posting",
-            "Job analysis",
-            "Conducting interviews"
+            "Business managers, employees and unions, investors and creditors, taxing authorities, government regulatory agencies",
+            "Only business managers",
+            "Only employees and unions",
+            "Only investors and creditors"
         ],
-        "answer": "Job analysis"
+        "answer": "Business managers, employees and unions, investors and creditors, taxing authorities, government regulatory agencies"
     },
     {
-        "question": "Which of the following best describes human capital?",
+        "question": "What is the role of a controller in accounting?",
         "options": [
-            "The physical assets of a company",
-            "The knowledge and skills of employees",
-            "The financial resources available to a business",
-            "The technology used in production"
+            "Ensures that the accounting system provides the reports and statements needed for planning, controlling, and decision-making",
+            "Manages human resources",
+            "Develops marketing strategies",
+            "Analyzes employee performance"
         ],
-        "answer": "The knowledge and skills of employees"
+        "answer": "Ensures that the accounting system provides the reports and statements needed for planning, controlling, and decision-making"
     },
     {
-        "question": "What is the main goal of orientation for new employees?",
+        "question": "What is financial accounting?",
         "options": [
-            "To train them for their job",
-            "To familiarize them with the organization",
-            "To assess their performance",
-            "To promote company culture"
+            "Keeps external parties informed about the firm's financial condition",
+            "Manages human resources",
+            "Develops marketing strategies",
+            "Analyzes employee performance"
         ],
-        "answer": "To familiarize them with the organization"
+        "answer": "Keeps external parties informed about the firm's financial condition"
     },
     {
-        "question": "Which type of recruitment involves filling positions from within the organization?",
+        "question": "What is managerial accounting?",
         "options": [
-            "External recruitment",
-            "Internal recruitment",
-            "Job posting",
-            "Candidate sourcing"
+            "Provides information to internal parties (managers) to facilitate planning, forecasting, and decision-making",
+            "Manages human resources",
+            "Develops marketing strategies",
+            "Analyzes employee performance"
         ],
-        "answer": "Internal recruitment"
+        "answer": "Provides information to internal parties (managers) to facilitate planning, forecasting, and decision-making"
     },
     {
-        "question": "What is a job specification?",
+        "question": "What are the three main types of professional accountants?",
         "options": [
-            "A summary of job duties",
-            "A detailed analysis of job requirements",
-            "An outline of employee benefits",
-            "A list of company policies"
+            "Chartered accountants (CPA, CA), certified general accountants (CPA, CGA), certified management accountants (CPA, CMA)",
+            "Marketing managers, HR managers, financial analysts",
+            "Software developers, data scientists, project managers",
+            "Sales representatives, customer service agents, product managers"
         ],
-        "answer": "A detailed analysis of job requirements"
+        "answer": "Chartered accountants (CPA, CA), certified general accountants (CPA, CGA), certified management accountants (CPA, CMA)"
     },
     {
-        "question": "What is the purpose of employment assessments?",
+        "question": "What is the purpose of tax services in accounting?",
         "options": [
-            "To determine salary levels",
-            "To gauge candidate fit and competencies",
-            "To evaluate employee satisfaction",
-            "To measure productivity"
+            "Tax return preparation and tax planning",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
         ],
-        "answer": "To gauge candidate fit and competencies"
+        "answer": "Tax return preparation and tax planning"
     },
     {
-        "question": "What does the term 'competitive advantage' refer to in HRM?",
+        "question": "What is the purpose of auditing in accounting?",
         "options": [
-            "Cost leadership",
-            "Unique skills and abilities of employees",
-            "Market share",
-            "Operational efficiency"
+            "Examination of financial records to ensure fair representation (GAAP)",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
         ],
-        "answer": "Unique skills and abilities of employees"
+        "answer": "Examination of financial records to ensure fair representation (GAAP)"
     },
     {
-        "question": "What is a common method used in the selection process?",
+        "question": "What is the role of management consulting services in accounting?",
         "options": [
-            "Job rotation",
-            "Psychometric testing",
-            "Team building",
-            "Performance appraisal"
+            "Personal financial planning to business planning",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
         ],
-        "answer": "Psychometric testing"
+        "answer": "Personal financial planning to business planning"
     },
     {
-        "question": "Which of the following is a key factor in the selection decision?",
+        "question": "What is the goal of the International Accounting Standards Board (IASB)?",
         "options": [
-            "Employee tenure",
-            "Organizational culture",
-            "Personal friendships",
-            "Company profits"
+            "Eliminate differences in financial reporting from country to country",
+            "Manage human resources",
+            "Develop marketing strategies",
+            "Analyze employee performance"
         ],
-        "answer": "Organizational culture"
+        "answer": "Eliminate differences in financial reporting from country to country"
     },
     {
-        "question": "Which of the following best defines 'Human Resource Planning'?",
+        "question": "What are the main duties of private accountants?",
         "options": [
-            "The process of forecasting HR needs",
-            "The evaluation of employee performance",
-            "The development of training programs",
-            "The design of job descriptions"
+            "Day-to-day accounting needs, budgeting, financial planning, internal auditing, payroll, taxation, accounts payable",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
         ],
-        "answer": "The process of forecasting HR needs"
+        "answer": "Day-to-day accounting needs, budgeting, financial planning, internal auditing, payroll, taxation, accounts payable"
     },
     {
-        "question": "What is the purpose of reference checks during the selection process?",
+        "question": "What is the accounting cycle?",
         "options": [
-            "To verify employment history",
-            "To check educational qualifications",
-            "To predict future performance",
-            "To ensure candidate diversity"
+            "Chronological order of accounting activities showing increases and decreases in various asset, liability, and equity accounts",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
         ],
-        "answer": "To predict future performance"
+        "answer": "Chronological order of accounting activities showing increases and decreases in various asset, liability, and equity accounts"
     },
     {
-        "question": "What is one benefit of effective orientation programs?",
+        "question": "What is the accounting equation?",
         "options": [
-            "Higher salaries for new employees",
-            "Increased turnover rates",
-            "Lower recruitment costs",
-            "Reduced employee anxiety"
+            "Assets = Liabilities + Owners' Equity",
+            "Revenue = Expenses + Profit",
+            "Income = Expenditure + Savings",
+            "Sales = Cost of Goods Sold + Gross Profit"
         ],
-        "answer": "Reduced employee anxiety"
+        "answer": "Assets = Liabilities + Owners' Equity"
     },
     {
-        "question": "True or False: HRM focuses solely on recruitment and hiring.",
+        "question": "What is double-entry bookkeeping?",
         "options": [
-            "True",
-            "False"
+            "A system where all transactions are entered in two ways, showing how they impact assets and liabilities",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
         ],
-        "answer": "False"
+        "answer": "A system where all transactions are entered in two ways, showing how they impact assets and liabilities"
     },
     {
-        "question": "True or False: Internal recruitment can enhance employee motivation.",
+        "question": "What is a profit-and-loss statement?",
         "options": [
-            "True",
-            "False"
+            "A description of revenues and expenses that shows the firm's annual profit or loss",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
         ],
-        "answer": "True"
+        "answer": "A description of revenues and expenses that shows the firm's annual profit or loss"
     },
     {
-        "question": "True or False: Job analysis is an ongoing process.",
+        "question": "What is the matching principle in accounting?",
         "options": [
-            "True",
-            "False"
+            "Expenses are matched with revenues to show net income for an accounting period",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
         ],
-        "answer": "True"
+        "answer": "Expenses are matched with revenues to show net income for an accounting period"
     },
     {
-        "question": "True or False: Performance appraisals are only conducted annually.",
+        "question": "What is revenue recognition?",
         "options": [
-            "True",
-            "False"
+            "Formal recording and reporting of revenues in financial statements once the earnings cycle is completed",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
         ],
-        "answer": "False"
+        "answer": "Formal recording and reporting of revenues in financial statements once the earnings cycle is completed"
     },
     {
-        "question": "True or False: Employee engagement has no impact on productivity.",
+        "question": "What is depreciation?",
         "options": [
-            "True",
-            "False"
+            "Distributing the cost of a major asset over its lifetime, deducted yearly",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
         ],
-        "answer": "False"
+        "answer": "Distributing the cost of a major asset over its lifetime, deducted yearly"
     },
     {
-        "question": "True or False: A job description should remain unchanged once created.",
+        "question": "What is a budget in accounting?",
         "options": [
-            "True",
-            "False"
+            "A detailed financial plan of estimated receipts and expenditures for a future period",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
         ],
-        "answer": "False"
+        "answer": "A detailed financial plan of estimated receipts and expenditures for a future period"
     },
     {
-        "question": "True or False: The primary goal of HRM is to maximize employee satisfaction.",
+        "question": "What are solvency ratios?",
         "options": [
-            "True",
-            "False"
+            "Ratios that measure a firm's ability to meet its long-term obligations",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
         ],
-        "answer": "False"
+        "answer": "Ratios that measure a firm's ability to meet its long-term obligations"
+    },
+    {
+        "question": "What is the current ratio?",
+        "options": [
+            "Current assets divided by current liabilities",
+            "Revenue divided by expenses",
+            "Income divided by expenditure",
+            "Sales divided by cost of goods sold"
+        ],
+        "answer": "Current assets divided by current liabilities"
+    },
+    {
+        "question": "What is the debt-to-equity ratio?",
+        "options": [
+            "Debt divided by owner's equity",
+            "Revenue divided by expenses",
+            "Income divided by expenditure",
+            "Sales divided by cost of goods sold"
+        ],
+        "answer": "Debt divided by owner's equity"
+    },
+    {
+        "question": "What is return on equity?",
+        "options": [
+            "Net income divided by total owner's equity",
+            "Revenue divided by expenses",
+            "Income divided by expenditure",
+            "Sales divided by cost of goods sold"
+        ],
+        "answer": "Net income divided by total owner's equity"
+    },
+    {
+        "question": "What is return on sales?",
+        "options": [
+            "Net income divided by sales revenue",
+            "Sales revenue divided by net income",
+            "Net income divided by total owner's equity",
+            "Sales revenue divided by total owner's equity"
+        ],
+        "answer": "Net income divided by sales revenue"
+    },
+    {
+        "question": "What is earnings per share?",
+        "options": [
+            "Net income divided by number of common shares outstanding",
+            "Sales revenue divided by number of common shares outstanding",
+            "Net income divided by total owner's equity",
+            "Sales revenue divided by total owner's equity"
+        ],
+        "answer": "Net income divided by number of common shares outstanding"
+    },
+    {
+        "question": "What is inventory turnover ratio?",
+        "options": [
+            "Cost of goods sold divided by average inventory",
+            "Sales revenue divided by average inventory",
+            "Net income divided by average inventory",
+            "Total owner's equity divided by average inventory"
+        ],
+        "answer": "Cost of goods sold divided by average inventory"
+    },
+    {
+        "question": "What is the purpose of accounting ethics?",
+        "options": [
+            "To maintain public confidence in business institutions, financial markets, and the accounting profession",
+            "To manage human resources",
+            "To develop marketing strategies",
+            "To analyze employee performance"
+        ],
+        "answer": "To maintain public confidence in business institutions, financial markets, and the accounting profession"
+    },
+    {
+        "question": "What is the role of the modern accountant?",
+        "options": [
+            "Effective communicator, project manager, and adapting to fewer restrictions from physical and geographic boundaries",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Effective communicator, project manager, and adapting to fewer restrictions from physical and geographic boundaries"
+    },
+    {
+        "question": "What is the accounting profession in Canada unifying under?",
+        "options": [
+            "Chartered Professional Accountant (CPA)",
+            "Chartered Accountant (CA)",
+            "Certified Management Accountant (CMA)",
+            "Certified Public Accountant (CPA)"
+        ],
+        "answer": "Chartered Professional Accountant (CPA)"
+    },
+    {
+        "question": "What does managerial accounting support?",
+        "options": [
+            "The decisions of internal clients",
+            "The decisions of external clients",
+            "The management of human resources",
+            "The development of marketing strategies"
+        ],
+        "answer": "The decisions of internal clients"
+    },
+    {
+        "question": "What does financial accounting provide?",
+        "options": [
+            "Information to external users such as shareholders, banks, and the government",
+            "Information to internal users such as managers",
+            "Management of human resources",
+            "Development of marketing strategies"
+        ],
+        "answer": "Information to external users such as shareholders, banks, and the government"
+    },
+    {
+        "question": "What is a current asset?",
+        "options": [
+            "Accounts receivable",
+            "Goodwill",
+            "Land",
+            "Equipment"
+        ],
+        "answer": "Accounts receivable"
+    },
+    {
+        "question": "What does a statement of cash flows provide?",
+        "options": [
+            "Details about the generation of cash and the use of cash in a given time period",
+            "Details about the firm's annual profit or loss",
+            "Details about the firm's income",
+            "Details about the firm's balance sheet"
+        ],
+        "answer": "Details about the generation of cash and the use of cash in a given time period"
+    },
+    {
+        "question": "What does the return on equity ratio indicate?",
+        "options": [
+            "How efficiently the firm's managers utilized investor resources",
+            "How efficiently the firm's managers managed human resources",
+            "How efficiently the firm's managers developed marketing strategies",
+            "How efficiently the firm's managers analyzed employee performance"
+        ],
+        "answer": "How efficiently the firm's managers utilized investor resources"
+    },
+    {
+        "question": "What is the purpose of the International Accounting Standards Board (IASB)?",
+        "options": [
+            "To eliminate differences in financial reporting from country to country",
+            "To manage human resources",
+            "To develop marketing strategies",
+            "To analyze employee performance"
+        ],
+        "answer": "To eliminate differences in financial reporting from country to country"
+    },
+    {
+        "question": "What is the role of private accountants?",
+        "options": [
+            "Day-to-day accounting needs, budgeting, financial planning, internal auditing, payroll, taxation, accounts payable",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Day-to-day accounting needs, budgeting, financial planning, internal auditing, payroll, taxation, accounts payable"
+    },
+    {
+        "question": "What is the accounting cycle?",
+        "options": [
+            "Chronological order of accounting activities showing increases and decreases in various asset, liability, and equity accounts",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Chronological order of accounting activities showing increases and decreases in various asset, liability, and equity accounts"
+    },
+    {
+        "question": "What is the accounting equation?",
+        "options": [
+            "Assets = Liabilities + Owners' Equity",
+            "Revenue = Expenses + Profit",
+            "Income = Expenditure + Savings",
+            "Sales = Cost of Goods Sold + Gross Profit"
+        ],
+        "answer": "Assets = Liabilities + Owners' Equity"
+    },
+    {
+        "question": "What is double-entry bookkeeping?",
+        "options": [
+            "A system where all transactions are entered in two ways, showing how they impact assets and liabilities",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "A system where all transactions are entered in two ways, showing how they impact assets and liabilities"
+    },
+    {
+        "question": "What is a profit-and-loss statement?",
+        "options": [
+            "A description of revenues and expenses that shows the firm's annual profit or loss",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "A description of revenues and expenses that shows the firm's annual profit or loss"
+    },
+    {
+        "question": "What is the matching principle in accounting?",
+        "options": [
+            "Expenses are matched with revenues to show net income for an accounting period",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Expenses are matched with revenues to show net income for an accounting period"
+    },
+    {
+        "question": "What is revenue recognition?",
+        "options": [
+            "Formal recording and reporting of revenues in financial statements once the earnings cycle is completed",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Formal recording and reporting of revenues in financial statements once the earnings cycle is completed"
+    },
+    {
+        "question": "What is depreciation?",
+        "options": [
+            "Distributing the cost of a major asset over its lifetime, deducted yearly",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Distributing the cost of a major asset over its lifetime, deducted yearly"
+    },
+    {
+        "question": "What is a budget in accounting?",
+        "options": [
+            "A detailed financial plan of estimated receipts and expenditures for a future period",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "A detailed financial plan of estimated receipts and expenditures for a future period"
+    },
+    {
+        "question": "What are solvency ratios?",
+        "options": [
+            "Ratios that measure a firm's ability to meet its long-term obligations",
+            "Managing human resources",
+            "Developing marketing strategies",
+            "Analyzing employee performance"
+        ],
+        "answer": "Ratios that measure a firm's ability to meet its long-term obligations"
+    },
+    {
+        "question": "What is the current ratio?",
+        "options": [
+            "Current assets divided by current liabilities",
+            "Revenue divided by expenses",
+            "Income divided by expenditure",
+            "Sales divided by cost of goods sold"
+        ],
+        "answer": "Current assets divided by current liabilities"
+    },
+    {
+        "question": "What is the debt-to-equity ratio?",
+        "options": [
+            "Debt divided by owner's equity",
+            "Revenue divided by expenses",
+            "Income divided by expenditure",
+            "Sales divided by cost of goods sold"
+        ],
+        "answer": "Debt divided by owner's equity"
+    },
+    {
+        "question": "What is return on equity?",
+        "options": [
+            "Net income divided by total owner's equity",
+            "Revenue divided by expenses",
+            "Income divided by expenditure",
+            "Sales divided by cost of goods sold"
+        ],
+        "answer": "Net income divided by total owner's equity"
     }
 ]

@@ -1,0 +1,232 @@
+[
+    {
+        "question": "What is the primary purpose of the MITRE ATT&CK framework?",
+        "options": [
+            "To encrypt data",
+            "To model adversary behavior based on real-world observations",
+            "To launch DoS attacks",
+            "To manage patches"
+        ],
+        "answer": "To model adversary behavior based on real-world observations"
+    },
+    {
+        "question": "Which version of the MITRE ATT&CK framework is currently in use?",
+        "options": [
+            "v14",
+            "v15",
+            "v16",
+            "v17"
+        ],
+        "answer": "v16"
+    },
+    {
+        "question": "What are the three matrices in the current version of MITRE ATT&CK?",
+        "options": [
+            "Enterprise, Mobile, and Industrial Control Systems (ICS)",
+            "Enterprise, Mobile, and Cloud",
+            "Enterprise, Cloud, and IoT",
+            "Mobile, Cloud, and IoT"
+        ],
+        "answer": "Enterprise, Mobile, and Industrial Control Systems (ICS)"
+    },
+    {
+        "question": "What does the 'Tactic' in MITRE ATT&CK represent?",
+        "options": [
+            "A specific tool used by adversaries",
+            "A tactical adversary goal during different phases of an attack",
+            "A type of malware",
+            "A defensive measure"
+        ],
+        "answer": "A tactical adversary goal during different phases of an attack"
+    },
+    {
+        "question": "What is the purpose of 'Techniques' in MITRE ATT&CK?",
+        "options": [
+            "To describe how adversaries achieve tactical goals",
+            "To list defensive measures",
+            "To categorize types of malware",
+            "To manage patches"
+        ],
+        "answer": "To describe how adversaries achieve tactical goals"
+    },
+    {
+        "question": "What is an example of a sub-technique in MITRE ATT&CK?",
+        "options": [
+            "Credential Access",
+            "OS Credential Dumping: LSASS Memory",
+            "APT28",
+            "Mimikatz"
+        ],
+        "answer": "OS Credential Dumping: LSASS Memory"
+    },
+    {
+        "question": "What is adversary emulation in the context of red teaming?",
+        "options": [
+            "A type of blue team engagement",
+            "A type of red team engagement that mimics a known threat",
+            "A method for encrypting data",
+            "A technique for launching DoS attacks"
+        ],
+        "answer": "A type of red team engagement that mimics a known threat"
+    },
+    {
+        "question": "What is the purpose of adversary emulators?",
+        "options": [
+            "To construct scenarios to test aspects of an adversary's tactics, techniques, and procedures (TTPs)",
+            "To manage patches",
+            "To encrypt data",
+            "To launch DoS attacks"
+        ],
+        "answer": "To construct scenarios to test aspects of an adversary's tactics, techniques, and procedures (TTPs)"
+    },
+    {
+        "question": "What is the first step in the atomic testing cycle with ATT&CK?",
+        "options": [
+            "Analyze your detections of the procedure",
+            "Choose an ATT&CK technique",
+            "Execute the test procedure",
+            "Make improvements to your defenses"
+        ],
+        "answer": "Choose an ATT&CK technique"
+    },
+    {
+        "question": "What is the purpose of using tools like Caldera in atomic testing?",
+        "options": [
+            "To encrypt data",
+            "To instrumentalize testing and chain sequences of adversary behavior using MITRE ATT&CK",
+            "To launch DoS attacks",
+            "To manage patches"
+        ],
+        "answer": "To instrumentalize testing and chain sequences of adversary behavior using MITRE ATT&CK"
+    },
+    {
+        "question": "What is the purpose of the MITRE ATT&CK Navigator?",
+        "options": [
+            "To encrypt data",
+            "To plan and execute red team activities",
+            "To launch DoS attacks",
+            "To manage patches"
+        ],
+        "answer": "To plan and execute red team activities"
+    },
+    {
+        "question": "What is the purpose of using Attack Flow in red team activities?",
+        "options": [
+            "To encrypt data",
+            "To plan and execute activities based on realistic sequences of tactics, techniques, and procedures (TTPs)",
+            "To launch DoS attacks",
+            "To manage patches"
+        ],
+        "answer": "To plan and execute activities based on realistic sequences of tactics, techniques, and procedures (TTPs)"
+    },
+    {
+        "question": "What is the purpose of integrating ATT&CK data using STIX and TAXII?",
+        "options": [
+            "To encrypt data",
+            "To extend and integrate a local instance of ATT&CK into an organization's teams, processes, knowledge bases, and tools",
+            "To launch DoS attacks",
+            "To manage patches"
+        ],
+        "answer": "To extend and integrate a local instance of ATT&CK into an organization's teams, processes, knowledge bases, and tools"
+    },
+    {
+        "question": "What is the purpose of using ATT&CK Workbench?",
+        "options": [
+            "To encrypt data",
+            "To extend and integrate a local instance of ATT&CK into an organization's teams, processes, knowledge bases, and tools",
+            "To launch DoS attacks",
+            "To manage patches"
+        ],
+        "answer": "To extend and integrate a local instance of ATT&CK into an organization's teams, processes, knowledge bases, and tools"
+    },
+    {
+        "question": "What is the purpose of using Atomic Red Team?",
+        "options": [
+            "To encrypt data",
+            "To provide a library of simple tests to validate security controls",
+            "To launch DoS attacks",
+            "To manage patches"
+        ],
+        "answer": "To provide a library of simple tests to validate security controls"
+    },
+    {
+        "question": "What is the purpose of using Caldera?",
+        "options": [
+            "To encrypt data",
+            "To provide an automated adversary emulation platform",
+            "To launch DoS attacks",
+            "To manage patches"
+        ],
+        "answer": "To provide an automated adversary emulation platform"
+    },
+    {
+        "question": "What is the purpose of using MITRE ATT&CK in red team activities?",
+        "options": [
+            "To encrypt data",
+            "To provide a framework for planning and executing realistic adversary emulation scenarios",
+            "To launch DoS attacks",
+            "To manage patches"
+        ],
+        "answer": "To provide a framework for planning and executing realistic adversary emulation scenarios"
+    },
+    {
+        "question": "What is the purpose of using MITRE ATT&CK in blue team activities?",
+        "options": [
+            "To encrypt data",
+            "To provide a framework for detecting and responding to adversary behavior",
+            "To launch DoS attacks",
+            "To manage patches"
+        ],
+        "answer": "To provide a framework for detecting and responding to adversary behavior"
+    },
+    {
+        "question": "What is the purpose of using MITRE ATT&CK in threat intelligence activities?",
+        "options": [
+            "To encrypt data",
+            "To provide a framework for understanding and analyzing adversary behavior",
+            "To launch DoS attacks",
+            "To manage patches"
+        ],
+        "answer": "To provide a framework for understanding and analyzing adversary behavior"
+    },
+    {
+        "question": "What is the purpose of using MITRE ATT&CK in incident response activities?",
+        "options": [
+            "To encrypt data",
+            "To provide a framework for identifying and mitigating adversary behavior",
+            "To launch DoS attacks",
+            "To manage patches"
+        ],
+        "answer": "To provide a framework for identifying and mitigating adversary behavior"
+    },
+    {
+        "question": "What is the purpose of using MITRE ATT&CK in vulnerability management activities?",
+        "options": [
+            "To encrypt data",
+            "To provide a framework for identifying and prioritizing vulnerabilities based on adversary behavior",
+            "To launch DoS attacks",
+            "To manage patches"
+        ],
+        "answer": "To provide a framework for identifying and prioritizing vulnerabilities based on adversary behavior"
+    },
+    {
+        "question": "What is the purpose of using MITRE ATT&CK in security operations activities?",
+        "options": [
+            "To encrypt data",
+            "To provide a framework for monitoring and responding to adversary behavior",
+            "To launch DoS attacks",
+            "To manage patches"
+        ],
+        "answer": "To provide a framework for monitoring and responding to adversary behavior"
+    },
+    {
+        "question": "What is the purpose of using MITRE ATT&CK in security architecture activities?",
+        "options": [
+            "To encrypt data",
+            "To provide a framework for designing and implementing security controls based on adversary behavior",
+            "To launch DoS attacks",
+            "To manage patches"
+        ],
+        "answer": "To provide a framework for designing and implementing security controls based on adversary behavior"
+    }
+]

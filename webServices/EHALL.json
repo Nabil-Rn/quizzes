@@ -1,579 +1,273 @@
 [
     {
-        "question": "What is the primary function of a sniffer?",
+        "question": "Which tool is commonly used for sniffing in an active mode on a switched network?",
         "options": [
-            "To modify network traffic",
-            "To encrypt data",
-            "To collect network traffic information",
-            "To launch DoS attacks"
-        ],
-        "answer": "To collect network traffic information"
-    },
-    {
-        "question": "Which tool can be used for packet analysis in active sniffing?",
-        "options": [
-            "Metasploit",
             "Wireshark",
-            "Gobuster",
-            "Arpwatch"
+            "Nmap",
+            "Arpspoof",
+            "Metasploit"
         ],
-        "answer": "Wireshark"
+        "answer": "Arpspoof"
     },
     {
-        "question": "What does ARP spoofing enable attackers to do?",
+        "question": "What attack involves spoofing ARP responses to become the gateway for a network?",
         "options": [
-            "Flood a network with traffic",
-            "Intercept and modify network traffic",
-            "Encrypt data transmissions",
-            "Redirect DNS queries"
-        ],
-        "answer": "Intercept and modify network traffic"
-    },
-    {
-        "question": "What is the main goal of a Man-in-the-Middle (MiTM) attack?",
-        "options": [
-            "To block network traffic",
-            "To capture or modify network traffic",
-            "To encrypt network communication",
-            "To increase bandwidth"
-        ],
-        "answer": "To capture or modify network traffic"
-    },
-    {
-        "question": "Which attack manipulates STP to become the root switch in a network?",
-        "options": [
+            "DNS poisoning",
             "ARP spoofing",
-            "Rogue DHCP",
-            "STP manipulation",
-            "DNS poisoning"
+            "SSL stripping",
+            "MAC flooding"
         ],
-        "answer": "STP manipulation"
+        "answer": "ARP spoofing"
     },
     {
-        "question": "What type of attack is conducted by re-sending previously captured information, allowing attackers to present valid credentials or to replicate other legitimate traffic?",
+        "question": "What is the main defense against DNS cache poisoning?",
         "options": [
-            "Replay attack",
+            "HSTS policies",
+            "Implementing VPNs",
+            "Dynamic ARP Inspection",
+            "Updating antivirus software"
+        ],
+        "answer": "Implementing VPNs"
+    },
+    {
+        "question": "Which attack replays captured credentials or packets to gain unauthorized access?",
+        "options": [
             "Relay attack",
-            "DoS attack",
-            "MiTM attack"
+            "Replay attack",
+            "Denial of Service (DoS)",
+            "SQL Injection"
         ],
         "answer": "Replay attack"
     },
     {
-        "question": "What is the purpose of SSL/TLS stripping?",
+        "question": "Which type of attack forces an encryption downgrade to enable interception of supposedly secure traffic?",
         "options": [
-            "To encrypt web traffic",
-            "To downgrade secure connections to plaintext",
-            "To block HTTPS traffic",
-            "To intercept DNS requests"
+            "SSL stripping",
+            "ARP spoofing",
+            "Relay attack",
+            "Downgrade attack"
         ],
-        "answer": "To downgrade secure connections to plaintext"
+        "answer": "Downgrade attack"
     },
     {
-        "question": "Which tool is used to analyze unusual ARP traffic?",
+        "question": "What type of attack exploits unchecked user input to execute SQL commands on a database?",
         "options": [
-            "Arpwatch",
-            "Bettercap",
+            "Cross-site scripting (XSS)",
+            "SQL Injection",
+            "Command Injection",
+            "Directory Traversal"
+        ],
+        "answer": "SQL Injection"
+    },
+    {
+        "question": "Which method prevents directory traversal attacks?",
+        "options": [
+            "Hardcoding directory paths",
+            "Implementing input validation and sanitization",
+            "Disabling unused ports",
+            "Enabling verbose logging"
+        ],
+        "answer": "Implementing input validation and sanitization"
+    },
+    {
+        "question": "What does an attacker achieve through a successful session hijacking attack?",
+        "options": [
+            "Control over a user's authenticated session",
+            "Manipulation of the directory structure",
+            "Downgrade of encryption protocols",
+            "Sending spoofed DNS packets"
+        ],
+        "answer": "Control over a user's authenticated session"
+    },
+    {
+        "question": "What is the goal of cross-site request forgery (CSRF)?",
+        "options": [
+            "Stealing sensitive data via malicious scripts",
+            "Forcing a user to execute unwanted actions on a trusted site",
+            "Breaking authentication systems through brute force",
+            "Injecting SQL commands into a web application's database"
+        ],
+        "answer": "Forcing a user to execute unwanted actions on a trusted site"
+    },
+    {
+        "question": "Which web proxy is widely used for debugging and intercepting web traffic?",
+        "options": [
             "Wireshark",
-            "Netcat"
+            "Nmap",
+            "Burp Suite",
+            "Arpspoof"
+        ],
+        "answer": "Burp Suite"
+    },
+    {
+        "question": "Which best practice enhances API security?",
+        "options": [
+            "Providing only HTTP endpoints",
+            "Using parameterized queries",
+            "Disabling input validation",
+            "Allowing unrestricted data access"
+        ],
+        "answer": "Using parameterized queries"
+    },
+    {
+        "question": "What is the purpose of Dynamic ARP Inspection (DAI)?",
+        "options": [
+            "Identifying spoofed DNS responses",
+            "Preventing unauthorized ARP responses",
+            "Detecting SQL Injection attacks",
+            "Protecting against SYN flood DoS attacks"
+        ],
+        "answer": "Preventing unauthorized ARP responses"
+    },
+    {
+        "question": "Which tool is commonly used for performing a network scan to identify open ports and services?",
+        "options": [
+            "Nmap",
+            "Wireshark",
+            "Burp Suite",
+            "Metasploit"
+        ],
+        "answer": "Nmap"
+    },
+    {
+        "question": "What type of XSS attack stores malicious scripts on the server for later execution?",
+        "options": [
+            "Reflected XSS",
+            "Stored XSS",
+            "DOM-based XSS",
+            "Command injection"
+        ],
+        "answer": "Stored XSS"
+    },
+    {
+        "question": "Which of the following is a key characteristic of a DoS attack?",
+        "options": [
+            "Unauthorized data access",
+            "Exploiting session cookies",
+            "Overloading network bandwidth",
+            "Injecting malicious SQL commands"
+        ],
+        "answer": "Overloading network bandwidth"
+    },
+    {
+        "question": "What is the primary function of the `Arpwatch` tool?",
+        "options": [
+            "To monitor ARP traffic and detect anomalies",
+            "To intercept and manipulate web traffic",
+            "To scan for open ports on a network",
+            "To generate brute-force attack scripts"
+        ],
+        "answer": "To monitor ARP traffic and detect anomalies"
+    },
+    {
+        "question": "What is the primary purpose of implementing a Web Application Firewall (WAF)?",
+        "options": [
+            "To encrypt network traffic",
+            "To block or log malicious web traffic",
+            "To monitor DNS cache for anomalies",
+            "To validate SSL certificates"
+        ],
+        "answer": "To block or log malicious web traffic"
+    },
+    {
+        "question": "Which type of SQL injection attack involves appending queries to extract hidden information from a database?",
+        "options": [
+            "Union-based SQL injection",
+            "Error-based SQL injection",
+            "Blind SQL injection",
+            "Command injection"
+        ],
+        "answer": "Union-based SQL injection"
+    },
+    {
+        "question": "What is the main purpose of Dynamic ARP Inspection (DAI)?",
+        "options": [
+            "To prevent unauthorized ARP spoofing",
+            "To monitor TCP connections",
+            "To analyze DNS cache poisoning attempts",
+            "To enhance bandwidth efficiency"
+        ],
+        "answer": "To prevent unauthorized ARP spoofing"
+    },
+    {
+        "question": "Which web attack exploits improperly validated user inputs to inject unauthorized database commands?",
+        "options": [
+            "SQL Injection",
+            "Cross-Site Scripting (XSS)",
+            "Cross-Site Request Forgery (CSRF)",
+            "Clickjacking"
+        ],
+        "answer": "SQL Injection"
+    },
+    {
+        "question": "Which attack type involves tricking a victim into clicking an unintended link via overlapping transparent elements?",
+        "options": [
+            "Cross-Site Request Forgery",
+            "Clickjacking",
+            "Reflected XSS",
+            "Man-in-the-Middle"
+        ],
+        "answer": "Clickjacking"
+    },
+    {
+        "question": "What is the best mitigation against SQL Injection attacks?",
+        "options": [
+            "Encrypting all database traffic",
+            "Using parameterized queries",
+            "Disabling unused ports",
+            "Implementing VPN connections"
+        ],
+        "answer": "Using parameterized queries"
+    },
+    {
+        "question": "What is the primary goal of a DHCP starvation attack?",
+        "options": [
+            "To exhaust available IP addresses",
+            "To corrupt DNS cache entries",
+            "To block HTTPS connections",
+            "To flood a target with ICMP packets"
+        ],
+        "answer": "To exhaust available IP addresses"
+    },
+    {
+        "question": "Which of these tools is most effective for detecting man-in-the-middle attacks?",
+        "options": [
+            "Wireshark",
+            "Burp Suite",
+            "Arpwatch",
+            "Metasploit"
         ],
         "answer": "Arpwatch"
     },
     {
-        "question": "What is a common tool for DNS cache poisoning?",
+        "question": "What is the key difference between a DoS and a DDoS attack?",
         "options": [
-            "Tcpdump",
-            "Metasploit",
-            "Arpspoof",
-            "Wireshark"
+            "The type of protocol used",
+            "The number of devices involved",
+            "The duration of the attack",
+            "The encryption strength"
         ],
-        "answer": "Metasploit"
+        "answer": "The number of devices involved"
     },
     {
-        "question": "Which attack targets the availability of a system or network?",
+        "question": "Which type of attack involves intercepting and relaying traffic without modification?",
         "options": [
-            "MiTM attack",
-            "Denial-of-Service attack",
             "Replay attack",
-            "DNS poisoning"
+            "Relay attack",
+            "ARP poisoning",
+            "SSL stripping"
         ],
-        "answer": "Denial-of-Service attack"
+        "answer": "Relay attack"
     },
     {
-        "question": "What does a SYN flood attack do?",
+        "question": "Which method can defend against clickjacking attacks?",
         "options": [
-            "Sends malformed DNS packets",
-            "Floods a service with SYN packets",
-            "Overloads a DHCP server",
-            "Intercepts ARP responses"
+            "Using the X-Frame-Options header",
+            "Implementing a strict HSTS policy",
+            "Encrypting all traffic with TLS",
+            "Conducting regular vulnerability scans"
         ],
-        "answer": "Floods a service with SYN packets"
-    },
-    {
-        "question": "What distinguishes a DDoS attack from a DoS attack?",
-        "options": [
-            "It uses multiple machines to attack the target",
-            "It encrypts network traffic",
-            "It targets DNS servers exclusively",
-            "It only works on a local network"
-        ],
-        "answer": "It uses multiple machines to attack the target"
-    },
-    {
-        "question": "Which type of DDoS attack involves spoofed packets?",
-        "options": [
-            "Reflected DDoS attack",
-            "SYN flood",
-            "MiTM attack",
-            "ARP spoofing"
-        ],
-        "answer": "Reflected DDoS attack"
-    },
-  {
-      "question": "What does SSID stand for in Wi-Fi networks?",
-      "options": [
-          "Service Set Identifier",
-          "Secure Set Identifier",
-          "Station Service Identifier",
-          "Signal Service Identifier"
-      ],
-      "answer": "Service Set Identifier"
-  },
-    {
-        "question": "What is the goal of a DHCP starvation attack?",
-        "options": [
-            "To flood a network with traffic",
-            "To deplete available IP addresses",
-            "To poison DNS cache",
-            "To redirect ARP requests"
-        ],
-        "answer": "To deplete available IP addresses"
-    },
-    {
-        "question": "Which tool can simulate MiTM attacks?",
-        "options": [
-            "Bettercap",
-            "Gobuster",
-            "Arpwatch",
-            "Nmap"
-        ],
-        "answer": "Bettercap"
-    },
-    {
-        "question": "What is the primary defense against DNS cache poisoning?",
-        "options": [
-            "Using HTTPS",
-            "Configuring static ARP entries",
-            "Deploying secure DNS practices",
-            "Monitoring DHCP leases"
-        ],
-        "answer": "Deploying secure DNS practices"
-    },
-    {
-        "question": "Which attack uses ICMP packets to consume bandwidth?",
-        "options": [
-            "SYN flood",
-            "Smurf attack",
-            "DNS cache poisoning",
-            "ARP spoofing"
-        ],
-        "answer": "Smurf attack"
-    },
-    {
-        "question": "What is Dynamic ARP Inspection (DAI) used for?",
-        "options": [
-            "To prevent rogue DHCP servers",
-            "To block SYN flood attacks",
-            "To mitigate ARP spoofing",
-            "To analyze DNS traffic"
-        ],
-        "answer": "To mitigate ARP spoofing"
-    },
-    {
-        "question": "Which protocol is often targeted in reflected DDoS attacks?",
-        "options": [
-            "TCP",
-            "UDP",
-            "ICMP",
-            "DNS"
-        ],
-        "answer": "UDP"
-    },
-    {
-        "question": "What is the purpose of MAC flooding in active sniffing?",
-        "options": [
-            "To exhaust the switch's MAC table",
-            "To encrypt ARP responses",
-            "To simulate a DoS attack",
-            "To prevent unauthorized access"
-        ],
-        "answer": "To exhaust the switch's MAC table"
-    },
-    {
-        "question": "Which attack relies on terminating TLS and proxying the connection?",
-        "options": [
-            "DNS poisoning",
-            "TLS stripping",
-            "ARP spoofing",
-            "SYN flood"
-        ],
-        "answer": "TLS stripping"
-    },
-    {
-        "question": "Which tool is used to replay captured packets in a network?",
-        "options": [
-            "Tcpdump",
-            "Arpspoof",
-            "Metasploit",
-            "Hping"
-        ],
-        "answer": "Hping"
-    },
-    {
-        "question": "What is a common mitigation for MiTM attacks?",
-        "options": [
-            "Using HTTPS with HSTS",
-            "Flooding the switch with packets",
-            "Disabling DHCP",
-            "Configuring default routes"
-        ],
-        "answer": "Using HTTPS with HSTS"
-    },
-    {
-        "question": "What happens in a rogue DHCP attack?",
-        "options": [
-            "An attacker sets up a fake DHCP server",
-            "A switch's MAC table is flooded",
-            "DNS queries are rerouted",
-            "A DoS attack targets the DHCP server"
-        ],
-        "answer": "An attacker sets up a fake DHCP server"
-    },
-     {
-      "question": "What encryption protocol does WPA2 use?",
-      "options": [
-          "RC4",
-          "AES with CCMP",
-          "DES",
-          "3DES"
-      ],
-      "answer": "AES with CCMP"
-  },
-    {
-        "question": "What is the primary goal of DNS cache poisoning?",
-        "options": [
-            "To flood the network",
-            "To redirect users to malicious sites",
-            "To encrypt DNS traffic",
-            "To deny IP address allocation"
-        ],
-        "answer": "To redirect users to malicious sites"
-    },
-    {
-        "question": "Which attack involves sending DHCP requests with spoofed MAC addresses?",
-        "options": [
-            "ARP spoofing",
-            "TLS stripping",
-            "DHCP starvation",
-            "DNS poisoning"
-        ],
-        "answer": "DHCP starvation"
-    },
-    {
-        "question": "What is the purpose of static ARP entries?",
-        "options": [
-            "To prevent DNS poisoning",
-            "To mitigate ARP spoofing",
-            "To detect rogue DHCP servers",
-            "To encrypt ARP traffic"
-        ],
-        "answer": "To mitigate ARP spoofing"
-    },
-    {
-        "question": "What type of attack uses UDP packets to spoof responses?",
-        "options": [
-            "SYN flood",
-            "Smurf attack",
-            "Reflected DDoS attack",
-            "Replay attack"
-        ],
-        "answer": "Reflected DDoS attack"
-    },
-    {
-        "question": "Which countermeasure can limit DHCP starvation attacks?",
-        "options": [
-            "Using MAC filtering",
-            "Enabling HSTS",
-            "Configuring DNS cache",
-            "Installing an IDS system"
-        ],
-        "answer": "Using MAC filtering"
-    },
-    {
-        "question": "What is the role of 'zombies' in a DDoS attack?",
-        "options": [
-            "To perform ARP poisoning",
-            "To send traffic to the victim",
-            "To manage rogue DHCP requests",
-            "To sniff network packets"
-        ],
-        "answer": "To send traffic to the victim"
-    },
-    {
-        "question": "What makes UDP a common target in DDoS attacks?",
-        "options": [
-            "Its large packet size",
-            "Its lack of a three-way handshake",
-            "Its strong encryption",
-            "Its low latency"
-        ],
-        "answer": "Its lack of a three-way handshake"
-    },
-    {
-        "question": "Which of these is a countermeasure against DoS attacks?",
-        "options": [
-            "Using port mirroring",
-            "Implementing bandwidth limitation",
-            "Flooding ARP tables",
-            "Disabling firewall rules"
-        ],
-        "answer": "Implementing bandwidth limitation"
-    },
-    {
-        "question": "What type of attack involves spoofed ICMP packets?",
-        "options": [
-            "Smurf attack",
-            "TLS stripping",
-            "DNS poisoning",
-            "MiTM attack"
-        ],
-        "answer": "Smurf attack"
-    },
-    {
-        "question": "Which of these tools is used for ARP poisoning?",
-        "options": [
-            "Gobuster",
-            "Arpspoof",
-            "Nmap",
-            "Wireshark"
-        ],
-        "answer": "Arpspoof"
-    },
-     {
-      "question": "What is an 'evil twin' attack in Wi-Fi networks?",
-      "options": [
-          "A brute force attack on Wi-Fi passwords",
-          "A rogue access point mimicking a legitimate one",
-          "An attack that floods the network with fake SSIDs",
-          "A jamming attack on the 2.4GHz band"
-      ],
-      "answer": "A rogue access point mimicking a legitimate one"
-  },
-    {
-        "question": "What can be used to validate how networks respond to DoS conditions?",
-        "options": [
-            "Metasploit",
-            "Wireshark",
-            "Gobuster",
-            "Tcpdump"
-        ],
-        "answer": "Metasploit"
-    },
-    {
-        "question": "Which attack tricks routers into believing a rogue router has a better path?",
-        "options": [
-            "MiTM attack",
-            "STP manipulation",
-            "Replay attack",
-            "TLS stripping"
-        ],
-        "answer": "MiTM attack"
-    },
-    {
-        "question": "Which countermeasure helps reduce risks of DHCP starvation?",
-        "options": [
-            "Using dynamic ARP inspection",
-            "Implementing DHCP snooping",
-            "Encrypting DNS traffic",
-            "Disabling ICMP packets"
-        ],
-        "answer": "Implementing DHCP snooping"
-    },
-    {
-      "question": "Which type of Wi-Fi network uses a mesh structure without a central access point?",
-      "options": [
-          "Infrastructure",
-          "Ad hoc",
-          "Enterprise",
-          "Personal"
-      ],
-      "answer": "Ad hoc"
-  },
-    {
-        "question": "What is a key limitation of ARP spoofing in a switched network?",
-        "options": [
-            "It only works on wired networks",
-            "Switches can prevent it using dynamic ARP inspection",
-            "It cannot intercept encrypted traffic",
-            "It is detectable by firewalls"
-        ],
-        "answer": "Switches can prevent it using dynamic ARP inspection"
-    },
-    {
-        "question": "Why are UDP packets often used in reflected DDoS attacks?",
-        "options": [
-            "They require a handshake before transmission",
-            "They lack a three-way handshake, making them easier to spoof",
-            "They consume more bandwidth than TCP packets",
-            "They are encrypted by default"
-        ],
-        "answer": "They lack a three-way handshake, making them easier to spoof"
-    },
-    {
-        "question": "Which of the following is a potential risk of implementing static ARP entries as a defense mechanism?",
-        "options": [
-            "It may expose the network to DNS poisoning",
-            "It is time-consuming and inefficient to manage",
-            "It requires disabling DHCP services",
-            "It reduces the effectiveness of encryption protocols"
-        ],
-        "answer": "It is time-consuming and inefficient to manage"
-    },
-    {
-        "question": "How can a rogue DHCP server facilitate a Man-in-the-Middle attack?",
-        "options": [
-            "By spoofing ARP requests",
-            "By providing fake IP configurations to clients",
-            "By intercepting SYN-ACK packets",
-            "By initiating a DoS attack on legitimate servers"
-        ],
-        "answer": "By providing fake IP configurations to clients"
-    },
-   {
-      "question": "Which protocol is no longer used in WPA3, replaced by Simultaneous Authentication of Equals?",
-      "options": [
-          "Pre-shared keys",
-          "NFC pairing",
-          "RC4 encryption",
-          "MIC checks"
-      ],
-      "answer": "Pre-shared keys"
-  },
-    {
-        "question": "How does an attacker benefit from manipulating the Spanning Tree Protocol (STP)?",
-        "options": [
-            "They can prevent the switch from forwarding packets",
-            "They can become the root switch to redirect traffic",
-            "They can encrypt traffic flowing through the network",
-            "They can launch DDoS attacks directly from the switch"
-        ],
-        "answer": "They can become the root switch to redirect traffic"
-    },
-    {
-        "question": "What makes ARP poisoning a unique vector for MiTM attacks?",
-        "options": [
-            "It requires physical access to the network",
-            "It exploits the trust relationship of the ARP protocol",
-            "It only targets DNS servers",
-            "It cannot modify intercepted packets"
-        ],
-        "answer": "It exploits the trust relationship of the ARP protocol"
-    },
-    {
-        "question": "Why is encryption not always sufficient to protect against DNS cache poisoning?",
-        "options": [
-            "DNS traffic often bypasses encryption protocols",
-            "DNS poisoning targets the underlying routing protocols",
-            "Encryption only protects data in transit, not DNS query responses",
-            "DNS servers cannot handle encrypted traffic"
-        ],
-        "answer": "Encryption only protects data in transit, not DNS query responses"
-    }, 
-  {
-        "question": "Which tool can be used to scan for directory traversal vulnerabilities?",
-        "options": [
-            "Nikto",
-            "Wireshark",
-            "Nmap",
-            "Metasploit"
-        ],
-        "answer": "Nikto"
-    },
-    {
-        "question": "What distinguishes a replay attack from a relay attack in a network context?",
-        "options": [
-            "A replay attack modifies data, while a relay attack retransmits without changes",
-            "A relay attack is used for DDoS, while a replay attack targets encryption",
-            "A replay attack retransmits captured packets, while a relay attack forwards them in real-time",
-            "A replay attack requires malware, while a relay attack does not"
-        ],
-        "answer": "A replay attack retransmits captured packets, while a relay attack forwards them in real-time"
-    },
-    {
-        "question": "Which countermeasure can specifically address DHCP starvation attacks?",
-        "options": [
-            "Using bandwidth throttling",
-            "Implementing DHCP snooping",
-            "Disabling ARP requests",
-            "Configuring MAC address filtering"
-        ],
-        "answer": "Implementing DHCP snooping"
-    },   {
-        "question": "What is an example of a sub-technique in MITRE ATT&CK?",
-        "options": [
-            "Credential Access",
-            "OS Credential Dumping: LSASS Memory",
-            "APT28",
-            "Mimikatz"
-        ],
-        "answer": "OS Credential Dumping: LSASS Memory"
-    },
-    {
-        "question": "What is a limitation of using IDS/IPS for preventing DoS attacks?",
-        "options": [
-            "They cannot detect volumetric attacks",
-            "They are vulnerable to ARP spoofing",
-            "They cannot block attacks in encrypted traffic",
-            "They often generate false positives for legitimate traffic"
-        ],
-        "answer": "They often generate false positives for legitimate traffic"
-    },
-    {
-        "question": "How does an attacker perform a SYN flood attack?",
-        "options": [
-            "By sending malformed ICMP packets",
-            "By initiating multiple half-open TCP connections",
-            "By flooding DNS servers with requests",
-            "By using spoofed ARP packets"
-        ],
-        "answer": "By initiating multiple half-open TCP connections"
-    },  {
-        "question": "What is the purpose of using MITRE ATT&CK in red team activities?",
-        "options": [
-            "To encrypt data",
-            "To provide a framework for planning and executing realistic adversary emulation scenarios",
-            "To launch DoS attacks",
-            "To manage patches"
-        ],
-        "answer": "To provide a framework for planning and executing realistic adversary emulation scenarios"
-    }, {
-        "question": "What is the purpose of using MITRE ATT&CK in vulnerability management activities?",
-        "options": [
-            "To encrypt data",
-            "To provide a framework for identifying and prioritizing vulnerabilities based on adversary behavior",
-            "To launch DoS attacks",
-            "To manage patches"
-        ],
-        "answer": "To provide a framework for identifying and prioritizing vulnerabilities based on adversary behavior"
-    },
-    {
-        "question": "Why is MAC flooding considered less effective on modern networks?",
-        "options": [
-            "Modern switches use VLANs to prevent it",
-            "Switches have built-in protections like port security",
-            "MAC flooding only works with ARP spoofing",
-            "It cannot be combined with DNS poisoning"
-        ],
-        "answer": "Switches have built-in protections like port security"
+        "answer": "Using the X-Frame-Options header"
     }
 ]
+

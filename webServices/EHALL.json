@@ -268,6 +268,256 @@
             "Conducting regular vulnerability scans"
         ],
         "answer": "Using the X-Frame-Options header"
+    },
+    {
+        "scenario": "You are tasked with identifying potential vulnerabilities in a client's network. While using a network sniffer, you observe a large number of ARP packets being transmitted. What might this indicate, and what tool would you use to verify your suspicion?",
+        "options": [
+            "An ARP spoofing attack; verify using Wireshark",
+            "A DoS attack; verify using Metasploit",
+            "A SQL injection attempt; verify using OWASP ZAP",
+            "A DNS poisoning attempt; verify using Arpwatch"
+        ],
+        "answer": "An ARP spoofing attack; verify using Wireshark"
+    },
+    {
+        "scenario": "During a penetration test, you find that the web application does not validate user inputs properly. When you send the payload `' OR '1'='1'; --`, the server responds with sensitive database data. What type of attack have you identified?",
+        "options": [
+            "Cross-site scripting (XSS)",
+            "Command injection",
+            "SQL injection",
+            "Session hijacking"
+        ],
+        "answer": "SQL injection"
+    },
+    {
+        "scenario": "You notice that a client's wireless network is broadcasting an SSID with WEP encryption. What is your primary concern, and what steps should the client take to address it?",
+        "options": [
+            "Concern: Replay attacks; Step: Switch to WPA2",
+            "Concern: Key reuse vulnerabilities; Step: Disable WPS",
+            "Concern: Lack of encryption; Step: Use WPA3",
+            "Concern: Evil twin attacks; Step: Hide SSID broadcast"
+        ],
+        "answer": "Concern: Replay attacks; Step: Switch to WPA2"
+    },
+    {
+        "scenario": "A user reports that their browser redirected them to a suspicious website after entering a trusted URL. Upon investigation, you find that the DNS server’s cache has been altered. What type of attack has occurred?",
+        "options": [
+            "ARP spoofing",
+            "DNS cache poisoning",
+            "SSL stripping",
+            "Replay attack"
+        ],
+        "answer": "DNS cache poisoning"
+    },
+    {
+        "scenario": "During a network scan, you discover an open port 80 on a web server. When you use a tool like Netcat to interact with the server, you retrieve banner information revealing the server's outdated version. What should your next step be?",
+        "options": [
+            "Attempt a brute force attack on the server",
+            "Report the vulnerability and suggest updating the server",
+            "Perform a DNS poisoning attack",
+            "Use Wireshark to intercept traffic"
+        ],
+        "answer": "Report the vulnerability and suggest updating the server"
+    },
+    {
+        "scenario": "You are analyzing traffic on a company’s network and notice that several devices are attempting to connect to a rogue access point mimicking the company’s Wi-Fi. What type of attack is this, and how can you mitigate it?",
+        "options": [
+            "Evil twin attack; Mitigation: Disable auto-connect to open networks",
+            "De-authentication attack; Mitigation: Use WPA3 encryption",
+            "Replay attack; Mitigation: Implement HSTS policies",
+            "Wardriving; Mitigation: Change SSID regularly"
+        ],
+        "answer": "Evil twin attack; Mitigation: Disable auto-connect to open networks"
+    },
+    {
+        "scenario": "You observe unusual ICMP traffic from a single device targeting multiple hosts within the network. The volume of traffic is high enough to disrupt services. What type of attack is likely occurring?",
+        "options": [
+            "SYN flood",
+            "Smurf attack",
+            "ARP poisoning",
+            "Session hijacking"
+        ],
+        "answer": "Smurf attack"
+    },
+    {
+        "scenario": "A penetration tester successfully modifies a session cookie to gain administrative privileges on a web application. The tester used Burp Suite to capture and alter the cookie. What type of vulnerability is being exploited?",
+        "options": [
+            "Cross-site scripting (XSS)",
+            "Command injection",
+            "Cookie tampering",
+            "SQL injection"
+        ],
+        "answer": "Cookie tampering"
+    },
+    {
+        "scenario": "A hacker sends de-authentication packets to a user’s device, forcing it to disconnect from the network repeatedly. What is the attacker’s likely goal, and what is this attack called?",
+        "options": [
+            "Goal: Observe authentication process; Attack: De-authentication attack",
+            "Goal: Capture session cookies; Attack: Evil twin attack",
+            "Goal: Redirect traffic; Attack: ARP spoofing",
+            "Goal: Exploit encryption flaws; Attack: Replay attack"
+        ],
+        "answer": "Goal: Observe authentication process; Attack: De-authentication attack"
+    },
+    {
+        "scenario": "You are testing a company’s Wi-Fi network and notice that WPS is enabled. What specific risks does this pose, and what should you recommend to the client?",
+        "options": [
+            "Risk: Brute force attacks on PINs; Recommendation: Disable WPS",
+            "Risk: Replay attacks; Recommendation: Use WPA3",
+            "Risk: Key reuse; Recommendation: Change SSID regularly",
+            "Risk: Evil twin attacks; Recommendation: Hide SSID broadcast"
+        ],
+        "answer": "Risk: Brute force attacks on PINs; Recommendation: Disable WPS"
+    },
+    {
+        "scenario": "During a web application test, you insert a `<script>alert('test');</script>` payload into a form field. Upon submission, this payload is executed in another user’s browser. What type of vulnerability have you identified?",
+        "options": [
+            "SQL injection",
+            "Cross-site scripting (XSS)",
+            "Cross-site request forgery (CSRF)",
+            "Command injection"
+        ],
+        "answer": "Cross-site scripting (XSS)"
+    },
+    {
+        "scenario": "You are investigating a potential breach in a company's network. An attacker used ARP spoofing to redirect traffic through their device. What countermeasure could have prevented this?",
+        "options": [
+            "Enabling Dynamic ARP Inspection (DAI)",
+            "Using WPA3 encryption",
+            "Implementing a Web Application Firewall (WAF)",
+            "Disabling WPS"
+        ],
+        "answer": "Enabling Dynamic ARP Inspection (DAI)"
+    },
+    {
+        "scenario": "You are reviewing logs from a web application firewall and notice repeated SQL queries containing `' OR '1'='1` from a single IP address. What is the attacker attempting, and how should the application defend itself?",
+        "options": [
+            "Attempt: SQL injection; Defense: Use parameterized queries",
+            "Attempt: XSS; Defense: Sanitize inputs",
+            "Attempt: CSRF; Defense: Implement anti-CSRF tokens",
+            "Attempt: Cookie tampering; Defense: Enable secure cookies"
+        ],
+        "answer": "Attempt: SQL injection; Defense: Use parameterized queries"
+    },
+    {
+        "scenario": "A client reports slow network performance, and you identify hundreds of half-open TCP connections targeting their web server. What type of attack is occurring, and what can mitigate it?",
+        "options": [
+            "Attack: SYN flood; Mitigation: Implement SYN cookies",
+            "Attack: Smurf attack; Mitigation: Block ICMP traffic",
+            "Attack: ARP spoofing; Mitigation: Enable ARP inspection",
+            "Attack: De-authentication attack; Mitigation: Upgrade to WPA3"
+        ],
+        "answer": "Attack: SYN flood; Mitigation: Implement SYN cookies"
+    },
+    {
+        "scenario": "During a security audit, you find a Wi-Fi network using WPA2-Personal with a weak pre-shared key such as 'password123'. What risk does this pose, and how can it be mitigated?",
+        "options": [
+            "Risk: Brute force attacks; Mitigation: Use a strong, complex password",
+            "Risk: Replay attacks; Mitigation: Upgrade to WPA3",
+            "Risk: Evil twin attacks; Mitigation: Disable auto-connect",
+            "Risk: DNS cache poisoning; Mitigation: Use a VPN"
+        ],
+        "answer": "Risk: Brute force attacks; Mitigation: Use a strong, complex password"
+    },
+    {
+        "scenario": "A penetration tester successfully intercepts HTTPS traffic between a user and a web server by downgrading the encryption to SSL 2.0. What is this attack called?",
+        "options": [
+            "SSL stripping",
+            "Downgrade attack",
+            "Replay attack",
+            "Evil twin attack"
+        ],
+        "answer": "Downgrade attack"
+    },
+    {
+        "scenario": "An attacker sets up a rogue access point with the same SSID as a legitimate one to trick users into connecting. What is this attack, and what are its consequences?",
+        "options": [
+            "Attack: Evil twin; Consequences: Eavesdropping on user traffic",
+            "Attack: Wardriving; Consequences: Theft of sensitive data",
+            "Attack: ARP spoofing; Consequences: Network disruption",
+            "Attack: Replay attack; Consequences: Reuse of encrypted traffic"
+        ],
+        "answer": "Attack: Evil twin; Consequences: Eavesdropping on user traffic"
+    },
+    {
+        "scenario": "A web application uses unencrypted cookies to manage sessions. An attacker intercepts the cookies using a network sniffer and gains unauthorized access. What could have prevented this?",
+        "options": [
+            "Encrypt cookies and use HTTPS",
+            "Enable HSTS policies",
+            "Use a WAF to block malicious traffic",
+            "Implement secure DNS configurations"
+        ],
+        "answer": "Encrypt cookies and use HTTPS"
+    },
+    {
+        "scenario": "You notice frequent 401 Unauthorized responses in a web application’s logs, followed by a successful login. What might the attacker be attempting, and how can it be mitigated?",
+        "options": [
+            "Attempt: Brute force attack; Mitigation: Enable account lockout policies",
+            "Attempt: SQL injection; Mitigation: Use input validation",
+            "Attempt: Session hijacking; Mitigation: Secure cookies",
+            "Attempt: DNS poisoning; Mitigation: Use DNSSEC"
+        ],
+        "answer": "Attempt: Brute force attack; Mitigation: Enable account lockout policies"
+    },
+    {
+        "scenario": "An attacker modifies a legitimate user’s HTTP request by appending a malicious script as a URL parameter. What vulnerability does this exploit, and how can it be mitigated?",
+        "options": [
+            "Vulnerability: Cross-site scripting (XSS); Mitigation: Input sanitization",
+            "Vulnerability: SQL injection; Mitigation: Use prepared statements",
+            "Vulnerability: CSRF; Mitigation: Implement anti-CSRF tokens",
+            "Vulnerability: Command injection; Mitigation: Use secure APIs"
+        ],
+        "answer": "Vulnerability: Cross-site scripting (XSS); Mitigation: Input sanitization"
+    },
+    {
+        "scenario": "A client’s DNS queries are being redirected to malicious websites. The DNS server logs show that an unauthorized device is responding to client queries. What type of attack is this, and what is the mitigation?",
+        "options": [
+            "Attack: DNS spoofing; Mitigation: Use DNSSEC",
+            "Attack: ARP poisoning; Mitigation: Enable ARP inspection",
+            "Attack: De-authentication; Mitigation: Disable auto-connect",
+            "Attack: Replay attack; Mitigation: Implement HSTS policies"
+        ],
+        "answer": "Attack: DNS spoofing; Mitigation: Use DNSSEC"
+    },
+    {
+        "scenario": "An attacker uses a script to broadcast multiple fake DHCP requests using spoofed MAC addresses, depleting the DHCP server's available IP addresses. What is this attack called, and how can it be prevented?",
+        "options": [
+            "Attack: DHCP starvation; Prevention: Use DHCP snooping",
+            "Attack: SYN flood; Prevention: Implement SYN cookies",
+            "Attack: Wardriving; Prevention: Secure SSID broadcast",
+            "Attack: Smurf attack; Prevention: Block ICMP traffic"
+        ],
+        "answer": "Attack: DHCP starvation; Prevention: Use DHCP snooping"
+    },
+    {
+        "scenario": "A penetration tester simulates an MITM attack by using ARP spoofing to redirect traffic through their machine. They then decrypt captured HTTPS traffic. What tool might they have used?",
+        "options": [
+            "Bettercap",
+            "Wireshark",
+            "Burp Suite",
+            "Nmap"
+        ],
+        "answer": "Bettercap"
+    },
+    {
+        "scenario": "A company uses WPA2-Enterprise for their Wi-Fi network. An attacker attempts to brute force user credentials. How can the company strengthen its defenses?",
+        "options": [
+            "Require multi-factor authentication for WPA2-Enterprise",
+            "Switch to WPA2-Personal with a strong pre-shared key",
+            "Disable SSID broadcast",
+            "Use a USB stick for WPS authentication"
+        ],
+        "answer": "Require multi-factor authentication for WPA2-Enterprise"
+    },
+    {
+        "scenario": "A user receives a phishing email containing a malicious link. Clicking the link executes JavaScript that steals their session cookies. What attack is this, and how can it be prevented?",
+        "options": [
+            "Attack: Reflected XSS; Prevention: Sanitize user inputs",
+            "Attack: Stored XSS; Prevention: Validate form data",
+            "Attack: CSRF; Prevention: Implement anti-CSRF tokens",
+            "Attack: Session hijacking; Prevention: Use HTTPS"
+        ],
+        "answer": "Attack: Reflected XSS; Prevention: Sanitize user inputs"
     }
 ]
 

@@ -1,0 +1,155 @@
+{
+    "citation": "Source: MIAE-221 Materials Science and Engineering (Conceptual Questions) - Callister & Rethwisch 10th Edition",
+    "questions": [
+        {
+            "question": "Which type of point defect would most significantly affect the electrical conductivity of a semiconductor?",
+            "options": [
+                "Vacancy in the host lattice",
+                "Self-interstitial atoms",
+                "Substitutional impurity atoms with different valence",
+                "Grain boundaries"
+            ],
+            "answer": "Substitutional impurity atoms with different valence"
+        },
+        {
+            "question": "What is the primary driving force for diffusion in crystalline materials?",
+            "options": [
+                "Temperature gradients",
+                "Chemical potential gradients",
+                "Electric field gradients",
+                "Pressure gradients"
+            ],
+            "answer": "Chemical potential gradients"
+        },
+        {
+            "question": "Which crystal structure has the highest atomic packing factor?",
+            "options": [
+                "Simple cubic (SC)",
+                "Body-centered cubic (BCC)",
+                "Face-centered cubic (FCC)",
+                "Hexagonal close-packed (HCP)"
+            ],
+            "answer": "Face-centered cubic (FCC)"
+        },
+        {
+            "question": "According to Hume-Rothery rules, what is the maximum atomic size difference for extensive solid solubility?",
+            "options": [
+                "5%",
+                "10%",
+                "15%",
+                "20%"
+            ],
+            "answer": "15%"
+        },
+        {
+            "question": "Which type of bonding is characterized by a 'sea of electrons'?",
+            "options": [
+                "Ionic bonding",
+                "Covalent bonding", 
+                "Metallic bonding",
+                "Van der Waals bonding"
+            ],
+            "answer": "Metallic bonding"
+        },
+        {
+            "question": "What happens to the number of vacancies in a crystal when temperature increases?",
+            "options": [
+                "Decreases exponentially",
+                "Increases exponentially",
+                "Remains constant",
+                "Decreases linearly"
+            ],
+            "answer": "Increases exponentially"
+        },
+        {
+            "question": "Which diffusion mechanism is most common for interstitial atoms?",
+            "options": [
+                "Vacancy mechanism",
+                "Interstitial mechanism",
+                "Grain boundary mechanism",
+                "Ring mechanism"
+            ],
+            "answer": "Interstitial mechanism"
+        },
+        {
+            "question": "In X-ray diffraction, what condition must be satisfied for constructive interference?",
+            "options": [
+                "Bragg's Law: nλ = 2d sinθ",
+                "Planck's equation: E = hν",
+                "Einstein's equation: E = mc²",
+                "Hooke's Law: F = kx"
+            ],
+            "answer": "Bragg's Law: nλ = 2d sinθ"
+        },
+        {
+            "question": "Which factor does NOT influence the ionic character percentage of a bond?",
+            "options": [
+                "Electronegativity difference",
+                "Atomic size difference",
+                "Crystal structure",
+                "Atomic mass difference"
+            ],
+            "answer": "Atomic mass difference"
+        },
+        {
+            "question": "What type of crystal defect is a dislocation?",
+            "options": [
+                "Point defect",
+                "Line defect",
+                "Planar defect",
+                "Volume defect"
+            ],
+            "answer": "Line defect"
+        },
+        {
+            "question": "Which statement about grain boundaries is correct?",
+            "options": [
+                "They have lower energy than the grain interior",
+                "They act as barriers to dislocation motion",
+                "They have the same atomic arrangement as grains",
+                "They decrease material strength"
+            ],
+            "answer": "They act as barriers to dislocation motion"
+        },
+        {
+            "question": "What is the coordination number for atoms in an FCC crystal structure?",
+            "options": [
+                "6",
+                "8", 
+                "12",
+                "14"
+            ],
+            "answer": "12"
+        },
+        {
+            "question": "Which type of solid solution strengthening mechanism is most effective?",
+            "options": [
+                "Substitutional solid solution with same size atoms",
+                "Substitutional solid solution with different size atoms",
+                "Interstitial solid solution",
+                "All are equally effective"
+            ],
+            "answer": "Interstitial solid solution"
+        },
+        {
+            "question": "What happens to diffusion coefficient when activation energy increases?",
+            "options": [
+                "Increases exponentially",
+                "Decreases exponentially", 
+                "Remains constant",
+                "Increases linearly"
+            ],
+            "answer": "Decreases exponentially"
+        },
+        {
+            "question": "Which Miller index represents a plane parallel to the z-axis?",
+            "options": [
+                "(100)",
+                "(010)",
+                "(001)",
+                "(110)"
+            ],
+            "answer": "(001)"
+        }
+    ]
+}

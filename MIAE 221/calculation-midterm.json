@@ -1,0 +1,155 @@
+{
+    "citation": "Source: MIAE-221 Materials Science and Engineering (Calculation Problems) - Callister & Rethwisch 10th Edition",
+    "questions": [
+        {
+            "question": "A BCC iron crystal has an atomic radius of 0.1241 nm. What is the theoretical density of this iron if the atomic weight is 55.85 g/mol?",
+            "options": [
+                "7.87 g/cm³",
+                "8.42 g/cm³", 
+                "7.15 g/cm³",
+                "6.98 g/cm³"
+            ],
+            "answer": "7.87 g/cm³"
+        },
+        {
+            "question": "If the equilibrium number of vacancies in copper at 1000°C is 2.2 × 10¹⁸ vacancies/m³, and the activation energy for vacancy formation is 0.9 eV/atom, approximately how many vacancies per m³ would exist at 500°C?",
+            "options": [
+                "1.1 × 10¹⁶ vacancies/m³",
+                "4.4 × 10¹⁶ vacancies/m³",
+                "2.8 × 10¹⁵ vacancies/m³",
+                "6.7 × 10¹⁴ vacancies/m³"
+            ],
+            "answer": "2.8 × 10¹⁵ vacancies/m³"
+        },
+        {
+            "question": "For steady-state diffusion through a 2 mm thick steel plate at 700°C, if the carbon concentrations are 1.2 kg/m³ and 0.4 kg/m³ on opposite surfaces, and D = 2.5 × 10⁻¹¹ m²/s, what is the diffusion flux?",
+            "options": [
+                "1.0 × 10⁻⁸ kg/m²·s",
+                "2.0 × 10⁻⁸ kg/m²·s",
+                "5.0 × 10⁻⁹ kg/m²·s",
+                "1.5 × 10⁻⁸ kg/m²·s"
+            ],
+            "answer": "1.0 × 10⁻⁸ kg/m²·s"
+        },
+        {
+            "question": "In X-ray diffraction of a cubic crystal, if the first-order diffraction peak for the (200) planes occurs at 2θ = 44.5° using Cu Kα radiation (λ = 0.1542 nm), what is the lattice parameter?",
+            "options": [
+                "0.405 nm",
+                "0.350 nm",
+                "0.286 nm",
+                "0.491 nm"
+            ],
+            "answer": "0.405 nm"
+        },
+        {
+            "question": "For a composition of 15 wt% Cu and 85 wt% Al, what is the approximate atomic percentage of copper? (Atomic weights: Cu = 63.5 g/mol, Al = 27.0 g/mol)",
+            "options": [
+                "6.8 at%",
+                "8.2 at%",
+                "15.0 at%",
+                "12.4 at%"
+            ],
+            "answer": "6.8 at%"
+        },
+        {
+            "question": "An edge dislocation in an FCC crystal has a Burgers vector of a/2⟨110⟩. If the lattice parameter is 0.36 nm, what is the magnitude of the Burgers vector?",
+            "options": [
+                "0.25 nm",
+                "0.18 nm",
+                "0.36 nm",
+                "0.51 nm"
+            ],
+            "answer": "0.25 nm"
+        },
+        {
+            "question": "If the diffusion coefficient of carbon in α-iron at 500°C is 1.2 × 10⁻¹² m²/s, and the activation energy is 87.4 kJ/mol, what would be the diffusion coefficient at 600°C?",
+            "options": [
+                "2.8 × 10⁻¹² m²/s",
+                "4.1 × 10⁻¹² m²/s",
+                "6.2 × 10⁻¹² m²/s",
+                "8.7 × 10⁻¹² m²/s"
+            ],
+            "answer": "4.1 × 10⁻¹² m²/s"
+        },
+        {
+            "question": "For a binary ionic compound MX, if the electronegativity of M is 1.2 and X is 3.8, what is the approximate percentage ionic character?",
+            "options": [
+                "89%",
+                "76%",
+                "94%",
+                "82%"
+            ],
+            "answer": "89%"
+        },
+        {
+            "question": "If a material has an ASTM grain size number G = 8, approximately how many grains per square inch would be observed at 100× magnification?",
+            "options": [
+                "64 grains/in²",
+                "128 grains/in²",
+                "256 grains/in²", 
+                "512 grains/in²"
+            ],
+            "answer": "256 grains/in²"
+        },
+        {
+            "question": "For interstitial diffusion of carbon in γ-iron (FCC) at 900°C, if it takes 10 hours to achieve a carbon concentration of 0.8 wt% at 2 mm below the surface, approximately how long would it take to achieve the same concentration at 3 mm depth?",
+            "options": [
+                "15.0 hours",
+                "22.5 hours",
+                "30.0 hours",
+                "45.0 hours"
+            ],
+            "answer": "22.5 hours"
+        },
+        {
+            "question": "In a carburizing process, if the surface carbon concentration is maintained at 1.2 wt% and the initial carbon content is 0.2 wt%, what depth would achieve 0.6 wt% carbon after 5 hours at 950°C? (D = 1.6 × 10⁻¹¹ m²/s)",
+            "options": [
+                "0.8 mm",
+                "1.2 mm",
+                "1.6 mm",
+                "2.1 mm"
+            ],
+            "answer": "1.2 mm"
+        },
+        {
+            "question": "For an HCP crystal structure with c/a ratio = 1.633, if the atomic radius is 0.133 nm, what is the atomic packing factor?",
+            "options": [
+                "0.68",
+                "0.74",
+                "0.52", 
+                "0.64"
+            ],
+            "answer": "0.74"
+        },
+        {
+            "question": "A tungsten (W) crystal has a BCC structure with atomic radius 0.139 nm. Calculate the theoretical density given atomic weight 183.84 g/mol.",
+            "options": [
+                "19.1 g/cm³",
+                "17.6 g/cm³",
+                "15.8 g/cm³",
+                "21.2 g/cm³"
+            ],
+            "answer": "19.1 g/cm³"
+        },
+        {
+            "question": "If the lattice parameter of an FCC crystal is 0.405 nm, what is the planar density of atoms on the (111) plane?",
+            "options": [
+                "1.42 × 10¹⁹ atoms/m²",
+                "2.31 × 10¹⁹ atoms/m²",
+                "3.16 × 10¹⁹ atoms/m²",
+                "4.05 × 10¹⁹ atoms/m²"
+            ],
+            "answer": "2.31 × 10¹⁹ atoms/m²"
+        },
+        {
+            "question": "For non-steady-state diffusion, if after 2 hours at 900°C the concentration at 1 mm depth is 0.6 wt%, what would be the concentration at the same depth after 8 hours under the same conditions?",
+            "options": [
+                "0.85 wt%",
+                "1.2 wt%",
+                "0.95 wt%",
+                "1.5 wt%"
+            ],
+            "answer": "0.95 wt%"
+        }
+    ]
+}

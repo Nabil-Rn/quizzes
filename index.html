@@ -1,136 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="dolphinlogo.ico" type="image/x-icon">
     <title>Multiple Choice Quizzes</title>
     <link rel="stylesheet" href="styles.css">
-
 </head>
-
 <body>
-    <!--What are you looking at???? 😳😳😳😳😳😳 -->
     <div class="container">
         <div class="section-1">
             <h1>Multiple Choice Quizzes</h1>
-            <img src="dolphin.gif" style="display: block; margin: 0 auto;"><br>
+            <img src="dolphin.gif" alt="Dolphin" class="logo">
 
-            <!-- panel for courses -->
+            <h2>Select a course</h2>
             <div class="select-panel">
-<!--            
-                <button id="gameBtn">Game Programming</button>     
-                <button id="webBtn">Web Services</button>                
-                <button id="netBtn">Advanced Network</button>
--->
-                <button id="gameBtn">nothing</button>     
-                <button id="webBtn">EH</button>
-                <button id="netBtn">HR & Marketing </button>
+                <button id="option1" type="button">MIAE 221</button>
+                <button id="option2" type="button">MATH 203</button>
+                <button id="option3" type="button">MATH 204</button>
             </div>
 
-            <!-- Courses! -->
-
-
-            <div id="webSelect" class="select-container">
-                <h3>EH</h3>
-                <select id="webJsonSelect">
-                    <option value="webServices\EHALL.json"> ALL</option>
-                    <option value="webServices\EH.json">Local Network Attacks</option>
-                    <option value="webServices\EH1.json"> Wireless Network Attacks and Defense</option>
-                    <option value="webServices\EH2.json"> Web_Attacks_and_defense </option>
-                    <option value="webServices\EH3.json"> MITRE_ATTCK-CEGEP-VA-2024-11-15-v01</option>
-                    
-                </select>
-                <p>please refresh before changing the quiz, i have broken js</p>
-                <p>please dont use this as your only resource for studying, please do read your slides! </p>
-                <br>
-            </div>
-
-             <div id="networkSelect" class="select-container"  style="display: none;">
-                <h3>HR & Marketing </h3>
-                <select id="networkJsonSelect">
-                    <option value="advanced-network\HRALL.json">HR exam 3</option>
-                    <option value="advanced-network\HR.json">Operations_Slides</option>
-                    <option value="advanced-network\HR1.json">Accounting_Slides</option>
-                    <option value="advanced-network\HR2.json">Law_Slides_</option>
+            <div id="1Select" class="select-container">
+                <h3>MIAE 221</h3>
+                <h4>select a topic</h4>
+                <select id="oneJsonSelect">
+                    <option value="">Select quiz…</option>
+                    <option value="MIAE 221\midterm.json">midterm</option>
+                    <option value="MIAE 221\conceptual-midterm.json">conceptual midterm</option>
+                    <option value="MIAE 221\calculation-midterm.json">calculation midterm</option>
                 </select>
             </div>
 
-             <div id="gameSelect" class="select-container"  style="display: none;">
-                <h3>nothing</h3>
-                <select id="gameJsonSelect">
-                </select>
-            </div> 
-            
-            <!--Web services
-            <div id="webSelect" class="select-container">
-                <h3>Web services Quizzes: select a topic!</h3>
-                <select id="webJsonSelect">
-                    <option value="webServices\chapter01.json">chapter01 IPC</option>
-                    <option value="webServices\chapter02.json">chapter02 Web HTTP</option>
-                    <option value="webServices\chapter03.json">chapter03 REST Web Services</option>
-                    <option value="webServices\chapter04.json">chapter04 Resource Design</option>
-                    <option value="webServices\chapter05.json">chapter05 Content Negotiation</option>
-                    <option value="webServices\chapter0mix.json">mix "fixed"</option>
-                </select><br>
-            </div>
-            -->
-            
-            <!-- Advanced Network 
-            <div id="networkSelect" class="select-container"  style="display: none;">
-                <h3>Advanced Network Quizzes: select a topic!</h3>
-                <select id="networkJsonSelect">
-                    <option value="advanced-network\intro.json">Introdcution</option>
-                    <option value="advanced-network\ipAndSubnetting.json">I and Subnetting</option>
-                    <option value="advanced-network\Network_Devices.json">Network Devices</option>
-                    <option value="advanced-network\router_IOS.json">Router IOS</option>
-                    <option value="advanced-network\SwitchesAndVlans.json">Switches and Vlans</option>
-                    <option value="advanced-network\VLSM.json">VLSM</option>
+            <div id="2Select" class="select-container" style="display:none">
+                <h3>MATH 203</h3>
+                <h4>select a topic</h4>
+                <select id="twoJsonSelect">
+                    <option value="">Select quiz…</option>
+                    <option value="MATH 203\midterm.json">midterm</option>
                 </select>
             </div>
-            -->
-            
-            <!-- Game programming 
-            <div id="gameSelect" class="select-container"  style="display: none;">
-                <h3>Game programming Quizzes: select a topic!</h3>
-                <select id="gameJsonSelect">
-                    <option value="game-prog-2\intro.json">Getting started with Unity</option>
-                    <option value="game-prog-2\part1.json">Transforms</option>
-                    <option value="game-prog-2\part2.json">Event-driven Programming</option>
-                    <option value="game-prog-2\part3.json">Rigidbodies and Colliders</option>
-                    <option value="game-prog-2\part4.json">Game Design</option>
-                    <option value="game-prog-2\part6.json"> Inputs, Prefabs and more Physics</option>
-                    <option value="game-prog-2\part7.json">Animation and Multiple Scenes</option>
-                    <option value="game-prog-2\part8.json">Sounds</option>
-                </select>
-            </div> 
-            -->
 
-            
-            <button id="startQuiz">Start Quiz</button>
-            <!-- inject the quiz -->
+            <div id="3Select" class="select-container" style="display:none">
+                <h3>MATH 204</h3>
+                <h4>select a topic</h4>
+                <select id="threeJsonSelect">
+                    <option value="">Select quiz…</option>
+                    <option value="MATH 204\midterm.json">midterm</option>
+                </select>
+            </div>
+
+            <button id="startQuiz" type="button">Start Quiz</button>
+
             <div id="quiz"></div>
-            <script src="script.js"></script>
 
-            <button href="#top" id="submitBtnMobile" style="display: none;" >Submit</button>
-            <!-- display the result -->
-            <div id="resultMobile" style="display: none;"></div>
-            <button href="#top" id="showAnswersMobile" style="display: none;">Show Answers</button>
-
+            <div class="mobile-controls">
+                <button id="submitBtnMobile" type="button" style="display:none">Submit</button>
+                <div id="resultMobile" style="display:none"></div>
+                <button id="showAnswersMobile" type="button" style="display:none">Show Answers</button>
+            </div>
         </div>
 
-        <!--check box of the quiz?-->
         <div class="section-2-container">
             <div class="section-2">
                 <div id="checksBox"></div>
-                <button id="submitBtn">Submit</button>
-                <!-- display the result -->
+                <button id="submitBtn" type="button">Submit</button>
                 <div id="result"></div>
-                <button id="showAnswers">Show Answers</button>
+                <button id="showAnswers" type="button">Show Answers</button>
+                <div id="citation" style="display:none"></div>
             </div>
         </div>
     </div>
-</body>
 
+    <script src="script.js"></script>
+</body>
 </html>

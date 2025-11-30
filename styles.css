@@ -1,224 +1,456 @@
-body {
-    font-family: Arial, sans-serif;
+* {
+    box-sizing: border-box;
 }
 
-@media (max-width: 600px) {
-    body {
-        font-size: 14px;
-    }
-    .section-2{
-        position: fixed;
-        padding-top: 10vh;
-        padding-left: 5vh;
-        width: 0%;
-    }
-    #submitBtnMobile
-    #resultMobile
-    #showAnswersMobile{
-        display: block;
-    }
-    #submitBtn
-    #result
-    #showAnswers{
-        display: none;
-    }
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    background: linear-gradient(135deg, #0626b3 0%, #3799c7 100%);
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 25px;
+}
+
+.section-1 {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 35px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.section-2-container {
+    position: sticky;
+    top: 20px;
+    height: fit-content;
+}
+
+.section-2 {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(8px);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    margin: 0 0 25px;
+    color: #2c3e50;
+    font-size: 2.2rem;
+    font-weight: 600;
+    padding: 20px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #f8fafc, #ffffff);
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 25px;
+    max-width: 90px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .select-panel {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 25px;
 }
 
 .select-panel button {
-    padding: 10px 20px;
-    margin: 0 10px;
+    padding: 14px 28px;
     font-size: 16px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    background-color: white;
+    font-weight: 500;
+    border: 2px solid #3b82f6;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #3b82f6;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    min-height: 46px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.15);
 }
 
 .select-panel button:hover {
-    background-color: #f0f0f0;
+    background: #3b82f6;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(59, 130, 246, 0.25);
 }
 
-.select-panel button:focus {
+.select-panel button:active {
+    transform: translateY(0);
+}
+
+.select-panel button.active {
+    background: #3b82f6;
+    color: #ffffff;
+    box-shadow: 0 4px 16px rgba(59, 130, 246, 0.3);
+}
+
+.select-container {
+    margin-bottom: 20px;
+}
+
+.select-container h3 {
+    margin: 0 0 12px;
+    color: #4a5568;
+    font-weight: 600;
+}
+
+.select-container select {
+    width: 100%;
+    max-width: 320px;
+    padding: 14px 16px;
+    font-size: 16px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    background: #ffffff;
+    cursor: pointer;
+    min-height: 46px;
+    transition: all 0.2s ease;
+}
+
+.select-container select:focus {
     outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
 #startQuiz {
-    padding: 20px;
-    font-size: 15px;
-    background-color: blue;
-    color: white;
+    padding: 16px 32px;
+    font-size: 18px;
+    font-weight: 600;
+    background: linear-gradient(135deg, #10b981, #34d399);
+    color: #ffffff;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    min-height: 50px;
+    transition: all 0.3s ease;
+    margin: 25px 0 35px;
+    box-shadow: 0 4px 16px rgba(16, 185, 129, 0.3);
 }
 
-#gameJsonSelect,
-#webJsonSelect,
-#networkJsonSelect {
-    padding: 20px;
-    margin-bottom: 20px;
-    font-size: 18px;
-    border: 3px solid #ccc;
-    border-radius: 5px;
-    background-color: white;
-    cursor: pointer;
-    position: relative; /* Add position relative */
+#startQuiz:hover {
+    background: linear-gradient(135deg, #059669, #10b981);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4);
 }
 
-/* Style the arrow */
-#gameJsonSelect::after,
-#webJsonSelect::after,
-#networkJsonSelect::after {
-    content: '\25BC'; /* Unicode for down arrow */
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-    pointer-events: none; /* Ensure the arrow doesn't interfere with clicks */
+#startQuiz:active {
+    transform: translateY(0);
 }
 
-/* Style when select is opened */
-#gameJsonSelect:focus,
-#webJsonSelect:focus,
-#networkJsonSelect:focus {
-    outline: none; /* Remove outline */
-    border-color: blue; /* Change border color on focus */
-}
-
-
-.container {
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 10px;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-
-.section-1{
-    padding-top: 2vh;
-    padding-bottom: 4vh;
-    text-align: center;
-}
-
-.section-2{
-    position: fixed;
-    font-size: 18px;
-    padding-top: 15vh;
-    padding-left: 15vh;
-    width: 15%;
-}
-
-#quiz{
-    padding-top: 20px;
-}
-.option{
-    padding: 10px;
-}
-
-h1 {
-    padding: 20px;
-    border: 3px solid #ccc;
-    border-radius: 5px;
+#quiz {
+    text-align: left;
+    margin-bottom: 25px;
 }
 
 .question {
-    margin-bottom: 10px;
-}
-
-.options {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+    font-weight: 600;
+    margin: 25px 0 18px;
+    font-size: 18px;
+    color: #1f2937;
+    line-height: 1.5;
 }
 
 .option {
-    padding: 10px;
-    margin: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+    margin: 10px 0;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
     cursor: pointer;
+    background: #ffffff;
+    transition: all 0.25s ease;
+    min-height: 48px;
 }
 
 .option input[type="radio"] {
-    display: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #d1d5db;
+    border-radius: 50%;
+    background: #ffffff;
+    margin: 0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
 }
 
-.option.selected {
-    background-color: #9fe59f;
+.option input[type="radio"]:checked {
+    border-color: #3b82f6;
+    background: #3b82f6;
 }
 
-.option.correct {
-    background-color: #358a35; /* Green background for correct options */
+.option input[type="radio"]:checked::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    background: #ffffff;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.option.incorrect {
-    background-color: #f29292; /* Red background for incorrect options */
+.option label {
+    flex: 1;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 1.4;
 }
 
 .option:hover {
-    background-color: #f0f0f0;
+    border-color: #3b82f6;
+    background: #f8faff;
+    transform: translateX(4px);
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.15);
 }
 
-.option.selected:hover {
-    background-color: #6edc6e;
+.option.selected {
+    background: #eff6ff;
+    border-color: #3b82f6;
+    transform: translateX(4px);
 }
 
-.option.incorrect:hover {
-    background-color: #e36868;
+.option.correct {
+    background: #ecfdf5;
+    border-color: #10b981;
+    color: #065f46;
 }
 
-.option.correct:hover {
-    background-color: #1f7c1f;
+.option.incorrect {
+    background: #fef2f2;
+    border-color: #ef4444;
+    color: #991b1b;
+}
+
+#submitBtn,
+#showAnswers {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    min-height: 46px;
+    transition: all 0.3s ease;
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
 }
 
 #submitBtn {
-    font-size: 20px;
-    margin-top: 20px;
-    padding: 20px 30px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    background: linear-gradient(135deg, #10b981, #34d399);
+    color: #ffffff;
+    box-shadow: 0 3px 12px rgba(16, 185, 129, 0.3);
 }
 
 #submitBtn:hover {
-    background-color: #45a049;
+    background: linear-gradient(135deg, #059669, #10b981);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 16px rgba(16, 185, 129, 0.4);
 }
 
 #showAnswers {
-    font-size: 17px;
-    margin-top: 20px;
-    padding: 17px 20px;
-    background-color: #664caf;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    background: linear-gradient(135deg, #8b5cf6, #a78bfa);
+    color: #ffffff;
+    box-shadow: 0 3px 12px rgba(139, 92, 246, 0.3);
 }
 
 #showAnswers:hover {
-    background-color: #523898;
+    background: linear-gradient(135deg, #7c3aed, #8b5cf6);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 16px rgba(139, 92, 246, 0.4);
 }
 
-#result {
+button:active {
+    transform: translateY(1px) !important;
+}
+
+#result,
+#resultMobile {
+    font-weight: 600;
+    padding: 16px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
+    border: 1px solid #0ea5e9;
+    color: #0c4a6e;
+    margin: 12px 0;
+}
+
+#checksBox {
+    font-size: 14px;
     margin-bottom: 20px;
-    font-weight: bold;
+    background: #f8fafc;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
 }
 
+#checksBox a {
+    display: block;
+    margin: 8px 0;
+    color: #64748b;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+#checksBox a:hover {
+    color: #3b82f6;
+}
+
+#checksBox input {
+    margin-left: 10px;
+    transform: scale(1.1);
+    accent-color: #3b82f6;
+}
+
+#citation {
+    margin-top: 16px;
+    padding: 16px;
+    background: linear-gradient(135deg, #fffbeb, #fef3c7);
+    border: 1px solid #f59e0b;
+    border-radius: 8px;
+    font-style: italic;
+    color: #92400e;
+}
+
+.mobile-controls {
+    display: none;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.mobile-controls button {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    min-height: 48px;
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+}
+
+#submitBtnMobile {
+    background: linear-gradient(135deg, #10b981, #34d399);
+    color: #ffffff;
+    box-shadow: 0 3px 12px rgba(16, 185, 129, 0.3);
+}
+
+#showAnswersMobile {
+    background: linear-gradient(135deg, #381096, #180b41);
+    color: #ffffff;
+    box-shadow: 0 3px 12px rgba(139, 92, 246, 0.3);
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    .container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 10px;
+    }
+    
+    .section-1 {
+        padding: 25px 20px;
+    }
+    
+.section-2 {
+        display: none;
+    }
+    
+    .mobile-controls {
+        display: block;
+    }
+    
+    .select-panel {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .select-panel button {
+        width: 100%;
+        max-width: 280px;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+        padding: 16px;
+    }
+    
+    .question {
+        font-size: 16px;
+        margin: 20px 0 15px;
+    }
+    
+    .option {
+        padding: 12px 14px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-1 {
+        padding: 20px 15px;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+        padding: 12px;
+    }
+    
+    .select-panel button {
+        padding: 12px 20px;
+        font-size: 14px;
+        min-height: 44px;
+    }
+    
+    .select-container select {
+        padding: 12px;
+        font-size: 14px;
+        min-height: 44px;
+    }
+    
+    #startQuiz {
+        padding: 14px 28px;
+        font-size: 16px;
+        min-height: 48px;
+    }
+    
+    .question {
+        font-size: 15px;
+    }
+    
+    .option {
+        padding: 10px 12px;
+        font-size: 14px;
+        min-height: 44px;
+    }
+}

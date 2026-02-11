@@ -1,12 +1,10 @@
 {
-  "citation": "Source BIOL 206 - Elementary Genetics (Expanded)",
+  "citation": "Source BIOL 206 - Elementary Genetics",
   "course": "BIOL 206",
   "instructor": "Dr. Aida Abu-Baker",
   "exam_style": "Detail-heavy, concept-specific. Emphasize key definitions, processes, and exact terminology.",
   "study_tips": "Read lectures carefully. Define key terms (exome, metagenomics, aneuploidy, heteroplasmy, penetrance, expressivity, etc). Watch remedial videos (Bozeman Science). Visualize mitosis/meiosis processes.",
-  "exam_date": "February 27, 2018",
-  "total_questions": 100,
-  "mcq": [
+  "questions": [
     {
       "question": "A nucleotide consists of three components. Which is NOT one of them?",
       "options": [
@@ -676,110 +674,6 @@
         "Random"
       ],
       "answer": "One or more genes + environmental factors"
-    },
-    {
-      "question": "Totipotent cells:",
-      "options": [
-        "Limited differentiation",
-        "Can become all cell types + embryonic tissues (e.g., zygote)",
-        "Cannot divide",
-        "Only in adults"
-      ],
-      "answer": "Can become all cell types + embryonic tissues (e.g., zygote)"
-    },
-    {
-      "question": "Pluripotent cells:",
-      "options": [
-        "Cannot differentiate",
-        "Can become all except embryonic cells",
-        "Only one type",
-        "Somatic only"
-      ],
-      "answer": "Can become all except embryonic cells"
-    },
-    {
-      "question": "Multipotent cells:",
-      "options": [
-        "Unlimited options",
-        "Few developmental choices",
-        "Cannot divide",
-        "Differentiated"
-      ],
-      "answer": "Few developmental choices"
-    },
-    {
-      "question": "iPS cells (induced pluripotent stem cells):",
-      "options": [
-        "Embryonic only",
-        "Reprogrammed from somatic cells to pluripotent state",
-        "Cannot self-renew",
-        "No applications"
-      ],
-      "answer": "Reprogrammed from somatic cells to pluripotent state"
-    },
-    {
-      "question": "Apoptosis:",
-      "options": [
-        "Uncontrolled growth",
-        "Programmed cell death (carves digits, shapes organs)",
-        "Cell division",
-        "Mutation"
-      ],
-      "answer": "Programmed cell death (carves digits, shapes organs)"
-    },
-    {
-      "question": "Teratogens cause:",
-      "options": [
-        "Genetic mutation only",
-        "Birth defects (e.g., thalidomide, alcohol, certain viruses)",
-        "Cancer only",
-        "No damage"
-      ],
-      "answer": "Birth defects (e.g., thalidomide, alcohol, certain viruses)"
-    },
-    {
-      "question": "Critical period (most teratogen sensitivity):",
-      "options": [
-        "Fetal period",
-        "Embryonic period (1st trimester)",
-        "Postnatal",
-        "Adult"
-      ],
-      "answer": "Embryonic period (1st trimester)"
-    }
-  ],
-  "short_answer_new": [
-    {
-      "label": "Albinism paradox",
-      "prompt": "Two albino parents produce normally pigmented children. Using genetic principles (other than non-paternity), explain how this is possible."
-    },
-    {
-      "label": "Mice coat color",
-      "prompt": "Cross P: ccBB (albino black) \u00d7 CCbb (color brown). F1 all color black. F2 from F1 \u00d7 F1: what ratios of phenotypes expected?"
-    },
-    {
-      "label": "Budgie feathers",
-      "prompt": "Feather color: YYBB/YyBB/YYBb = green; yyBB/yyBb = blue; YYbb/Yybb = yellow; yybb = white. Two blue budgies produced 22 offspring: 5 white, rest blue. Most likely genotypes?"
-    },
-    {
-      "label": "X-linked baldness",
-      "prompt": "X-linked recessive gene causes premature baldness in males, no effect in females. Heterozygous female \u00d7 affected male. What proportion of children bald?"
-    },
-    {
-      "label": "pedigree inheritance",
-      "prompt": "Draw/analyze pedigree for rare trait. Distinguish: autosomal recessive vs autosomal dominant vs X-linked."
-    },
-    {
-      "label": "Mitochondrial math",
-      "prompt": "Alisha has 2 sons and 3 daughters. Each son has 3 daughters. Each daughter has 1 son. How many grandchildren have Alisha's mitochondria?"
-    },
-    {
-      "label": "Individual II-5",
-      "prompt": "In pedigree, individual II-5 is: (A) male without trait, (B) a father, (C) has 3 affected siblings, (D) has 2 children, (E) all above?"
-    },
-    {
-      "label": "Genotype ambiguity",
-      "prompt": "Best way to distinguish two alleles from two genes: (A) chromosomal location, (B) no difference, (C) DNA sequence similarity, (D) protein products?"
     }
   ]
 }

@@ -1,0 +1,859 @@
+{
+  "citation": "Source BIOL 206 - Elementary Genetics",
+  "course": "BIOL 206",
+  "instructor": "Dr. Aida Abu-Baker",
+  "exam_style": "Detail-heavy, concept-specific. Emphasize key definitions, processes, and exact terminology.",
+  "study_tips": "Read lectures carefully. Define key terms (exome, metagenomics, aneuploidy, heteroplasmy, penetrance, expressivity, etc). Watch remedial videos (Bozeman Science). Visualize mitosis/meiosis processes.",
+  "questions": [
+    {
+      "question": "What is Genetics?",
+      "options": [
+        "The study of DNA structure only",
+        "The study of variation, transmission and expression of traits encoded in DNA",
+        "The study of proteins only",
+        "The study of evolution only"
+      ],
+      "answer": "The study of variation, transmission and expression of traits encoded in DNA"
+    },
+    {
+      "question": "DNA resembles a spiral staircase and is called:",
+      "options": [
+        "A helix",
+        "A double helix",
+        "A triple helix",
+        "A linear strand"
+      ],
+      "answer": "A double helix"
+    },
+    {
+      "question": "A nucleotide has three parts. Which is one of them?",
+      "options": [
+        "Amino acid",
+        "Phosphate group",
+        "Lipid",
+        "Carbohydrate"
+      ],
+      "answer": "Phosphate group"
+    },
+    {
+      "question": "The four nitrogenous bases in DNA are:",
+      "options": [
+        "A, G, U, C",
+        "A, G, T, C",
+        "A, G, T, U",
+        "All of the above"
+      ],
+      "answer": "A, G, T, C"
+    },
+    {
+      "question": "Adenine and Guanine are classified as:",
+      "options": [
+        "Pyrimidines",
+        "Purines",
+        "Nucleotides",
+        "Phosphates"
+      ],
+      "answer": "Purines"
+    },
+    {
+      "question": "Chargaff's rules state:",
+      "options": [
+        "All bases are equal in DNA",
+        "A equals T and G equals C in percentage",
+        "Purines are always equal to pyrimidines",
+        "Adenine equals Guanine"
+      ],
+      "answer": "A equals T and G equals C in percentage"
+    },
+    {
+      "question": "Antiparallel DNA strands means:",
+      "options": [
+        "Both run 5' to 3'",
+        "Both run 3' to 5'",
+        "One runs 5' to 3', other runs 3' to 5'",
+        "They are parallel"
+      ],
+      "answer": "One runs 5' to 3', other runs 3' to 5'"
+    },
+    {
+      "question": "Denaturation of DNA involves:",
+      "options": [
+        "Adding base pairs",
+        "Breaking hydrogen bonds between strands",
+        "Replication",
+        "Mutation"
+      ],
+      "answer": "Breaking hydrogen bonds between strands"
+    },
+    {
+      "question": "A 200,000 base pair double-stranded DNA contains how many total nucleotides?",
+      "options": [
+        "200,000",
+        "300,000",
+        "400,000",
+        "800,000"
+      ],
+      "answer": "400,000"
+    },
+    {
+      "question": "What is a chromosome?",
+      "options": [
+        "A protein only",
+        "DNA only",
+        "DNA and protein structure",
+        "A gamete"
+      ],
+      "answer": "DNA and protein structure"
+    },
+    {
+      "question": "How many chromosome pairs do humans have?",
+      "options": [
+        "22 pairs",
+        "23 pairs",
+        "46 pairs",
+        "44 pairs"
+      ],
+      "answer": "23 pairs"
+    },
+    {
+      "question": "Autosomes are:",
+      "options": [
+        "Sex chromosomes",
+        "All chromosomes except sex chromosomes",
+        "Mitochondrial DNA",
+        "Recessive genes"
+      ],
+      "answer": "All chromosomes except sex chromosomes"
+    },
+    {
+      "question": "A karyotype displays:",
+      "options": [
+        "Gene sequences",
+        "Protein structures",
+        "Chromosome pairs from largest to smallest",
+        "Mitochondrial DNA"
+      ],
+      "answer": "Chromosome pairs from largest to smallest"
+    },
+    {
+      "question": "A gene is:",
+      "options": [
+        "A type of protein",
+        "A segment of DNA containing information to build proteins",
+        "An enzyme",
+        "A chromosome"
+      ],
+      "answer": "A segment of DNA containing information to build proteins"
+    },
+    {
+      "question": "An allele is:",
+      "options": [
+        "A type of enzyme",
+        "An alternative version of a gene",
+        "A chromosome",
+        "A protein"
+      ],
+      "answer": "An alternative version of a gene"
+    },
+    {
+      "question": "A locus is:",
+      "options": [
+        "An allele",
+        "A gene",
+        "The physical location of a gene on a chromosome",
+        "A mutation"
+      ],
+      "answer": "The physical location of a gene on a chromosome"
+    },
+    {
+      "question": "Homozygous means:",
+      "options": [
+        "Two different alleles",
+        "Two identical alleles",
+        "One allele",
+        "No alleles"
+      ],
+      "answer": "Two identical alleles"
+    },
+    {
+      "question": "Heterozygous means:",
+      "options": [
+        "Two identical alleles",
+        "Two different alleles",
+        "One allele",
+        "Three alleles"
+      ],
+      "answer": "Two different alleles"
+    },
+    {
+      "question": "A dominant allele:",
+      "options": [
+        "Requires two copies to be expressed",
+        "Exerts an effect with just one copy",
+        "Is always recessive",
+        "Never expresses"
+      ],
+      "answer": "Exerts an effect with just one copy"
+    },
+    {
+      "question": "A recessive allele:",
+      "options": [
+        "Exerts an effect with one copy",
+        "Requires two copies for expression",
+        "Is always dominant",
+        "Never mutates"
+      ],
+      "answer": "Requires two copies for expression"
+    },
+    {
+      "question": "Genotype refers to:",
+      "options": [
+        "Visible expression of a trait",
+        "The alleles present in an organism",
+        "Environmental factors",
+        "Protein structure"
+      ],
+      "answer": "The alleles present in an organism"
+    },
+    {
+      "question": "Phenotype refers to:",
+      "options": [
+        "The alleles present",
+        "The genes in nucleus",
+        "The visible/observable expression of a trait",
+        "Chromosomes"
+      ],
+      "answer": "The visible/observable expression of a trait"
+    },
+    {
+      "question": "Blending inheritance (pre-Mendel) proposed:",
+      "options": [
+        "Discrete inheritance units",
+        "Traits blend like mixing paints",
+        "Only dominant traits pass",
+        "Traits skip generations"
+      ],
+      "answer": "Traits blend like mixing paints"
+    },
+    {
+      "question": "Particulate inheritance (Mendel) states:",
+      "options": [
+        "All traits blend",
+        "Parents pass discrete heritable units (alleles)",
+        "Only males inherit",
+        "Traits are environmental"
+      ],
+      "answer": "Parents pass discrete heritable units (alleles)"
+    },
+    {
+      "question": "A Mendelian trait is:",
+      "options": [
+        "Environmental only",
+        "Controlled by multiple genes and environment",
+        "Caused predominantly by a single gene",
+        "Never inherited"
+      ],
+      "answer": "Caused predominantly by a single gene"
+    },
+    {
+      "question": "A complex trait is determined by:",
+      "options": [
+        "One gene only",
+        "Environment only",
+        "One or more genes AND environmental factors",
+        "Mitochondria only"
+      ],
+      "answer": "One or more genes AND environmental factors"
+    },
+    {
+      "question": "The P generation (Mendel) refers to:",
+      "options": [
+        "F1 hybrids",
+        "True-breeding parent plants",
+        "Random offspring",
+        "Mutant plants"
+      ],
+      "answer": "True-breeding parent plants"
+    },
+    {
+      "question": "F1 generation is:",
+      "options": [
+        "True-breeding parents",
+        "Hybrid offspring of P generation",
+        "Grandparent generation",
+        "Mutants"
+      ],
+      "answer": "Hybrid offspring of P generation"
+    },
+    {
+      "question": "F2 generation is:",
+      "options": [
+        "P generation",
+        "F1 hybrids",
+        "Offspring from F1 \u00d7 F1 crosses",
+        "Parents"
+      ],
+      "answer": "Offspring from F1 \u00d7 F1 crosses"
+    },
+    {
+      "question": "A monohybrid cross follows:",
+      "options": [
+        "Two traits",
+        "Three traits",
+        "One trait",
+        "No traits"
+      ],
+      "answer": "One trait"
+    },
+    {
+      "question": "A dihybrid cross follows:",
+      "options": [
+        "One trait",
+        "Two traits",
+        "Three traits",
+        "Four traits"
+      ],
+      "answer": "Two traits"
+    },
+    {
+      "question": "Expected F2 phenotypic ratio from Aa \u00d7 Aa:",
+      "options": [
+        "1:1",
+        "3:1",
+        "1:2:1",
+        "9:3:3:1"
+      ],
+      "answer": "3:1"
+    },
+    {
+      "question": "Expected F2 phenotypic ratio from AaBb \u00d7 AaBb:",
+      "options": [
+        "3:1",
+        "9:3:3:1",
+        "1:2:1",
+        "1:1:1:1"
+      ],
+      "answer": "9:3:3:1"
+    },
+    {
+      "question": "Mendel's Law of Segregation states:",
+      "options": [
+        "Alleles blend in heterozygotes",
+        "Alleles segregate during gamete formation into different gametes",
+        "All traits assort independently",
+        "Dominance varies by generation"
+      ],
+      "answer": "Alleles segregate during gamete formation into different gametes"
+    },
+    {
+      "question": "A test cross involves:",
+      "options": [
+        "Two dominant homozygotes",
+        "Unknown genotype \u00d7 homozygous recessive",
+        "Two heterozygotes",
+        "Two parents from different species"
+      ],
+      "answer": "Unknown genotype \u00d7 homozygous recessive"
+    },
+    {
+      "question": "Meiosis produces:",
+      "options": [
+        "Two identical diploid cells",
+        "Four haploid gametes",
+        "One tetraploid cell",
+        "Eight cells"
+      ],
+      "answer": "Four haploid gametes"
+    },
+    {
+      "question": "Meiosis I is:",
+      "options": [
+        "Equational division",
+        "Reductional division (n \u2192 2n)",
+        "Reductional division (2n \u2192 n)",
+        "Identical to mitosis"
+      ],
+      "answer": "Reductional division (2n \u2192 n)"
+    },
+    {
+      "question": "Meiosis II is:",
+      "options": [
+        "Reductional division",
+        "Equational division (like mitosis)",
+        "Increasing chromosome number",
+        "Fusion of cells"
+      ],
+      "answer": "Equational division (like mitosis)"
+    },
+    {
+      "question": "Prophase I involves:",
+      "options": [
+        "Sister chromatids separating",
+        "Synapsis; homologous chromosomes pair closely",
+        "Spindle formation",
+        "Cell fission"
+      ],
+      "answer": "Synapsis; homologous chromosomes pair closely"
+    },
+    {
+      "question": "A tetrad (bivalent) in meiosis I consists of:",
+      "options": [
+        "Two chromatids",
+        "Four chromatids",
+        "One chromosome",
+        "Eight chromatids"
+      ],
+      "answer": "Four chromatids"
+    },
+    {
+      "question": "Chiasmata are:",
+      "options": [
+        "Centromeres",
+        "Spindle poles",
+        "Sites of crossing over",
+        "Cell divisions"
+      ],
+      "answer": "Sites of crossing over"
+    },
+    {
+      "question": "Crossing over produces:",
+      "options": [
+        "More mutations",
+        "Recombinant chromosomes",
+        "Identical gametes",
+        "Nondisjunction"
+      ],
+      "answer": "Recombinant chromosomes"
+    },
+    {
+      "question": "Anaphase I features:",
+      "options": [
+        "Sister chromatids separating",
+        "Homologous chromosomes separating",
+        "Chromosome replication",
+        "Spindle dissolving"
+      ],
+      "answer": "Homologous chromosomes separating"
+    },
+    {
+      "question": "Nondisjunction results in:",
+      "options": [
+        "Normal gametes",
+        "Gametes with extra/missing chromosomes",
+        "Polyploid gametes",
+        "No genetic change"
+      ],
+      "answer": "Gametes with extra/missing chromosomes"
+    },
+    {
+      "question": "Oogenesis in females:",
+      "options": [
+        "Continuous from birth",
+        "Begins at puberty, continuous",
+        "Begins in fetus, arrests at prophase I",
+        "Only occurs once"
+      ],
+      "answer": "Begins in fetus, arrests at prophase I"
+    },
+    {
+      "question": "Sister chromatids are attached at the:",
+      "options": [
+        "Telomere",
+        "Centromere",
+        "Spindle pole",
+        "Locus"
+      ],
+      "answer": "Centromere"
+    },
+    {
+      "question": "Homologous chromosomes:",
+      "options": [
+        "Are identical in every way",
+        "Have same size, shape, genetic content; one from each parent",
+        "Never pair",
+        "Are found only in males"
+      ],
+      "answer": "Have same size, shape, genetic content; one from each parent"
+    },
+    {
+      "question": "Haploid cells have:",
+      "options": [
+        "Two sets of chromosomes (2n)",
+        "One set of chromosomes (n)",
+        "Three sets",
+        "Four sets"
+      ],
+      "answer": "One set of chromosomes (n)"
+    },
+    {
+      "question": "Diploid cells have:",
+      "options": [
+        "One set of chromosomes",
+        "Two sets of chromosomes",
+        "Three sets",
+        "Variable sets"
+      ],
+      "answer": "Two sets of chromosomes"
+    },
+    {
+      "question": "Incomplete dominance shows:",
+      "options": [
+        "Only dominant phenotype",
+        "Only recessive phenotype",
+        "Intermediate phenotype",
+        "No phenotype"
+      ],
+      "answer": "Intermediate phenotype"
+    },
+    {
+      "question": "Codominance shows:",
+      "options": [
+        "Intermediate traits",
+        "Only one allele expressed",
+        "Both alleles expressed distinctly",
+        "No expression"
+      ],
+      "answer": "Both alleles expressed distinctly"
+    },
+    {
+      "question": "Epistasis describes:",
+      "options": [
+        "Two genes assorting independently",
+        "One gene masking another gene's expression",
+        "Complementary gene action",
+        "Sex-linkage"
+      ],
+      "answer": "One gene masking another gene's expression"
+    },
+    {
+      "question": "Lethal alleles:",
+      "options": [
+        "Cause mild symptoms",
+        "Cause death before reproductive age",
+        "Are always recessive",
+        "Never affect phenotype"
+      ],
+      "answer": "Cause death before reproductive age"
+    },
+    {
+      "question": "Penetrance is:",
+      "options": [
+        "How severe a phenotype is",
+        "The % with a genotype showing the phenotype",
+        "The number of alleles",
+        "Environmental effect"
+      ],
+      "answer": "The % with a genotype showing the phenotype"
+    },
+    {
+      "question": "Expressivity is:",
+      "options": [
+        "Whether a trait appears",
+        "How common a trait is",
+        "Variation in severity of a phenotype",
+        "Dominance level"
+      ],
+      "answer": "Variation in severity of a phenotype"
+    },
+    {
+      "question": "Pleiotropy means:",
+      "options": [
+        "Multiple genes control one trait",
+        "One gene has multiple effects",
+        "Genes are linked",
+        "No gene interaction"
+      ],
+      "answer": "One gene has multiple effects"
+    },
+    {
+      "question": "Genetic heterogeneity is:",
+      "options": [
+        "Same gene, different alleles",
+        "Different genes cause same phenotype",
+        "All alleles in a population",
+        "Random variation"
+      ],
+      "answer": "Different genes cause same phenotype"
+    },
+    {
+      "question": "Mitochondrial DNA (mtDNA) is:",
+      "options": [
+        "Linear like nuclear DNA",
+        "Contains 46 genes",
+        "Circular, ~37 genes",
+        "Found only in nucleus"
+      ],
+      "answer": "Circular, ~37 genes"
+    },
+    {
+      "question": "mtDNA inheritance is:",
+      "options": [
+        "From both parents equally",
+        "From father only",
+        "From mother only",
+        "Random from either parent"
+      ],
+      "answer": "From mother only"
+    },
+    {
+      "question": "Heteroplasmy is:",
+      "options": [
+        "All mitochondria identical",
+        "Different alleles in same cell's mitochondria",
+        "One mitochondrial type",
+        "No mutations"
+      ],
+      "answer": "Different alleles in same cell's mitochondria"
+    },
+    {
+      "question": "The SRY gene determines:",
+      "options": [
+        "Environmental sex",
+        "Phenotypic sex only",
+        "Gonadal sex (testis/ovary formation)",
+        "Chromosomes"
+      ],
+      "answer": "Gonadal sex (testis/ovary formation)"
+    },
+    {
+      "question": "X-linked recessive traits are more common in males because:",
+      "options": [
+        "Males inherit more genes",
+        "Males are hemizygous (one X, one recessive allele expressed)",
+        "Females never inherit",
+        "No genetic reason"
+      ],
+      "answer": "Males are hemizygous (one X, one recessive allele expressed)"
+    },
+    {
+      "question": "X-inactivation (lyonization):",
+      "options": [
+        "Occurs in males only",
+        "Random inactivation of one X per cell in females",
+        "Permanent chromosome loss",
+        "Never occurs"
+      ],
+      "answer": "Random inactivation of one X per cell in females"
+    },
+    {
+      "question": "A Barr body is:",
+      "options": [
+        "An active X chromosome",
+        "An inactivated X chromosome",
+        "A Y chromosome",
+        "A mitochondrion"
+      ],
+      "answer": "An inactivated X chromosome"
+    },
+    {
+      "question": "Linked genes:",
+      "options": [
+        "Always assort independently",
+        "Are inherited together; don't assort independently",
+        "Are always on different chromosomes",
+        "Cannot recombine"
+      ],
+      "answer": "Are inherited together; don't assort independently"
+    },
+    {
+      "question": "The exome is:",
+      "options": [
+        "All DNA in genome",
+        "~1% of DNA (protein-coding genes)",
+        "Non-coding regions",
+        "Mitochondrial DNA"
+      ],
+      "answer": "~1% of DNA (protein-coding genes)"
+    },
+    {
+      "question": "A genome is:",
+      "options": [
+        "One set of genes",
+        "Complete set of genetic information for species",
+        "A single chromosome",
+        "mtDNA only"
+      ],
+      "answer": "Complete set of genetic information for species"
+    },
+    {
+      "question": "Genomics involves:",
+      "options": [
+        "Studying one gene",
+        "Analyzing entire genomes",
+        "Measuring proteins only",
+        "Environmental studies"
+      ],
+      "answer": "Analyzing entire genomes"
+    },
+    {
+      "question": "GWAS uses:",
+      "options": [
+        "One gene",
+        "SNPs to link complex diseases to genome variations",
+        "Only phenotypes",
+        "No data"
+      ],
+      "answer": "SNPs to link complex diseases to genome variations"
+    },
+    {
+      "question": "SNPs occur approximately every:",
+      "options": [
+        "1000 bp",
+        "300 bp",
+        "10,000 bp",
+        "1 bp"
+      ],
+      "answer": "300 bp"
+    },
+    {
+      "question": "Metagenomics involves:",
+      "options": [
+        "One organism's genome",
+        "All DNA in a habitat",
+        "Only bacterial DNA",
+        "Extinct DNA"
+      ],
+      "answer": "All DNA in a habitat"
+    },
+    {
+      "question": "The human microbiome contains approximately:",
+      "options": [
+        "3 trillion microbial cells",
+        "39 trillion microbial cells",
+        "1 billion cells",
+        "No cells"
+      ],
+      "answer": "39 trillion microbial cells"
+    },
+    {
+      "question": "Precision medicine tailors treatment based on:",
+      "options": [
+        "Age only",
+        "Genes, environment, and lifestyle per individual",
+        "One standard approach",
+        "Phenotype only"
+      ],
+      "answer": "Genes, environment, and lifestyle per individual"
+    },
+    {
+      "question": "Pharmacogenetics predicts:",
+      "options": [
+        "All drugs work same",
+        "Drug effectiveness/side effects based on genetic variants",
+        "No genetic factors",
+        "Environmental factors only"
+      ],
+      "answer": "Drug effectiveness/side effects based on genetic variants"
+    },
+    {
+      "question": "Biobanks store:",
+      "options": [
+        "Proteins only",
+        "Biological samples and DNA",
+        "No genetic material",
+        "RNA only"
+      ],
+      "answer": "Biological samples and DNA"
+    },
+    {
+      "question": "DNA profiling uses:",
+      "options": [
+        "Eye color",
+        "SNPs and statistical methods",
+        "Phenotypes only",
+        "No DNA"
+      ],
+      "answer": "SNPs and statistical methods"
+    },
+    {
+      "question": "Genome editing (CRISPR):",
+      "options": [
+        "Reads DNA only",
+        "Makes edits, deletions, substitutions",
+        "Cannot change genes",
+        "No use"
+      ],
+      "answer": "Makes edits, deletions, substitutions"
+    },
+    {
+      "question": "Recombinant DNA technology:",
+      "options": [
+        "Only natural",
+        "Inserts genes from one species into another",
+        "Cannot create GMOs",
+        "No applications"
+      ],
+      "answer": "Inserts genes from one species into another"
+    },
+    {
+      "question": "Autosomal dominant traits:",
+      "options": [
+        "Skip generations",
+        "Do not skip; equal sex ratio affected",
+        "Affect males only",
+        "Require two copies"
+      ],
+      "answer": "Do not skip; equal sex ratio affected"
+    },
+    {
+      "question": "Autosomal recessive traits:",
+      "options": [
+        "Never skip generations",
+        "Can skip; equal sex ratio",
+        "Affect females only",
+        "No pattern"
+      ],
+      "answer": "Can skip; equal sex ratio"
+    },
+    {
+      "question": "De novo mutation:",
+      "options": [
+        "Inherited from parents",
+        "New mutation in gamete/embryo",
+        "Environmental only",
+        "Never occurs"
+      ],
+      "answer": "New mutation in gamete/embryo"
+    },
+    {
+      "question": "Gene pool is:",
+      "options": [
+        "Genes in one cell",
+        "Collection of all alleles in population",
+        "DNA in nucleus",
+        "Exome only"
+      ],
+      "answer": "Collection of all alleles in population"
+    },
+    {
+      "question": "Genetic drift is:",
+      "options": [
+        "Directed selection",
+        "Random change in allele frequencies",
+        "Mutation only",
+        "Breeding"
+      ],
+      "answer": "Random change in allele frequencies"
+    },
+    {
+      "question": "Monogenic diseases are caused by:",
+      "options": [
+        "Environment only",
+        "Multiple genes",
+        "Single gene mutation",
+        "No genetics"
+      ],
+      "answer": "Single gene mutation"
+    },
+    {
+      "question": "A pedigree is:",
+      "options": [
+        "A family tree",
+        "A chart showing inherited traits over generations",
+        "A chromosome map",
+        "DNA sequence"
+      ],
+      "answer": "A chart showing inherited traits over generations"
+    }
+  ]
+}

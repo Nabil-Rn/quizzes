@@ -1,0 +1,1007 @@
+{
+  "citation": "Source BIOL 206 - Elementary Genetics",
+  "course": "BIOL 206",
+  "instructor": "Dr. Aida Abu-Baker",
+  "exam_style": "Detail-heavy, concept-specific. Emphasize key definitions, processes, and exact terminology.",
+  "study_tips": "Read lectures carefully. Define key terms (exome, metagenomics, aneuploidy, heteroplasmy, penetrance, expressivity, etc). Watch remedial videos (Bozeman Science). Visualize mitosis/meiosis processes.",
+  "questions": [
+    {
+      "question": "Which of the following statements about DNA replication is NOT correct?",
+      "options": [
+        "Replication occurs as each base is paired with another exactly like it.",
+        "Unwinding of the DNA molecule occurs as hydrogen bonds break.",
+        "One old strand is conserved in each new molecule.",
+        "DNA polymerase catalyzes DNA replication."
+      ],
+      "answer": "Replication occurs as each base is paired with another exactly like it."
+    },
+    {
+      "question": "A threshold trait is one which:",
+      "options": [
+        "Is expressed on a continuous scale such as blood pressure.",
+        "Is present in a few discrete classes, but is influenced by both genetics and the environment such as diabetes or schizophrenia.",
+        "Is caused by only a single gene, with no environmental influence.",
+        "Is present in a very low frequency in the population."
+      ],
+      "answer": "Is present in a few discrete classes, but is influenced by both genetics and the environment such as diabetes or schizophrenia."
+    },
+    {
+      "question": "Thomas's biological mother and father are both gifted athletes. He was adopted by a couple who had no interest in him being involved in sports. Although Thomas likely inherited athletic ability, it was never expressed in his:",
+      "options": [
+        "Genotype.",
+        "Phenotype.",
+        "Genes.",
+        "Alleles."
+      ],
+      "answer": "Phenotype."
+    },
+    {
+      "question": "Most genes come in alternative forms called:",
+      "options": [
+        "Chromosomes.",
+        "Gametes.",
+        "Dominants.",
+        "Alleles."
+      ],
+      "answer": "Alleles."
+    },
+    {
+      "question": "Ian and Joan are both carriers for two autosomal recessive disorders, PKU (chromosome 12) and cystic fibrosis (CF, chromosome 7). They are expecting a daughter. What is the probability that she will have PKU but not CF?",
+      "options": [
+        "3/4",
+        "9/16",
+        "3/16",
+        "1/4"
+      ],
+      "answer": "3/16"
+    },
+    {
+      "question": "Gonadal sex is determined:",
+      "options": [
+        "At fertilization.",
+        "At birth.",
+        "When the presence or absence of the SRY gene determines the formation of testes or ovaries.",
+        "When either testosterone or estrogen is produced."
+      ],
+      "answer": "When the presence or absence of the SRY gene determines the formation of testes or ovaries."
+    },
+    {
+      "question": "All genetically normal humans have:",
+      "options": [
+        "46 autosomes.",
+        "44 autosomes.",
+        "Two pairs of 22 autosomes, a Y chromosome, and an X chromosome.",
+        "23 chromosomes."
+      ],
+      "answer": "44 autosomes."
+    },
+    {
+      "question": "Free ear lobes (E) are dominant to attached ear lobes (e). Dimpled chin (D) is dominant to a smooth chin (d). What is the probability that the offspring of the cross EeDd \u00d7 EEdd will have free ear lobes and a smooth chin?",
+      "options": [
+        "0",
+        "1/16",
+        "1/2",
+        "1/4"
+      ],
+      "answer": "1/2"
+    },
+    {
+      "question": "A woman is phenotypically normal, but her father had the sex-linked recessive condition of red-green colorblindness. If she has children with a man with normal vision, what is the probability that their first child will have normal vision and their second child will be colorblind?",
+      "options": [
+        "1/16",
+        "3/8",
+        "3/16",
+        "3/6"
+      ],
+      "answer": "3/16"
+    },
+    {
+      "question": "Human chorionic gonadotropin (hCG):",
+      "options": [
+        "Promotes the development of the ovary.",
+        "Stimulates the formation of the gonads.",
+        "Is present in undetectable amounts throughout the pregnancy.",
+        "Prevents the expulsion of the embryo."
+      ],
+      "answer": "Prevents the expulsion of the embryo."
+    },
+    {
+      "question": "Epigenetics involves changes in:",
+      "options": [
+        "The sequence of DNA.",
+        "The expression of genes.",
+        "The base pairing in the DNA helix.",
+        "DNA replication."
+      ],
+      "answer": "The expression of genes."
+    },
+    {
+      "question": "If cytosine makes up 22% of the nucleotides in a sample of DNA from an organism, then adenine would make up what percent of the bases?",
+      "options": [
+        "44%",
+        "28%",
+        "56%",
+        "It cannot be determined from the information provided."
+      ],
+      "answer": "28%"
+    },
+    {
+      "question": "Number of Barr bodies in an XXXX female is:",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "3"
+    },
+    {
+      "question": "The sequence of one strand of DNA is 5\u2032-TCGATC-3\u2032. The sequence of the complementary strand would be:",
+      "options": [
+        "3\u2032-AGCUAG-5\u2032",
+        "3\u2032-AGCTAG-5\u2032",
+        "5\u2032-GAUCGA-3\u2032",
+        "5\u2032-GATCGA-3\u2032"
+      ],
+      "answer": "3\u2032-AGCTAG-5\u2032"
+    },
+    {
+      "question": "To produce an individual with Klinefelter syndrome (47, XXY):",
+      "options": [
+        "A nondisjunction event must have occurred during spermatogenesis.",
+        "A nondisjunction event must have occurred during oogenesis.",
+        "This must have been caused by uniparental disomy.",
+        "A nondisjunction event could have occurred during spermatogenesis or oogenesis."
+      ],
+      "answer": "A nondisjunction event could have occurred during spermatogenesis or oogenesis."
+    },
+    {
+      "question": "A man's Y chromosome will generally NOT be identical to that of his:",
+      "options": [
+        "Father.",
+        "Grandfather on father's side of family.",
+        "Great-grandfather on mother's side of family.",
+        "Brothers.",
+        "Sons."
+      ],
+      "answer": "Great-grandfather on mother's side of family."
+    },
+    {
+      "question": "You cross two mouse strains heterozygous for four genes AaBbCcDd. What proportion of the total offspring would be heterozygous for all four genes?",
+      "options": [
+        "1/256",
+        "1/32",
+        "1/16",
+        "1/8",
+        "1/4"
+      ],
+      "answer": "1/16"
+    },
+    {
+      "question": "A gene showing codominance:",
+      "options": [
+        "Has both alleles independently expressed in the heterozygote.",
+        "Has one allele dominant to the other.",
+        "Has alleles tightly linked on the same chromosome.",
+        "Has alleles expressed at the same time in development.",
+        "Has alleles that are recessive to each other."
+      ],
+      "answer": "Has both alleles independently expressed in the heterozygote."
+    },
+    {
+      "question": "X-chromosome inactivation:",
+      "options": [
+        "Normally takes place in males but not females.",
+        "Is the cause of the Y chromosome being genetically inactive.",
+        "Takes place in humans so that the same X chromosome is inactive in all of the cells of a female.",
+        "Occurs in fruit flies but not in mammals.",
+        "Results in genetically turning off one of the two X chromosomes in female mammals."
+      ],
+      "answer": "Results in genetically turning off one of the two X chromosomes in female mammals."
+    },
+    {
+      "question": "Which of the following statements about heritability are true?",
+      "options": [
+        "Is a measure of level of gene linkage.",
+        "Is a measure of inbreeding.",
+        "Is a measure of proportion of repeated DNA in an organism.",
+        "Is a measure of the level of heterozygotes in a population.",
+        "Is a measure of the proportion of variation that is due to genetic causes."
+      ],
+      "answer": "Is a measure of the proportion of variation that is due to genetic causes."
+    },
+    {
+      "question": "Feather color in budgies is determined by two different genes Y and B. YYBB, YyBB, or YYBb is green; yyBB or yyBb is blue; YYbb or Yybb is yellow; and yybb is white. Two blue budgies were crossed. Over the years, they produced 22 offspring, 5 of which were white. What are the most likely genotypes for the two blue budgies?",
+      "options": [
+        "yyBB and yyBB",
+        "yyBB and yyBb",
+        "yyBb and yyBb",
+        "yyBB and yybb",
+        "yyBb and yybb"
+      ],
+      "answer": "yyBb and yyBb"
+    },
+    {
+      "question": "Single-gene diseases are called Mendelian in honor of:",
+      "options": [
+        "Charles Darwin",
+        "Gregor Mendel",
+        "Reginald Punnett",
+        "Francis Crick"
+      ],
+      "answer": "Gregor Mendel"
+    },
+    {
+      "question": "Why are pea plants ideal for studying heredity?",
+      "options": [
+        "They produce few offspring",
+        "Many varieties with distinguishable traits; easy to grow; self-fertilize",
+        "They are animals",
+        "They have complex traits"
+      ],
+      "answer": "Many varieties with distinguishable traits; easy to grow; self-fertilize"
+    },
+    {
+      "question": "In Mendel's monohybrid cross, the F2 ratio for tall:short plants was:",
+      "options": [
+        "1:1",
+        "3:1",
+        "1:3",
+        "9:3:3:1"
+      ],
+      "answer": "3:1"
+    },
+    {
+      "question": "Mendel's law of segregation corresponds to:",
+      "options": [
+        "Random alignment in metaphase I",
+        "Separation of homologs in anaphase I",
+        "Crossing over",
+        "DNA replication"
+      ],
+      "answer": "Separation of homologs in anaphase I"
+    },
+    {
+      "question": "An organism with two identical alleles is:",
+      "options": [
+        "Heterozygous",
+        "Homozygous",
+        "Hemizygous",
+        "Polyploid"
+      ],
+      "answer": "Homozygous"
+    },
+    {
+      "question": "In a test cross, an unknown is crossed with:",
+      "options": [
+        "Homozygous dominant",
+        "Homozygous recessive",
+        "Heterozygous",
+        "Wild type"
+      ],
+      "answer": "Homozygous recessive"
+    },
+    {
+      "question": "Autosomal dominant traits:",
+      "options": [
+        "Skip generations",
+        "Affect males more",
+        "Do not skip generations; equal sexes",
+        "Are always recessive"
+      ],
+      "answer": "Do not skip generations; equal sexes"
+    },
+    {
+      "question": "Recessive traits are due to:",
+      "options": [
+        "Gain of function",
+        "Loss of function",
+        "Overproduction of protein",
+        "Environmental factors only"
+      ],
+      "answer": "Loss of function"
+    },
+    {
+      "question": "Human body has approximately how many cells?",
+      "options": [
+        "300 billion",
+        "30 trillion",
+        "3 quadrillion",
+        "300 million"
+      ],
+      "answer": "30 trillion"
+    },
+    {
+      "question": "Somatic cells are:",
+      "options": [
+        "Haploid",
+        "Diploid body cells",
+        "Gametes",
+        "Stem cells only"
+      ],
+      "answer": "Diploid body cells"
+    },
+    {
+      "question": "During S phase of interphase:",
+      "options": [
+        "Chromosomes replicate",
+        "Cell grows",
+        "Mitosis occurs",
+        "Apoptosis"
+      ],
+      "answer": "Chromosomes replicate"
+    },
+    {
+      "question": "In metaphase of mitosis, chromosomes align at:",
+      "options": [
+        "Poles",
+        "Equator",
+        "Centromere",
+        "Spindle"
+      ],
+      "answer": "Equator"
+    },
+    {
+      "question": "Telomeres shorten after each division; enzyme preventing this is:",
+      "options": [
+        "DNA polymerase",
+        "Telomerase",
+        "Helicase",
+        "Ligase"
+      ],
+      "answer": "Telomerase"
+    },
+    {
+      "question": "Pluripotent stem cells can give rise to:",
+      "options": [
+        "All cell types including embryonic",
+        "All except embryonic",
+        "Few types",
+        "Only one type"
+      ],
+      "answer": "All except embryonic"
+    },
+    {
+      "question": "In dihybrid cross F2 ratio is:",
+      "options": [
+        "3:1",
+        "1:1",
+        "9:3:3:1",
+        "1:2:1"
+      ],
+      "answer": "9:3:3:1"
+    },
+    {
+      "question": "Law of independent assortment reflects:",
+      "options": [
+        "Segregation of alleles",
+        "Random alignment metaphase I",
+        "Crossing over only",
+        "Mutation"
+      ],
+      "answer": "Random alignment metaphase I"
+    },
+    {
+      "question": "Pedigrees show inheritance for:",
+      "options": [
+        "Populations only",
+        "Single genes over generations",
+        "Environment",
+        "RNA"
+      ],
+      "answer": "Single genes over generations"
+    },
+    {
+      "question": "Lethal alleles alter ratios by:",
+      "options": [
+        "Increasing progeny",
+        "Causing death before reproduction",
+        "Enhancing dominance",
+        "Mutation rate"
+      ],
+      "answer": "Causing death before reproduction"
+    },
+    {
+      "question": "Incomplete dominance: heterozygote is:",
+      "options": [
+        "Like dominant",
+        "Intermediate",
+        "Like recessive",
+        "Codominant"
+      ],
+      "answer": "Intermediate"
+    },
+    {
+      "question": "Codominance example:",
+      "options": [
+        "Eye color",
+        "ABO blood types",
+        "Height",
+        "Skin color"
+      ],
+      "answer": "ABO blood types"
+    },
+    {
+      "question": "Epistasis: one gene masks another, e.g.:",
+      "options": [
+        "Bombay blood type",
+        "Marfan",
+        "Albinism",
+        "Polydactyly"
+      ],
+      "answer": "Bombay blood type"
+    },
+    {
+      "question": "Pleiotropy: one gene affects:",
+      "options": [
+        "One trait",
+        "Several functions",
+        "Environment",
+        "Linkage"
+      ],
+      "answer": "Several functions"
+    },
+    {
+      "question": "Mitochondrial inheritance is:",
+      "options": [
+        "Paternal",
+        "Maternal",
+        "Biparental equal",
+        "Autosomal"
+      ],
+      "answer": "Maternal"
+    },
+    {
+      "question": "Linked genes:",
+      "options": [
+        "Assort independently always",
+        "Inherited together if close on chromosome",
+        "Always recessive",
+        "On different chromosomes"
+      ],
+      "answer": "Inherited together if close on chromosome"
+    },
+    {
+      "question": "Genome is:",
+      "options": [
+        "One chromosome",
+        "Complete genetic info set",
+        "Exome only",
+        "RNA"
+      ],
+      "answer": "Complete genetic info set"
+    },
+    {
+      "question": "Exome is:",
+      "options": [
+        "All DNA",
+        "Protein-coding ~1% DNA",
+        "Non-coding RNA",
+        "Mitochondrial DNA"
+      ],
+      "answer": "Protein-coding ~1% DNA"
+    },
+    {
+      "question": "Metagenomics sequences:",
+      "options": [
+        "Single organism genome",
+        "All DNA in habitat (e.g., soil/gut)",
+        "Exome only",
+        "Human genome"
+      ],
+      "answer": "All DNA in habitat (e.g., soil/gut)"
+    },
+    {
+      "question": "Aneuploidy is:",
+      "options": [
+        "Normal chromosome number",
+        "Abnormal number (e.g., trisomy 21)",
+        "Polyploidy",
+        "Deletion only"
+      ],
+      "answer": "Abnormal number (e.g., trisomy 21)"
+    },
+    {
+      "question": "Genome-wide association studies (GWAS) use:",
+      "options": [
+        "SNPs for complex diseases",
+        "Pedigrees only",
+        "mtDNA",
+        "RNA seq"
+      ],
+      "answer": "SNPs for complex diseases"
+    },
+    {
+      "question": "SNP occurs every ~___ bp in human genome:",
+      "options": [
+        "10",
+        "300",
+        "1000",
+        "10,000"
+      ],
+      "answer": "300"
+    },
+    {
+      "question": "Precision medicine considers:",
+      "options": [
+        "Genes + environment + lifestyle",
+        "One-size-fits-all approach",
+        "Environment only",
+        "Diet only"
+      ],
+      "answer": "Genes + environment + lifestyle"
+    },
+    {
+      "question": "Monohybrid refers to F1 from true-breeding parents differing in:",
+      "options": [
+        "Two traits",
+        "One trait",
+        "Three traits",
+        "Four traits"
+      ],
+      "answer": "One trait"
+    },
+    {
+      "question": "Product rule for probabilities multiplies:",
+      "options": [
+        "Linked events",
+        "Independent events",
+        "Mutations",
+        "Environmental factors"
+      ],
+      "answer": "Independent events"
+    },
+    {
+      "question": "De novo mutation arises in:",
+      "options": [
+        "Both parents",
+        "Gamete/embryo of affected individual",
+        "Somatic tissue only",
+        "mtDNA always"
+      ],
+      "answer": "Gamete/embryo of affected individual"
+    },
+    {
+      "question": "Prophase I is longest (~90% meiosis time) and features:",
+      "options": [
+        "Synapsis + crossing over",
+        "Chromatid separation",
+        "Random alignment",
+        "Cytokinesis"
+      ],
+      "answer": "Synapsis + crossing over"
+    },
+    {
+      "question": "Meiosis I is classified as:",
+      "options": [
+        "Equational division",
+        "Reductional division (2N \u2192 N)",
+        "Mitotic division",
+        "Apoptotic"
+      ],
+      "answer": "Reductional division (2N \u2192 N)"
+    },
+    {
+      "question": "Chiasmata visible in prophase I indicate:",
+      "options": [
+        "Centromere position",
+        "Crossing over sites",
+        "Telomere shortening",
+        "Spindle formation"
+      ],
+      "answer": "Crossing over sites"
+    },
+    {
+      "question": "Independent assortment produces 2^n gamete combinations. Humans (n=23):",
+      "options": [
+        "2^23 \u2248 8 million",
+        "46",
+        "92",
+        "Infinite"
+      ],
+      "answer": "2^23 \u2248 8 million"
+    },
+    {
+      "question": "In oogenesis, meiosis II arrests at metaphase until:",
+      "options": [
+        "Puberty",
+        "Fertilization",
+        "Birth",
+        "Menopause"
+      ],
+      "answer": "Fertilization"
+    },
+    {
+      "question": "Spermatogenesis produces ___ functional spermatids per primary spermatocyte:",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "8"
+      ],
+      "answer": "4"
+    },
+    {
+      "question": "Critical period for congenital defects (highest risk):",
+      "options": [
+        "Fetal period",
+        "Embryonic period (1st trimester)",
+        "Postnatal",
+        "Adolescence"
+      ],
+      "answer": "Embryonic period (1st trimester)"
+    },
+    {
+      "question": "Teratogen causes:",
+      "options": [
+        "Genetic mutation only",
+        "Birth defects (e.g., thalidomide exposure)",
+        "Cancer only",
+        "Premature aging"
+      ],
+      "answer": "Birth defects (e.g., thalidomide exposure)"
+    },
+    {
+      "question": "Heteroplasmy:",
+      "options": [
+        "Same alleles in all mitochondria",
+        "Different alleles in mitochondria within one cell",
+        "Nuclear DNA variation",
+        "Paternal mtDNA"
+      ],
+      "answer": "Different alleles in mitochondria within one cell"
+    },
+    {
+      "question": "Penetrance measures % of individuals with genotype showing:",
+      "options": [
+        "Associated phenotype",
+        "Severity/extent",
+        "Linkage",
+        "Epistasis"
+      ],
+      "answer": "Associated phenotype"
+    },
+    {
+      "question": "Expressivity measures variation in:",
+      "options": [
+        "Genotype frequency",
+        "Phenotype severity/intensity",
+        "Allele number",
+        "Recombination"
+      ],
+      "answer": "Phenotype severity/intensity"
+    },
+    {
+      "question": "Compound heterozygote has:",
+      "options": [
+        "Two dominant alleles",
+        "Two different recessive mutant alleles at same locus",
+        "Linked genes",
+        "mtDNA mutations"
+      ],
+      "answer": "Two different recessive mutant alleles at same locus"
+    },
+    {
+      "question": "Human microbiome: ~___ trillion microbial cells in/on body:",
+      "options": [
+        "3",
+        "39",
+        "300",
+        "1,000"
+      ],
+      "answer": "39"
+    },
+    {
+      "question": "G0 phase cells are:",
+      "options": [
+        "Rapidly dividing",
+        "Quiescent/non-dividing",
+        "Apoptotic",
+        "Differentiating"
+      ],
+      "answer": "Quiescent/non-dividing"
+    },
+    {
+      "question": "Apoptosis is:",
+      "options": [
+        "Uncontrolled growth",
+        "Programmed cell death",
+        "Cell division",
+        "Differentiation"
+      ],
+      "answer": "Programmed cell death"
+    },
+    {
+      "question": "Totipotent cells (e.g., zygote) can differentiate into:",
+      "options": [
+        "Limited cell types",
+        "All cell types + all embryonic tissues",
+        "Adult tissues only",
+        "Progenitor cells"
+      ],
+      "answer": "All cell types + all embryonic tissues"
+    },
+    {
+      "question": "iPS cells (induced pluripotent stem cells):",
+      "options": [
+        "Are embryonic stem cells",
+        "Pluripotent cells reprogrammed from somatic cells",
+        "Always multipotent",
+        "Cannot self-renew"
+      ],
+      "answer": "Pluripotent cells reprogrammed from somatic cells"
+    },
+    {
+      "question": "Biobank stores:",
+      "options": [
+        "Only blood samples",
+        "Biological samples + DNA for research",
+        "Proteins only",
+        "RNA"
+      ],
+      "answer": "Biological samples + DNA for research"
+    },
+    {
+      "question": "DNA profiling uses:",
+      "options": [
+        "SNPs to compare DNA sequences",
+        "RNA only",
+        "Proteins",
+        "Phenotypes"
+      ],
+      "answer": "SNPs to compare DNA sequences"
+    },
+    {
+      "question": "Genetic drift in populations:",
+      "options": [
+        "Directional selection",
+        "Random change in allele frequencies",
+        "Mutation only",
+        "Migration"
+      ],
+      "answer": "Random change in allele frequencies"
+    },
+    {
+      "question": "Nucleotide components:",
+      "options": [
+        "Phosphate, sugar, nitrogenous base",
+        "Protein, lipid, carbohydrate",
+        "Enzyme, DNA, RNA",
+        "Amino acid, codon, ribosome"
+      ],
+      "answer": "Phosphate, sugar, nitrogenous base"
+    },
+    {
+      "question": "Four nitrogenous bases in DNA:",
+      "options": [
+        "A, U, G, C",
+        "A, T, G, C",
+        "A, G, U, T",
+        "C, G, A, Uracil"
+      ],
+      "answer": "A, T, G, C"
+    },
+    {
+      "question": "DNA double helix structure (Watson-Crick):",
+      "options": [
+        "Single strand",
+        "Two antiparallel strands spiraling around axis",
+        "Triple helix",
+        "Circular"
+      ],
+      "answer": "Two antiparallel strands spiraling around axis"
+    },
+    {
+      "question": "Recombinant chromosomes from crossing over have:",
+      "options": [
+        "Original allele configurations",
+        "New combinations of alleles",
+        "One allele only",
+        "Mutations"
+      ],
+      "answer": "New combinations of alleles"
+    },
+    {
+      "question": "Nondisjunction in meiosis causes:",
+      "options": [
+        "Normal gametes",
+        "Gametes with extra/missing chromosomes (aneuploid)",
+        "Polyploidy",
+        "Deletion"
+      ],
+      "answer": "Gametes with extra/missing chromosomes (aneuploid)"
+    },
+    {
+      "question": "Synapse during prophase I means:",
+      "options": [
+        "Centromere division",
+        "Homologous chromosomes pair closely, aligned gene-by-gene",
+        "Sister chromatids separate",
+        "Spindle forms"
+      ],
+      "answer": "Homologous chromosomes pair closely, aligned gene-by-gene"
+    },
+    {
+      "question": "Tetrad in meiosis I is:",
+      "options": [
+        "One chromosome",
+        "Two sister chromatids",
+        "Group of four chromatids (2 homologs, each with 2 sister chromatids)",
+        "One gene"
+      ],
+      "answer": "Group of four chromatids (2 homologs, each with 2 sister chromatids)"
+    },
+    {
+      "question": "Gene pool is:",
+      "options": [
+        "Genes in one cell",
+        "Collection of alleles in a population",
+        "DNA in nucleus",
+        "Exome only"
+      ],
+      "answer": "Collection of alleles in a population"
+    },
+    {
+      "question": "Genetic heterogeneity:",
+      "options": [
+        "Different genes cause same phenotype",
+        "Same gene, different alleles",
+        "High heterozygosity",
+        "Population variance"
+      ],
+      "answer": "Different genes cause same phenotype"
+    },
+    {
+      "question": "mtDNA features:",
+      "options": [
+        "Surrounded by nuclear membrane",
+        "Circular, 37 genes, no crossing over, mutates fast",
+        "Large linear chromosome",
+        "Contains introns"
+      ],
+      "answer": "Circular, 37 genes, no crossing over, mutates fast"
+    },
+    {
+      "question": "Oogenesis vs spermatogenesis: females produce oocytes",
+      "options": [
+        "Only after puberty",
+        "Throughout life",
+        "In utero; arrested at prophase I until ovulation",
+        "Equal to males"
+      ],
+      "answer": "In utero; arrested at prophase I until ovulation"
+    },
+    {
+      "question": "Of 100 secondary oocytes exposed to sperm, ~___ are born alive:",
+      "options": [
+        "100",
+        "69",
+        "31",
+        "15"
+      ],
+      "answer": "31"
+    },
+    {
+      "question": "Polar bodies in oogenesis:",
+      "options": [
+        "Functional gametes",
+        "Small cells that degenerate/disintegrate",
+        "Source of embryo",
+        "Mitochondrial"
+      ],
+      "answer": "Small cells that degenerate/disintegrate"
+    },
+    {
+      "question": "Marfan syndrome (pleiotropy) involves:",
+      "options": [
+        "Only eye defects",
+        "Fibrillin protein; long limbs, aorta weakness, lens issues",
+        "Short stature",
+        "Skin color"
+      ],
+      "answer": "Fibrillin protein; long limbs, aorta weakness, lens issues"
+    },
+    {
+      "question": "Achondroplasia (dwarfism) is:",
+      "options": [
+        "Autosomal recessive",
+        "Autosomal dominant gain-of-function; AA lethal",
+        "Sex-linked",
+        "Mitochondrial"
+      ],
+      "answer": "Autosomal dominant gain-of-function; AA lethal"
+    },
+    {
+      "question": "Familial hypercholesterolemia (incomplete dominance):",
+      "options": [
+        "Only heterozygotes affected",
+        "Heterozygotes: intermediate LDL receptors; homozygotes vary",
+        "Recessive only",
+        "No genetic basis"
+      ],
+      "answer": "Heterozygotes: intermediate LDL receptors; homozygotes vary"
+    },
+    {
+      "question": "Bombay phenotype (epistasis):",
+      "options": [
+        "H gene controls I gene expression",
+        "Independent expression",
+        "Sex-linked",
+        "Mitochondrial inheritance"
+      ],
+      "answer": "H gene controls I gene expression"
+    },
+    {
+      "question": "Genome editing (CRISPR-like):",
+      "options": [
+        "Reading only",
+        "Making edits, deletions, substitutions in DNA sequences",
+        "Transcription only",
+        "Translation"
+      ],
+      "answer": "Making edits, deletions, substitutions in DNA sequences"
+    }
+  ],
+  "short_answer": [
+    {
+      "label": "Q1a",
+      "prompt": "How many unique gametes can be produced through independent assortment by an individual with genotype AaBbCCDdEE? Provide number only."
+    },
+    {
+      "label": "Q1b",
+      "prompt": "A duplicated homologous chromosome pair at the beginning of meiosis contains how many copies of each gene? Provide number only."
+    },
+    {
+      "label": "Q1c",
+      "prompt": "Cisplatin is used to treat cancer. It forms chemical bonds with DNA. i) Name parts A and B of DNA. ii) Which parts of DNA does cisplatin bind? iii) Suggest how cisplatin inhibits cancer cell division (max 2 sentences)."
+    },
+    {
+      "label": "Q2a",
+      "prompt": "A pedigree shows a rare genetic kidney disease. Deduce the inheritance (autosomal recessive, autosomal dominant, or X-linked), stating reasons."
+    },
+    {
+      "label": "Q2b",
+      "prompt": "Persons 1 and 2 marry. What is probability their first child has the kidney disease? Show calculations."
+    },
+    {
+      "label": "Q2c",
+      "prompt": "Male cats are black or orange; females are black, orange, or calico. If sex-linked: explain phenotypes and write genotypes using B (black) and b (orange)."
+    },
+    {
+      "label": "Define exome",
+      "prompt": "Define exome and contrast with genome."
+    },
+    {
+      "label": "Define metagenomics",
+      "prompt": "Define metagenomics and give example (human microbiome)."
+    },
+    {
+      "label": "Define aneuploidy",
+      "prompt": "Define aneuploidy and explain meiosis error causing it."
+    },
+    {
+      "label": "Meiosis I phases",
+      "prompt": "Describe key events in: prophase I, metaphase I, anaphase I."
+    },
+    {
+      "label": "Define heteroplasmy",
+      "prompt": "Define heteroplasmy and explain its effect on phenotype."
+    },
+    {
+      "label": "Penetrance vs expressivity",
+      "prompt": "Distinguish penetrance from expressivity with example."
+    },
+    {
+      "label": "Mitochondrial inheritance",
+      "prompt": "Explain why mitochondrial traits are maternally inherited only."
+    },
+    {
+      "label": "Independent assortment",
+      "prompt": "Explain how Mendel's law of independent assortment relates to meiosis I metaphase alignment."
+    },
+    {
+      "label": "Crossing over",
+      "prompt": "Describe crossing over and how it affects linkage and genetic diversity."
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "citation": "Internet",
+  "questions": [
+    {
+      "question": "Which describes the discrete line spectrum from gas discharge? (Sec 42.1)",
+      "options": [
+        "a- Continuous rainbow of colors like hot solids",
+        "b- Bright lines on dark background",
+        "c- Dark lines on bright background only",
+        "d- No light emitted",
+        "e- Only infrared radiation"
+      ],
+      "answer": "b- Bright lines on dark background"
+    },
+    {
+      "question": "What is the Rydberg formula for Balmer series? 1/λ = ? (Sec 42.1, 42.3, Eq. 42.17)",
+      "options": [
+        "a- 1/λ = R_H (1/1² - 1/n²)",
+        "b- 1/λ = R_H (1/2² - 1/n²), n=3,4,…",
+        "c- 1/λ = R_H (1/3² - 1/n²)",
+        "d- 1/λ = R_H n²",
+        "e- 1/λ = R_H / n"
+      ],
+      "answer": "b- 1/λ = R_H (1/2² - 1/n²), n=3,4,…"
+    },
+    {
+      "question": "Why did Rutherford's alpha scattering disprove Thomson's model of the atom? (Sec 42.2)",
+      "options": [
+        "a- All alpha particles passed through with no deflection",
+        "b- Some alpha particles scattered backward at large angles",
+        "c- Electrons were too heavy to scatter alpha particles",
+        "d- No scattering was observed at all",
+        "e- The foil absorbed all alpha particles"
+      ],
+      "answer": "b- Some alpha particles scattered backward at large angles"
+    },
+    {
+      "question": "What classical problem affects Rutherford's planetary model? Use ΔK + ΔU = E_radiated. (Sec 42.2)",
+      "options": [
+        "a- Electron speed becomes zero in orbit",
+        "b- Orbiting electron radiates continuously and spirals into nucleus",
+        "c- Electron charge becomes zero at high speed",
+        "d- Proton radiates instead of electron",
+        "e- Electron mass increases without bound"
+      ],
+      "answer": "b- Orbiting electron radiates continuously and spirals into nucleus"
+    },
+    {
+      "question": "What is Bohr's angular momentum quantization condition for hydrogen? (Sec 42.3, Eq. 42.6)",
+      "options": [
+        "a- m_e v r = n h",
+        "b- m_e v r = n ħ, n=1,2,3,…",
+        "c- m_e v r = n h/(4π)",
+        "d- L = n h c",
+        "e- p r = n h/λ"
+      ],
+      "answer": "b- m_e v r = n ħ, n=1,2,3,…"
+    },
+    {
+      "question": "Using E_n = −13.6 eV / n², what is the ground state energy (n=1) of hydrogen? (Sec 42.3, Eq. 42.14)",
+      "options": [
+        "a- 0 eV",
+        "b- −3.4 eV",
+        "c- −13.6 eV",
+        "d- +13.6 eV",
+        "e- −27.2 eV"
+      ],
+      "answer": "c- −13.6 eV"
+    },
+    {
+      "question": "What is the numerical value of the Bohr radius a_0 for hydrogen? a_0 = ħ² / (m_e k_e e²). (Sec 42.3, Eq. 42.11)",
+      "options": [
+        "a- 0.005 nm",
+        "b- 0.0529 nm",
+        "c- 0.529 nm",
+        "d- 5.29 nm",
+        "e- 52.9 nm"
+      ],
+      "answer": "b- 0.0529 nm"
+    },
+    {
+      "question": "For which transition does the ionization energy of hydrogen (13.6 eV) correspond? (Sec 42.3, Fig. 42.8)",
+      "options": [
+        "a- n=2 to n=1",
+        "b- n=1 to n=∞",
+        "c- n=3 to n=2",
+        "d- n=∞ to n=2",
+        "e- n=1 to n=2"
+      ],
+      "answer": "b- n=1 to n=∞"
+    },
+    {
+      "question": "Which set lists the three quantum numbers from solving Schrödinger's equation for hydrogen? (Sec 42.4)",
+      "options": [
+        "a- n, ℓ, m_ℓ",
+        "b- n, m, s",
+        "c- k, ℓ, p",
+        "d- E, r, θ",
+        "e- p, L, E"
+      ],
+      "answer": "a- n, ℓ, m_ℓ"
+    },
+    {
+      "question": "What is the allowed range of orbital quantum number ℓ for a given n? (Sec 42.4)",
+      "options": [
+        "a- ℓ = 0 to ∞",
+        "b- ℓ = 0,1,…,n−1",
+        "c- ℓ = n, n+1,…",
+        "d- ℓ = −n to +n",
+        "e- ℓ = 1 to n"
+      ],
+      "answer": "b- ℓ = 0,1,…,n−1"
+    },
+    {
+      "question": "For n = 2, what are the possible values of ℓ? (Sec 42.4)",
+      "options": [
+        "a- ℓ = 0 only",
+        "b- ℓ = 1 only",
+        "c- ℓ = 0,1",
+        "d- ℓ = 0,1,2",
+        "e- ℓ = 2 only"
+      ],
+      "answer": "c- ℓ = 0,1"
+    },
+    {
+      "question": "Which statement is the Pauli exclusion principle for electrons in an atom? (Sec 42.7)",
+      "options": [
+        "a- Electrons must always pair spins",
+        "b- No two electrons can have the same (n, ℓ, m_ℓ, m_s)",
+        "c- Only s orbitals can be occupied",
+        "d- Maximum 2n electrons per shell",
+        "e- Electrons do not interact"
+      ],
+      "answer": "b- No two electrons can have the same (n, ℓ, m_ℓ, m_s)"
+    },
+    {
+      "question": "Using N_max = 2n², how many electrons can occupy the n=1 shell? (Sec 42.7)",
+      "options": [
+        "a- 1",
+        "b- 2",
+        "c- 4",
+        "d- 8",
+        "e- 18"
+      ],
+      "answer": "b- 2"
+    },
+    {
+      "question": "Which spectroscopic label corresponds to ℓ = 1? (Sec 42.4, 42.7)",
+      "options": [
+        "a- s",
+        "b- p",
+        "c- d",
+        "d- f",
+        "e- g"
+      ],
+      "answer": "b- p"
+    },
+    {
+      "question": "Why do noble gases have particularly high ionization energies? (Sec 42.7)",
+      "options": [
+        "a- Their outer shells are empty",
+        "b- Their outer shells are completely filled and very stable",
+        "c- They have very few protons",
+        "d- They have extremely large atomic radii",
+        "e- They have no electrons in s orbitals"
+      ],
+      "answer": "b- Their outer shells are completely filled and very stable"
+    },
+    {
+      "question": "In the Balmer series, what is the final principal quantum number n_f in 1/λ = R_H (1/n_f² − 1/n_i²)? (Sec 42.1, 42.3)",
+      "options": [
+        "a- n_f = 1",
+        "b- n_f = 2",
+        "c- n_f = 3",
+        "d- n_f = 4",
+        "e- n_f = ∞"
+      ],
+      "answer": "b- n_f = 2"
+    },
+    {
+      "question": "Using E_n = −13.6 eV/n², what is E for n=2 in hydrogen? (Sec 42.3, Eq. 42.14)",
+      "options": [
+        "a- −13.6 eV",
+        "b- −6.8 eV",
+        "c- −3.4 eV",
+        "d- −1.7 eV",
+        "e- 0 eV"
+      ],
+      "answer": "c- −3.4 eV"
+    },
+    {
+      "question": "How many electrons can a p subshell (ℓ = 1) hold in total? (Sec 42.7)",
+      "options": [
+        "a- 2",
+        "b- 4",
+        "c- 6",
+        "d- 8",
+        "e- 10"
+      ],
+      "answer": "c- 6"
+    },
+    {
+      "question": "For a 2p orbital, what are the values of n and ℓ? (Sec 42.4)",
+      "options": [
+        "a- n=2, ℓ=0",
+        "b- n=2, ℓ=1",
+        "c- n=1, ℓ=2",
+        "d- n=3, ℓ=0",
+        "e- n=2, ℓ=2"
+      ],
+      "answer": "b- n=2, ℓ=1"
+    },
+    {
+      "question": "What is the Balmer series limit wavelength when n_i → ∞ in 1/λ = R_H (1/2² − 1/n_i²)? (Sec 42.1)",
+      "options": [
+        "a- 656.3 nm",
+        "b- 486.1 nm",
+        "c- 434.1 nm",
+        "d- 410.2 nm",
+        "e- 364.6 nm"
+      ],
+      "answer": "e- 364.6 nm"
+    }
+  ]
+}

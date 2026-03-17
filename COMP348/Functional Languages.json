@@ -1,0 +1,225 @@
+{
+  "citation": "internet",
+  "questions": [
+    {
+      "question": "Functional languages based on?",
+      "options": [
+        "a- von Neumann arch",
+        "b- Lambda calculus",
+        "c- Turing machine",
+        "d- OOP classes",
+        "e- SQL queries"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Math function trait?",
+      "options": [
+        "a- Has side effects",
+        "b- Maps input to output only",
+        "c- Modifies globals",
+        "d- Loops inside",
+        "e- Assignments"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Side effect example?\n\nint foo(int x, int y) {\n  printf(\"%d\", x);\n  return x + y;\n}",
+      "options": [
+        "a- x + y",
+        "b- printf",
+        "c- int return",
+        "d- Parameters",
+        "e- Function call"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Higher-order function?",
+      "options": [
+        "a- Takes only ints",
+        "b- Takes/yields functions",
+        "c- Void return",
+        "d- Loops",
+        "e- Mutates state"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Lambda calculus by?",
+      "options": [
+        "a- Turing",
+        "b- Church",
+        "c- von Neumann",
+        "d- Babbage",
+        "e- Lovelace"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Referential transparency means?",
+      "options": [
+        "a- Side effects",
+        "b- Same input same output",
+        "c- Global changes",
+        "d- Order matters",
+        "e- Mutable data"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Functional favors over loops?",
+      "options": [
+        "a- Assignments",
+        "b- Recursion",
+        "c- Goto",
+        "d- While",
+        "e- For"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Pure functional lang?",
+      "options": [
+        "a- Clojure",
+        "b- Haskell",
+        "c- Python",
+        "d- C",
+        "e- Java"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Immutable data benefit?",
+      "options": [
+        "a- Easy mutate",
+        "b- Safe concurrency",
+        "c- Side effects",
+        "d- Global state",
+        "e- Order dep"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "map function does?",
+      "options": [
+        "a- Sums list",
+        "b- Applies func to each",
+        "c- Filters",
+        "d- Reduces",
+        "e- Sorts"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "C has first-class funcs?",
+      "options": [
+        "a- Yes fully",
+        "b- No, prototypes needed",
+        "c- Partial",
+        "d- Only lambdas",
+        "e- Closures only"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Function composition h = f(g(x))?",
+      "options": [
+        "a- f + g",
+        "b- f(g(x))",
+        "c- g(f(x))",
+        "d- Parallel",
+        "e- Sequential if"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Hybrid functional?",
+      "options": [
+        "a- Haskell",
+        "b- Clojure",
+        "c- Lisp pure",
+        "d- Miranda",
+        "e- Hope"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Side effect breaks?",
+      "options": [
+        "a- Correctness proofs",
+        "b- Concurrency safety",
+        "c- Compiler opt",
+        "d- All above",
+        "e- None"
+      ],
+      "answer": "d- "
+    },
+    {
+      "question": "Domain to range mapping in?",
+      "options": [
+        "a- Procedures",
+        "b- Functions",
+        "c- Loops",
+        "d- Classes",
+        "e- Objects"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Eval order matters why?",
+      "options": [
+        "a- Pure funcs",
+        "b- Side effects",
+        "c- Immutability",
+        "d- Recursion",
+        "e- Lambdas"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "qsort param in C?",
+      "options": [
+        "a- int array",
+        "b- Func pointer",
+        "c- Void*",
+        "d- Both b c",
+        "e- Lambda"
+      ],
+      "answer": "d- "
+    },
+    {
+      "question": "Mutability in func langs?",
+      "options": [
+        "a- Always allowed",
+        "b- Often immutable",
+        "c- Required",
+        "d- Global only",
+        "e- Local only"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Motivation func langs?",
+      "options": [
+        "a- Efficiency arch",
+        "b- Correctness reason",
+        "c- Loops fast",
+        "d- Von Neumann",
+        "e- Side effects"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Apply-to-all form?",
+      "options": [
+        "a- filter",
+        "b- map",
+        "c- fold",
+        "d- zip",
+        "e- reduce"
+      ],
+      "answer": "b- "
+    }
+  ]
+}

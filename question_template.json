@@ -1,0 +1,49 @@
+{
+  "citation": "internet",
+  "questions": [
+    {
+      "question": "What is ?",
+      "options": [
+        "a- ",
+        "b- ",
+        "c- ",
+        "d- ",
+        "e- "
+      ],
+      "answer": "e- "
+    },
+    {
+      "question": "here is code ?",
+      "options": [
+        "a- ",
+        "b- ",
+        "c- ",
+        "d- ",
+        "e- "
+      ],
+      "answer": "b- "
+    },
+   {
+      "question": "Which ?",
+      "options": [
+        "a- ",
+        "b- ",
+        "c- ",
+        "d- ",
+        "e- "
+      ],
+      "answer": "c- "
+    },
+    {
+      "question": "how many ?",
+      "options": [
+        "a- ",
+        "b- ",
+        "c- ",
+        "d- ",
+        "e- "
+      ],
+      "answer": "a- "
+    }
+  ]
+}

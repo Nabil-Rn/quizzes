@@ -1,0 +1,225 @@
+{
+  "citation": "internet",
+  "questions": [
+    {
+      "question": "What is the root set in mark-and-sweep GC?",
+      "options": [
+        "a- All heap objects",
+        "b- Stack and static variables",
+        "c- Only global variables",
+        "d- Unused memory blocks",
+        "e- Objects with in-use flag set"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "In this code, which becomes garbage after baz()?\n\nfoo new Obj(); main: foo=new Obj(); baz(); print foo; baz: boo=new Obj(); print boo;",
+      "options": [
+        "a- foo",
+        "b- boo",
+        "c- main frame",
+        "d- foo array",
+        "e- All"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Which phase sets in-use flags?",
+      "options": [
+        "a- Sweep",
+        "b- Root scan",
+        "c- Mark",
+        "d- Reclaim",
+        "e- Collect"
+      ],
+      "answer": "c- "
+    },
+    {
+      "question": "Basic mark-sweep phases?",
+      "options": [
+        "a- 2",
+        "b- 1",
+        "c- 3",
+        "d- 4",
+        "e- 5"
+      ],
+      "answer": "a- "
+    },
+    {
+      "question": "Boehm GC trait?",
+      "options": [
+        "a- Integrated compiler",
+        "b- Conservative",
+        "c- Reference count",
+        "d- Generational",
+        "e- Precise"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Sweep phase action on unmarked?",
+      "options": [
+        "a- Mark it",
+        "b- Ignore",
+        "c- Reclaim",
+        "d- Move",
+        "e- Flag"
+      ],
+      "answer": "c- "
+    },
+    {
+      "question": "Boehm GC scans what?",
+      "options": [
+        "a- Heap only",
+        "b- Stack & static",
+        "c- Registers",
+        "d- CPU cache",
+        "e- Disk"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Python GC type?",
+      "options": [
+        "a- Tracing",
+        "b- Reference counting",
+        "c- Mark-sweep",
+        "d- Generational",
+        "e- Conservative"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Ref count issue?",
+      "options": [
+        "a- False positives",
+        "b- Cyclic refs",
+        "c- Root set miss",
+        "d- Heap scan",
+        "e- Flags"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Tri-color GC optimization?",
+      "options": [
+        "a- Full cycle",
+        "b- Incremental",
+        "c- Generational",
+        "d- Conservative",
+        "e- Precise"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Generational GC assumes?",
+      "options": [
+        "a- Old die fast",
+        "b- Young die fast",
+        "c- All long live",
+        "d- Cycles common",
+        "e- No refs"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Boehm false pos effect?",
+      "options": [
+        "a- Dangling ptr",
+        "b- Transient leak",
+        "c- Crash",
+        "d- Memory full",
+        "e- No effect"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "GC trigger strategy?",
+      "options": [
+        "a- Always on",
+        "b- Low memory",
+        "c- Timer only",
+        "d- Manual free",
+        "e- Startup"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Indirect reachability via?",
+      "options": [
+        "a- Stack only",
+        "b- Refs in objects",
+        "c- Globals",
+        "d- Statics",
+        "e- Locals"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Sweep checks?",
+      "options": [
+        "a- Root set",
+        "b- All heap objects",
+        "c- Stack vars",
+        "d- New allocs",
+        "e- Old objs"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Mark starts with flags?",
+      "options": [
+        "a- Set",
+        "b- Cleared",
+        "c- Random",
+        "d- Partial",
+        "e- Locked"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Boehm replaces?",
+      "options": [
+        "a- free()",
+        "b- malloc()",
+        "c- new",
+        "d- alloc",
+        "e- Both malloc free"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Conservative GC errs?",
+      "options": [
+        "a- False neg only",
+        "b- False pos only",
+        "c- Both",
+        "d- Neither",
+        "e- Crash"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Ref count overhead?",
+      "options": [
+        "a- Heap scan",
+        "b- Count updates",
+        "c- Mark sweep",
+        "d- Root find",
+        "e- Tri-color"
+      ],
+      "answer": "b- "
+    },
+    {
+      "question": "Older objects in gen GC?",
+      "options": [
+        "a- Checked often",
+        "b- Checked less",
+        "c- Ignored",
+        "d- First reclaimed",
+        "e- Always young"
+      ],
+      "answer": "b- "
+    }
+  ]
+}

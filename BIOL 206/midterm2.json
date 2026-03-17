@@ -1,679 +1,214 @@
 {
-  "citation": "Source BIOL 206 - Elementary Genetics",
-  "course": "BIOL 206",
-  "instructor": "Dr. Aida Abu-Baker",
-  "exam_style": "Detail-heavy, concept-specific. Emphasize key definitions, processes, and exact terminology.",
-  "study_tips": "Read lectures carefully. Define key terms (exome, metagenomics, aneuploidy, heteroplasmy, penetrance, expressivity, etc). Watch remedial videos (Bozeman Science). Visualize mitosis/meiosis processes.",
+  "citation": "Biology 206: DNA Structure & Replication (Chapter 9), Gene Action & Expression (Chapters 10 & 11), Gene Mutation & Chromosomes (Chapters 12 & 13), Genomics (Chapter 14) - McGraw Hill",
   "questions": [
     {
-      "question": "A nucleotide consists of three components. Which is NOT one of them?",
+      "question": "During DNA replication, why does DNA polymerase require an RNA primer synthesized by primase rather than initiating synthesis directly?",
       "options": [
-        "Phosphate group",
-        "5-carbon sugar (deoxyribose)",
-        "Nitrogenous base",
-        "Amino acid"
+        "a- DNA polymerase can add nucleotides to any 5' end without a starting point",
+        "b- RNA primers increase the speed of DNA synthesis by 50%",
+        "c- DNA polymerase can only add nucleotides to a free 3' OH group; primase provides this required group",
+        "d- Primers are needed to prevent mutation hotspots from forming",
+        "e- The 3' OH group from RNA primers acts as a marker for ligase"
       ],
-      "answer": "Amino acid"
+      "answer": "c- DNA polymerase can only add nucleotides to a free 3' OH group; primase provides this required group"
     },
     {
-      "question": "Chargaff's rules state that in DNA:",
+      "question": "What is the consequence of the antiparallel orientation of DNA strands during replication?",
       "options": [
-        "A equals T and G equals C in percentage",
-        "All bases are equal",
-        "A equals G always",
-        "Purines equal pyrimidines"
+        "a- Both strands are synthesized continuously toward the replication fork",
+        "b- The leading strand is synthesized continuously while the lagging strand requires Okazaki fragments",
+        "c- The 5' to 3' directionality becomes irrelevant during replication",
+        "d- RNA primers are only needed on the leading strand",
+        "e- Ligase activity doubles on the leading strand"
       ],
-      "answer": "A equals T and G equals C in percentage"
+      "answer": "b- The leading strand is synthesized continuously while the lagging strand requires Okazaki fragments"
     },
     {
-      "question": "The antiparallel nature of DNA strands means:",
+      "question": "In Sanger sequencing, how do ddNTPs (dideoxynucleotides) differ functionally from regular dNTPs?",
       "options": [
-        "They run in same direction (5' to 3')",
-        "One runs 5' to 3', other 3' to 5'",
-        "They are circular",
-        "They are parallel but opposite charge"
+        "a- ddNTPs are fluorescently labeled while dNTPs are not",
+        "b- ddNTPs lack a 3' OH group, causing chain termination when incorporated",
+        "c- ddNTPs have extra hydrogen bonds to the template strand",
+        "d- ddNTPs are only used in the annealing phase of PCR",
+        "e- ddNTPs increase DNA polymerase speed significantly"
       ],
-      "answer": "One runs 5' to 3', other 3' to 5'"
+      "answer": "b- ddNTPs lack a 3' OH group, causing chain termination when incorporated"
     },
     {
-      "question": "Denaturation of DNA involves:",
+      "question": "Why is Taq polymerase essential for PCR amplification cycles?",
       "options": [
-        "Adding more base pairs",
-        "Breaking hydrogen bonds between strands",
-        "Mutation",
-        "Replication"
+        "a- Taq polymerase binds more tightly to DNA templates than standard polymerases",
+        "b- Taq polymerase is thermostable; it maintains function during repeated 95°C heating cycles",
+        "c- Taq polymerase produces fluorescent nucleotides needed for visualization",
+        "d- Taq polymerase removes RNA primers faster than other polymerases",
+        "e- Taq polymerase can synthesize DNA in both 5' to 3' and 3' to 5' directions"
       ],
-      "answer": "Breaking hydrogen bonds between strands"
+      "answer": "b- Taq polymerase is thermostable; it maintains function during repeated 95°C heating cycles"
     },
     {
-      "question": "200,000 base pair double-stranded DNA contains ___ total nucleotides:",
+      "question": "What is the primary molecular difference between germline and somatic mutations?",
       "options": [
-        "200,000",
-        "400,000",
-        "100,000",
-        "800,000"
+        "a- Germline mutations only affect liver cells while somatic mutations affect all tissues",
+        "b- Germline mutations occur during meiosis and are inherited; somatic mutations occur during mitosis and affect only some body cells",
+        "c- Somatic mutations are always more severe than germline mutations",
+        "d- Germline mutations cannot cause cancer while somatic mutations always do",
+        "e- Germline mutations repair themselves while somatic mutations do not"
       ],
-      "answer": "400,000"
+      "answer": "b- Germline mutations occur during meiosis and are inherited; somatic mutations occur during mitosis and affect only some body cells"
     },
     {
-      "question": "In prophase I, homologous chromosomes undergo synapsis. This means:",
+      "question": "How do mutational hotspots involving short repetitive sequences (like AAAAAA...) cause mutations?",
       "options": [
-        "They separate to poles",
-        "They pair closely, aligned gene-by-gene",
-        "They replicate",
-        "They undergo crossing over only"
+        "a- Repetitive sequences attract mutagenic chemicals from the environment",
+        "b- DNA polymerase dissociates and reanneals incorrectly at repeats, creating loops that result in indels",
+        "c- Repetitive sequences prevent RNA primers from binding properly",
+        "d- Short repeats interfere with transcription factor binding",
+        "e- Repetitive sequences block proteasomal degradation pathways"
       ],
-      "answer": "They pair closely, aligned gene-by-gene"
+      "answer": "b- DNA polymerase dissociates and reanneals incorrectly at repeats, creating loops that result in indels"
     },
     {
-      "question": "A tetrad (or bivalent) in meiosis I consists of:",
+      "question": "Why does a frameshift mutation typically have more severe phenotypic consequences than a missense mutation?",
       "options": [
-        "Two chromatids",
-        "Four chromatids (2 homologs \u00d7 2 sister chromatids each)",
-        "One replicated chromosome",
-        "Four separate chromosomes"
+        "a- Frameshift mutations always cause premature cell death",
+        "b- Frameshift mutations change only one amino acid while missense affects multiple",
+        "c- Frameshift mutations shift the reading frame, altering nearly ALL downstream amino acids; missense changes only one",
+        "d- Frameshift mutations prevent transcription entirely",
+        "e- Missense mutations activate protective genes while frameshift mutations don't"
       ],
-      "answer": "Four chromatids (2 homologs \u00d7 2 sister chromatids each)"
+      "answer": "c- Frameshift mutations shift the reading frame, altering nearly ALL downstream amino acids; missense changes only one"
     },
     {
-      "question": "During anaphase I of meiosis:",
+      "question": "What does 'anticipation' mean in the context of repeat expansion disorders like Huntington disease?",
       "options": [
-        "Sister chromatids separate",
-        "Homologous chromosomes separate; sister chromatids remain attached",
-        "Chromosomes replicate",
-        "Spindle forms"
+        "a- The disease symptoms appear before other genetic markers",
+        "b- Trinucleotide repeats expand with each generation, causing earlier onset and more severe phenotype",
+        "c- Patients anticipate their disease will worsen over time",
+        "d- The disorder can be predicted by parental genotype alone",
+        "e- Anticipation refers to preventive medical treatment before symptoms appear"
       ],
-      "answer": "Homologous chromosomes separate; sister chromatids remain attached"
+      "answer": "b- Trinucleotide repeats expand with each generation, causing earlier onset and more severe phenotype"
     },
     {
-      "question": "Nondisjunction during meiosis I results in:",
+      "question": "Why are autosomal trisomies (like Down syndrome) more likely to result in live births than autosomal monosomies?",
       "options": [
-        "Normal gametes",
-        "Gametes with extra or missing chromosomes",
-        "Polyploid gametes",
-        "Gametes with deletions only"
+        "a- Trisomies are always less severe than monosomies genetically",
+        "b- Loss of genetic material (monosomy) causes more severe gene dosage imbalance than gain (trisomy)",
+        "c- Trisomy 21 contains genes that prevent miscarriage",
+        "d- Monosomies can only occur in males while trisomies occur in females",
+        "e- The placenta cannot support monosomy pregnancies"
       ],
-      "answer": "Gametes with extra or missing chromosomes"
+      "answer": "b- Loss of genetic material (monosomy) causes more severe gene dosage imbalance than gain (trisomy)"
     },
     {
-      "question": "Why is oogenesis discontinuous in females?",
+      "question": "How do transcription factors 'link the genome to the environment' during gene expression?",
       "options": [
-        "Females produce fewer eggs",
-        "Meiosis I begins in fetus, arrests at prophase I until ovulation; meiosis II arrests at metaphase II",
-        "Females lack spindle apparatus",
-        "Oogenesis only starts at puberty"
+        "a- Transcription factors physically transport DNA outside the cell",
+        "b- External signals activate transcription factors that bind TATA boxes and recruit RNA polymerase to initiate transcription",
+        "c- Environmental toxins directly mutate transcription factor genes",
+        "d- Transcription factors convert mRNA into proteins in response to stress",
+        "e- The environment directly modifies DNA base pairing"
       ],
-      "answer": "Meiosis I begins in fetus, arrests at prophase I until ovulation; meiosis II arrests at metaphase II"
+      "answer": "b- External signals activate transcription factors that bind TATA boxes and recruit RNA polymerase to initiate transcription"
     },
     {
-      "question": "G0 phase represents:",
+      "question": "How does alternative splicing allow ~20,325 human genes to produce over 1 million different proteins?",
       "options": [
-        "Gap phase before S",
-        "Active cell division",
-        "Cells exiting cycle, quiescent state",
-        "Gap after mitosis"
+        "a- Alternative splicing creates new genes by recombining exons from different chromosomes",
+        "b- Each gene undergoes alternative splicing only once, producing different proteins in different tissues",
+        "c- 95% of human genes use alternative splicing; different exon combinations produce protein variants from the same gene",
+        "d- Alternative splicing adds extra nucleotides to mRNA, extending protein length",
+        "e- Alternative splicing allows genes to encode multiple start codons"
       ],
-      "answer": "Cells exiting cycle, quiescent state"
+      "answer": "c- 95% of human genes use alternative splicing; different exon combinations produce protein variants from the same gene"
     },
     {
-      "question": "During which phase are centrioles duplicated?",
+      "question": "How can microRNA (miRNA) abundance be manipulated therapeutically in cancer treatment?",
       "options": [
-        "G1",
-        "S phase",
-        "G2",
-        "Prophase"
+        "a- Cancer cells cannot be affected by miRNA changes",
+        "b- Increasing all miRNA levels will always kill cancer cells",
+        "c- Cancer cells have abnormal miRNA levels; drugs can reduce miRNAs that silence tumor suppressors or increase miRNAs that block oncogenes",
+        "d- miRNAs are only present in normal cells, not cancer cells",
+        "e- Drugs can permanently eliminate all miRNAs from the body"
       ],
-      "answer": "G2"
+      "answer": "c- Cancer cells have abnormal miRNA levels; drugs can reduce miRNAs that silence tumor suppressors or increase miRNAs that block oncogenes"
     },
     {
-      "question": "Sister chromatids are held together at the:",
+      "question": "Why must eukaryotic mRNA be processed with a 5' cap and 3' poly-A tail before translation?",
       "options": [
-        "Telomere",
-        "Centromere",
-        "Spindle pole",
-        "Nuclear envelope"
+        "a- The cap and tail are decorative modifications with no functional purpose",
+        "b- 5' cap is a ribosome recognition site; 3' poly-A tail stabilizes short-lived mRNA and facilitates nucleus exit",
+        "c- Caps and tails prevent introns from being removed",
+        "d- Processing increases the speed of transcription by 10-fold",
+        "e- Only prokaryotic mRNA requires these modifications"
       ],
-      "answer": "Centromere"
+      "answer": "b- 5' cap is a ribosome recognition site; 3' poly-A tail stabilizes short-lived mRNA and facilitates nucleus exit"
     },
     {
-      "question": "Checkpoint control ensures:",
+      "question": "How does the proteasome prevent accumulation of misfolded proteins that would cause cellular disease?",
       "options": [
-        "Rapid cell division",
-        "Chromosomes correctly replicated and apportioned to daughter cells",
-        "No cell death",
-        "Constant mutation rate"
+        "a- The proteasome transports misfolded proteins to other cells",
+        "b- Misfolded proteins tag themselves for proteasomal degradation",
+        "c- The proteasome tunnel straightens misfolded proteins and cuts them into amino acids for reuse",
+        "d- The proteasome prevents all proteins from folding",
+        "e- Misfolded proteins are expelled from the cell into the bloodstream"
       ],
-      "answer": "Chromosomes correctly replicated and apportioned to daughter cells"
+      "answer": "c- The proteasome tunnel straightens misfolded proteins and cuts them into amino acids for reuse"
     },
     {
-      "question": "Blending inheritance theory (pre-Mendel) proposed:",
+      "question": "During translation elongation, how does the ribosome advance one codon down the mRNA?",
       "options": [
-        "Traits skip generations",
-        "Traits persist through discrete units",
-        "Parental traits blend like mixing paints",
-        "Only dominant traits pass on"
+        "a- The ribosome removes the entire P site tRNA and brings in a new one",
+        "b- tRNA in A site forms peptide bond; ribosome translocates moving P site tRNA out, A site tRNA to P site, new tRNA enters empty A site",
+        "c- The ribosome spins around the mRNA to read the next codon",
+        "d- New tRNAs are synthesized for each codon position",
+        "e- The mRNA moves through the ribosome while tRNAs remain stationary"
       ],
-      "answer": "Parental traits blend like mixing paints"
+      "answer": "b- tRNA in A site forms peptide bond; ribosome translocates moving P site tRNA out, A site tRNA to P site, new tRNA enters empty A site"
     },
     {
-      "question": "Particulate inheritance (Mendel's model) states:",
+      "question": "What structural and functional differences distinguish euchromatin from heterochromatin?",
       "options": [
-        "All traits blend",
-        "Parents pass discrete heritable units (alleles)",
-        "Traits are environmental",
-        "Only males inherit"
+        "a- Euchromatin is condensed and transcriptionally silent; heterochromatin is loose and active",
+        "b- Euchromatin is loosely packed (~2% open/readable) and transcriptionally active; heterochromatin is condensed and silent found at telomeres/centromeres",
+        "c- Both types are equally accessible to transcription factors",
+        "d- Heterochromatin contains more genes than euchromatin",
+        "e- Euchromatin can never convert to heterochromatin"
       ],
-      "answer": "Parents pass discrete heritable units (alleles)"
+      "answer": "b- Euchromatin is loosely packed (~2% open/readable) and transcriptionally active; heterochromatin is condensed and silent found at telomeres/centromeres"
     },
     {
-      "question": "In a monohybrid F2 cross (Aa \u00d7 Aa), expected phenotypic ratio:",
+      "question": "How do methyl groups added to histones act as epigenetic silencers of gene expression?",
       "options": [
-        "1:1",
-        "3:1",
-        "1:2:1",
-        "9:3:3:1"
+        "a- Methyl groups block all transcription in the cell",
+        "b- Methyl groups cause DNA polymerase to stop working",
+        "c- Methyl groups keep DNA in heterochromatic (closed) configuration, preventing transcription factor access to promoters",
+        "d- Methyl groups increase RNA polymerase activity",
+        "e- Methyl groups replace histone proteins entirely"
       ],
-      "answer": "3:1"
+      "answer": "c- Methyl groups keep DNA in heterochromatic (closed) configuration, preventing transcription factor access to promoters"
     },
     {
-      "question": "A dihybrid F1 (AaBb) \u00d7 F1 (AaBb) gives F2 phenotypic ratio:",
+      "question": "What is the consequence of a nonsense mutation that converts an amino acid codon to a stop codon?",
       "options": [
-        "3:1",
-        "1:1:1:1",
-        "9:3:3:1",
-        "1:2:2:4:1:2:1:2:1"
+        "a- The amino acid is replaced with a similar amino acid",
+        "b- Translation continues normally with an extra stop signal",
+        "c- A truncated nonfunctional protein is produced due to premature termination",
+        "d- The mutation has no effect on protein synthesis",
+        "e- The stop codon reverses back to the original amino acid"
       ],
-      "answer": "9:3:3:1"
+      "answer": "c- A truncated nonfunctional protein is produced due to premature termination"
     },
     {
-      "question": "Product rule in genetics: P(A AND B) =",
+      "question": "How can a karyotype and cfDNA testing be used together for chromosomal abnormality detection in pregnancy?",
       "options": [
-        "P(A) + P(B)",
-        "P(A) \u00d7 P(B) for independent events",
-        "P(A) - P(B)",
-        "P(A) / P(B)"
+        "a- cfDNA is more invasive than karyotypes so it should be done first",
+        "b- cfDNA testing is noninvasive (blood test) detecting aneuploidies; abnormal cfDNA results prompt confirmatory karyotyping or ultrasound",
+        "c- Karyotypes can only be done after birth, cfDNA cannot detect any abnormalities",
+        "d- Both tests are equally invasive and carry equal miscarriage risk",
+        "e- Karyotypes and cfDNA detect completely different types of mutations"
       ],
-      "answer": "P(A) \u00d7 P(B) for independent events"
-    },
-    {
-      "question": "For genes AaBbCcDd, number of gamete types:",
-      "options": [
-        "8",
-        "16",
-        "32",
-        "64"
-      ],
-      "answer": "16"
-    },
-    {
-      "question": "Linked genes:",
-      "options": [
-        "Always assort independently",
-        "Inherited together; don't assort independently unless far apart",
-        "Always produce 9:3:3:1 ratio",
-        "Cannot recombine"
-      ],
-      "answer": "Inherited together; don't assort independently unless far apart"
-    },
-    {
-      "question": "Recombinant chromosomes result from:",
-      "options": [
-        "Nondisjunction",
-        "Crossing over exchanging DNA segments",
-        "Mutation only",
-        "Apoptosis"
-      ],
-      "answer": "Crossing over exchanging DNA segments"
-    },
-    {
-      "question": "Chiasmata (plural of chiasma) visible during meiosis I indicate:",
-      "options": [
-        "Centromere position",
-        "Sites of crossing over",
-        "Spindle attachment",
-        "Nuclear membrane breakdown"
-      ],
-      "answer": "Sites of crossing over"
-    },
-    {
-      "question": "Incomplete dominance: heterozygous phenotype is:",
-      "options": [
-        "Same as homozygous dominant",
-        "Intermediate between the two homozygotes",
-        "Same as homozygous recessive",
-        "Codominant"
-      ],
-      "answer": "Intermediate between the two homozygotes"
-    },
-    {
-      "question": "Codominance: heterozygous phenotype shows:",
-      "options": [
-        "Blend of traits",
-        "Both alleles expressed distinctly (not intermediate)",
-        "Only one allele",
-        "No phenotype"
-      ],
-      "answer": "Both alleles expressed distinctly (not intermediate)"
-    },
-    {
-      "question": "ABO blood group system (codominance):",
-      "options": [
-        "I^A and I^B alleles are recessive to i",
-        "I^A and I^B are codominant; both dominant to i",
-        "Only one phenotype possible",
-        "No genetic basis"
-      ],
-      "answer": "I^A and I^B are codominant; both dominant to i"
-    },
-    {
-      "question": "Epistasis describes:",
-      "options": [
-        "One gene is always dominant",
-        "One gene affects/masks expression of another gene",
-        "Genes are on same chromosome",
-        "No gene interaction"
-      ],
-      "answer": "One gene affects/masks expression of another gene"
-    },
-    {
-      "question": "Bombay phenotype is example of:",
-      "options": [
-        "Incomplete dominance",
-        "Epistasis (H gene epistatic to I gene)",
-        "Linkage",
-        "Sex-linkage"
-      ],
-      "answer": "Epistasis (H gene epistatic to I gene)"
-    },
-    {
-      "question": "Lethal alleles cause:",
-      "options": [
-        "Decreased expression",
-        "Death before reproductive age; removes expected progeny class",
-        "Intermediate phenotype",
-        "No effect"
-      ],
-      "answer": "Death before reproductive age; removes expected progeny class"
-    },
-    {
-      "question": "Achondroplasia (dwarfism): AA individuals:",
-      "options": [
-        "Are taller",
-        "Die as embryos (lethal combination)",
-        "Are short",
-        "Are normal height"
-      ],
-      "answer": "Die as embryos (lethal combination)"
-    },
-    {
-      "question": "Penetrance: % with specific genotype showing:",
-      "options": [
-        "Severity of phenotype",
-        "Associated phenotype",
-        "Linkage",
-        "Dominance"
-      ],
-      "answer": "Associated phenotype"
-    },
-    {
-      "question": "Expressivity: variation in:",
-      "options": [
-        "Genotype",
-        "Severity/intensity of phenotype",
-        "Allele number",
-        "Environment only"
-      ],
-      "answer": "Severity/intensity of phenotype"
-    },
-    {
-      "question": "Pleiotropy: one gene has",
-      "options": [
-        "One effect",
-        "Multiple effects (affects several traits)",
-        "Linked effect",
-        "Environmental effect"
-      ],
-      "answer": "Multiple effects (affects several traits)"
-    },
-    {
-      "question": "Marfan syndrome demonstrates pleiotropy via:",
-      "options": [
-        "Environmental factors",
-        "Fibrillin protein; affects lens, aorta, bones",
-        "Recessive inheritance",
-        "Sex-linkage"
-      ],
-      "answer": "Fibrillin protein; affects lens, aorta, bones"
-    },
-    {
-      "question": "Genetic heterogeneity:",
-      "options": [
-        "Same gene, different alleles",
-        "Different genes cause same phenotype",
-        "High heterozygosity",
-        "Population variation"
-      ],
-      "answer": "Different genes cause same phenotype"
-    },
-    {
-      "question": "Mitochondrial DNA (mtDNA):",
-      "options": [
-        "Is linear like nuclear DNA",
-        "Contains 46 genes",
-        "Is circular, ~37 genes, mutates rapidly",
-        "Never mutates"
-      ],
-      "answer": "Is circular, ~37 genes, mutates rapidly"
-    },
-    {
-      "question": "mtDNA inheritance pattern:",
-      "options": [
-        "Paternal only",
-        "Maternal only (sperm lack mitochondria)",
-        "Biparental equal",
-        "Random"
-      ],
-      "answer": "Maternal only (sperm lack mitochondria)"
-    },
-    {
-      "question": "Heteroplasmy in mitochondria:",
-      "options": [
-        "Same alleles in all mitochondria",
-        "Different alleles within one cell",
-        "Nuclear variation",
-        "No mtDNA"
-      ],
-      "answer": "Different alleles within one cell"
-    },
-    {
-      "question": "mtDNA in forensics preferred because:",
-      "options": [
-        "It's large",
-        "High copy number per cell; resistant to degradation",
-        "It's easy to find",
-        "Never mutates"
-      ],
-      "answer": "High copy number per cell; resistant to degradation"
-    },
-    {
-      "question": "SRY gene determines:",
-      "options": [
-        "Gonadal sex (testis formation if present)",
-        "Environmental sex",
-        "Phenotypic sex only",
-        "Chromosomes"
-      ],
-      "answer": "Gonadal sex (testis formation if present)"
-    },
-    {
-      "question": "X-linked recessive traits more common in males because:",
-      "options": [
-        "Males are stronger",
-        "Males have one X; one recessive allele expressed (hemizygous)",
-        "Females never inherit",
-        "No genetic reason"
-      ],
-      "answer": "Males have one X; one recessive allele expressed (hemizygous)"
-    },
-    {
-      "question": "X-inactivation (lyonization):",
-      "options": [
-        "Occurs in males only",
-        "Random inactivation of one X per cell in females",
-        "Permanent loss of X chromosome",
-        "Never occurs"
-      ],
-      "answer": "Random inactivation of one X per cell in females"
-    },
-    {
-      "question": "Barr body represents:",
-      "options": [
-        "Active X chromosome",
-        "Inactivated (condensed) X chromosome",
-        "Y chromosome",
-        "Mitochondrion"
-      ],
-      "answer": "Inactivated (condensed) X chromosome"
-    },
-    {
-      "question": "XXXX female (tetra-X):",
-      "options": [
-        "No Barr bodies",
-        "3 Barr bodies (one inactivates, keeping one active)",
-        "4 Barr bodies",
-        "Cannot exist"
-      ],
-      "answer": "3 Barr bodies (one inactivates, keeping one active)"
-    },
-    {
-      "question": "Exome represents:",
-      "options": [
-        "All DNA",
-        "~1% of DNA (protein-coding genes)",
-        "Non-coding regions",
-        "Mitochondrial DNA"
-      ],
-      "answer": "~1% of DNA (protein-coding genes)"
-    },
-    {
-      "question": "Genome-wide association studies (GWAS):",
-      "options": [
-        "Compare single genes only",
-        "Use SNPs to link complex diseases to genome variations",
-        "Study one individual",
-        "Measure protein levels"
-      ],
-      "answer": "Use SNPs to link complex diseases to genome variations"
-    },
-    {
-      "question": "SNPs (single nucleotide polymorphisms):",
-      "options": [
-        "Occur every 1000 bp",
-        "Occur every ~300 bp in human genome",
-        "Are mutations only",
-        "Never vary"
-      ],
-      "answer": "Occur every ~300 bp in human genome"
-    },
-    {
-      "question": "Metagenomics involves:",
-      "options": [
-        "One organism genome",
-        "All DNA in habitat (soil, gut, water, etc.)",
-        "Protein sequences only",
-        "Extinct DNA"
-      ],
-      "answer": "All DNA in habitat (soil, gut, water, etc.)"
-    },
-    {
-      "question": "Human microbiome contains:",
-      "options": [
-        "3 trillion microbial cells",
-        "~39 trillion microbial cells",
-        "1 billion cells",
-        "No bacteria"
-      ],
-      "answer": "~39 trillion microbial cells"
-    },
-    {
-      "question": "Precision medicine tailors treatment based on:",
-      "options": [
-        "Age only",
-        "Genes + environment + lifestyle per individual",
-        "One-size-fits-all",
-        "Phenotype only"
-      ],
-      "answer": "Genes + environment + lifestyle per individual"
-    },
-    {
-      "question": "Pharmacogenetics predicts:",
-      "options": [
-        "All drugs work same",
-        "Drug effectiveness/side effects based on genetic variants",
-        "No genetic basis for drug response",
-        "Environmental response only"
-      ],
-      "answer": "Drug effectiveness/side effects based on genetic variants"
-    },
-    {
-      "question": "Biobanks store:",
-      "options": [
-        "Proteins only",
-        "Biological samples + DNA for research",
-        "No genetic material",
-        "RNA only"
-      ],
-      "answer": "Biological samples + DNA for research"
-    },
-    {
-      "question": "deCODE Genetics (Iceland biobank):",
-      "options": [
-        "Studies only one disease",
-        "Harvested DNA from entire population; discovered disease-related genes",
-        "No genetic focus",
-        "Hasn't yielded discoveries"
-      ],
-      "answer": "Harvested DNA from entire population; discovered disease-related genes"
-    },
-    {
-      "question": "DNA profiling (forensics) uses:",
-      "options": [
-        "Eye color",
-        "SNPs + statistical methods to compare DNA sequences",
-        "Phenotypes",
-        "No DNA"
-      ],
-      "answer": "SNPs + statistical methods to compare DNA sequences"
-    },
-    {
-      "question": "Genome editing (CRISPR):",
-      "options": [
-        "Reads DNA only",
-        "Makes edits, deletions, substitutions in DNA sequences",
-        "Cannot change genes",
-        "No applications"
-      ],
-      "answer": "Makes edits, deletions, substitutions in DNA sequences"
-    },
-    {
-      "question": "Recombinant DNA technology:",
-      "options": [
-        "Only occurs naturally",
-        "Inserts genes from one species into DNA of another",
-        "Cannot create GMOs",
-        "No practical use"
-      ],
-      "answer": "Inserts genes from one species into DNA of another"
-    },
-    {
-      "question": "Golden rice (GMO) engineered for:",
-      "options": [
-        "Disease resistance",
-        "High beta-carotene content",
-        "Red color",
-        "No specific trait"
-      ],
-      "answer": "High beta-carotene content"
-    },
-    {
-      "question": "Autosomal dominant traits:",
-      "options": [
-        "Skip generations",
-        "Do not skip; equal sex ratio affected",
-        "Affect males only",
-        "Require two copies"
-      ],
-      "answer": "Do not skip; equal sex ratio affected"
-    },
-    {
-      "question": "Autosomal recessive traits:",
-      "options": [
-        "Never skip generations",
-        "Can skip; equal sex ratio",
-        "Affect females only",
-        "No family pattern"
-      ],
-      "answer": "Can skip; equal sex ratio"
-    },
-    {
-      "question": "Polydactyly (extra digits) inheritance:",
-      "options": [
-        "Recessive",
-        "Autosomal dominant",
-        "Sex-linked",
-        "Mitochondrial"
-      ],
-      "answer": "Autosomal dominant"
-    },
-    {
-      "question": "Albinism (melanin deficiency) inheritance:",
-      "options": [
-        "Dominant",
-        "Autosomal recessive",
-        "Sex-linked",
-        "Codominant"
-      ],
-      "answer": "Autosomal recessive"
-    },
-    {
-      "question": "De novo mutation means:",
-      "options": [
-        "Inherited from parents",
-        "New mutation arising in gamete/embryo (not in parents)",
-        "Environmental only",
-        "Never occurs"
-      ],
-      "answer": "New mutation arising in gamete/embryo (not in parents)"
-    },
-    {
-      "question": "Gene pool:",
-      "options": [
-        "Genes in one cell",
-        "Collection of all alleles in population",
-        "DNA in nucleus",
-        "Exome only"
-      ],
-      "answer": "Collection of all alleles in population"
-    },
-    {
-      "question": "Genetic drift:",
-      "options": [
-        "Directional selection",
-        "Random change in allele frequencies",
-        "Mutation only",
-        "Planned breeding"
-      ],
-      "answer": "Random change in allele frequencies"
-    },
-    {
-      "question": "Shared DNA with ancestors halves:",
-      "options": [
-        "Every year",
-        "Every generation",
-        "Never",
-        "Randomly"
-      ],
-      "answer": "Every generation"
-    },
-    {
-      "question": "Monogenic diseases:",
-      "options": [
-        "Most common illnesses",
-        "Caused by single gene mutation (~10,000 known)",
-        "Only environmental",
-        "No genetic basis"
-      ],
-      "answer": "Caused by single gene mutation (~10,000 known)"
-    },
-    {
-      "question": "Complex traits:",
-      "options": [
-        "Single gene only",
-        "One or more genes + environmental factors",
-        "No genetic component",
-        "Random"
-      ],
-      "answer": "One or more genes + environmental factors"
+      "answer": "b- cfDNA testing is noninvasive (blood test) detecting aneuploidies; abnormal cfDNA results prompt confirmatory karyotyping or ultrasound"
     }
   ]
 }

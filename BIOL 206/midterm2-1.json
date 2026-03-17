@@ -1,0 +1,214 @@
+{
+  "citation": "Biology 206: Gene Mutation & Chromosomes (Chapters 12 & 13) - McGraw Hill",
+  "questions": [
+    {
+      "question": "What distinguishes a 'missense mutation' from a 'nonsense mutation' at the molecular level?",
+      "options": [
+        "a- Missense mutations affect RNA while nonsense mutations affect DNA",
+        "b- Missense replaces one amino acid with another; nonsense converts amino acid codon to stop codon producing truncated protein",
+        "c- Nonsense mutations are silent and have no effect on protein",
+        "d- Missense mutations only occur in males; nonsense only in females",
+        "e- Both mutations produce identical phenotypic effects"
+      ],
+      "answer": "b- Missense replaces one amino acid with another; nonsense converts amino acid codon to stop codon producing truncated protein"
+    },
+    {
+      "question": "How do palindromic sequences cause larger insertion/deletion mutations compared to short repetitive sequences?",
+      "options": [
+        "a- Palindromes are longer than repetitive sequences so they contain more mutations",
+        "b- Complementary pairing when palindromes unwind interferes with replication causing larger indels than polymerase slippage at short repeats",
+        "c- Palindromes activate different DNA repair mechanisms",
+        "d- Palindromes only cause deletions while short repeats cause insertions",
+        "e- Palindromes prevent DNA replication from starting"
+      ],
+      "answer": "b- Complementary pairing when palindromes unwind interferes with replication causing larger indels than polymerase slippage at short repeats"
+    },
+    {
+      "question": "What is 'gonadal mosaicism' in the context of germline mutations?",
+      "options": [
+        "a- All body cells in an individual carry the same germline mutation",
+        "b- Germline mutations that don't affect reproductive function",
+        "c- Some gonadal stem cells spontaneously mutate producing mixed populations of gametes with and without mutations",
+        "d- A condition where the gonad develops two different sexes",
+        "e- Mosaicism that only occurs in females, not males"
+      ],
+      "answer": "c- Some gonadal stem cells spontaneously mutate producing mixed populations of gametes with and without mutations"
+    },
+    {
+      "question": "Why do expansion repeat disorders (like myotonic dystrophy) worsen with each generation?",
+      "options": [
+        "a- Environmental toxins increase with each generation",
+        "b- Each generation gains more lifestyle risk factors",
+        "c- Trinucleotide repeats expand, producing longer toxic proteins that bind transcription factors and block proteasomes",
+        "d- The disease is only expressed after age 40",
+        "e- Mutations are only passed through the paternal line"
+      ],
+      "answer": "c- Trinucleotide repeats expand, producing longer toxic proteins that bind transcription factors and block proteasomes"
+    },
+    {
+      "question": "What is 'somatic mosaicism' and how does it differ from germline mosaicism?",
+      "options": [
+        "a- Both types affect all body cells equally",
+        "b- Somatic mosaicism: mutation in some body cells during mitosis (not inherited); germline: mutation in some gametes during meiosis (inherited)",
+        "c- Somatic mosaicism only affects the brain",
+        "d- Germline mosaicism cannot be passed to offspring",
+        "e- Somatic mosaicism is more severe than germline mosaicism"
+      ],
+      "answer": "b- Somatic mosaicism: mutation in some body cells during mitosis (not inherited); germline: mutation in some gametes during meiosis (inherited)"
+    },
+    {
+      "question": "What causes meiosis I nondisjunction versus meiosis II nondisjunction, and how do the resulting gametes differ?",
+      "options": [
+        "a- Both meiosis I and II nondisjunction produce identical aneuploid gametes",
+        "b- Meiosis I: both homologs enter same cell (one gets both, other gets none); Meiosis II: both sister chromatids in one cell (one gets both, other gets none)",
+        "c- Only meiosis I nondisjunction produces viable aneuploid gametes",
+        "d- Meiosis II nondisjunction cannot occur in females",
+        "e- Both produce identical results but at different times in development"
+      ],
+      "answer": "b- Meiosis I: both homologs enter same cell (one gets both, other gets none); Meiosis II: both sister chromatids in one cell (one gets both, other gets none)"
+    },
+    {
+      "question": "A female with Turner syndrome (45,X) resulted from nondisjunction. Was the nondisjunction in meiosis I or II?",
+      "options": [
+        "a- Both are equally likely to produce Turner syndrome",
+        "b- Meiosis I nondisjunction in sperm; meiosis II nondisjunction in egg can produce nullisomic gametes",
+        "c- Turner syndrome can only result from maternal nondisjunction",
+        "d- Turner syndrome results from paternal meiosis I nondisjunction producing nullisomic sperm (no sex chromosome)",
+        "e- Turner syndrome cannot result from nondisjunction"
+      ],
+      "answer": "d- Turner syndrome results from paternal meiosis I nondisjunction producing nullisomic sperm (no sex chromosome)"
+    },
+    {
+      "question": "Why are Down syndrome (trisomy 21) and other autosomal trisomies viable while most autosomal monosomies are lethal?",
+      "options": [
+        "a- Trisomies have genes that prevent miscarriage",
+        "b- Monosomy causes loss of essential genes creating severe imbalance; trisomy 21 viable because chromosome 21 has fewer genes",
+        "c- All monosomies and trisomies have equal lethality",
+        "d- Autosomal trisomies are always fatal in utero",
+        "e- Monosomies only affect males while trisomies affect females"
+      ],
+      "answer": "b- Monosomy causes loss of essential genes creating severe imbalance; trisomy 21 viable because chromosome 21 has fewer genes"
+    },
+    {
+      "question": "What does chromosomal shorthand '47,XX,+21' indicate about an individual?",
+      "options": [
+        "a- Male with 47 chromosomes and normal autosomes",
+        "b- Female with 46 chromosomes and one deleted autosome",
+        "c- Female with 47 chromosomes and an extra chromosome 21 (Down syndrome)",
+        "d- Female with 45 chromosomes and Turner syndrome",
+        "e- Individual with three sex chromosomes"
+      ],
+      "answer": "c- Female with 47 chromosomes and an extra chromosome 21 (Down syndrome)"
+    },
+    {
+      "question": "How does cell-free fetal DNA (cfDNA) testing provide noninvasive chromosomal abnormality detection?",
+      "options": [
+        "a- cfDNA requires amniocentesis to obtain samples",
+        "b- ~20% of pregnant mother's blood DNA comes from placenta; entire fetal genome reconstructed without infection/miscarriage risk",
+        "c- cfDNA can only detect Down syndrome, not other aneuploidies",
+        "d- cfDNA testing requires fetal tissue sampling",
+        "e- cfDNA cannot detect structural chromosomal abnormalities"
+      ],
+      "answer": "b- ~20% of pregnant mother's blood DNA comes from placenta; entire fetal genome reconstructed without infection/miscarriage risk"
+    },
+    {
+      "question": "What is a 'translocation' and how does it differ from other structural chromosome mutations?",
+      "options": [
+        "a- Translocation is deletion of a chromosome segment",
+        "b- Translocation: two chromosomes join/exchange parts; differs from deletion (loss) inversion (reversal) duplication (present twice)",
+        "c- Translocation only affects sex chromosomes",
+        "d- Translocation is always lethal",
+        "e- Translocation prevents all cell division"
+      ],
+      "answer": "b- Translocation: two chromosomes join/exchange parts; differs from deletion (loss) inversion (reversal) duplication (present twice)"
+    },
+    {
+      "question": "What is the relationship between mutation hotspots and duplicated genes during crossing over?",
+      "options": [
+        "a- Duplicated genes cannot undergo crossing over",
+        "b- Duplicated genes located nearby are hotspots; misalignment during crossing over causes unequal recombination (one with extra copies, other with loss)",
+        "c- Duplicated genes always cause translocations",
+        "d- Crossing over cannot occur near duplicated genes",
+        "e- Duplicated genes prevent mutations entirely"
+      ],
+      "answer": "b- Duplicated genes located nearby are hotspots; misalignment during crossing over causes unequal recombination (one with extra copies, other with loss)"
+    },
+    {
+      "question": "How do transposons ('jumping genes') cause mutations when they insert into new genomic locations?",
+      "options": [
+        "a- Transposons only cause beneficial mutations",
+        "b- Disrupt insertion site origin, shut off target gene transcription if they insert in promoter, or alter reading frame if not multiple of 3 bases",
+        "c- Transposons always increase gene expression",
+        "d- Transposons cannot affect nearby genes",
+        "e- Transposon movement is always detected and corrected"
+      ],
+      "answer": "b- Disrupt insertion site origin, shut off target gene transcription if they insert in promoter, or alter reading frame if not multiple of 3 bases"
+    },
+    {
+      "question": "What is a 'copy number variant' (CNV) and what determines whether it affects phenotype?",
+      "options": [
+        "a- CNVs always disrupt gene function",
+        "b- CNVs are sequences varying in copy numbers between individuals; phenotypic effect depends on whether they disrupt genes or are neutral",
+        "c- CNVs only occur in repetitive DNA regions",
+        "d- All CNVs are harmful and cause disease",
+        "e- CNVs cannot be detected using forensic techniques"
+      ],
+      "answer": "b- CNVs are sequences varying in copy numbers between individuals; phenotypic effect depends on whether they disrupt genes or are neutral"
+    },
+    {
+      "question": "What is the relationship between 'del', 'dup', 'inv', and 'trans' in chromosomal nomenclature?",
+      "options": [
+        "a- All refer to the same type of chromosomal mutation",
+        "b- Deletion, Duplication, Inversion, Translocation - different structural chromosome mutations each with distinct mechanisms",
+        "c- These terms only apply to sex chromosomes",
+        "d- They describe the same mutation occurring at different times",
+        "e- Only deletion and duplication are actual mutations; inversion and translocation are normal processes"
+      ],
+      "answer": "b- Deletion, Duplication, Inversion, Translocation - different structural chromosome mutations each with distinct mechanisms"
+    },
+    {
+      "question": "Why is chromosomal abnormality responsible for ~50% of spontaneous abortions yet only 0.65% of newborns have them?",
+      "options": [
+        "a- Chromosomal abnormalities are beneficial and increase survival",
+        "b- Most chromosomal abnormalities abort before birth; only less severe ones survive to birth",
+        "c- Chromosomal abnormalities cannot affect newborns",
+        "d- All newborns have chromosomal abnormalities but they don't show symptoms",
+        "e- Chromosomal abnormalities develop after birth, not during pregnancy"
+      ],
+      "answer": "b- Most chromosomal abnormalities abort before birth; only less severe ones survive to birth"
+    },
+    {
+      "question": "What is an 'ideogram' and what information does it provide about chromosomes?",
+      "options": [
+        "a- Ideogram is a type of mutation",
+        "b- Diagrammatic representation of chromosome showing p (short) and q (long) arms with numbered bands/sub-bands identifying specific genes",
+        "c- Ideogram shows only the centromere location",
+        "d- Ideograms are used exclusively in karyotype preparations",
+        "e- Ideograms cannot identify gene locations"
+      ],
+      "answer": "b- Diagrammatic representation of chromosome showing p (short) and q (long) arms with numbered bands/sub-bands identifying specific genes"
+    },
+    {
+      "question": "How does the X-inactivation therapeutic approach potentially treat trisomy 21 (Down syndrome)?",
+      "options": [
+        "a- Adds extra chromosome 21 to all body cells",
+        "b- Uses X-inactivation mechanism to 'turn off' extra chromosome 21, silencing extra genetic information",
+        "c- Completely removes chromosome 21",
+        "d- Trisomy 21 cannot be treated with any gene therapy",
+        "e- X-inactivation only works on sex chromosomes, not autosomes"
+      ],
+      "answer": "b- Uses X-inactivation mechanism to 'turn off' extra chromosome 21, silencing extra genetic information"
+    },
+    {
+      "question": "What percentage of spontaneous mutations occur in 'mutational hotspots' versus random locations in DNA?",
+      "options": [
+        "a- All mutations occur randomly with equal probability",
+        "b- Mutations preferentially occur in hotspots (short repeats, palindromes, duplicated genes) rather than random locations",
+        "c- Mutations never occur in hotspots",
+        "d- Hotspots account for less than 1% of all mutations",
+        "e- Mutation location is determined entirely by environmental exposure"
+      ],
+      "answer": "b- Mutations preferentially occur in hotspots (short repeats, palindromes, duplicated genes) rather than random locations"
+    }
+  ]
+}

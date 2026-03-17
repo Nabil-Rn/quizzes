@@ -1,859 +1,214 @@
 {
-  "citation": "Source BIOL 206 - Elementary Genetics",
-  "course": "BIOL 206",
-  "instructor": "Dr. Aida Abu-Baker",
-  "exam_style": "Detail-heavy, concept-specific. Emphasize key definitions, processes, and exact terminology.",
-  "study_tips": "Read lectures carefully. Define key terms (exome, metagenomics, aneuploidy, heteroplasmy, penetrance, expressivity, etc). Watch remedial videos (Bozeman Science). Visualize mitosis/meiosis processes.",
+  "citation": "Biology 206: Vocabulary Definitions - Gene Mutation & Chromosomes (Chapters 12 & 13) - McGraw Hill",
   "questions": [
     {
-      "question": "What is Genetics?",
+      "question": "What is 'aneuploidy' and what cellular process causes it?",
       "options": [
-        "The study of DNA structure only",
-        "The study of variation, transmission and expression of traits encoded in DNA",
-        "The study of proteins only",
-        "The study of evolution only"
+        "a- Aneuploidy is normal chromosome number (46 in humans)",
+        "b- Abnormal chromosome number (extra or missing); caused by nondisjunction during meiosis I or II",
+        "c- Aneuploidy only affects sex chromosomes",
+        "d- Aneuploidy is a synonym for polyploidy",
+        "e- Aneuploidy cannot affect cell viability"
       ],
-      "answer": "The study of variation, transmission and expression of traits encoded in DNA"
+      "answer": "b- Abnormal chromosome number (extra or missing); caused by nondisjunction during meiosis I or II"
     },
     {
-      "question": "DNA resembles a spiral staircase and is called:",
+      "question": "Define 'monosomy' and give an example of a viable monosomy in humans.",
       "options": [
-        "A helix",
-        "A double helix",
-        "A triple helix",
-        "A linear strand"
+        "a- Monosomy is loss of one chromosome; most are lethal except 45,X (Turner syndrome)",
+        "b- Monosomy is gain of one chromosome (same as trisomy)",
+        "c- All monosomies are equally viable",
+        "d- Monosomy only affects autosomes, never sex chromosomes",
+        "e- Monosomy cannot occur in human populations"
       ],
-      "answer": "A double helix"
+      "answer": "a- Monosomy is loss of one chromosome; most are lethal except 45,X (Turner syndrome)"
     },
     {
-      "question": "A nucleotide has three parts. Which is one of them?",
+      "question": "Define 'trisomy' and identify the three autosomal trisomies most commonly seen in newborns.",
       "options": [
-        "Amino acid",
-        "Phosphate group",
-        "Lipid",
-        "Carbohydrate"
+        "a- Trisomy is missing one chromosome (same as monosomy)",
+        "b- Extra chromosome (47 total); Down (21), Edwards (18), Patau (13) are most common in newborns",
+        "c- Trisomy only affects sex chromosomes",
+        "d- All autosomal trisomies are equally viable",
+        "e- Trisomies cannot survive beyond the first month of life"
       ],
-      "answer": "Phosphate group"
+      "answer": "b- Extra chromosome (47 total); Down (21), Edwards (18), Patau (13) are most common in newborns"
     },
     {
-      "question": "The four nitrogenous bases in DNA are:",
+      "question": "What is a 'mutation' versus a 'polymorphism' in terms of population frequency?",
       "options": [
-        "A, G, U, C",
-        "A, G, T, C",
-        "A, G, T, U",
-        "All of the above"
+        "a- Mutation and polymorphism are identical terms",
+        "b- Mutation: rare DNA change affecting phenotype; Polymorphism: variant in >1% population, usually neutral",
+        "c- Polymorphisms always cause disease while mutations do not",
+        "d- Mutations only occur in genes while polymorphisms occur in non-coding DNA",
+        "e- Polymorphisms are inherited while mutations are not"
       ],
-      "answer": "A, G, T, C"
+      "answer": "b- Mutation: rare DNA change affecting phenotype; Polymorphism: variant in >1% population, usually neutral"
     },
     {
-      "question": "Adenine and Guanine are classified as:",
+      "question": "Define 'frameshift mutation' and explain why it's more severe than point mutations.",
       "options": [
-        "Pyrimidines",
-        "Purines",
-        "Nucleotides",
-        "Phosphates"
+        "a- Frameshift is deletion of an entire chromosome",
+        "b- Insertion/deletion altering reading frame, changing nearly ALL downstream amino acids; point mutation changes only one",
+        "c- Frameshift mutations have no effect on protein",
+        "d- Frameshift mutations only affect non-coding DNA",
+        "e- All frameshift mutations are silent"
       ],
-      "answer": "Purines"
+      "answer": "b- Insertion/deletion altering reading frame, changing nearly ALL downstream amino acids; point mutation changes only one"
     },
     {
-      "question": "Chargaff's rules state:",
+      "question": "What is a 'mutagen' and give examples of mutagens.",
       "options": [
-        "All bases are equal in DNA",
-        "A equals T and G equals C in percentage",
-        "Purines are always equal to pyrimidines",
-        "Adenine equals Guanine"
+        "a- Mutagen is a synonym for mutation",
+        "b- Agent causing mutation: chemical exposure, radiation (X-rays, UV), or replication errors; many are also carcinogens",
+        "c- Mutagens protect against mutations",
+        "d- Only radiation can act as a mutagen",
+        "e- Mutagens are beneficial to DNA"
       ],
-      "answer": "A equals T and G equals C in percentage"
+      "answer": "b- Agent causing mutation: chemical exposure, radiation (X-rays, UV), or replication errors; many are also carcinogens"
     },
     {
-      "question": "Antiparallel DNA strands means:",
+      "question": "Define 'de novo mutation' and explain its significance.",
       "options": [
-        "Both run 5' to 3'",
-        "Both run 3' to 5'",
-        "One runs 5' to 3', other runs 3' to 5'",
-        "They are parallel"
+        "a- De novo mutation is inherited from both parents",
+        "b- New mutation neither parent carries; usually from replication errors not mutagenic exposure; more likely in hotspots",
+        "c- De novo mutations cannot affect phenotype",
+        "d- All mutations are de novo",
+        "e- De novo mutations only occur in females"
       ],
-      "answer": "One runs 5' to 3', other runs 3' to 5'"
+      "answer": "b- New mutation neither parent carries; usually from replication errors not mutagenic exposure; more likely in hotspots"
     },
     {
-      "question": "Denaturation of DNA involves:",
+      "question": "What is a 'splice-site mutation' and what are its potential consequences?",
       "options": [
-        "Adding base pairs",
-        "Breaking hydrogen bonds between strands",
-        "Replication",
-        "Mutation"
+        "a- Splice-site mutation is a missense mutation",
+        "b- Alters intron removal site; can cause exon skipping or intron translation depending on which genes affected",
+        "c- Splice-site mutations cannot affect protein structure",
+        "d- Splice-site mutations only occur in regulatory genes",
+        "e- Splice-site mutations always produce beneficial proteins"
       ],
-      "answer": "Breaking hydrogen bonds between strands"
+      "answer": "b- Alters intron removal site; can cause exon skipping or intron translation depending on which genes affected"
     },
     {
-      "question": "A 200,000 base pair double-stranded DNA contains how many total nucleotides?",
+      "question": "What is a 'tandem duplication' and how does it occur?",
       "options": [
-        "200,000",
-        "300,000",
-        "400,000",
-        "800,000"
+        "a- Tandem duplication is deletion of genetic material",
+        "b- Two complete gene copies adjacent to each other; results from crossing over errors",
+        "c- Tandem duplication only affects chromosomal ends",
+        "d- Tandem duplications cannot be inherited",
+        "e- Tandem duplications are identical to translocations"
       ],
-      "answer": "400,000"
+      "answer": "b- Two complete gene copies adjacent to each other; results from crossing over errors"
     },
     {
-      "question": "What is a chromosome?",
+      "question": "Define 'pseudogene' and explain its relationship to gene mutations.",
       "options": [
-        "A protein only",
-        "DNA only",
-        "DNA and protein structure",
-        "A gamete"
+        "a- Pseudogene is a functional protein-coding gene",
+        "b- DNA sequence similar to gene but not translated; may descend from gene duplication during meiosis",
+        "c- Pseudogenes encode proteins identical to original genes",
+        "d- Pseudogenes cannot result from mutations",
+        "e- All pseudogenes become functional during development"
       ],
-      "answer": "DNA and protein structure"
+      "answer": "b- DNA sequence similar to gene but not translated; may descend from gene duplication during meiosis"
     },
     {
-      "question": "How many chromosome pairs do humans have?",
+      "question": "What is a 'transposon' and what are three ways it can disrupt genomic function?",
       "options": [
-        "22 pairs",
-        "23 pairs",
-        "46 pairs",
-        "44 pairs"
+        "a- Transposon is a permanently fixed DNA sequence",
+        "b- 'Jumping gene' causing insertion mutations; can disrupt origin site, shut off target gene, or alter reading frame if not multiple of 3",
+        "c- Transposons only increase gene expression",
+        "d- Transposons never affect surrounding genes",
+        "e- Transposons are always beneficial"
       ],
-      "answer": "23 pairs"
+      "answer": "b- 'Jumping gene' causing insertion mutations; can disrupt origin site, shut off target gene, or alter reading frame if not multiple of 3"
     },
     {
-      "question": "Autosomes are:",
+      "question": "Define 'anticipation' in the context of repeat expansion disorders.",
       "options": [
-        "Sex chromosomes",
-        "All chromosomes except sex chromosomes",
-        "Mitochondrial DNA",
-        "Recessive genes"
+        "a- Anticipation means the disease will be prevented in future generations",
+        "b- Expansion of triplet repeat with each generation; earlier onset and more severe phenotype in subsequent generations",
+        "c- Anticipation occurs only in maternal inheritance",
+        "d- Anticipation means phenotype improves with age",
+        "e- Anticipation cannot occur in genetic disorders"
       ],
-      "answer": "All chromosomes except sex chromosomes"
+      "answer": "b- Expansion of triplet repeat with each generation; earlier onset and more severe phenotype in subsequent generations"
     },
     {
-      "question": "A karyotype displays:",
+      "question": "What is a 'copy number variant' (CNV) and when does it affect health?",
       "options": [
-        "Gene sequences",
-        "Protein structures",
-        "Chromosome pairs from largest to smallest",
-        "Mitochondrial DNA"
+        "a- CNV is a single nucleotide change",
+        "b- Sequence varying in copy numbers between individuals; affects health if disrupts genes, neutral if in non-coding regions",
+        "c- All CNVs are harmful",
+        "d- CNVs cannot vary between individuals",
+        "e- CNVs only affect forensic applications"
       ],
-      "answer": "Chromosome pairs from largest to smallest"
+      "answer": "b- Sequence varying in copy numbers between individuals; affects health if disrupts genes, neutral if in non-coding regions"
     },
     {
-      "question": "A gene is:",
+      "question": "What is a 'karyotype' and what is its primary clinical application?",
       "options": [
-        "A type of protein",
-        "A segment of DNA containing information to build proteins",
-        "An enzyme",
-        "A chromosome"
+        "a- Karyotype is a mutation",
+        "b- Chromosome chart displaying chromosomes by size/structure; diagnostic tool for identifying chromosomal abnormalities",
+        "c- Karyotypes show only sex chromosome information",
+        "d- Karyotypes cannot detect aneuploidy",
+        "e- Karyotypes are only used in research, not clinical practice"
       ],
-      "answer": "A segment of DNA containing information to build proteins"
+      "answer": "b- Chromosome chart displaying chromosomes by size/structure; diagnostic tool for identifying chromosomal abnormalities"
     },
     {
-      "question": "An allele is:",
+      "question": "What is chromosomal 'shorthand' and what information does '46,XY,del(7q)' convey?",
       "options": [
-        "A type of enzyme",
-        "An alternative version of a gene",
-        "A chromosome",
-        "A protein"
+        "a- Shorthand is unrelated to chromosome abnormalities",
+        "b- Abbreviation listing chromosome number, sex makeup, atypical autosomes; example = male missing part of long arm chromosome 7",
+        "c- Shorthand can only describe sex chromosome abnormalities",
+        "d- Shorthand is identical to karyotype formatting",
+        "e- Shorthand cannot identify specific chromosome bands"
       ],
-      "answer": "An alternative version of a gene"
+      "answer": "b- Abbreviation listing chromosome number, sex makeup, atypical autosomes; example = male missing part of long arm chromosome 7"
     },
     {
-      "question": "A locus is:",
+      "question": "What is 'meiotic nondisjunction' and how does it cause aneuploidy?",
       "options": [
-        "An allele",
-        "A gene",
-        "The physical location of a gene on a chromosome",
-        "A mutation"
+        "a- Nondisjunction is normal chromosome separation",
+        "b- Failure of chromosome pairs to separate during meiosis; produces gamete with extra chromosome and gamete with missing chromosome",
+        "c- Nondisjunction only affects mitosis",
+        "d- Nondisjunction always occurs in females",
+        "e- Nondisjunction produces normal euploid gametes"
       ],
-      "answer": "The physical location of a gene on a chromosome"
+      "answer": "b- Failure of chromosome pairs to separate during meiosis; produces gamete with extra chromosome and gamete with missing chromosome"
     },
     {
-      "question": "Homozygous means:",
+      "question": "What is a 'deletion' versus a 'duplication' in structural chromosome mutations?",
       "options": [
-        "Two different alleles",
-        "Two identical alleles",
-        "One allele",
-        "No alleles"
+        "a- Deletion and duplication are identical mutations",
+        "b- Deletion: chromosome segment missing (loss); Duplication: segment present twice (gain)",
+        "c- Duplications are always more harmful than deletions",
+        "d- Deletions only occur on sex chromosomes",
+        "e- Both occur with equal frequency in human populations"
       ],
-      "answer": "Two identical alleles"
+      "answer": "b- Deletion: chromosome segment missing (loss); Duplication: segment present twice (gain)"
     },
     {
-      "question": "Heterozygous means:",
+      "question": "What is a 'translocation' and how does it differ from deletion/duplication?",
       "options": [
-        "Two identical alleles",
-        "Two different alleles",
-        "One allele",
-        "Three alleles"
+        "a- Translocation is a point mutation",
+        "b- Two chromosomes join/exchange parts; differs from deletion (loss) and duplication (gain) by moving genetic material between chromosomes",
+        "c- Translocations only affect one chromosome",
+        "d- Translocations always cause aneuploidy",
+        "e- Translocations cannot be inherited"
       ],
-      "answer": "Two different alleles"
+      "answer": "b- Two chromosomes join/exchange parts; differs from deletion (loss) and duplication (gain) by moving genetic material between chromosomes"
     },
     {
-      "question": "A dominant allele:",
+      "question": "What is cell-free fetal DNA (cfDNA) testing and what are its advantages over invasive prenatal testing?",
       "options": [
-        "Requires two copies to be expressed",
-        "Exerts an effect with just one copy",
-        "Is always recessive",
-        "Never expresses"
+        "a- cfDNA requires fetal tissue sampling like amniocentesis",
+        "b- Noninvasive blood test (~20% from placenta); entire fetal genome reconstructed without infection/miscarriage risk unlike amniocentesis",
+        "c- cfDNA can only detect Down syndrome",
+        "d- cfDNA is more invasive than amniocentesis",
+        "e- cfDNA testing is less accurate than karyotyping"
       ],
-      "answer": "Exerts an effect with just one copy"
-    },
-    {
-      "question": "A recessive allele:",
-      "options": [
-        "Exerts an effect with one copy",
-        "Requires two copies for expression",
-        "Is always dominant",
-        "Never mutates"
-      ],
-      "answer": "Requires two copies for expression"
-    },
-    {
-      "question": "Genotype refers to:",
-      "options": [
-        "Visible expression of a trait",
-        "The alleles present in an organism",
-        "Environmental factors",
-        "Protein structure"
-      ],
-      "answer": "The alleles present in an organism"
-    },
-    {
-      "question": "Phenotype refers to:",
-      "options": [
-        "The alleles present",
-        "The genes in nucleus",
-        "The visible/observable expression of a trait",
-        "Chromosomes"
-      ],
-      "answer": "The visible/observable expression of a trait"
-    },
-    {
-      "question": "Blending inheritance (pre-Mendel) proposed:",
-      "options": [
-        "Discrete inheritance units",
-        "Traits blend like mixing paints",
-        "Only dominant traits pass",
-        "Traits skip generations"
-      ],
-      "answer": "Traits blend like mixing paints"
-    },
-    {
-      "question": "Particulate inheritance (Mendel) states:",
-      "options": [
-        "All traits blend",
-        "Parents pass discrete heritable units (alleles)",
-        "Only males inherit",
-        "Traits are environmental"
-      ],
-      "answer": "Parents pass discrete heritable units (alleles)"
-    },
-    {
-      "question": "A Mendelian trait is:",
-      "options": [
-        "Environmental only",
-        "Controlled by multiple genes and environment",
-        "Caused predominantly by a single gene",
-        "Never inherited"
-      ],
-      "answer": "Caused predominantly by a single gene"
-    },
-    {
-      "question": "A complex trait is determined by:",
-      "options": [
-        "One gene only",
-        "Environment only",
-        "One or more genes AND environmental factors",
-        "Mitochondria only"
-      ],
-      "answer": "One or more genes AND environmental factors"
-    },
-    {
-      "question": "The P generation (Mendel) refers to:",
-      "options": [
-        "F1 hybrids",
-        "True-breeding parent plants",
-        "Random offspring",
-        "Mutant plants"
-      ],
-      "answer": "True-breeding parent plants"
-    },
-    {
-      "question": "F1 generation is:",
-      "options": [
-        "True-breeding parents",
-        "Hybrid offspring of P generation",
-        "Grandparent generation",
-        "Mutants"
-      ],
-      "answer": "Hybrid offspring of P generation"
-    },
-    {
-      "question": "F2 generation is:",
-      "options": [
-        "P generation",
-        "F1 hybrids",
-        "Offspring from F1 \u00d7 F1 crosses",
-        "Parents"
-      ],
-      "answer": "Offspring from F1 \u00d7 F1 crosses"
-    },
-    {
-      "question": "A monohybrid cross follows:",
-      "options": [
-        "Two traits",
-        "Three traits",
-        "One trait",
-        "No traits"
-      ],
-      "answer": "One trait"
-    },
-    {
-      "question": "A dihybrid cross follows:",
-      "options": [
-        "One trait",
-        "Two traits",
-        "Three traits",
-        "Four traits"
-      ],
-      "answer": "Two traits"
-    },
-    {
-      "question": "Expected F2 phenotypic ratio from Aa \u00d7 Aa:",
-      "options": [
-        "1:1",
-        "3:1",
-        "1:2:1",
-        "9:3:3:1"
-      ],
-      "answer": "3:1"
-    },
-    {
-      "question": "Expected F2 phenotypic ratio from AaBb \u00d7 AaBb:",
-      "options": [
-        "3:1",
-        "9:3:3:1",
-        "1:2:1",
-        "1:1:1:1"
-      ],
-      "answer": "9:3:3:1"
-    },
-    {
-      "question": "Mendel's Law of Segregation states:",
-      "options": [
-        "Alleles blend in heterozygotes",
-        "Alleles segregate during gamete formation into different gametes",
-        "All traits assort independently",
-        "Dominance varies by generation"
-      ],
-      "answer": "Alleles segregate during gamete formation into different gametes"
-    },
-    {
-      "question": "A test cross involves:",
-      "options": [
-        "Two dominant homozygotes",
-        "Unknown genotype \u00d7 homozygous recessive",
-        "Two heterozygotes",
-        "Two parents from different species"
-      ],
-      "answer": "Unknown genotype \u00d7 homozygous recessive"
-    },
-    {
-      "question": "Meiosis produces:",
-      "options": [
-        "Two identical diploid cells",
-        "Four haploid gametes",
-        "One tetraploid cell",
-        "Eight cells"
-      ],
-      "answer": "Four haploid gametes"
-    },
-    {
-      "question": "Meiosis I is:",
-      "options": [
-        "Equational division",
-        "Reductional division (n \u2192 2n)",
-        "Reductional division (2n \u2192 n)",
-        "Identical to mitosis"
-      ],
-      "answer": "Reductional division (2n \u2192 n)"
-    },
-    {
-      "question": "Meiosis II is:",
-      "options": [
-        "Reductional division",
-        "Equational division (like mitosis)",
-        "Increasing chromosome number",
-        "Fusion of cells"
-      ],
-      "answer": "Equational division (like mitosis)"
-    },
-    {
-      "question": "Prophase I involves:",
-      "options": [
-        "Sister chromatids separating",
-        "Synapsis; homologous chromosomes pair closely",
-        "Spindle formation",
-        "Cell fission"
-      ],
-      "answer": "Synapsis; homologous chromosomes pair closely"
-    },
-    {
-      "question": "A tetrad (bivalent) in meiosis I consists of:",
-      "options": [
-        "Two chromatids",
-        "Four chromatids",
-        "One chromosome",
-        "Eight chromatids"
-      ],
-      "answer": "Four chromatids"
-    },
-    {
-      "question": "Chiasmata are:",
-      "options": [
-        "Centromeres",
-        "Spindle poles",
-        "Sites of crossing over",
-        "Cell divisions"
-      ],
-      "answer": "Sites of crossing over"
-    },
-    {
-      "question": "Crossing over produces:",
-      "options": [
-        "More mutations",
-        "Recombinant chromosomes",
-        "Identical gametes",
-        "Nondisjunction"
-      ],
-      "answer": "Recombinant chromosomes"
-    },
-    {
-      "question": "Anaphase I features:",
-      "options": [
-        "Sister chromatids separating",
-        "Homologous chromosomes separating",
-        "Chromosome replication",
-        "Spindle dissolving"
-      ],
-      "answer": "Homologous chromosomes separating"
-    },
-    {
-      "question": "Nondisjunction results in:",
-      "options": [
-        "Normal gametes",
-        "Gametes with extra/missing chromosomes",
-        "Polyploid gametes",
-        "No genetic change"
-      ],
-      "answer": "Gametes with extra/missing chromosomes"
-    },
-    {
-      "question": "Oogenesis in females:",
-      "options": [
-        "Continuous from birth",
-        "Begins at puberty, continuous",
-        "Begins in fetus, arrests at prophase I",
-        "Only occurs once"
-      ],
-      "answer": "Begins in fetus, arrests at prophase I"
-    },
-    {
-      "question": "Sister chromatids are attached at the:",
-      "options": [
-        "Telomere",
-        "Centromere",
-        "Spindle pole",
-        "Locus"
-      ],
-      "answer": "Centromere"
-    },
-    {
-      "question": "Homologous chromosomes:",
-      "options": [
-        "Are identical in every way",
-        "Have same size, shape, genetic content; one from each parent",
-        "Never pair",
-        "Are found only in males"
-      ],
-      "answer": "Have same size, shape, genetic content; one from each parent"
-    },
-    {
-      "question": "Haploid cells have:",
-      "options": [
-        "Two sets of chromosomes (2n)",
-        "One set of chromosomes (n)",
-        "Three sets",
-        "Four sets"
-      ],
-      "answer": "One set of chromosomes (n)"
-    },
-    {
-      "question": "Diploid cells have:",
-      "options": [
-        "One set of chromosomes",
-        "Two sets of chromosomes",
-        "Three sets",
-        "Variable sets"
-      ],
-      "answer": "Two sets of chromosomes"
-    },
-    {
-      "question": "Incomplete dominance shows:",
-      "options": [
-        "Only dominant phenotype",
-        "Only recessive phenotype",
-        "Intermediate phenotype",
-        "No phenotype"
-      ],
-      "answer": "Intermediate phenotype"
-    },
-    {
-      "question": "Codominance shows:",
-      "options": [
-        "Intermediate traits",
-        "Only one allele expressed",
-        "Both alleles expressed distinctly",
-        "No expression"
-      ],
-      "answer": "Both alleles expressed distinctly"
-    },
-    {
-      "question": "Epistasis describes:",
-      "options": [
-        "Two genes assorting independently",
-        "One gene masking another gene's expression",
-        "Complementary gene action",
-        "Sex-linkage"
-      ],
-      "answer": "One gene masking another gene's expression"
-    },
-    {
-      "question": "Lethal alleles:",
-      "options": [
-        "Cause mild symptoms",
-        "Cause death before reproductive age",
-        "Are always recessive",
-        "Never affect phenotype"
-      ],
-      "answer": "Cause death before reproductive age"
-    },
-    {
-      "question": "Penetrance is:",
-      "options": [
-        "How severe a phenotype is",
-        "The % with a genotype showing the phenotype",
-        "The number of alleles",
-        "Environmental effect"
-      ],
-      "answer": "The % with a genotype showing the phenotype"
-    },
-    {
-      "question": "Expressivity is:",
-      "options": [
-        "Whether a trait appears",
-        "How common a trait is",
-        "Variation in severity of a phenotype",
-        "Dominance level"
-      ],
-      "answer": "Variation in severity of a phenotype"
-    },
-    {
-      "question": "Pleiotropy means:",
-      "options": [
-        "Multiple genes control one trait",
-        "One gene has multiple effects",
-        "Genes are linked",
-        "No gene interaction"
-      ],
-      "answer": "One gene has multiple effects"
-    },
-    {
-      "question": "Genetic heterogeneity is:",
-      "options": [
-        "Same gene, different alleles",
-        "Different genes cause same phenotype",
-        "All alleles in a population",
-        "Random variation"
-      ],
-      "answer": "Different genes cause same phenotype"
-    },
-    {
-      "question": "Mitochondrial DNA (mtDNA) is:",
-      "options": [
-        "Linear like nuclear DNA",
-        "Contains 46 genes",
-        "Circular, ~37 genes",
-        "Found only in nucleus"
-      ],
-      "answer": "Circular, ~37 genes"
-    },
-    {
-      "question": "mtDNA inheritance is:",
-      "options": [
-        "From both parents equally",
-        "From father only",
-        "From mother only",
-        "Random from either parent"
-      ],
-      "answer": "From mother only"
-    },
-    {
-      "question": "Heteroplasmy is:",
-      "options": [
-        "All mitochondria identical",
-        "Different alleles in same cell's mitochondria",
-        "One mitochondrial type",
-        "No mutations"
-      ],
-      "answer": "Different alleles in same cell's mitochondria"
-    },
-    {
-      "question": "The SRY gene determines:",
-      "options": [
-        "Environmental sex",
-        "Phenotypic sex only",
-        "Gonadal sex (testis/ovary formation)",
-        "Chromosomes"
-      ],
-      "answer": "Gonadal sex (testis/ovary formation)"
-    },
-    {
-      "question": "X-linked recessive traits are more common in males because:",
-      "options": [
-        "Males inherit more genes",
-        "Males are hemizygous (one X, one recessive allele expressed)",
-        "Females never inherit",
-        "No genetic reason"
-      ],
-      "answer": "Males are hemizygous (one X, one recessive allele expressed)"
-    },
-    {
-      "question": "X-inactivation (lyonization):",
-      "options": [
-        "Occurs in males only",
-        "Random inactivation of one X per cell in females",
-        "Permanent chromosome loss",
-        "Never occurs"
-      ],
-      "answer": "Random inactivation of one X per cell in females"
-    },
-    {
-      "question": "A Barr body is:",
-      "options": [
-        "An active X chromosome",
-        "An inactivated X chromosome",
-        "A Y chromosome",
-        "A mitochondrion"
-      ],
-      "answer": "An inactivated X chromosome"
-    },
-    {
-      "question": "Linked genes:",
-      "options": [
-        "Always assort independently",
-        "Are inherited together; don't assort independently",
-        "Are always on different chromosomes",
-        "Cannot recombine"
-      ],
-      "answer": "Are inherited together; don't assort independently"
-    },
-    {
-      "question": "The exome is:",
-      "options": [
-        "All DNA in genome",
-        "~1% of DNA (protein-coding genes)",
-        "Non-coding regions",
-        "Mitochondrial DNA"
-      ],
-      "answer": "~1% of DNA (protein-coding genes)"
-    },
-    {
-      "question": "A genome is:",
-      "options": [
-        "One set of genes",
-        "Complete set of genetic information for species",
-        "A single chromosome",
-        "mtDNA only"
-      ],
-      "answer": "Complete set of genetic information for species"
-    },
-    {
-      "question": "Genomics involves:",
-      "options": [
-        "Studying one gene",
-        "Analyzing entire genomes",
-        "Measuring proteins only",
-        "Environmental studies"
-      ],
-      "answer": "Analyzing entire genomes"
-    },
-    {
-      "question": "GWAS uses:",
-      "options": [
-        "One gene",
-        "SNPs to link complex diseases to genome variations",
-        "Only phenotypes",
-        "No data"
-      ],
-      "answer": "SNPs to link complex diseases to genome variations"
-    },
-    {
-      "question": "SNPs occur approximately every:",
-      "options": [
-        "1000 bp",
-        "300 bp",
-        "10,000 bp",
-        "1 bp"
-      ],
-      "answer": "300 bp"
-    },
-    {
-      "question": "Metagenomics involves:",
-      "options": [
-        "One organism's genome",
-        "All DNA in a habitat",
-        "Only bacterial DNA",
-        "Extinct DNA"
-      ],
-      "answer": "All DNA in a habitat"
-    },
-    {
-      "question": "The human microbiome contains approximately:",
-      "options": [
-        "3 trillion microbial cells",
-        "39 trillion microbial cells",
-        "1 billion cells",
-        "No cells"
-      ],
-      "answer": "39 trillion microbial cells"
-    },
-    {
-      "question": "Precision medicine tailors treatment based on:",
-      "options": [
-        "Age only",
-        "Genes, environment, and lifestyle per individual",
-        "One standard approach",
-        "Phenotype only"
-      ],
-      "answer": "Genes, environment, and lifestyle per individual"
-    },
-    {
-      "question": "Pharmacogenetics predicts:",
-      "options": [
-        "All drugs work same",
-        "Drug effectiveness/side effects based on genetic variants",
-        "No genetic factors",
-        "Environmental factors only"
-      ],
-      "answer": "Drug effectiveness/side effects based on genetic variants"
-    },
-    {
-      "question": "Biobanks store:",
-      "options": [
-        "Proteins only",
-        "Biological samples and DNA",
-        "No genetic material",
-        "RNA only"
-      ],
-      "answer": "Biological samples and DNA"
-    },
-    {
-      "question": "DNA profiling uses:",
-      "options": [
-        "Eye color",
-        "SNPs and statistical methods",
-        "Phenotypes only",
-        "No DNA"
-      ],
-      "answer": "SNPs and statistical methods"
-    },
-    {
-      "question": "Genome editing (CRISPR):",
-      "options": [
-        "Reads DNA only",
-        "Makes edits, deletions, substitutions",
-        "Cannot change genes",
-        "No use"
-      ],
-      "answer": "Makes edits, deletions, substitutions"
-    },
-    {
-      "question": "Recombinant DNA technology:",
-      "options": [
-        "Only natural",
-        "Inserts genes from one species into another",
-        "Cannot create GMOs",
-        "No applications"
-      ],
-      "answer": "Inserts genes from one species into another"
-    },
-    {
-      "question": "Autosomal dominant traits:",
-      "options": [
-        "Skip generations",
-        "Do not skip; equal sex ratio affected",
-        "Affect males only",
-        "Require two copies"
-      ],
-      "answer": "Do not skip; equal sex ratio affected"
-    },
-    {
-      "question": "Autosomal recessive traits:",
-      "options": [
-        "Never skip generations",
-        "Can skip; equal sex ratio",
-        "Affect females only",
-        "No pattern"
-      ],
-      "answer": "Can skip; equal sex ratio"
-    },
-    {
-      "question": "De novo mutation:",
-      "options": [
-        "Inherited from parents",
-        "New mutation in gamete/embryo",
-        "Environmental only",
-        "Never occurs"
-      ],
-      "answer": "New mutation in gamete/embryo"
-    },
-    {
-      "question": "Gene pool is:",
-      "options": [
-        "Genes in one cell",
-        "Collection of all alleles in population",
-        "DNA in nucleus",
-        "Exome only"
-      ],
-      "answer": "Collection of all alleles in population"
-    },
-    {
-      "question": "Genetic drift is:",
-      "options": [
-        "Directed selection",
-        "Random change in allele frequencies",
-        "Mutation only",
-        "Breeding"
-      ],
-      "answer": "Random change in allele frequencies"
-    },
-    {
-      "question": "Monogenic diseases are caused by:",
-      "options": [
-        "Environment only",
-        "Multiple genes",
-        "Single gene mutation",
-        "No genetics"
-      ],
-      "answer": "Single gene mutation"
-    },
-    {
-      "question": "A pedigree is:",
-      "options": [
-        "A family tree",
-        "A chart showing inherited traits over generations",
-        "A chromosome map",
-        "DNA sequence"
-      ],
-      "answer": "A chart showing inherited traits over generations"
+      "answer": "b- Noninvasive blood test (~20% from placenta); entire fetal genome reconstructed without infection/miscarriage risk unlike amniocentesis"
     }
   ]
 }
